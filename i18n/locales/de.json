@@ -168,14 +168,17 @@
     "summary": "Das türkische Steuersystem ordnen wir dabei als Teil der Gesamtanalyse ein und betrachten es im Zusammenspiel mit dem jeweiligen System."
   },
   "register": {
-    "title": "Klarheit vor Entscheidungen.",
-    "description": "Ein Wegzug kann erhebliche Auswirkungen auf Unternehmen, Beteiligungen und Kapitalanlagen haben. Deshalb sollte klar sein, wie Herkunftsland, Wegzugsregeln und neue Ansässigkeit tatsächlich zusammenspielen — bevor Entscheidungen getroffen werden. Je nach Fall sind dabei auch Körperschaftsteuer, der Körperschaftsteuersatz, Umsatzsteuer und weitere Begünstigungen im jeweiligen Jurisdiktion zu prüfen, etwa bei sektoralen Vorteilen für software-nahe Unternehmen. Für produzierende Exportunternehmen kann der Satz dabei auf bis zu 9 % sinken. Einkünfte aus grenzüberschreitenden Dienstleistungen können je nach Konstellation bis zu 100 % steuerfrei sein. Das Technopark-Regime bietet Steuerbefreiungen bis Ende 2028. Das Strategic Investment Incentive Scheme gilt für Investitionen zwischen 50 und 500 Millionen USD. Beginnen Sie mit einer Analyse eines Vermögens- oder Strukturthemas. Die türkische Staatsbürgerschaft kann zudem durch Investitionen in Immobilien ab mindestens 400.000 US-Dollar erlangt werden. Alternativ ist auch eine Investition von 500.000 US-Dollar in ein türkisches Unternehmen möglich, um die Staatsbürgerschaft zu erhalten. Damit verbunden ist die Verpflichtung, die Immobilie oder Unternehmensanteile mindestens drei Jahre zu halten; erst danach ist ein Verkauf erlaubt. Dieses Programm bietet somit eine attraktive Chance für Investoren, die langfristig von den Vorteilen der Türkei profitieren möchten.",
+    "title": "Noch nicht bereit für ein Assessment?",
+    "description": "Nicht jede Situation erfordert sofort eine Entscheidung. Wenn Sie aktuell noch keinen unmittelbaren Handlungsbedarf sehen, können Sie sich kostenfrei registrieren. Wir informieren Sie über relevante Änderungen, Entwicklungen und neue Möglichkeiten in Bezug auf Ihr Herkunftsland, Ihre steuerliche Ansässigkeit und internationale Wohnsitz- und Vermögensstrukturen. Sie erhalten ausschließlich Informationen, die für Ihre Situation von Bedeutung sein könnten – keine Werbung und keine allgemeinen Massennewsletter.",
     "fields": {
       "name": "VORNAME",
       "surname": "NACHNAME",
       "phone": "TELEFON",
       "email": "E-MAIL",
-      "country": "LAND / WOHNSITZ"
+      "country": "LAND / WOHNSITZ",
+      "passport1": "REISEPASS 1",
+      "passport2": "REISEPASS 2",
+      "taxResidence": "STEUERLICHER WOHNSITZ"
     },
     "cta": "Eignung prüfen & Analyse buchen",
     "successTitle": "Vielen Dank!",

@@ -2,25 +2,39 @@ import { getDb, initDb } from '../utils/db'
 import { createTransporter, getAdminEmails, getFrom } from '../utils/mailer'
 
 export default defineEventHandler(async (event) => {
-  const body = await readBody(event)
-  const { name, surname, phone, email, country } = body
+  const formData = await readFormData(event)
+
+  const name = formData.get('name') as string
+  const surname = formData.get('surname') as string
+  const phone = formData.get('phone') as string
+  const email = formData.get('email') as string
+  const taxResidence = formData.get('taxResidence') as string
+  const passport1File = formData.get('passportFile1') as File | null
+  const passport2File = formData.get('passportFile2') as File | null
 
   if (!name || !surname || !email) {
     throw createError({ statusCode: 400, statusMessage: 'Pflichtfelder fehlen' })
   }
 
-  // Ensure tables exist and save to DB
   await initDb()
   const pool = getDb()
   const [result] = await pool.execute(
-    `INSERT INTO registrations (name, surname, phone, email, country) VALUES (?, ?, ?, ?, ?)`,
-    [name, surname, phone || '', email, country || ''],
+    `INSERT INTO registrations (name, surname, phone, email, tax_residence) VALUES (?, ?, ?, ?, ?)`,
+    [name, surname, phone || '', email, taxResidence || ''],
   ) as any[]
   const insertId = result.insertId
 
   const transporter = createTransporter()
   const from = getFrom()
   const adminEmails = getAdminEmails()
+
+  const attachments: any[] = []
+  for (const [file, label] of [[passport1File, 'Reisepass 1'], [passport2File, 'Reisepass 2']] as [File | null, string][]) {
+    if (file && file.size > 0) {
+      const buffer = Buffer.from(await file.arrayBuffer())
+      attachments.push({ filename: `${label} - ${file.name}`, content: buffer })
+    }
+  }
 
   const adminHtml = `
     <div style="font-family:Inter,sans-serif;max-width:600px;margin:0 auto;background:#0a1525;color:#e2e8f0;border-radius:12px;overflow:hidden;">
@@ -30,10 +44,12 @@ export default defineEventHandler(async (event) => {
       </div>
       <div style="padding:32px 40px;">
         <table style="width:100%;border-collapse:collapse;">
-          <tr><td style="padding:10px 0;color:#94a3b8;font-size:13px;width:120px;">Name</td><td style="padding:10px 0;color:#fff;font-size:14px;font-weight:600;">${name} ${surname}</td></tr>
+          <tr><td style="padding:10px 0;color:#94a3b8;font-size:13px;width:160px;">Name</td><td style="padding:10px 0;color:#fff;font-size:14px;font-weight:600;">${name} ${surname}</td></tr>
           <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">E-Mail</td><td style="padding:10px 0;color:#fff;font-size:14px;">${email}</td></tr>
           <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">Telefon</td><td style="padding:10px 0;color:#fff;font-size:14px;">${phone || '—'}</td></tr>
-          <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">Land</td><td style="padding:10px 0;color:#fff;font-size:14px;">${country || '—'}</td></tr>
+          <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">Steuerlicher Wohnsitz</td><td style="padding:10px 0;color:#fff;font-size:14px;">${taxResidence || '—'}</td></tr>
+          <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">Reisepass 1</td><td style="padding:10px 0;color:#fff;font-size:14px;">${passport1File?.name || '—'}</td></tr>
+          <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">Reisepass 2</td><td style="padding:10px 0;color:#fff;font-size:14px;">${passport2File?.name || '—'}</td></tr>
           <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">ID</td><td style="padding:10px 0;color:#64748b;font-size:12px;">#${insertId}</td></tr>
         </table>
       </div>
@@ -74,6 +90,7 @@ export default defineEventHandler(async (event) => {
       to: adminEmails,
       subject: `[Dynamic Residency] Neue Registrierung: ${name} ${surname}`,
       html: adminHtml,
+      attachments,
     }),
     transporter.sendMail({
       from,

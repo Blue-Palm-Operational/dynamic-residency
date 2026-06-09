@@ -6,7 +6,7 @@
         <source media="(min-width: 768px)" srcset="/images/hero-image-desktop.webp" />
         <img src="/images/hero-image.webp" alt="Istanbul Bosphorus" class="w-full h-full object-cover object-center" />
       </picture>
-      <div class="absolute inset-0 bg-gradient-to-r from-[#051228]/75 via-[#051228]/45 to-[#051228]/5"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-[#051228]/60 via-[#051228]/30 to-[#051228]/5"></div>
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-10 w-full pt-16">

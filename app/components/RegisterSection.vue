@@ -1,13 +1,20 @@
 <template>
   <section class="bg-[#051228] py-24" id="register">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="mb-10">
+      <div class="mb-10 max-w-2xl">
         <h2 class="text-4xl md:text-5xl font-serif font-bold text-white mb-4">
           {{ $t('register.title') }}
         </h2>
-        <p class="text-white/60 text-base leading-relaxed max-w-2xl">
+        <p class="text-white/60 text-base leading-relaxed mb-6">
           {{ $t('register.description') }}
         </p>
+        <ul class="space-y-2 mb-6">
+          <li v-for="(bullet, i) in registerBullets" :key="i" class="flex items-start gap-3">
+            <span class="mt-2 w-2 h-2 rounded-full bg-brand-red shrink-0"></span>
+            <span class="text-white/70 text-sm leading-relaxed">{{ bullet }}</span>
+          </li>
+        </ul>
+        <p class="text-white/50 text-sm leading-relaxed">{{ $t('newsletter.subtext') }}</p>
       </div>
 
       <div class="bg-[#0d1a2d] rounded-3xl p-10 md:p-12">
@@ -27,41 +34,48 @@
 
             <!-- Form -->
             <form v-else @submit.prevent="handleSubmit" class="space-y-4">
-              <div class="grid grid-cols-2 gap-4">
-                <input
-                  v-model="form.name"
-                  type="text"
-                  :placeholder="$t('register.fields.name')"
-                  required
-                  class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white placeholder-white/30 text-sm focus:outline-none focus:border-brand-red transition-colors"
-                />
-                <input
-                  v-model="form.surname"
-                  type="text"
-                  :placeholder="$t('register.fields.surname')"
-                  required
-                  class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white placeholder-white/30 text-sm focus:outline-none focus:border-brand-red transition-colors"
-                />
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <label class="flex flex-col gap-1.5">
+                  <span class="text-white/40 text-xs tracking-widest uppercase">{{ $t('register.fields.name') }}</span>
+                  <input v-model="form.name" type="text" required class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white text-sm focus:outline-none focus:border-brand-red transition-colors" />
+                </label>
+                <label class="flex flex-col gap-1.5">
+                  <span class="text-white/40 text-xs tracking-widest uppercase">{{ $t('register.fields.surname') }}</span>
+                  <input v-model="form.surname" type="text" required class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white text-sm focus:outline-none focus:border-brand-red transition-colors" />
+                </label>
               </div>
-              <input
-                v-model="form.phone"
-                type="tel"
-                :placeholder="$t('register.fields.phone')"
-                class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white placeholder-white/30 text-sm focus:outline-none focus:border-brand-red transition-colors"
-              />
-              <input
-                v-model="form.email"
-                type="email"
-                :placeholder="$t('register.fields.email')"
-                required
-                class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white placeholder-white/30 text-sm focus:outline-none focus:border-brand-red transition-colors"
-              />
-              <input
-                v-model="form.country"
-                type="text"
-                :placeholder="$t('register.fields.country')"
-                class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white placeholder-white/30 text-sm focus:outline-none focus:border-brand-red transition-colors"
-              />
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <label class="flex flex-col gap-1.5">
+                  <span class="text-white/40 text-xs tracking-widest uppercase">{{ $t('register.fields.phone') }}</span>
+                  <input v-model="form.phone" type="tel" class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white text-sm focus:outline-none focus:border-brand-red transition-colors" />
+                </label>
+                <label class="flex flex-col gap-1.5">
+                  <span class="text-white/40 text-xs tracking-widest uppercase">{{ $t('register.fields.email') }}</span>
+                  <input v-model="form.email" type="email" required class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white text-sm focus:outline-none focus:border-brand-red transition-colors" />
+                </label>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <label class="flex flex-col gap-1.5 cursor-pointer">
+                  <span class="text-white/40 text-xs tracking-widest uppercase">{{ $t('register.fields.passport1') }}</span>
+                  <div class="relative w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 flex items-center gap-3 hover:border-brand-red transition-colors">
+                    <svg class="w-4 h-4 text-white/40 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" /></svg>
+                    <span class="text-sm truncate" :class="form.passport1 ? 'text-white' : 'text-white/30'">{{ form.passport1 || 'Datei auswählen…' }}</span>
+                    <input type="file" accept=".pdf,.jpg,.jpeg,.png" class="absolute inset-0 opacity-0 cursor-pointer w-full h-full" @change="(e) => { const f = (e.target as HTMLInputElement).files?.[0]; form.passport1 = f ? f.name : ''; passportFiles.passport1 = f || null }" />
+                  </div>
+                </label>
+                <label class="flex flex-col gap-1.5 cursor-pointer">
+                  <span class="text-white/40 text-xs tracking-widest uppercase">{{ $t('register.fields.passport2') }}</span>
+                  <div class="relative w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 flex items-center gap-3 hover:border-brand-red transition-colors">
+                    <svg class="w-4 h-4 text-white/40 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" /></svg>
+                    <span class="text-sm truncate" :class="form.passport2 ? 'text-white' : 'text-white/30'">{{ form.passport2 || 'Datei auswählen…' }}</span>
+                    <input type="file" accept=".pdf,.jpg,.jpeg,.png" class="absolute inset-0 opacity-0 cursor-pointer w-full h-full" @change="(e) => { const f = (e.target as HTMLInputElement).files?.[0]; form.passport2 = f ? f.name : ''; passportFiles.passport2 = f || null }" />
+                  </div>
+                </label>
+              </div>
+              <label class="flex flex-col gap-1.5">
+                <span class="text-white/40 text-xs tracking-widest uppercase">{{ $t('register.fields.taxResidence') }}</span>
+                <input v-model="form.taxResidence" type="text" class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white text-sm focus:outline-none focus:border-brand-red transition-colors" />
+              </label>
               <p v-if="formError" class="text-red-400 text-xs">{{ formError }}</p>
               <button
                 type="submit"
@@ -80,10 +94,11 @@
 
         <!-- Calendly Widget -->
         <div class="mt-14 pt-10 border-t border-white/10">
+          <h3 class="text-2xl font-serif font-bold text-white mb-8 text-center">Beratungstermin vereinbaren</h3>
           <div
             class="calendly-inline-widget rounded-2xl overflow-hidden w-full"
             data-url="https://calendly.com/dynamic-works-international/new-meeting?hide_gdpr_banner=1&background_color=071525&text_color=ffffff&primary_color=e5232f"
-            style="min-width:320px;width:100%;height:700px;"
+            style="width:100%;height:700px;"
           />
         </div>
       </div>
@@ -92,12 +107,16 @@
 </template>
 
 <script setup lang="ts">
+const { tm, rt } = useI18n()
+const registerBullets = computed(() => (tm('newsletter.bullets') as any[]).map(b => rt(b)))
+
 useHead({
   script: [{ src: 'https://assets.calendly.com/assets/external/widget.js', async: true }],
   link: [{ rel: 'stylesheet', href: 'https://assets.calendly.com/assets/external/widget.css' }],
 })
 
-const form = reactive({ name: '', surname: '', phone: '', email: '', country: '' })
+const form = reactive({ name: '', surname: '', phone: '', email: '', passport1: '', passport2: '', taxResidence: '' })
+const passportFiles = reactive<{ passport1: File | null; passport2: File | null }>({ passport1: null, passport2: null })
 const submitting = ref(false)
 const submitted = ref(false)
 const formError = ref('')
@@ -106,10 +125,11 @@ async function handleSubmit() {
   submitting.value = true
   formError.value = ''
   try {
-    await $fetch('/api/register', {
-      method: 'POST',
-      body: { ...form },
-    })
+    const body = new FormData()
+    Object.entries(form).forEach(([k, v]) => body.append(k, v))
+    if (passportFiles.passport1) body.append('passportFile1', passportFiles.passport1)
+    if (passportFiles.passport2) body.append('passportFile2', passportFiles.passport2)
+    await $fetch('/api/register', { method: 'POST', body })
     submitted.value = true
   } catch (e: any) {
     formError.value = e?.data?.statusMessage || 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.'

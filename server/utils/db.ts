@@ -25,13 +25,13 @@ export async function initDb(): Promise<void> {
 
   await pool.execute(`
     CREATE TABLE IF NOT EXISTS registrations (
-      id         INT AUTO_INCREMENT PRIMARY KEY,
-      name       VARCHAR(100) NOT NULL,
-      surname    VARCHAR(100) NOT NULL,
-      phone      VARCHAR(50),
-      email      VARCHAR(200) NOT NULL,
-      country    VARCHAR(100),
-      created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+      id             INT AUTO_INCREMENT PRIMARY KEY,
+      name           VARCHAR(100) NOT NULL,
+      surname        VARCHAR(100) NOT NULL,
+      phone          VARCHAR(50),
+      email          VARCHAR(200) NOT NULL,
+      tax_residence  VARCHAR(200),
+      created_at     DATETIME DEFAULT CURRENT_TIMESTAMP
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
   `)
 

@@ -16,12 +16,6 @@
         <a href="#register" class="text-sm text-white/50 hover:text-white transition-colors">{{ $t('footer.links.register') }}</a>
       </nav>
 
-      <!-- Disclaimer -->
-      <p class="text-xs text-white/30 max-w-2xl leading-relaxed mb-8">
-        <strong class="text-white/50">{{ $t('footer.disclaimerDate') }}</strong>
-        {{ $t('footer.disclaimer') }}
-      </p>
-
       <!-- Legal links -->
       <div class="flex gap-6 mb-8">
         <NuxtLink :to="localePath('/privacy-policy')" class="text-xs text-white/30 hover:text-white/60 transition-colors">Privacy Policy</NuxtLink>
