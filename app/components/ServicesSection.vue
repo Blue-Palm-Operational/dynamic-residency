@@ -3,8 +3,8 @@
     <!-- Background photo -->
     <div class="absolute inset-0 z-0">
       <picture class="w-full h-full">
-        <source media="(min-width: 768px)" srcset="/images/istanbul-office-view-desktop.webp" />
-        <img src="/images/istanbul-office-view.webp" alt="Office building" class="w-full h-full object-cover object-top" />
+        <source media="(min-width: 768px)" srcset="/images/team-work-desktop.webp" />
+        <img src="/images/team-work-mobile.webp" alt="Team working" class="w-full h-full object-cover object-top" />
       </picture>
       <div class="absolute inset-0 bg-[#051228]/80"></div>
     </div>

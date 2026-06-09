@@ -11,15 +11,6 @@
           <span class="text-white font-bold text-base tracking-wide leading-none">Dynamic Residency</span>
         </NuxtLink>
 
-        <!-- Right: CTA -->
-        <div class="hidden md:flex items-center gap-4">
-          <a
-            href="#register"
-            class="px-5 py-2 text-sm font-semibold text-white border border-white/70 hover:bg-white/15 rounded-lg transition-colors tracking-wide"
-          >
-            {{ $t('nav.cta') }}
-          </a>
-        </div>
 
         <!-- Mobile -->
         <div class="md:hidden flex items-center gap-3">

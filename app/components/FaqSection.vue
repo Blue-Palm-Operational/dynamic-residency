@@ -3,6 +3,7 @@
     <div class="max-w-4xl mx-auto px-6">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-serif font-bold text-white mb-4">{{ $t('faq.title') }}</h2>
+        <h3 class="text-2xl font-serif font-bold text-white mb-2">{{ $t('faq.descriptionH3') }}</h3>
         <p class="text-white/60 text-base">{{ $t('faq.description') }}</p>
       </div>
 
@@ -35,7 +36,7 @@
       </div>
 
       <!-- Summary -->
-      <h4 class="text-lg font-semibold text-white text-center mt-12">{{ $t('faq.summary') }}</h4>
+      <p class="text-white/70 text-base text-center mt-12 max-w-2xl mx-auto">{{ $t('faq.summary') }}</p>
     </div>
   </section>
 </template>

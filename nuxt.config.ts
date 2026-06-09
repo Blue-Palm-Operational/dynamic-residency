@@ -53,6 +53,11 @@ export default defineNuxtConfig({
       ],
       link: [
         {
+          rel: 'icon',
+          type: 'image/png',
+          href: '/dywo-favicon-16x16.png',
+        },
+        {
           rel: 'preconnect',
           href: 'https://fonts.googleapis.com',
         },

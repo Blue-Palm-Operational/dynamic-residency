@@ -9,5 +9,6 @@
     <WhyDynamicResidencySection />
     <FaqSection />
     <RegisterSection />
+    <NewsletterSection />
   </main>
 </template>

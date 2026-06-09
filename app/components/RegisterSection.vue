@@ -11,10 +11,9 @@
       </div>
 
       <div class="bg-[#0d1a2d] rounded-3xl p-10 md:p-12">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="max-w-2xl mx-auto">
 
-          <!-- Left: Form -->
-          <div>
+          <!-- Form -->
             <!-- Success state -->
             <div v-if="submitted" class="flex flex-col items-center text-center py-8">
               <div class="w-14 h-14 rounded-full bg-brand-red/15 flex items-center justify-center mb-5">
@@ -75,26 +74,16 @@
                 </span>
                 <span v-else>{{ $t('register.cta') }}</span>
               </button>
+
             </form>
-          </div>
-
-          <!-- Right: Illustration -->
-          <div class="flex items-center justify-center">
-            <img src="/icons/registration-illustration.svg" alt="Register" class="w-full max-w-sm" />
-          </div>
-
         </div>
 
-        <!-- Calendly -->
+        <!-- Calendly Widget -->
         <div class="mt-14 pt-10 border-t border-white/10">
-          <div class="text-center mb-8">
-            <p class="text-white/40 text-xs uppercase tracking-widest mb-2">{{ $t('register.calendlyLabel') }}</p>
-            <h3 class="text-white font-serif text-2xl font-bold">{{ $t('register.calendlyTitle') }}</h3>
-          </div>
           <div
-            class="calendly-inline-widget rounded-2xl overflow-hidden"
+            class="calendly-inline-widget rounded-2xl overflow-hidden w-full"
             data-url="https://calendly.com/dynamic-works-international/new-meeting?hide_gdpr_banner=1&background_color=071525&text_color=ffffff&primary_color=e5232f"
-            style="min-width:320px;height:700px;"
+            style="min-width:320px;width:100%;height:700px;"
           />
         </div>
       </div>

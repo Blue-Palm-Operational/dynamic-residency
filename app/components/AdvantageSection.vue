@@ -29,7 +29,7 @@
         <div class="relative">
           <div class="rounded-2xl overflow-hidden">
             <img
-              src="/images/istanbul-office-view.webp"
+              src="/images/team-work-mobile.webp"
               alt="Istanbul aerial view"
               class="w-full h-[480px] object-cover"
             />
