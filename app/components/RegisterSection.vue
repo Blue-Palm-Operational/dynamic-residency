@@ -55,21 +55,13 @@
                 </label>
               </div>
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <label class="flex flex-col gap-1.5 cursor-pointer">
+                <label class="flex flex-col gap-1.5">
                   <span class="text-white/40 text-xs tracking-widest uppercase">{{ $t('register.fields.passport1') }}</span>
-                  <div class="relative w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 flex items-center gap-3 hover:border-brand-red transition-colors">
-                    <svg class="w-4 h-4 text-white/40 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" /></svg>
-                    <span class="text-sm truncate" :class="form.passport1 ? 'text-white' : 'text-white/30'">{{ form.passport1 || 'Datei auswählen…' }}</span>
-                    <input type="file" accept=".pdf,.jpg,.jpeg,.png" class="absolute inset-0 opacity-0 cursor-pointer w-full h-full" @change="(e) => { const f = (e.target as HTMLInputElement).files?.[0]; form.passport1 = f ? f.name : ''; passportFiles.passport1 = f || null }" />
-                  </div>
+                  <input v-model="form.passport1" type="text" class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white text-sm focus:outline-none focus:border-brand-red transition-colors" />
                 </label>
-                <label class="flex flex-col gap-1.5 cursor-pointer">
+                <label class="flex flex-col gap-1.5">
                   <span class="text-white/40 text-xs tracking-widest uppercase">{{ $t('register.fields.passport2') }}</span>
-                  <div class="relative w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 flex items-center gap-3 hover:border-brand-red transition-colors">
-                    <svg class="w-4 h-4 text-white/40 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" /></svg>
-                    <span class="text-sm truncate" :class="form.passport2 ? 'text-white' : 'text-white/30'">{{ form.passport2 || 'Datei auswählen…' }}</span>
-                    <input type="file" accept=".pdf,.jpg,.jpeg,.png" class="absolute inset-0 opacity-0 cursor-pointer w-full h-full" @change="(e) => { const f = (e.target as HTMLInputElement).files?.[0]; form.passport2 = f ? f.name : ''; passportFiles.passport2 = f || null }" />
-                  </div>
+                  <input v-model="form.passport2" type="text" class="w-full bg-[#0a1525] border border-white/10 rounded-xl px-5 py-4 text-white text-sm focus:outline-none focus:border-brand-red transition-colors" />
                 </label>
               </div>
               <label class="flex flex-col gap-1.5">
@@ -116,7 +108,6 @@ useHead({
 })
 
 const form = reactive({ name: '', surname: '', phone: '', email: '', passport1: '', passport2: '', taxResidence: '' })
-const passportFiles = reactive<{ passport1: File | null; passport2: File | null }>({ passport1: null, passport2: null })
 const submitting = ref(false)
 const submitted = ref(false)
 const formError = ref('')
@@ -125,11 +116,7 @@ async function handleSubmit() {
   submitting.value = true
   formError.value = ''
   try {
-    const body = new FormData()
-    Object.entries(form).forEach(([k, v]) => body.append(k, v))
-    if (passportFiles.passport1) body.append('passportFile1', passportFiles.passport1)
-    if (passportFiles.passport2) body.append('passportFile2', passportFiles.passport2)
-    await $fetch('/api/register', { method: 'POST', body })
+    await $fetch('/api/register', { method: 'POST', body: { ...form } })
     submitted.value = true
   } catch (e: any) {
     formError.value = e?.data?.statusMessage || 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.'

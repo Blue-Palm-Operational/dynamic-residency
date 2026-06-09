@@ -2,15 +2,10 @@ import { getDb, initDb } from '../utils/db'
 import { createTransporter, getAdminEmails, getFrom } from '../utils/mailer'
 
 export default defineEventHandler(async (event) => {
-  const formData = await readFormData(event)
-
-  const name = formData.get('name') as string
-  const surname = formData.get('surname') as string
-  const phone = formData.get('phone') as string
-  const email = formData.get('email') as string
-  const taxResidence = formData.get('taxResidence') as string
-  const passport1File = formData.get('passportFile1') as File | null
-  const passport2File = formData.get('passportFile2') as File | null
+  const body = await readBody(event)
+  const { name, surname, phone, email, taxResidence, passport1, passport2 } = body
+  const passport1File = null
+  const passport2File = null
 
   if (!name || !surname || !email) {
     throw createError({ statusCode: 400, statusMessage: 'Pflichtfelder fehlen' })
@@ -29,12 +24,6 @@ export default defineEventHandler(async (event) => {
   const adminEmails = getAdminEmails()
 
   const attachments: any[] = []
-  for (const [file, label] of [[passport1File, 'Reisepass 1'], [passport2File, 'Reisepass 2']] as [File | null, string][]) {
-    if (file && file.size > 0) {
-      const buffer = Buffer.from(await file.arrayBuffer())
-      attachments.push({ filename: `${label} - ${file.name}`, content: buffer })
-    }
-  }
 
   const adminHtml = `
     <div style="font-family:Inter,sans-serif;max-width:600px;margin:0 auto;background:#0a1525;color:#e2e8f0;border-radius:12px;overflow:hidden;">
@@ -48,8 +37,8 @@ export default defineEventHandler(async (event) => {
           <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">E-Mail</td><td style="padding:10px 0;color:#fff;font-size:14px;">${email}</td></tr>
           <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">Telefon</td><td style="padding:10px 0;color:#fff;font-size:14px;">${phone || '—'}</td></tr>
           <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">Steuerlicher Wohnsitz</td><td style="padding:10px 0;color:#fff;font-size:14px;">${taxResidence || '—'}</td></tr>
-          <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">Reisepass 1</td><td style="padding:10px 0;color:#fff;font-size:14px;">${passport1File?.name || '—'}</td></tr>
-          <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">Reisepass 2</td><td style="padding:10px 0;color:#fff;font-size:14px;">${passport2File?.name || '—'}</td></tr>
+          <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">Reisepass 1</td><td style="padding:10px 0;color:#fff;font-size:14px;">${passport1 || '—'}</td></tr>
+          <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">Reisepass 2</td><td style="padding:10px 0;color:#fff;font-size:14px;">${passport2 || '—'}</td></tr>
           <tr style="border-top:1px solid rgba(255,255,255,0.07);"><td style="padding:10px 0;color:#94a3b8;font-size:13px;">ID</td><td style="padding:10px 0;color:#64748b;font-size:12px;">#${insertId}</td></tr>
         </table>
       </div>

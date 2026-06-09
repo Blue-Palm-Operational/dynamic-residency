@@ -18,8 +18,8 @@
 
       <!-- Legal links -->
       <div class="flex gap-6 mb-8">
-        <NuxtLink :to="localePath('/privacy-policy')" class="text-xs text-white/30 hover:text-white/60 transition-colors">Privacy Policy</NuxtLink>
-        <NuxtLink :to="localePath('/terms-and-conditions')" class="text-xs text-white/30 hover:text-white/60 transition-colors">Terms & Conditions</NuxtLink>
+        <NuxtLink :to="localePath('/privacy-policy')" class="text-xs text-white/30 hover:text-white/60 transition-colors">Datenschutz-Charta</NuxtLink>
+        <NuxtLink :to="localePath('/terms-and-conditions')" class="text-xs text-white/30 hover:text-white/60 transition-colors">Unsere Grundsätze</NuxtLink>
       </div>
 
       <!-- Copyright -->
