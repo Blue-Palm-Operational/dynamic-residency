@@ -35,10 +35,13 @@ export async function initDb(): Promise<void> {
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
   `)
 
-  await pool.execute(`
-    ALTER TABLE registrations
-      ADD COLUMN IF NOT EXISTS tax_residence VARCHAR(200)
-  `)
+  const [cols] = await pool.execute(`
+    SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'registrations' AND COLUMN_NAME = 'tax_residence'
+  `) as any[]
+  if (cols.length === 0) {
+    await pool.execute(`ALTER TABLE registrations ADD COLUMN tax_residence VARCHAR(200)`)
+  }
 
   await pool.execute(`
     CREATE TABLE IF NOT EXISTS payments (
