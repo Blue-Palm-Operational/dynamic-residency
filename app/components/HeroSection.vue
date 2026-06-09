@@ -14,6 +14,9 @@
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight mb-6">
           {{ $t('hero.titlePre') }}<span class="text-brand-red">{{ $t('hero.titleRed') }}</span>{{ $t('hero.titlePost') }}
         </h1>
+        <h2 class="text-2xl md:text-3xl font-serif font-bold text-white leading-snug mb-4">
+          {{ $t('hero.subtitle') }}
+        </h2>
         <p class="text-base md:text-lg text-white/75 leading-relaxed mb-8 max-w-xl">
           {{ $t('hero.description') }}
         </p>

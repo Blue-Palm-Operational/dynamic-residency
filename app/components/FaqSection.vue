@@ -33,6 +33,9 @@
           </Transition>
         </div>
       </div>
+
+      <!-- Summary -->
+      <h4 class="text-lg font-semibold text-white text-center mt-12">{{ $t('faq.summary') }}</h4>
     </div>
   </section>
 </template>

@@ -4,7 +4,8 @@
       <!-- Heading -->
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-serif font-bold text-white mb-4">{{ $t('pricing.title') }}</h2>
-        <p class="text-white/60 max-w-xl mx-auto text-base">{{ $t('pricing.subtitle') }}</p>
+        <h3 class="text-xl md:text-2xl font-serif font-bold text-white mb-4">{{ $t('pricing.subtitle') }}</h3>
+        <p class="text-white/60 max-w-xl mx-auto text-base">{{ $t('pricing.subtitleDescription') }}</p>
       </div>
 
       <!-- Cards -->
@@ -40,12 +41,7 @@
 
         <!-- Unternehmer (featured) -->
         <div class="bg-[#2a0a18] rounded-2xl p-8 border border-brand-red/40 flex flex-col relative">
-          <div class="absolute -top-4 left-1/2 -translate-x-1/2">
-            <span class="bg-brand-red text-white text-[10px] font-bold tracking-widest uppercase px-4 py-1.5 rounded-full">
-              {{ $t('pricing.mostPopular') }}
-            </span>
-          </div>
-          <div class="flex items-start justify-between mb-1 mt-2">
+          <div class="flex items-start justify-between mb-1">
             <div>
               <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.unternehmer.name') }}</h3>
               <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.unternehmer.tier') }}</p>
@@ -100,6 +96,9 @@
         </div>
 
       </div>
+
+      <!-- Note -->
+      <p class="text-white/60 text-sm max-w-3xl mx-auto text-center mt-12">{{ $t('pricing.note') }}</p>
     </div>
 
     <!-- Payment Modal -->

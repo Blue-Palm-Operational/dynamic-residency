@@ -11,11 +11,17 @@
 
     <div class="relative z-10 max-w-7xl mx-auto px-6">
       <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-serif font-bold text-white leading-tight mb-6">
+        <h2 class="text-4xl md:text-5xl font-serif font-bold text-white leading-tight mb-4">
           {{ $t('services.title') }}
         </h2>
-        <p class="text-white/60 max-w-2xl mx-auto text-base leading-relaxed">
+        <h3 class="text-xl md:text-2xl font-serif font-bold text-white mb-4">
+          {{ $t('services.subtitle') }}
+        </h3>
+        <p class="text-white/60 max-w-2xl mx-auto text-base leading-relaxed mb-4">
           {{ $t('services.description') }}
+        </p>
+        <p class="text-white/60 max-w-2xl mx-auto text-base leading-relaxed">
+          {{ $t('services.descriptionExtra') }}
         </p>
       </div>
 

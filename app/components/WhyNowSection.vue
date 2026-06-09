@@ -6,11 +6,16 @@
         <div class="flex gap-0">
           <div class="w-1.5 bg-brand-red rounded-sm shrink-0 self-stretch"></div>
           <div class="flex-1 bg-[#1e1020]/80 rounded-r-2xl rounded-bl-2xl p-10 md:p-14">
-            <h2 class="text-4xl md:text-5xl font-serif font-bold text-white leading-tight mb-8">
+            <h2 class="text-4xl md:text-5xl font-serif font-bold text-white leading-tight mb-4">
               {{ $t('whyNow.title') }}
             </h2>
+            <h3 class="text-2xl font-serif font-bold text-white mb-6">
+              {{ $t('whyNow.subtitle') }}
+            </h3>
             <p class="text-white/70 text-lg leading-relaxed mb-6">{{ $t('whyNow.p1') }}</p>
-            <p class="text-white/70 text-lg leading-relaxed">{{ $t('whyNow.p2') }}</p>
+            <p class="text-white/70 text-lg leading-relaxed mb-6">{{ $t('whyNow.p2') }}</p>
+            <p class="text-white/70 text-lg leading-relaxed mb-6">{{ $t('whyNow.p3') }}</p>
+            <p class="text-white/70 text-lg leading-relaxed">{{ $t('whyNow.p4') }}</p>
           </div>
         </div>
 

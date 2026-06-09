@@ -12,24 +12,17 @@
 
           <ul class="space-y-4 mb-10">
             <li
-              v-for="(item, i) in bullets"
+              v-for="(item, i) in bulletParts"
               :key="i"
               class="flex items-start gap-3"
             >
               <span class="mt-2 w-2.5 h-2.5 rounded-full bg-brand-red shrink-0"></span>
-              <span class="text-white/80 text-base leading-relaxed">{{ item }}</span>
+              <span class="text-white/80 text-base leading-relaxed">
+                <strong class="text-white font-semibold">{{ item.title }}</strong>{{ item.description ? ' — ' + item.description : '' }}
+              </span>
             </li>
           </ul>
 
-          <a
-            href="#register"
-            class="inline-flex items-center gap-2 px-8 py-4 text-sm font-bold text-white bg-brand-red hover:bg-brand-redDark rounded-full transition-colors tracking-wider uppercase"
-          >
-            {{ $t('advantage.cta') }}
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M17 7H7M17 7v10"/>
-            </svg>
-          </a>
         </div>
 
         <!-- Right: Photo -->
@@ -50,7 +43,14 @@
 
 <script setup lang="ts">
 const { tm, rt } = useI18n()
-const bullets = computed(() =>
-  (tm('advantage.bullets') as any[]).map((b) => rt(b))
+const bulletParts = computed(() =>
+  (tm('advantage.bullets') as any[]).map((b) => {
+    const text = rt(b)
+    const parts = text.split(' — ')
+    return {
+      title: parts[0],
+      description: parts[1] || ''
+    }
+  })
 )
 </script>

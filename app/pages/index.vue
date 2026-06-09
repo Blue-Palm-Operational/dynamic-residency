@@ -4,7 +4,9 @@
     <AdvantageSection />
     <WhyNowSection />
     <PricingSection />
+    <WorkflowSection />
     <ServicesSection />
+    <WhyDynamicResidencySection />
     <FaqSection />
     <RegisterSection />
   </main>
