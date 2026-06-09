@@ -36,6 +36,11 @@ export async function initDb(): Promise<void> {
   `)
 
   await pool.execute(`
+    ALTER TABLE registrations
+      ADD COLUMN IF NOT EXISTS tax_residence VARCHAR(200)
+  `)
+
+  await pool.execute(`
     CREATE TABLE IF NOT EXISTS payments (
       id                 INT AUTO_INCREMENT PRIMARY KEY,
       payment_intent_id  VARCHAR(200) UNIQUE NOT NULL,
