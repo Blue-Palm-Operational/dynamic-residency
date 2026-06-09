@@ -1,0 +1,9 @@
+.output
+.nuxt
+node_modules
+.env
+*.local
+.git
+.gitignore
+README.md
+referance-files
