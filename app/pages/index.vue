@@ -3,11 +3,10 @@
     <HeroSection />
     <AdvantageSection />
     <WhyNowSection />
+    <ClaritySection />
     <PricingSection />
-    <WorkflowSection />
-    <ServicesSection />
-    <WhyDynamicResidencySection />
-    <FaqSection />
+    <RealizeSection />
     <RegisterSection />
+    <ClosingSection />
   </main>
 </template>

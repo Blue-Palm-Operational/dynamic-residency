@@ -11,7 +11,8 @@
     "titleRed": "20 Years Tax-Free",
     "titlePost": " on Foreign Income.",
     "description": "Turkey's new regime exempts foreign income and capital gains of new tax residents for up to twenty years. We analyse what this means for your portfolio, business sale, holding company and crypto assets — and where Austrian exit tax rules apply.",
-    "cta": "Book Structural Analysis"
+    "cta": "Book Structural Analysis",
+    "ctaSecondary": ""
   },
   "advantage": {
     "title": "People buy from their situation — not because of a law.",
@@ -144,8 +145,9 @@
     },
     "disclaimerDate": "As of June 2026.",
     "disclaimer": "The described Turkish tax regime is based on a legislative initiative announced in April 2026 that is currently in parliamentary process; the final legislation and administrative practice will be decisive. The content of this page serves for general information and does not replace a case-specific review.",
-    "copyright": "© 2026 Dynamic Works.",
-    "tagline": "Premium Advisory Services"
+    "copyright": "© 2026 Dynamic Works",
+    "tagline": "Premium Advisory Services",
+    "note": "Dynamic Residency is a product of Dynamic Works. Office in Istanbul."
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
@@ -227,5 +229,13 @@
     "section21Title": "21. Contact information",
     "section21Text1": "This website is owned and operated by Dynamic Works.",
     "section21Text2": "You may contact us regarding these Terms and Conditions by writing or emailing us at: info{'@'}dynamicworks.email"
+  },
+  "closing": {
+    "title": "Check your structure before you act",
+    "p1": "Dynamic Residency helps entrepreneurs and investors from across Europe find out whether their plan actually works — before making decisions that can no longer be reversed later.",
+    "p2": "Sound decisions emerge from the interplay of European and Turkish tax law combined with individual advice.",
+    "highlight": "Turkey is not the challenge. The structure is.",
+    "cta1": "Start an assessment",
+    "cta2": "Register for free"
   }
 }

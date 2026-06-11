@@ -11,7 +11,8 @@
     "titleRed": "20 Yıl Vergisiz",
     "titlePost": " Yabancı Gelir.",
     "description": "Türkiye'nin yeni rejimi, yeni vergi mükelleflerinin yabancı gelirlerini ve sermaye kazançlarını yirmi yıla kadar muaf tutuyor. Portföyünüz, şirket satışınız, holdinginiz ve kripto varlıklarınız için bunun ne anlama geldiğini analiz ediyoruz — Avusturya çıkış vergi kurallarının nerede geçerli olduğu dahil.",
-    "cta": "Yapısal Analiz Rezervasyonu"
+    "cta": "Yapısal Analiz Rezervasyonu",
+    "ctaSecondary": ""
   },
   "advantage": {
     "title": "İnsanlar durumlarına göre satın alır — bir kanun yüzünden değil.",
@@ -144,8 +145,9 @@
     },
     "disclaimerDate": "Haziran 2026 itibarıyla.",
     "disclaimer": "Açıklanan Türk vergi rejimi, Nisan 2026'da duyurulan ve parlamentoda süreçte olan bir yasa girişimine dayanmaktadır; belirleyici olan nihai yasa metni ve idari uygulamadır. Bu sayfanın içeriği genel bilgi amaçlıdır ve bireysel durum incelemesinin yerini tutmaz.",
-    "copyright": "© 2026 Dynamic Works.",
-    "tagline": "Premium Advisory Services"
+    "copyright": "© 2026 Dynamic Works",
+    "tagline": "Premium Advisory Services",
+    "note": "Dynamic Residency, Dynamic Works'ün bir ürünüdür. İstanbul'da ofis."
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
@@ -227,5 +229,13 @@
     "section21Title": "21. Contact information",
     "section21Text1": "This website is owned and operated by Dynamic Works.",
     "section21Text2": "You may contact us regarding these Terms and Conditions by writing or emailing us at: info{'@'}dynamicworks.email"
+  },
+  "closing": {
+    "title": "Harekete geçmeden önce yapınızı kontrol edin",
+    "p1": "Dynamic Residency, Avrupa'nın her yerinden girişimcilere ve yatırımcılara, daha sonra geri alınamayacak kararlar verilmeden önce planlarının gerçekten işe yarayıp yaramadığını anlamalarında yardımcı olur.",
+    "p2": "Sağlam kararlar, Avrupa ve Türk vergi hukukunun bireysel danışmanlıkla birlikte ele alınmasından doğar.",
+    "highlight": "Zorluk Türkiye değil. Zorluk yapıdır.",
+    "cta1": "Değerlendirmeyi başlat",
+    "cta2": "Ücretsiz kayıt ol"
   }
 }

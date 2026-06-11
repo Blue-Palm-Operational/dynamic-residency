@@ -8,36 +8,59 @@
   },
   "hero": {
     "titlePre": "Steuerbefreiung Türkei: ",
-    "titleRed": "Die richtige Struktur macht den Unterschied",
+    "titleRed": "Die Struktur ist die Herausforderung, nicht die Türkei.",
     "titlePost": "",
-    "subtitle": "Die Türkei ist die Antwort. Die wichtige Frage ist Ihre Struktur.",
-    "description": "Was passiert mit Ihren Beteiligungen, Ihrem Unternehmen, Ihrem geplanten Exit, Ihrem Depot oder Ihrem Krypto-Vermögen, wenn Sie Ihre steuerliche Ansässigkeit verlagern? Genau das prüfen wir — die Wechselwirkungen zwischen Ihrem Herkunftsland, den dortigen Wegzugsregeln mit Ihrer möglichen Ansässigkeit in der Türkei. Und wenn die Struktur trägt, setzen wir sie auch um. Aus einer Hand.",
-    "cta": "Mehr entdecken"
+    "subtitle": "Funktioniert Ihr Vorhaben tatsächlich?",
+    "description": "Viele Unternehmer und Investoren aus dem deutschsprachigen Raum und darüber hinaus beschäftigen sich aktuell mit den neuen Möglichkeiten der Türkei. Die entscheidende Frage lautet jedoch nicht, was die Türkei erlaubt. Die entscheidende Frage lautet, ob Ihre bestehende Struktur mit dem geplanten Wegzug tatsächlich funktioniert. Bevor Beteiligungen verlagert, Gesellschaften umstrukturiert oder Wegzugsentscheidungen getroffen werden, sollten die entscheidenden Zusammenhänge verstanden werden. Denn die teuersten Fehler entstehen meist vor dem Wegzug.",
+    "cta": "Abklärung starten",
+    "ctaSecondary": "Kostenfrei registrieren"
   },
   "advantage": {
-    "title": "Nicht jede Struktur profitiert. Nicht jeder Wegzug ergibt Sinn.",
-    "intro": "Die neue Regelung wird für viele Unternehmer und Investoren außergewöhnlich attraktiv sein. Für einige übersteigen Wegzugsbesteuerung, bestehende Beteiligungsstrukturen und viele Faktoren die möglichen Vorteile. Deshalb beginnen wir nicht mit dem türkischen Gesetz. Wir beginnen mit Ihrer persönlichen Situation. Auch die Voraussetzungen und Pflichten unterscheiden sich je nach Ausgangslage.",
-    "bullets": [
-      "Unternehmer & Beteiligungsgesellschafter — GmbH-Anteile, Holdingstrukturen, Ausschüttungen und Unternehmensbeteiligungen",
-      "Founder vor einem Exit — SaaS, Agenturen, E-Commerce oder andere Beteiligungen vor einem geplanten Verkauf",
-      "Anleger mit größeren Wertpapierdepots — Aktien, ETFs, Fonds und langfristige Kapitalanlagen",
-      "Krypto-Investoren — hohe unrealisierte Gewinne und internationale Strukturen",
-      "Family Offices — komplexe Vermögens- und Beteiligungsstrukturen über mehrere Ebenen",
-      "Internationale Unternehmer — Strukturen mit mehreren Ländern, Gesellschaften oder steuerlichen Anknüpfungspunkten"
-    ],
-    "cta": "Eignung prüfen"
+    "title": "Warum die Struktur entscheidet",
+    "subtitle": "DIE TEUERSTEN FEHLER BEI DER WEGZUGSBESTEUERUNG ENTSTEHEN VOR DEM WEGZUG",
+    "p1": "Viele Menschen beschäftigen sich zuerst mit den Vorteilen der Türkei.",
+    "p2": "Viele Unternehmer und Investoren aus Deutschland, Österreich, der Schweiz, dem Vereinigten Königreich, Spanien und anderen europäischen Ländern beschäftigen sich aktuell mit den neuen Möglichkeiten der Türkei. Dabei geht es oft auch um das Steuerrecht zwischen verschiedenen europäischen Staaten und der Türkei.",
+    "p3": "Die größten Risiken entstehen jedoch häufig außerhalb der Türkei.",
+    "p4": "Wegzugsbesteuerung, Beteiligungen, Unternehmensstrukturen, Depots, Kryptowährungen und internationale Verbindungen bestimmen häufig stärker über das Ergebnis als die Regelungen der Türkei selbst.",
+    "p5": "Die entscheidende Frage lautet, ob Ihre bestehende Struktur mit dem geplanten Wegzug tatsächlich funktioniert. Bei Verlagerung des Wohnsitzes ins Ausland muss dabei auch die Wegzugsteuer mitgedacht werden, egal ob es sich um Regelungen in Deutschland, Österreich, der Schweiz, dem Vereinigten Königreich (inklusive Non-Dom-Situationen) oder Spanien (etwa im Rahmen des Beckham-Gesetzes) handelt.",
+    "p6": "Deshalb sollte vor jeder Entscheidung Klarheit darüber bestehen, wie die einzelnen Faktoren zusammenwirken."
   },
   "whyNow": {
     "title": "ABSCHLUSS",
-    "subtitle": "Die meisten Fehler passieren vor dem Wegzug. Nicht danach",
-    "p1": "Die neue türkische Regelung verändert die steuerliche Behandlung bestimmter ausländischer Einkünfte und Kapitalgewinne grundlegend. Zugleich ist wichtig, politische Ankündigung, steuerliches Vorhaben und jeder strategische Schritt der Regierung klar von verbindlichem Recht zu trennen.",
-    "p2": "Ob daraus ein tatsächlicher Vorteil entsteht, entscheidet sich jedoch außerhalb der Türkei in Verbindung mit der persönlichen Situation. Wegzugsbesteuerung, Beteiligungsstrukturen, bestehende Ansässigkeiten, internationale Meldepflichten und Gesellschaften, auch in grenzüberschreitenden Unternehmensgruppen, haben einen deutlich größeren Einfluss als die neue Regelung selbst.",
-    "p3": "Deshalb betrachten wir immer beide Seiten: die Türkei — und das, was Sie zurücklassen."
+    "subtitle": "DIE TÜRKEI IST NUR EIN TEIL DER GLEICHUNG",
+    "p1": "Viele Anbieter erklären die Türkei.",
+    "p2": "Die eigentliche Herausforderung liegt jedoch meist im Zusammenspiel verschiedener Systeme.",
+    "p3": "Entscheidend sind die Wechselwirkungen zwischen Herkunftsland, Wegzugsregelungen, Beteiligungen, steuerlicher Ansässigkeit und den persönlichen Zielen.",
+    "p4": "Genau dort entscheidet sich, ob ein Vorhaben tatsächlich funktioniert. Wegzugsbesteuerung, Beteiligungen, Unternehmensstrukturen, Depots, Kryptowährungen und internationale Verbindungen bestimmen häufig stärker über das Ergebnis als die Regelungen der Türkei selbst; die Wegzugsteuer kann bereits bei Verlagerung des Wohnsitzes ins Ausland relevant werden.",
+    "p5": "Deshalb sollte vor jeder Entscheidung Klarheit darüber bestehen, wie die einzelnen Faktoren zusammenwirken. Auch die Voraussetzungen und steuerpflichtigen Folgen für Personen und Unternehmen sollten vorab geprüft werden – unabhängig davon, ob die Ausgangslage in Deutschland, Österreich, der Schweiz, Spanien, dem Vereinigten Königreich oder anderen europäischen Ländern liegt."
+  },
+  "clarity": {
+    "title": "WIE KLARHEIT ENTSTEHT",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Faktenklärung",
+        "description": "Wir erfassen die Ausgangssituation und die relevanten Rahmenbedingungen, etwa Wohnsitz, gewöhnlichen Aufenthalt, steuerliche Ansässigkeit und bestehende Anteile."
+      },
+      {
+        "number": "2",
+        "title": "Abklärung",
+        "description": "Wir analysieren die tatsächlichen Wechselwirkungen und Risiken, einschließlich Fragen zum Doppelbesteuerungsabkommen zwischen verschiedenen europäischen Ländern und der Türkei sowie zum Besteuerungsrecht beider Staaten."
+      },
+      {
+        "number": "3",
+        "title": "Strukturentwicklung",
+        "description": "Wir entwickeln die tragfähige Struktur. Dabei prüfen welche Voraussetzungen nach Gesetz, Einkommensteuergesetz, DBA und Doppelbesteuerungsabkommen erfüllt sein müssen, welcher Staat bei grenzüberschreitenden Einkünften das Besteuerungsrecht hat, wie Recht, Artikel und Abkommen die Besteuerung in den jeweiligen Herkunfts- und Zielländern prägen, und welche inländischen Einkünfte, etwa aus Dividenden, Zinsen, Lizenzen oder Leistungen, trotz Planung weiter der regulären Einkommensteuer, Steuer, Steuerpflicht, Umsatzsteuer, Gewerbesteuer, Schenkungsteuer oder Körperschaftsteuer unterliegen; das ist für steuerpflichtige Personen, Unternehmen und Kapitalgesellschaften mit Anteilen, Wohnsitz oder Aufenthalt zentral, gerade wenn sie unbeschränkt steuerpflichtig sind, ein Veräußerungsgewinn im Raum steht, ein bestimmter Steuersatz oder Körperschaftsteuersatz relevant wird, eine Maßnahme bereits in Kraft ist, Istanbul als Standort eine Rolle spielt, ein Steuerberater oder unsere Beratung den Überblick über die folgenden Fragen zu steuerlichen Leistungen, ausländischem Einkommen und landesbezogenen Regeln in der Türkei geben soll."
+      },
+      {
+        "number": "4",
+        "title": "Umsetzung",
+        "description": "Trägt die Struktur, begleiten wir die Umsetzung gemeinsam mit den erforderlichen Fachleuten und prüfen dabei für Unternehmen auch, ob eine Befreiung von der Körperschaftsteuer über einen regionalen Hauptsitz in der Türkei für bis zu 20 Jahre oder in einer der 18 türkischen Freihandelszonen in Betracht kommt."
+      }
+    ]
   },
   "pricing": {
-    "title": "PAKETE",
-    "subtitle": "Die richtige Entscheidung beginnt mit einer belastbaren Strukturprüfung.",
-    "subtitleDescription": "Jedes Paket basiert auf Ihrem konkreten Fall. Keine Standardantworten. Keine Modellrechnungen von der Stange.",
+    "title": "ABKLÄRUNGEN",
     "mostPopular": "Meistgewählt",
     "vatNote": "zzgl. USt.",
     "from": "ab",
@@ -45,8 +68,8 @@
     "continue": "Starten Sie jetzt",
     "packages": {
       "basis": {
-        "tier": "Für einzelne Themenbereiche",
-        "name": "Basis Assessment",
+        "tier": "Für einzelne Fragestellungen und eınem Themenbereich.",
+        "name": "Erste Abklärung",
         "price": "990 €",
         "features": [
           "Analyse eines Vermögens- oder Strukturthemas",
@@ -58,7 +81,7 @@
       },
       "unternehmer": {
         "tier": "Für Unternehmer und Investoren mit mehreren Themenfeldern",
-        "name": "Struktur Assessment",
+        "name": "Erweiterte Strukturabklärung",
         "price": "2.990 €",
         "features": [
           "Beteiligungen, Depot, Unternehmen und Krypto im Zusammenspiel",
@@ -70,8 +93,8 @@
         ]
       },
       "familyOffice": {
-        "tier": "Für größere und komplexe Strukturen",
-        "name": "Family Office Assessment",
+        "tier": "Für internationale Vermögens- und Beteiligungsstrukturen.",
+        "name": "Komplexe Strukturabklärung & Umsetzungsplanung",
         "price": "6.990 €",
         "features": [
           "Mehrstufige Beteiligungen",
@@ -83,93 +106,19 @@
         ]
       }
     },
-    "note": "Jedes Assessment ist die Grundlage für eine mögliche Umsetzung. Trägt die Struktur, übernehmen wir die Umsetzung — die Umsetzung ist eine separate Leistung und nicht im Analysepreis enthalten."
+    "note": "Wichtiger Hinweis: Die Abklärung ist kein separates Beratungsprodukt. Sie ist die Grundlage jeder belastbaren Entscheidung und der erste Schritt einer möglichen Umsetzung."
   },
-  "workflow": {
-    "title": "SO ARBEITEN WIR",
-    "subtitle": "Denken. Strukturieren. Umsetzen. Aus einer Hand.",
-    "subtitle2": " Ablauf eines Assessments:",
-    "steps": [
-      {
-        "title": "Erstgespräch",
-        "description": "Wir erfassen Ihre Situation, Ihr Herkunftsland und Ihre Ziele."
-      },
-      {
-        "title": "Analyse & Dokument",
-        "description": "Wir rechnen Ihren Fall durch und liefern eine schriftliche, strukturierte Einschätzung."
-      },
-      {
-        "title": "Zweites Gespräch",
-        "description": "Wir besprechen das Ergebnis, die Optionen und die nächsten Schritte. (In den größeren Paketen mehrere Gespräche und laufende Abstimmung.)"
-      }
-    ],
-    "implementation": "Vom Assessment zur Umsetzung: Das Assessment ist der Einstieg, nicht das Ende. Trägt Ihre Struktur, setzen wir sie um — Konzept, Strategie und Steuerung kommen von uns; die offizielle Ausführung übernehmen wo notwendig die zugelassenen Fachleute (Steuerberater, Rechtsanwälte, Notare, Treuhänder), die wir einbinden und führen."
-  },
-  "services": {
-    "title": "LEISTUNGEN",
-    "subtitle": "Strukturiert. Durchgerechnet. Umsetzbar.",
-    "description": "Wir betrachten internationale Strukturen nicht isoliert. Wir analysieren, wie Herkunftsland, Wegzug und neue Ansässigkeit interagieren — und entwickeln daraus einen konkreten Handlungsplan; dabei prüfen wir stets den steuerrechtlichen Rahmen, die Steuerpflicht im In- und Ausland sowie den Bezug zu anwendbaren DBA.",
-    "descriptionExtra": "Das türkische Steuersystem ordnen wir dabei als Teil der Gesamtanalyse ein und betrachten es im Zusammenspiel mit dem jeweiligen System.",
-    "items": [
-      "Unternehmer & Holdings",
-      "Founder vor dem Exit",
-      "Depot & ETF",
-      "Krypto-Investoren",
-      "Family Offices",
-      "Internationale Strukturen"
-    ]
-  },
-  "whyDynamicResidency": {
+  "realize": {
     "title": "WARUM DYNAMIC RESIDENCY",
-    "subtitle": "Die Türkei ist der einfache Teil",
-    "p1": "Die eigentliche Komplexität entsteht im Herkunftsland. Dort greifen Wegzugsbesteuerung, Beteiligungsregeln, Meldepflichten und bestehende steuerliche Verbindungen. Das müssen vor allem deutsche steuerpflichtige Personen und Unternehmer im Verhältnis zwischen der aktuellen steuerlichen Ansässigkeit und der Türkei sauber einordnen.",
-    "p2": "Genau deshalb betrachten wir die gesamte Struktur. Nicht nur die Situation in der Türkei. Nicht nur die Situation im Herkunftsland. Sondern die Wechselwirkungen dazwischen.",
-    "p3": "Unsere diesbezügliche Erfahrung stammt aus unseren eigenen realen internationalen Projekten, aufgebauten Strukturen und der Zusammenarbeit mit Spezialisten in mehreren Jurisdiktionen — einschließlich praktischer Besteuerung im grenzüberschreitenden Verhältnis zwischen internationalen Ländern und der Türkei, auch mit eigenem Büro und Team in Istanbul. Tägliche operative Praxiserfahrung aus 11 Ländern auf 4 Kontinenten.",
-    "p4": "Trägt Ihre Struktur, begleiten wir nicht nur die Analyse, sondern die Umsetzung. Und wenn sie keinen Sinn ergibt, sagen wir das ebenfalls."
-  },
-  "faq": {
-    "title": "FAQ",
-    "descriptionH3": "Was Sie wirklich wissen wollen.",
-    "description": "Präzise Antworten. Der aktuelle Stand der Dinge. Keine Versprechen, die das Gesetz noch nicht hergibt.",
-    "items": [
-      {
-        "question": "Was bedeutet die neue türkische Steuerregelung und das Steuersystem konkret?",
-        "answer": "20 Jahre keine türkische Steuer auf ausländische Einkünfte und Kapitalgewinn: Das neue Steuerpaket in der Türkei sieht nach aktuellem Stand ein geplantes 20-Jahre-Steuerprivileg für Rückkehrer vor, das 20 Jahre Steuerfreiheit auf Auslandseinkommen bieten könnte; begünstigt sein soll nur, wer vorübergehend abwesend war und wieder in der Türkei ansässig wird. In der Türkei erzieltes Einkommen bleibt regulär steuerpflichtig."
-      },
-      {
-        "question": "Gilt das auch für meine GmbH-Anteile, einen Firmenverkauf oder die Einkommensteuer?",
-        "answer": "Das ist einer der wichtigsten — und heikelsten — Fälle. Entscheidend ist nicht nur die türkische Seite, sondern die Wegzugsbesteuerung Ihres Herkunftslandes: In Deutschland etwa greift bei wesentlichen Beteiligungen die Wegzugsbesteuerung nach dem Außensteuergesetz, andere Länder haben eigene Exit-Tax-Regeln. Ob ein Verkauf nach Verlagerung der Ansässigkeit vorteilhaft ist, hängt von Timing, Beteiligungshöhe und Struktur ab. Genau das rechnen wir durch, bevor Sie handeln."
-      },
-      {
-        "question": "Wie werden Dividenden meiner US- oder Auslandsgesellschaft behandelt?",
-        "answer": "Das hängt von der Quelle der Einkünfte, der Gesellschaftsform und dem jeweiligen Doppelbesteuerungsabkommen ab. Unter dem DBA können für Dividenden 10 Prozent Quellensteuer gelten; 5 Prozent sind bei bestimmten Bedingungen bzw. bei 25 Prozent Kapitalanteil möglich. Ausländische Dividenden könnten unter der angekündigten Regelung auf türkischer Seite begünstigt sein — die Behandlung im Herkunftsland und etwaige Quellensteuern bleiben relevant. Je nach Sachverhalt können auch Zinsen oder Lizenzen abweichend behandelt werden. Eine pauschale Antwort gibt es nicht; das ist Teil der individuellen Strukturprüfung."
-      },
-      {
-        "question": "Gilt die Steuerfreiheit auch für Kryptowährungen?",
-        "answer": "Krypto-Erträge, die auf ausländisches Einkommen zurückzuführen sind, werden nach der neuen Regelung besteuert werden. In der Türkei erzielte Krypto-Erträge werden nach wie vor lokal besteuert."
-      },
-      {
-        "question": "Muss ich dauerhaft in der Türkei leben?",
-        "answer": "Steuerliche Ansässigkeit knüpft in der Regel an Aufenthaltsdauer und Lebensmittelpunkt an (üblicherweise mehr als 183 Tage). Die steuerliche Einordnung hängt dabei vom Wohnsitz und der Unterscheidung zwischen unbeschränkter und beschränkter Steuerpflicht nach dem Einkommensteuergesetz ab. Entscheidend ist, dass Ihre Ansässigkeit tatsächlich trägt — gerade im Zusammenspiel mit dem internationalen Informationsaustausch (CRS). Eine bloße Anmeldung ohne echten Lebensmittelpunkt ist kein belastbares Modell. Wie viel reale Präsenz Ihr Fall braucht, klären wir konkret."
-      },
-      {
-        "question": "Was bleibt in meinem Herkunftsland steuerpflichtig?",
-        "answer": "Auch nach dem Wegzug bleiben bestimmte Einkünfte mit Inlandsbezug im Herkunftsland steuerpflichtig — etwa Mieteinnahmen aus dort gelegenen Immobilien oder bestimmte Kapital- und Rentenarten. Welcher Staat was besteuern darf, regelt das jeweilige Doppelbesteuerungsabkommen (für Deutschland, Österreich und die Schweiz jeweils eigene Abkommen mit der Türkei). Diese Abgrenzung ist zentraler Teil jeder Analyse."
-      },
-      {
-        "question": "Ist das eine Steuerberatung?",
-        "answer": "Die Strategie, das Konzept und die Steuerung kommen von uns. Die offizielle steuerliche, rechtliche und notarielle Ausführung übernehmen die zugelassenen Fachleute, die wir einbinden und führen. So bekommen Sie das Gesamtergebnis aus einer Hand — die Denkarbeit von uns, die Ausführung von den jeweils Befugten."
-      },
-      {
-        "question": "Wie vertraulich sind meine Angaben?",
-        "answer": "Streng vertraulich. Ihre Angaben — einschließlich Vermögens-, Struktur- und Herkunftsdaten — werden diskret behandelt und ausschließlich zur Analyse Ihres Falls verwendet."
-      }
-    ],
-    "summary": "Das türkische Steuersystem ordnen wir dabei als Teil der Gesamtanalyse ein und betrachten es im Zusammenspiel mit dem jeweiligen System."
+    "lead": "Wir entwickeln keine Modelle. Wir realisieren Strukturen.",
+    "p1": "Unser Fokus liegt nicht auf Gutachten oder theoretischen Empfehlungen.",
+    "p2": "Unser Fokus liegt darauf, Klarheit zu schaffen und tragfähige Umsetzungen zu ermöglichen.",
+    "p3": "Wenn eine Struktur funktioniert, begleiten wir die nächsten Schritte.",
+    "p4": "Wenn sie nicht funktioniert, sagen wir das ebenfalls."
   },
   "register": {
-    "title": "Noch nicht bereit für ein Assessment?",
-    "description": "Nicht jede Situation erfordert sofort eine Entscheidung. Wenn Sie aktuell noch keinen unmittelbaren Handlungsbedarf sehen, können Sie sich kostenfrei registrieren. Wir informieren Sie über relevante Änderungen, Entwicklungen und neue Möglichkeiten in Bezug auf Ihr Herkunftsland, Ihre steuerliche Ansässigkeit und internationale Wohnsitz- und Vermögensstrukturen. Sie erhalten ausschließlich Informationen, die für Ihre Situation von Bedeutung sein könnten – keine Werbung und keine allgemeinen Massennewsletter.",
+    "title": "Kostenfreie Registrierung",
+    "description": "Noch nicht bereit für eine Abklärung? Registrieren Sie sich kostenfrei und erhalten Sie relevante Informationen zu:",
     "fields": {
       "name": "VORNAME",
       "surname": "NACHNAME",
@@ -187,15 +136,18 @@
     "calendlyTitle": "Erstgespräch vereinbaren"
   },
   "newsletter": {
-    "title": "Noch nicht bereit für ein Assessment?",
-    "description": "Nicht jede Situation erfordert sofort eine Entscheidung. Wenn Sie aktuell noch keinen unmittelbaren Handlungsbedarf sehen, können Sie sich kostenfrei registrieren. Wir informieren Sie über relevante Änderungen, Entwicklungen und neue Möglichkeiten in Bezug auf Ihr Herkunftsland, Ihre steuerliche Ansässigkeit und internationale Wohnsitz- und Vermögensstrukturen. Sie erhalten ausschließlich Informationen, die für Ihre Situation von Bedeutung sein könnten – keine Werbung und keine allgemeinen Massennewsletter.",
+    "title": "Kostenfreie Registrierung",
+    "description": "Noch nicht bereit für eine Abklärung? Registrieren Sie sich kostenfrei und erhalten Sie relevante Informationen zu:",
     "bullets": [
-      "Relevante Entwicklungen für Ihr Herkunftsland und Ihre steuerliche Ansässigkeit.",
-      "Neue internationale Strukturierungsoptionen",
-      "Hinweise auf potenzielle Chancen und Risiken",
-      "Frühzeitige Information über wichtige regulatorische Änderungen"
+      "Entwicklungen in der Türkei",
+      "Wegzugsregelungen in Europa, inklusive Besonderheiten in Deutschland, Österreich, der Schweiz, Spanien und dem Vereinigten Königreich",
+      "internationalen Strukturierungsmöglichkeiten",
+      "steuerlicher Ansässigkeit",
+      "Chancen und Risiken",
+      "steuerlichen Entwicklungen, einschließlich der zum 1. Januar 2022 reformierten Wegzugsbesteuerung und praxisrelevanter Voraussetzungen für Personen, etwa wenn sie in den letzten drei Jahren nicht in der Türkei steuerlich ansässig waren",
+      "Immobilien- und Vermögensstruktur, einschließlich Vorteilen beim Immobilienerwerb, 0,1 Prozent Grundsteuer auf Wohngebäude, 0,759 Prozent Stempelsteuer sowie einer auf 1 % reduzierten Erbschaft- und Schenkungsteuer unter der 20-Jahres-Regelung"
     ],
-    "subtext": "Registrieren Sie sich kostenfrei und bleiben Sie informiert, bevor andere reagieren müssen.",
+    "subtext": "Keine Werbung. Keine Massennewsletter. Nur relevante Informationen.",
     "cta": "Kostenfreie Registrierung"
   },
   "footer": {
@@ -209,7 +161,8 @@
     "disclaimerDate": "Stand Juni 2026.",
     "disclaimer": "Die beschriebene türkische Steuerregelung beruht auf einer im April 2026 angekündigten Gesetzesinitiative, die sich im parlamentarischen Verfahren befindet; maßgeblich sind die finale Gesetzesfassung und die Verwaltungspraxis. Die Inhalte dieser Seite dienen der allgemeinen Information und ersetzen keine auf den Einzelfall bezogene Prüfung. Dynamic Residency ist ein Produkt von Dynamic Works Inc., einem Unternehmen der Blue Palm Group - Office Istanbul.",
     "copyright": "© 2026 Dynamic Works",
-    "tagline": "Premium Advisory Services"
+    "tagline": "Premium Advisory Services",
+    "note": "Dynamic Residency ist ein Produkt von Dynamic Works. Büro in Istanbul."
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
@@ -291,5 +244,13 @@
     "section21Title": "21. Contact information",
     "section21Text1": "This website is owned and operated by Dynamic Works.",
     "section21Text2": "You may contact us regarding these Terms and Conditions by writing or emailing us at: info{'@'}dynamicworks.email"
+  },
+  "closing": {
+    "title": "Prüfen Sie Ihre Struktur, bevor Sie handeln",
+    "p1": "Dynamic Residency hilft Unternehmern und Investoren aus ganz Europa dabei herauszufinden, ob ihr Vorhaben tatsächlich funktioniert, bevor Entscheidungen getroffen werden, die sich später nicht mehr rückgängig machen lassen.",
+    "p2": "Belastbare Entscheidungen entstehen im Zusammenspiel von europäischem und türkischem Steuerrecht sowie individueller Beratung.",
+    "highlight": "Die Türkei ist nicht die Herausforderung. Die Struktur ist es.",
+    "cta1": "Abklärung starten",
+    "cta2": "Kostenfrei registrieren"
   }
 }

@@ -1,56 +1,28 @@
 <template>
   <section class="bg-[#051228] py-24" id="advantage">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-        <!-- Left: Text -->
-        <div>
-          <h2 class="text-4xl md:text-5xl font-serif font-bold text-white leading-tight mb-6">
-            {{ $t('advantage.title') }}
-          </h2>
-          <p class="text-white/60 mb-6 text-base leading-relaxed">{{ $t('advantage.intro') }}</p>
+      <h2 class="text-4xl md:text-5xl font-serif font-bold text-white leading-tight mb-10">
+        {{ $t('advantage.title') }}
+      </h2>
 
-          <ul class="space-y-4 mb-10">
-            <li
-              v-for="(item, i) in bulletParts"
-              :key="i"
-              class="flex items-start gap-3"
-            >
-              <span class="mt-2 w-2.5 h-2.5 rounded-full bg-brand-red shrink-0"></span>
-              <span class="text-white/80 text-base leading-relaxed">
-                <strong class="text-white font-semibold">{{ item.title }}</strong>{{ item.description ? ' — ' + item.description : '' }}
-              </span>
-            </li>
-          </ul>
-
-        </div>
-
-        <!-- Right: Photo -->
-        <div class="relative">
-          <div class="rounded-2xl overflow-hidden">
-            <img
-              src="/images/team-work-mobile.webp"
-              alt="Istanbul aerial view"
-              class="w-full h-[480px] object-cover"
-            />
+      <div class="flex gap-0">
+        <div class="w-1.5 bg-brand-red rounded-sm shrink-0 self-stretch"></div>
+        <div class="flex-1 bg-[#0d1b2e]/80 rounded-r-2xl rounded-bl-2xl p-10 md:p-14">
+          <h3 class="text-xl font-bold text-white tracking-widest uppercase mb-8">
+            {{ $t('advantage.subtitle') }}
+          </h3>
+          <div class="space-y-5">
+            <p class="text-white/70 text-lg leading-relaxed">{{ $t('advantage.p1') }}</p>
+            <p class="text-white/70 text-lg leading-relaxed">{{ $t('advantage.p2') }}</p>
+            <p class="text-white/70 text-lg leading-relaxed">{{ $t('advantage.p3') }}</p>
+            <p class="text-white/70 text-lg leading-relaxed">{{ $t('advantage.p4') }}</p>
+            <p class="text-white/70 text-lg leading-relaxed">{{ $t('advantage.p5') }}</p>
+            <p class="text-white/70 text-lg leading-relaxed">{{ $t('advantage.p6') }}</p>
           </div>
         </div>
-
       </div>
+
     </div>
   </section>
 </template>
-
-<script setup lang="ts">
-const { tm, rt } = useI18n()
-const bulletParts = computed(() =>
-  (tm('advantage.bullets') as any[]).map((b) => {
-    const text = rt(b)
-    const parts = text.split(' — ')
-    return {
-      title: parts[0],
-      description: parts[1] || ''
-    }
-  })
-)
-</script>

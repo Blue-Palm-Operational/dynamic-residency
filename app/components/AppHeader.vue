@@ -6,9 +6,8 @@
     >
       <div class="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         <!-- Logo -->
-        <NuxtLink :to="localePath('/')" class="flex-shrink-0 flex items-center gap-2.5">
-          <img src="/icons/dynamic-works-logo-header-mobile.svg" alt="Dynamic Residency" class="h-8 w-auto" />
-          <span class="text-white font-bold text-base tracking-wide leading-none">Dynamic Residency</span>
+        <NuxtLink :to="localePath('/')" class="flex-shrink-0 flex items-center">
+          <img src="/images/dynamic-residency-logo-white.svg" alt="Dynamic Residency" class="h-8 w-auto" />
         </NuxtLink>
 
 
@@ -30,8 +29,6 @@
         <div v-if="mobileOpen" class="md:hidden border-t border-white/20 px-6 py-4 flex flex-col gap-3 bg-[#8B2535]/95">
           <a href="#advantage" @click="mobileOpen=false" class="text-sm font-medium text-white/80 py-2 border-b border-white/10">{{ $t('nav.advantage') }}</a>
           <a href="#pricing" @click="mobileOpen=false" class="text-sm font-medium text-white/80 py-2 border-b border-white/10">{{ $t('nav.pricing') }}</a>
-          <a href="#services" @click="mobileOpen=false" class="text-sm font-medium text-white/80 py-2 border-b border-white/10">{{ $t('nav.services') }}</a>
-          <a href="#faq" @click="mobileOpen=false" class="text-sm font-medium text-white/80 py-2 border-b border-white/10">{{ $t('nav.faq') }}</a>
           <a href="#register" @click="mobileOpen=false" class="mt-2 px-6 py-3 text-sm font-bold text-white border border-white/70 rounded-lg text-center tracking-wide">{{ $t('nav.cta') }}</a>
         </div>
       </Transition>

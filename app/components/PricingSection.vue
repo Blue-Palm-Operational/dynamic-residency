@@ -4,8 +4,6 @@
       <!-- Heading -->
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-serif font-bold text-white mb-4">{{ $t('pricing.title') }}</h2>
-        <h3 class="text-xl md:text-2xl font-serif font-bold text-white mb-4">{{ $t('pricing.subtitle') }}</h3>
-        <p class="text-white/60 max-w-xl mx-auto text-base">{{ $t('pricing.subtitleDescription') }}</p>
       </div>
 
       <!-- Cards -->
@@ -13,14 +11,10 @@
 
         <!-- Basis -->
         <div class="bg-[#0d1b2e] rounded-2xl p-8 border border-white/5 flex flex-col">
-          <div class="flex items-start justify-between mb-1">
-            <div>
-              <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.basis.name') }}</h3>
-              <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.basis.tier') }}</p>
-            </div>
-            <div class="text-right shrink-0">
-              <span class="text-3xl font-bold text-brand-red whitespace-nowrap">{{ $t('pricing.packages.basis.price') }}</span>
-            </div>
+          <div class="mb-1">
+            <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.basis.name') }}</h3>
+            <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.basis.tier') }}</p>
+            <span class="block text-3xl font-bold text-brand-red mt-3">{{ $t('pricing.packages.basis.price') }}</span>
           </div>
           <div class="border-t border-white/10 my-5"></div>
           <ul class="space-y-3 mb-8 flex-1">
@@ -41,14 +35,10 @@
 
         <!-- Unternehmer (featured) -->
         <div class="bg-[#2a0a18] rounded-2xl p-8 border border-brand-red/40 flex flex-col relative">
-          <div class="flex items-start justify-between mb-1">
-            <div>
-              <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.unternehmer.name') }}</h3>
-              <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.unternehmer.tier') }}</p>
-            </div>
-            <div class="text-right shrink-0">
-              <span class="text-3xl font-bold text-brand-red whitespace-nowrap">{{ $t('pricing.packages.unternehmer.price') }}</span>
-            </div>
+          <div class="mb-1">
+            <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.unternehmer.name') }}</h3>
+            <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.unternehmer.tier') }}</p>
+            <span class="block text-3xl font-bold text-brand-red mt-3">{{ $t('pricing.packages.unternehmer.price') }}</span>
           </div>
           <div class="border-t border-white/10 my-5"></div>
           <ul class="space-y-3 mb-8 flex-1">
@@ -69,14 +59,10 @@
 
         <!-- Family Office -->
         <div class="bg-[#0d1b2e] rounded-2xl p-8 border border-white/5 flex flex-col">
-          <div class="flex items-start justify-between mb-1">
-            <div>
-              <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.familyOffice.name') }}</h3>
-              <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.familyOffice.tier') }}</p>
-            </div>
-            <div class="text-right shrink-0">
-              <span class="text-3xl font-bold text-brand-red whitespace-nowrap">{{ $t('pricing.packages.familyOffice.price') }}</span>
-            </div>
+          <div class="mb-1">
+            <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.familyOffice.name') }}</h3>
+            <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.familyOffice.tier') }}</p>
+            <span class="block text-3xl font-bold text-brand-red mt-3">{{ $t('pricing.packages.familyOffice.price') }}</span>
           </div>
           <div class="border-t border-white/10 my-5"></div>
           <ul class="space-y-3 mb-8 flex-1">

@@ -11,7 +11,9 @@
             </h3>
             <p class="text-white/70 text-lg leading-relaxed mb-6">{{ $t('whyNow.p1') }}</p>
             <p class="text-white/70 text-lg leading-relaxed mb-6">{{ $t('whyNow.p2') }}</p>
-            <p class="text-white/70 text-lg leading-relaxed">{{ $t('whyNow.p3') }}</p>
+            <p class="text-white/70 text-lg leading-relaxed mb-6">{{ $t('whyNow.p3') }}</p>
+            <p class="text-white/70 text-lg leading-relaxed mb-6">{{ $t('whyNow.p4') }}</p>
+            <p class="text-white/70 text-lg leading-relaxed">{{ $t('whyNow.p5') }}</p>
           </div>
         </div>
 

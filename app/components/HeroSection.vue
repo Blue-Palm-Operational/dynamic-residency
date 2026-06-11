@@ -3,8 +3,8 @@
     <!-- Background photo -->
     <div class="absolute inset-0 z-0">
       <picture class="w-full h-full">
-        <source media="(min-width: 768px)" srcset="/images/hero-image-desktop.webp" />
-        <img src="/images/hero-image.webp" alt="Istanbul Bosphorus" class="w-full h-full object-cover object-center" />
+        <source media="(min-width: 768px)" srcset="/images/istanbul-bosphorus-executive-sunset.webp" />
+        <img src="/images/istanbul-bosphorus-executive-sunset.webp" alt="Istanbul Bosphorus" class="w-full h-full object-cover object-center" />
       </picture>
       <div class="absolute inset-0 bg-gradient-to-r from-[#051228]/60 via-[#051228]/30 to-[#051228]/5"></div>
     </div>
@@ -20,12 +20,21 @@
         <p class="text-base md:text-lg text-white/75 leading-relaxed mb-8 max-w-xl">
           {{ $t('hero.description') }}
         </p>
-        <a
-          href="#advantage"
-          class="inline-block px-8 py-3.5 text-sm font-bold text-white bg-brand-red hover:bg-brand-redDark rounded-lg transition-colors tracking-widest uppercase shadow-lg"
-        >
-          {{ $t('hero.cta') }}
-        </a>
+        <div class="flex flex-wrap gap-4">
+          <a
+            href="#pricing"
+            class="inline-block px-8 py-3.5 text-sm font-bold text-white bg-brand-red hover:bg-brand-redDark rounded-lg transition-colors tracking-widest uppercase shadow-lg"
+          >
+            {{ $t('hero.cta') }}
+          </a>
+          <a
+            v-if="$t('hero.ctaSecondary')"
+            href="#register"
+            class="inline-block px-8 py-3.5 text-sm font-bold text-white border border-white/40 hover:border-white rounded-lg transition-colors tracking-widest uppercase"
+          >
+            {{ $t('hero.ctaSecondary') }}
+          </a>
+        </div>
       </div>
     </div>
   </section>

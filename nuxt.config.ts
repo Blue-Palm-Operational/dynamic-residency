@@ -54,8 +54,37 @@ export default defineNuxtConfig({
       link: [
         {
           rel: 'icon',
+          type: 'image/x-icon',
+          href: '/favicon.ico',
+        },
+        {
+          rel: 'icon',
           type: 'image/png',
-          href: '/dywo-favicon-16x16.png',
+          sizes: '16x16',
+          href: '/icons/dywo-favicon-16x16.png',
+        },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '32x32',
+          href: '/icons/dywo-favicon-32x32.png',
+        },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '256x256',
+          href: '/icons/dywo-favicon-256x256.png',
+        },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '512x512',
+          href: '/icons/dywo-favicon-512x512.png',
+        },
+        {
+          rel: 'apple-touch-icon',
+          sizes: '512x512',
+          href: '/icons/dywo-favicon-512x512.png',
         },
         {
           rel: 'preconnect',
