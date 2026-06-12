@@ -18,19 +18,18 @@
           {{ $t('hero.subtitle') }}
         </h2>
         <p class="text-base md:text-lg text-white/75 leading-relaxed mb-8 max-w-xl">
-          {{ $t('hero.description') }}
+          {{ $t('hero.lead') }}
         </p>
-        <div class="flex flex-wrap gap-4">
+        <div class="flex flex-col sm:flex-row flex-wrap gap-4">
           <a
             href="#pricing"
-            class="inline-block px-8 py-3.5 text-sm font-bold text-white bg-brand-red hover:bg-brand-redDark rounded-lg transition-colors tracking-widest uppercase shadow-lg"
+            class="inline-block px-8 py-3.5 text-center text-sm font-bold text-white bg-brand-red hover:bg-brand-redDark rounded-lg transition-colors tracking-widest uppercase shadow-lg"
           >
             {{ $t('hero.cta') }}
           </a>
           <a
-            v-if="$t('hero.ctaSecondary')"
-            href="#register"
-            class="inline-block px-8 py-3.5 text-sm font-bold text-white border border-white/40 hover:border-white rounded-lg transition-colors tracking-widest uppercase"
+            href="#advantage"
+            class="inline-block px-8 py-3.5 text-center text-sm font-bold text-white border border-white/40 hover:border-white rounded-lg transition-colors tracking-widest uppercase"
           >
             {{ $t('hero.ctaSecondary') }}
           </a>

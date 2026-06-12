@@ -7,15 +7,13 @@
       </div>
 
       <!-- Cards -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      <div class="grid grid-cols-1 gap-6 max-w-5xl mx-auto md:grid-cols-3 md:gap-x-6 md:gap-y-0 md:grid-rows-[auto_auto_auto_auto_1fr_auto]">
 
         <!-- Basis -->
-        <div class="bg-[#0d1b2e] rounded-2xl p-8 border border-white/5 flex flex-col">
-          <div class="mb-1">
-            <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.basis.name') }}</h3>
-            <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.basis.tier') }}</p>
-            <span class="block text-3xl font-bold text-brand-red mt-3">{{ $t('pricing.packages.basis.price') }}</span>
-          </div>
+        <div class="bg-[#0d1b2e] rounded-2xl p-8 border border-white/5 flex flex-col md:grid md:row-span-6 md:grid-rows-subgrid">
+          <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.basis.name') }}</h3>
+          <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.basis.tier') }}</p>
+          <span class="block text-3xl font-bold text-brand-red mt-3">{{ $t('pricing.packages.basis.price') }}</span>
           <div class="border-t border-white/10 my-5"></div>
           <ul class="space-y-3 mb-8 flex-1">
             <li v-for="(f,i) in basisFeatures" :key="i" class="flex items-start gap-2.5 text-sm text-white/70">
@@ -34,12 +32,10 @@
         </div>
 
         <!-- Unternehmer (featured) -->
-        <div class="bg-[#2a0a18] rounded-2xl p-8 border border-brand-red/40 flex flex-col relative">
-          <div class="mb-1">
-            <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.unternehmer.name') }}</h3>
-            <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.unternehmer.tier') }}</p>
-            <span class="block text-3xl font-bold text-brand-red mt-3">{{ $t('pricing.packages.unternehmer.price') }}</span>
-          </div>
+        <div class="bg-[#2a0a18] rounded-2xl p-8 border border-brand-red/40 relative flex flex-col md:grid md:row-span-6 md:grid-rows-subgrid">
+          <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.unternehmer.name') }}</h3>
+          <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.unternehmer.tier') }}</p>
+          <span class="block text-3xl font-bold text-brand-red mt-3">{{ $t('pricing.packages.unternehmer.price') }}</span>
           <div class="border-t border-white/10 my-5"></div>
           <ul class="space-y-3 mb-8 flex-1">
             <li v-for="(f,i) in unternehmerFeatures" :key="i" class="flex items-start gap-2.5 text-sm text-white/70">
@@ -58,12 +54,10 @@
         </div>
 
         <!-- Family Office -->
-        <div class="bg-[#0d1b2e] rounded-2xl p-8 border border-white/5 flex flex-col">
-          <div class="mb-1">
-            <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.familyOffice.name') }}</h3>
-            <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.familyOffice.tier') }}</p>
-            <span class="block text-3xl font-bold text-brand-red mt-3">{{ $t('pricing.packages.familyOffice.price') }}</span>
-          </div>
+        <div class="bg-[#0d1b2e] rounded-2xl p-8 border border-white/5 flex flex-col md:grid md:row-span-6 md:grid-rows-subgrid">
+          <h3 class="text-xl font-bold text-white">{{ $t('pricing.packages.familyOffice.name') }}</h3>
+          <p class="text-white/45 text-xs font-semibold tracking-widest uppercase mt-0.5">{{ $t('pricing.packages.familyOffice.tier') }}</p>
+          <span class="block text-3xl font-bold text-brand-red mt-3">{{ $t('pricing.packages.familyOffice.price') }}</span>
           <div class="border-t border-white/10 my-5"></div>
           <ul class="space-y-3 mb-8 flex-1">
             <li v-for="(f,i) in familyFeatures" :key="i" class="flex items-start gap-2.5 text-sm text-white/70">

@@ -1,7 +1,7 @@
 <template>
   <header class="fixed top-0 w-full z-50">
     <div
-      class="bg-gradient-to-r from-[#8B2535] to-[#C84865] transition-all duration-300"
+      class="bg-gradient-to-b from-[#1a0a14] to-[#2d0820] transition-all duration-300"
       :class="scrolled ? 'shadow-lg shadow-black/40' : ''"
     >
       <div class="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
@@ -26,7 +26,7 @@
 
       <!-- Mobile Menu -->
       <Transition name="slide-down">
-        <div v-if="mobileOpen" class="md:hidden border-t border-white/20 px-6 py-4 flex flex-col gap-3 bg-[#8B2535]/95">
+        <div v-if="mobileOpen" class="md:hidden border-t border-white/20 px-6 py-4 flex flex-col gap-3 bg-[#2d0820]/95">
           <a href="#advantage" @click="mobileOpen=false" class="text-sm font-medium text-white/80 py-2 border-b border-white/10">{{ $t('nav.advantage') }}</a>
           <a href="#pricing" @click="mobileOpen=false" class="text-sm font-medium text-white/80 py-2 border-b border-white/10">{{ $t('nav.pricing') }}</a>
           <a href="#register" @click="mobileOpen=false" class="mt-2 px-6 py-3 text-sm font-bold text-white border border-white/70 rounded-lg text-center tracking-wide">{{ $t('nav.cta') }}</a>

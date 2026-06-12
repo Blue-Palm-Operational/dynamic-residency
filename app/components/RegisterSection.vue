@@ -1,24 +1,25 @@
 <template>
   <section class="bg-[#051228] py-24" id="register">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="mb-10 max-w-2xl">
-        <h2 class="text-4xl md:text-5xl font-serif font-bold text-white mb-4">
-          {{ $t('register.title') }}
-        </h2>
-        <p class="text-white/60 text-base leading-relaxed mb-6">
-          {{ $t('register.description') }}
-        </p>
-        <ul class="space-y-2 mb-6">
-          <li v-for="(bullet, i) in registerBullets" :key="i" class="flex items-start gap-3">
-            <span class="mt-2 w-2 h-2 rounded-full bg-brand-red shrink-0"></span>
-            <span class="text-white/70 text-sm leading-relaxed">{{ bullet }}</span>
-          </li>
-        </ul>
-        <p class="text-white/50 text-sm leading-relaxed">{{ $t('newsletter.subtext') }}</p>
-      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-start">
+        <!-- Left: Beschreibung -->
+        <div>
+          <h2 class="text-3xl md:text-4xl font-serif font-bold text-white uppercase tracking-wide mb-5">
+            {{ $t('register.title') }}
+          </h2>
+          <p class="text-white/60 text-base leading-relaxed mb-6">
+            {{ $t('register.description') }}
+          </p>
+          <ul class="space-y-2 mb-6">
+            <li v-for="(bullet, i) in registerBullets" :key="i" class="flex items-start gap-3">
+              <span class="mt-2 w-2 h-2 rounded-full bg-brand-red shrink-0"></span>
+              <span class="text-white/70 text-sm leading-relaxed">{{ bullet }}</span>
+            </li>
+          </ul>
+        </div>
 
-      <div class="bg-[#0d1a2d] rounded-3xl p-10 md:p-12">
-        <div class="max-w-2xl mx-auto">
+        <!-- Right: Formular -->
+        <div class="bg-[#0d1a2d] rounded-3xl p-8 md:p-10">
 
           <!-- Form -->
             <!-- Success state -->
@@ -83,16 +84,17 @@
 
             </form>
         </div>
+      </div>
 
-        <!-- Calendly Widget -->
-        <div class="mt-14 pt-10 border-t border-white/10">
-          <h3 class="text-2xl font-serif font-bold text-white mb-8 text-center">Beratungstermin vereinbaren</h3>
-          <div
-            class="calendly-inline-widget rounded-2xl overflow-hidden w-full"
-            data-url="https://calendly.com/dynamic-works-international/new-meeting?hide_gdpr_banner=1&background_color=071525&text_color=ffffff&primary_color=e5232f"
-            style="width:100%;height:700px;"
-          />
-        </div>
+      <p class="text-white/50 text-sm leading-relaxed text-center mt-10">{{ $t('newsletter.subtext') }}</p>
+
+      <!-- Calendly Widget -->
+      <div id="next-session" class="mt-14 pt-10 border-t border-white/10">
+        <div
+          class="calendly-inline-widget rounded-2xl overflow-hidden w-full"
+          data-url="https://calendly.com/dynamic-works-international/new-meeting?hide_gdpr_banner=1&background_color=071525&text_color=ffffff&primary_color=e5232f"
+          style="width:100%;height:700px;"
+        />
       </div>
     </div>
   </section>

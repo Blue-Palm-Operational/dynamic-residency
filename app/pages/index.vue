@@ -1,11 +1,9 @@
 <template>
   <main>
     <HeroSection />
-    <AdvantageSection />
-    <WhyNowSection />
+    <StructureSection />
     <ClaritySection />
     <PricingSection />
-    <RealizeSection />
     <RegisterSection />
     <ClosingSection />
   </main>

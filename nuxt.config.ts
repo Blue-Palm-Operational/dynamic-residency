@@ -54,20 +54,15 @@ export default defineNuxtConfig({
       link: [
         {
           rel: 'icon',
-          type: 'image/x-icon',
-          href: '/favicon.ico',
+          type: 'image/png',
+          sizes: '32x32',
+          href: '/icons/dywo-favicon-32x32.png',
         },
         {
           rel: 'icon',
           type: 'image/png',
           sizes: '16x16',
           href: '/icons/dywo-favicon-16x16.png',
-        },
-        {
-          rel: 'icon',
-          type: 'image/png',
-          sizes: '32x32',
-          href: '/icons/dywo-favicon-32x32.png',
         },
         {
           rel: 'icon',
