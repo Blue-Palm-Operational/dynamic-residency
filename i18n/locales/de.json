@@ -157,7 +157,14 @@
   },
   "footer": {
     "copyright": "© 2026 Dynamic Works",
-    "note": "Dynamic Residency ist ein Produkt von Dynamic Works. Büro in Istanbul."
+    "note": "Dynamic Residency ist ein Produkt von Dynamic Works. Büro in Istanbul.",
+    "operatedBy": "Betrieben von Dynamic Works Office Istanbul",
+    "fromBluePalm": "von Blue Palm",
+    "links": {
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "termsOfService": "Nutzungsbedingungen",
+      "contact": "Kontakt"
+    }
   },
   "closing": {
     "title": "Prüfen Sie Ihre Struktur, bevor Sie handeln",

@@ -141,8 +141,13 @@
       "pricing": "Packages",
       "services": "Services",
       "faq": "FAQ",
-      "register": "Book Analysis"
+      "register": "Book Analysis",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "contact": "Contact"
     },
+    "operatedBy": "Operated by Dynamic Works Office Istanbul",
+    "fromBluePalm": "from Blue Palm",
     "disclaimerDate": "As of June 2026.",
     "disclaimer": "The described Turkish tax regime is based on a legislative initiative announced in April 2026 that is currently in parliamentary process; the final legislation and administrative practice will be decisive. The content of this page serves for general information and does not replace a case-specific review.",
     "copyright": "© 2026 Dynamic Works",

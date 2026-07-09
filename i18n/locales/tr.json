@@ -141,8 +141,13 @@
       "pricing": "Paketler",
       "services": "Hizmetler",
       "faq": "SSS",
-      "register": "Analiz Rezervasyonu"
+      "register": "Analiz Rezervasyonu",
+      "privacyPolicy": "Gizlilik Politikası",
+      "termsOfService": "Kullanım Koşulları",
+      "contact": "İletişim"
     },
+    "operatedBy": "Dynamic Works Office Istanbul tarafından işletilmektedir",
+    "fromBluePalm": "Blue Palm'dan",
     "disclaimerDate": "Haziran 2026 itibarıyla.",
     "disclaimer": "Açıklanan Türk vergi rejimi, Nisan 2026'da duyurulan ve parlamentoda süreçte olan bir yasa girişimine dayanmaktadır; belirleyici olan nihai yasa metni ve idari uygulamadır. Bu sayfanın içeriği genel bilgi amaçlıdır ve bireysel durum incelemesinin yerini tutmaz.",
     "copyright": "© 2026 Dynamic Works",
