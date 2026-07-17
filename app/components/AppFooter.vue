@@ -1,7 +1,9 @@
 <template>
   <footer class="footer">
     <div class="container footer-inner">
-      <img src="/v2/dynamic-residency-logo-white.svg" alt="Dynamic Residency" class="footer-logo" />
+      <NuxtLink :to="localePath('/')" class="footer-logo-link">
+        <img src="/v2/dynamic-residency-logo-white.svg" alt="Dynamic Residency" class="footer-logo" />
+      </NuxtLink>
       <nav aria-label="Footer navigation" class="footer-links">
         <NuxtLink :to="localePath('/terms-and-conditions')">{{ $t('footer.terms') }}</NuxtLink>
         <NuxtLink :to="localePath('/privacy-policy')">{{ $t('footer.privacy') }}</NuxtLink>
@@ -26,6 +28,9 @@ const localePath = useLocalePath()
   grid-template-columns: 1.3fr 1fr auto;
   align-items: start;
   gap: 28px;
+}
+.footer-logo-link {
+  display: inline-flex;
 }
 .footer-logo {
   height: 34px;

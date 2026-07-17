@@ -24,6 +24,8 @@
   html {
     scroll-behavior: smooth;
     overflow-x: clip;
+    background-color: #081426;
+    overscroll-behavior-y: none;
   }
 
   body {
@@ -35,6 +37,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: clip;
+    overscroll-behavior-y: none;
   }
 
   a {
