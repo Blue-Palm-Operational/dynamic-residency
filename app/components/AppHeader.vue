@@ -1,25 +1,112 @@
 <template>
-  <header class="fixed top-0 w-full z-50">
-    <div
-      class="bg-gradient-to-b from-[#1a0a14] to-[#2d0820] transition-all duration-300"
-      :class="scrolled ? 'shadow-lg shadow-black/40' : ''"
-    >
-      <div class="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
-        <!-- Logo -->
-        <NuxtLink :to="localePath('/')" class="flex-shrink-0 flex items-center">
-          <img src="/images/dynamic-residency-logo-white.svg" alt="Dynamic Residency" class="h-8 w-auto" />
-        </NuxtLink>
-      </div>
-
+  <header class="nav">
+    <div class="container nav-inner">
+      <NuxtLink :to="localePath('/')" class="brand">
+        <img src="/v2/dynamic-residency-logo-black.svg" alt="Dynamic Residency" class="brand-logo" />
+      </NuxtLink>
+      <nav class="nav-links">
+        <NuxtLink :to="localePath('/')">{{ $t('nav.home') }}</NuxtLink>
+        <NuxtLink :to="localePath('/about')">{{ $t('nav.about') }}</NuxtLink>
+        <NuxtLink :to="localePath('/20-year-exemption')">{{ $t('nav.exemption') }}</NuxtLink>
+        <NuxtLink :to="localePath('/#contact')" class="btn primary">{{ $t('nav.cta') }}</NuxtLink>
+      </nav>
+      <button aria-label="Open menu" class="menu-btn" @click="menuOpen = !menuOpen">☰</button>
     </div>
+    <Transition name="drop">
+      <div v-if="menuOpen" class="mobile-menu">
+        <NuxtLink :to="localePath('/')" @click="menuOpen = false">{{ $t('nav.home') }}</NuxtLink>
+        <NuxtLink :to="localePath('/about')" @click="menuOpen = false">{{ $t('nav.about') }}</NuxtLink>
+        <NuxtLink :to="localePath('/20-year-exemption')" @click="menuOpen = false">{{ $t('nav.exemption') }}</NuxtLink>
+        <NuxtLink :to="localePath('/#contact')" class="btn primary" @click="menuOpen = false">{{ $t('nav.cta') }}</NuxtLink>
+      </div>
+    </Transition>
   </header>
 </template>
 
 <script setup lang="ts">
 const localePath = useLocalePath()
-const scrolled = ref(false)
-
-onMounted(() => {
-  window.addEventListener('scroll', () => { scrolled.value = window.scrollY > 10 })
-})
+const menuOpen = ref(false)
 </script>
+
+<style scoped>
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.97);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-inner {
+  min-height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.brand-logo {
+  height: 34px;
+  width: auto;
+  display: block;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.nav-links a:not(.btn) {
+  color: var(--navy);
+}
+.nav-links a.router-link-active:not(.btn) {
+  color: var(--red);
+}
+.menu-btn {
+  display: none;
+  background: none;
+  border: 0;
+  color: var(--navy);
+  font-size: 1.8rem;
+}
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .nav-links {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px 20px 22px;
+    border-top: 1px solid var(--line);
+    background: #fff;
+  }
+  .mobile-menu a:not(.btn) {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+    color: var(--navy);
+    font-weight: 700;
+  }
+  .mobile-menu-lang {
+    padding: 10px 0;
+  }
+  .mobile-menu .btn {
+    margin-top: 8px;
+    width: 100%;
+  }
+}
+
+.drop-enter-active, .drop-leave-active { transition: opacity 0.15s; }
+.drop-enter-from, .drop-leave-to { opacity: 0; }
+</style>

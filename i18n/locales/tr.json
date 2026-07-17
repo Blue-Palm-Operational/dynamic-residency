@@ -1,246 +1,711 @@
 {
   "nav": {
-    "advantage": "Kimler için",
-    "pricing": "Paketler",
-    "services": "Hizmetler",
-    "faq": "SSS",
-    "cta": "Uygunluk Kontrolü"
-  },
-  "hero": {
-    "titlePre": "",
-    "titleRed": "20 Yıl Vergisiz",
-    "titlePost": " Yabancı Gelir.",
-    "description": "Türkiye'nin yeni rejimi, yeni vergi mükelleflerinin yabancı gelirlerini ve sermaye kazançlarını yirmi yıla kadar muaf tutuyor. Portföyünüz, şirket satışınız, holdinginiz ve kripto varlıklarınız için bunun ne anlama geldiğini analiz ediyoruz — Avusturya çıkış vergi kurallarının nerede geçerli olduğu dahil.",
-    "cta": "Yapısal Analiz Rezervasyonu",
-    "ctaSecondary": ""
-  },
-  "advantage": {
-    "title": "İnsanlar durumlarına göre satın alır — bir kanun yüzünden değil.",
-    "intro": "Türkiye araçtır. Gerçek soru her zaman şudur: Kendi varlıklarımla ne olacak?",
-    "bullets": [
-      "Girişimciler & Holdingler — GmbH hisseleri, dağıtımlar, iştirak yapıları",
-      "Exit öncesi Founder'lar — SaaS, ajans, e-ticaret: satıştan önce ikamet düzenlemesi",
-      "Portföy & ETF — hisse ve fonlarda 500 bin ile birkaç milyon arası varlık",
-      "Kripto Yatırımcıları — BTC, ETH, SOL. Yüksek gerçekleşmemiş kazançlar — incelenmiş, vaat değil",
-      "Family Office'ler — birden fazla seviyede menkul kıymetler, fonlar ve iştirakler",
-      "Varlıklı Avusturyalılar — göç pazarında çok daha az rekabetçi olan özel dikey"
-    ],
-    "cta": "Yapısal Analiz Rezervasyonu"
-  },
-  "whyNow": {
-    "title": "Bu Neden Şimdi Önemli",
-    "p1": "Türkiye'nin yeni vergi rejimi, Nisan 2026'da duyurulan bir yasa girişimine dayanmaktadır. Haziran 2026 itibarıyla: parlamentoda süreçte. Belirleyici olan nihai yasa metni ve idari uygulamadır.",
-    "p2": "Son üç yılda Türkiye'de vergi mukimi olmayan kişiler, gelecekte 20 yıl boyunca yabancı gelir ve sermaye kazançları üzerinden Türk vergisi ödemeyecek. Her yapısal analiz birden fazla yolu hesaplar — göçün vergisel olarak ne zaman pahalı olacağı sorusu dahil."
-  },
-  "pricing": {
-    "title": "Analiz Paketinizi Seçin",
-    "subtitle": "Durumunuza en uygun paketi seçin — tek konulu analizden tam yapısal incelemeye kadar.",
-    "mostPopular": "En Çok Tercih Edilen",
-    "vatNote": "+ KDV",
-    "from": "itibaren",
-    "selectPlan": "Uygunluk Kontrolü",
-    "continue": "Uygunluk Kontrolü",
-    "packages": {
-      "basis": {
-        "tier": "Tek varlık odağı",
-        "name": "Temel",
-        "price": "€ 890",
-        "features": [
-          "Tek konunun analizi",
-          "Yeni rejim kapsamında değerlendirme",
-          "Yazılı özet yol haritası",
-          "30 dakikalık strateji görüşmesi"
-        ]
-      },
-      "unternehmer": {
-        "tier": "Birden fazla varlık — olağan durum",
-        "name": "Girişimci",
-        "price": "€ 2.450",
-        "features": [
-          "Portföy, hisseler, şirket payları & kripto",
-          "2–3 yapısal yolun hesaplanması",
-          "Avusturya çıkış zamanlaması analizi",
-          "Belgelenmiş yol haritası + 90 dk görüşme",
-          "Dört haftalık soru penceresi"
-        ]
-      },
-      "familyOffice": {
-        "tier": "Karmaşık yapılar, büyük varlıklar",
-        "name": "Family Office",
-        "price": "€ 6.900",
-        "features": [
-          "Çok katmanlı genel yapı",
-          "Holding, hisse ve miras konuları",
-          "Birden fazla görüşme & koordinasyon",
-          "Talep üzerine uygulama desteği"
-        ]
-      }
-    }
-  },
-  "services": {
-    "title": "Yapılandırılmış. Hesaplanmış. Belgelenmiş.",
-    "description": "Almanca konuşulan bölgeden girişimciler, Founder'lar ve Family Office'ler için yeni Türk vergi rejimi.",
-    "items": [
-      "Girişimciler & Holdingler",
-      "Exit Öncesi Founder'lar",
-      "Portföy & ETF",
-      "Kripto Yatırımcıları",
-      "Family Office'ler",
-      "Varlıklı Avusturyalılar"
-    ]
-  },
-  "faq": {
-    "title": "Gerçekten bilmek istedikleriniz.",
-    "description": "Kesin yanıtlar — yasanın henüz vermediği vaatler olmaksızın güncel durum.",
-    "items": [
-      {
-        "question": "Yeni Türk vergi düzenlemesi somut olarak ne anlama geliyor?",
-        "answer": "Son üç yılda Türkiye'de vergi mukimi olmayan kişiler, gelecekte 20 yıl boyunca yabancı gelir ve sermaye kazançları üzerinden Türk vergisi ödemeyecek — yalnızca Türk kaynaklı gelirler vergiye tabi kalacak. Paket Nisan 2026'da duyuruldu. Haziran 2026 itibarıyla: parlamentoda. Belirleyici olan nihai yasa metni ve idari uygulamadır."
-      },
-      {
-        "question": "Bu GmbH hisselerim veya şirket satışım için de geçerli mi?",
-        "answer": "Yabancı kaynaklı sermaye kazançları rejimin özüdür. Zamanlama kritiktir: Avusturya'nın sermaye varlıkları üzerindeki çıkış vergisi göçün kendisine bağlıdır ve ayrıca incelenmelidir — bunu tam olarak yapısal analizde hesaplıyoruz, herhangi biri muafiyeti varsaymadan önce."
-      },
-      {
-        "question": "ABD veya yabancı şirketimden gelen temettüler nasıl ele alınır?",
-        "answer": "Yabancı temettüler genellikle avantajlı gelir kapsamına girer. Şirketin kendisi etkilenmez: Bir ABD şirketi tüm dünya geliri üzerinden ABD kurumlar vergisi ödemeye devam eder. Rejim gerçek kişi düzeyinde işler — şirket düzeyinde değil."
-      },
-      {
-        "question": "Vergi muafiyeti kripto paralar için de geçerli mi?",
-        "answer": "Duyurulan yasa, açık bir kripto istisnası olmaksızın genel olarak yabancı gelir ve sermaye kazançlarından bahsediyor. Bir kripto portföyünün bu kapsamda olup olmadığı, sınıflandırma ve sonraki idari uygulama meselesidir; her durumda ayrıca incelenmelidir. Yasanın vermediği hiçbir şeyi vaat etmiyoruz."
-      },
-      {
-        "question": "Türkiye'de kalıcı olarak yaşamam gerekiyor mu?",
-        "answer": "Vergi yerleşimi, takvim yılında altı aydan fazla ikamet koşuluna bağlıdır. İkametgah ve yaşam merkezinin güvenilir biçimde nasıl kurulacağı analizin bir parçasıdır."
-      },
-      {
-        "question": "Avusturya'da vergiye tabi olan ne kalır?",
-        "answer": "Yurt içi kaynaklar vergiye tabi kalmaya devam eder — örneğin Avusturya'daki taşınmazlardan kira gelirleri veya yurt içi ortaklıklardan gelirler. Göç her şeyi otomatik olarak kaydırmaz. Hangi gelir akışlarının etkilendiği yapısal analizde netleştirilir."
-      }
-    ]
-  },
-  "register": {
-    "title": "Netlik bir analizle başlar.",
-    "description": "İki dakikalık uygunluk kontrolü. Ardından durumunuza uyan paketi rezerve edin.",
-    "fields": {
-      "name": "AD",
-      "surname": "SOYAD",
-      "phone": "TELEFON",
-      "email": "E-POSTA",
-      "country": "ÜLKE / KONUM"
-    },
-    "cta": "Uygunluk Kontrolü & Analiz Rezervasyonu",
-    "successTitle": "Teşekkürler!",
-    "successText": "Kaydınızı aldık, en kısa sürede sizinle iletişime geçeceğiz.",
-    "calendlyLabel": "Ya da doğrudan randevu alın",
-    "calendlyTitle": "İlk Görüşmeyi Planlayın"
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "exemption": "20 Yıllık Muafiyet",
+    "cta": "Ekibimizle Görüşün"
   },
   "footer": {
-    "links": {
-      "advantage": "Kimler için",
-      "pricing": "Paketler",
-      "services": "Hizmetler",
-      "faq": "SSS",
-      "register": "Analiz Rezervasyonu",
-      "privacyPolicy": "Gizlilik Politikası",
-      "termsOfService": "Kullanım Koşulları",
-      "contact": "İletişim"
+    "contact": "İletişim",
+    "terms": "Kullanım Koşulları",
+    "privacy": "Gizlilik Politikası",
+    "copyright": "© Dynamic Works Türkiye. Tüm hakları saklıdır."
+  },
+  "payment": {
+    "vatNote": "KDV hariç",
+    "loading": "Ödeme formu yükleniyor…",
+    "retry": "Tekrar deneyin",
+    "processing": "Ödeme işleniyor…",
+    "payNow": "Şimdi Öde — {price}",
+    "secureNotice": "Stripe ile güvenli ödeme · SSL ile şifrelenmiştir"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Türkiye İçin Stratejik İkamet Planlaması",
+      "title": "Türkiye Sizin İçin Doğru Adım mı?",
+      "lead": "Her uluslararası durum farklıdır.",
+      "body": "Dynamic Residency, İstanbul merkezli sınır ötesi ikamet planlama hizmetidir. Girişimcilerin, yatırımcıların ve uluslararası bağlantılı ailelerin, geri dönülemez kararlar alınmadan önce Türkiye'de ikametin gelir, şirket, yatırım ve aile planlarını nasıl etkileyebileceğini anlamalarına yardımcı oluyoruz.",
+      "cta": "Hizmet Ekibimizle Görüşün",
+      "note": "Bir Dynamic Works Türkiye projesidir",
+      "imageAlt": "İstanbul ve Boğaz manzaralı iş ortamı"
     },
-    "operatedBy": "Dynamic Works Office Istanbul tarafından işletilmektedir",
-    "fromBluePalm": "Blue Palm'dan",
-    "disclaimerDate": "Haziran 2026 itibarıyla.",
-    "disclaimer": "Açıklanan Türk vergi rejimi, Nisan 2026'da duyurulan ve parlamentoda süreçte olan bir yasa girişimine dayanmaktadır; belirleyici olan nihai yasa metni ve idari uygulamadır. Bu sayfanın içeriği genel bilgi amaçlıdır ve bireysel durum incelemesinin yerini tutmaz.",
-    "copyright": "© 2026 Dynamic Works",
-    "tagline": "Premium Advisory Services",
-    "note": "Dynamic Residency, Dynamic Works'ün bir ürünüdür. İstanbul'da ofis."
+    "about": {
+      "eyebrow": "Dynamic Residency Neden Var",
+      "title": "Dynamic Residency Neden Var",
+      "lead": "Dynamic Residency, pratik bir soruyu yanıtlamanıza yardımcı olur: Türkiye sizin durumunuz için uygun mu?",
+      "body1": "Bilgilerin çoğu vergi avantajlarına, göçe veya oturma izinlerine odaklanır. Sağlıklı bir karar aynı zamanda mevcut vergi mükellefiyetinize, şirketlerinize, yatırımlarınıza, gelir kaynaklarınıza, aile durumunuza ve uzun vadeli hedeflerinize de bağlıdır.",
+      "body2": "Bu birbiriyle bağlantılı soruları koordine ederek net bir karar yolu oluşturuyoruz.",
+      "statement1": "Sizi taşınmaya ikna etmek için değil.",
+      "statement2": "Taşınmanın sizin için doğru olup olmadığına karar vermenize yardımcı olmak için.",
+      "imageAlt": "Stratejik yön ve birbirine bağlı kararlar"
+    },
+    "opportunity": {
+      "eyebrow": "Fırsat",
+      "title": "Türkiye'nin 20 Yıllık Yurt Dışı Gelir Vergisi Muafiyeti",
+      "body1": "2026'dan itibaren Türkiye'de vergi mükellefi olan uygun kişiler, belirli yurt dışı kaynaklı gelirler için 20 yıla kadar muafiyet elde edebilir.",
+      "body2": "Muafiyet, aşağıdaki gelirleri elde eden kişiler için geçerli olabilir:",
+      "list": [
+        "Yurt dışı temettüler",
+        "Faiz ve yatırım getirileri",
+        "Yurt dışı kira geliri",
+        "Belirli sermaye kazançları",
+        "Belirli yurt dışı emekli maaşları"
+      ],
+      "noticeTitle": "Önemli ayrım:",
+      "noticeBody": "Yurt dışından ödenen gelir otomatik olarak yurt dışı kaynaklı gelir sayılmaz. Uygunluk; ikamet geçmişinize, gelirin gerçek kaynağına ve genel sınır ötesi yapınıza bağlıdır.",
+      "cta": "20 Yıllık Muafiyeti Anlayın",
+      "imageAlt": "Uluslararası sahil iş bölgesi"
+    },
+    "whoWeHelp": {
+      "eyebrow": "Kimlere Yardımcı Oluyoruz",
+      "title": "Dynamic Residency Kimlere Yardımcı Olur",
+      "subtitle": "Durumunuzu burada tanıyabilirsiniz.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Şirket Sahipleri",
+          "desc": "Önlenebilir vergi, yönetim veya operasyonel sorunlar yaratmadan taşınmak istiyorsunuz.",
+          "icon": "company-owners"
+        },
+        {
+          "number": "02",
+          "title": "Uluslararası Yatırımcılar",
+          "desc": "Birden fazla ülkeden temettü, faiz, kira geliri veya sermaye kazancı elde ediyorsunuz.",
+          "icon": "international-investors"
+        },
+        {
+          "number": "03",
+          "title": "Uluslararası Aileler",
+          "desc": "Eğitim, sağlık, ikamet ve miras konularının birlikte işlemesi gerekiyor.",
+          "icon": "international-families"
+        },
+        {
+          "number": "04",
+          "title": "Geri Dönen Türk Vatandaşları",
+          "desc": "İkamet geçmişiniz ve olası uygunluğunuz hakkında netliğe ihtiyacınız var.",
+          "icon": "returning-turkish-citizens"
+        },
+        {
+          "number": "05",
+          "title": "Uluslararası Profesyoneller",
+          "desc": "Sık seyahat ediyorsunuz ve işiniz tek bir ülkeye bağlı değil.",
+          "icon": "international-professionals"
+        },
+        {
+          "number": "06",
+          "title": "Türkiye'yi Keşfedenler",
+          "desc": "Türkiye'nin uzun vadede doğru seçim olup olmadığına dair yapılandırılmış bir cevap istiyorsunuz.",
+          "icon": "people-exploring-turkiye"
+        }
+      ],
+      "strip": "Varsayım yok. Durumunuza dayalı yapılandırılmış bir cevap."
+    },
+    "howWeWork": {
+      "eyebrow": "Nasıl Çalışıyoruz",
+      "title": "İlk Sorunuzdan Bilinçli Bir Karara",
+      "steps": [
+        {
+          "index": "01",
+          "label": "Başlangıç Noktası",
+          "title": "Konumunuzu Anlıyoruz",
+          "desc": "Mevcut vergi mükellefiyetinizi, gelirinizi, şirketlerinizi, varlıklarınızı, aile durumunuzu ve hedeflerinizi belirliyoruz."
+        },
+        {
+          "index": "02",
+          "label": "Soru Haritası",
+          "title": "Temel Soruları Belirliyoruz",
+          "desc": "Operasyonel soruları, uzman vergi, hukuk veya yapısal analiz gerektiren konulardan ayırıyoruz."
+        },
+        {
+          "index": "03",
+          "label": "Uzman Görüşü",
+          "title": "İlgili Uzmanlarla Netleştiriyoruz",
+          "desc": "Uygun şekilde yetkin uzmanlar, belirlenen soruları kendi uzmanlık alanları çerçevesinde ele alır."
+        },
+        {
+          "index": "04",
+          "label": "Karar Yolu",
+          "title": "Kararı Koordine Ediyoruz",
+          "desc": "Dynamic Residency, sonuçları net bir karara, sıralamaya ve uygulama yol haritasına dönüştürür."
+        }
+      ],
+      "legal": "Düzenlemeye tabi vergi veya hukuki görüşlerin gerektiği durumlarda, bunlar uygun şekilde yetkin uzmanlar tarafından sağlanır veya incelenir."
+    },
+    "services": {
+      "eyebrow": "Hizmetler ve Ücretlendirme",
+      "title": "Şeffaf Hizmetler. Net Yatırım.",
+      "consultationGroup": {
+        "heading": "Odaklı Danışmanlıklar",
+        "tag": "Tek Soru",
+        "small": "Açıkça tanımlanmış tek bir ikamet, gelir, vergi veya yapı sorusu için.",
+        "intro": {
+          "kicker": "Hizmet Tanıtımı",
+          "title": "Ücretsiz",
+          "desc": "Hedeflerinizi anlamak, inceleme sürecini açıklamak ve doğru sonraki adımı belirlemek için ilk görüşme.",
+          "price": "Ücretsiz",
+          "cta": "Hizmet Ekibiyle Başlayın"
+        },
+        "expert": {
+          "kicker": "Uzman Danışmanlığı",
+          "title": "45 Dakika",
+          "desc": "Açıkça tanımlanmış tek bir ikamet, vergi veya yapı sorusu üzerine odaklı görüş.",
+          "price": "390 €",
+          "cta": "Danışmanlık Ayırtın →",
+          "packageId": "expertConsultation"
+        }
+      },
+      "reviewGroup": {
+        "heading": "Yapılandırılmış İncelemeler",
+        "tag": "Bağlantılı Konular",
+        "small": "Koordineli bir değerlendirme gerektiren birbirine bağlı sorular için.",
+        "strategic": {
+          "kicker": "Stratejik İkamet İncelemesi",
+          "title": "Tek Ana Konu",
+          "desc": "Bir ana konunun ve sınırlı sayıda bağlantılı sorunun yapılandırılmış incelemesi.",
+          "price": "990 €",
+          "cta": "İncelemeyi Görün →",
+          "packageId": "strategicResidencyReview"
+        },
+        "crossBorder": {
+          "kicker": "Sınır Ötesi Yapı İncelemesi",
+          "title": "Bağlantılı Yapılar",
+          "desc": "İkamet, gelir, şirket veya varlık konuları birbirine bağlı olan girişimciler, yatırımcılar ve aileler için.",
+          "price": "2.990 €",
+          "cta": "İncelemeyi Görün →",
+          "packageId": "crossBorderStructureReview"
+        }
+      },
+      "complex": {
+        "kicker": "Karmaşık Uluslararası Vakalar",
+        "tag": "En Yüksek Karmaşıklık",
+        "title": "Çok Yargı Alanlı Yapılar",
+        "desc": "Çok yargı alanlı yapılar, koordineli uzman iş akışları ve karmaşık uygulama ihtiyaçları için.",
+        "price": "6.990 €'dan başlayan",
+        "cta": "Vakanızı Görüşün →"
+      },
+      "note": "Özel çalışmalar mümkündür. Nihai ücretler karmaşıklığa, kapsama ve dahil olan uzmanlara bağlıdır."
+    },
+    "founder": {
+      "eyebrow": "Kurucu",
+      "title": "Kurucumuzla Tanışın",
+      "name": "Stephan Westermayer",
+      "roleLines": [
+        "Dynamic Residency Kurucusu",
+        "Dynamic Works ve Blue Palm Group Kurucusu ve CEO'su"
+      ],
+      "bio": "Stephan, Dynamic Residency'nin stratejik yönü ve seçilmiş karmaşık müşteri vakalarıyla kişisel olarak ilgilenmektedir. Standart danışmanlıklar, Dynamic Residency uzman ağının ilgili üyeleri tarafından yürütülür.",
+      "linkedin": "LinkedIn",
+      "origin": [
+        "Şirketlerimi birçok yerde kurabilirdim. İstanbul'u bilinçli olarak seçtim — dünyayı geride bırakmak için değil, onunla bağlantılı kalmak için.",
+        "Amerika Birleşik Devletleri'nde zaman geçirmeye ve uluslararası seyahat etmeye devam ediyorum. Türkiye, bağlantısallığı, girişimcilik fırsatlarını, yeteneği ve yaşam kalitesini başka hiçbir yerde deneyimlemediğim şekilde bir araya getirdiği için operasyonel üssüm oldu.",
+        "Dynamic Residency bu deneyimden doğdu — Türkiye'yi uzaktan incelemekten değil, burada yaşamak ve inşa etmekten."
+      ],
+      "imageAlt": "Dynamic Residency Kurucusu Stephan Westermayer"
+    },
+    "credibility": {
+      "eyebrow": "Gerçek Faaliyetler Üzerine İnşa Edildi",
+      "title": "Bir Dynamic Works Türkiye Projesi",
+      "body1": "Dynamic Residency, Dynamic Works Türkiye bünyesinde geliştirilmiş özel bir projedir.",
+      "body2": "Deneyimimiz; şirket işletmekten, yerel ekipler istihdam etmekten, uluslararası girişimcilere destek olmaktan ve Türkiye'de pratik iş altyapısı kurmaktan gelir.",
+      "items": [
+        {
+          "title": "Yerel Operasyon Deneyimi",
+          "desc": "Türkiye'de kurma ve işletme konusunda doğrudan deneyim."
+        },
+        {
+          "title": "İş Altyapısı",
+          "desc": "Uluslararası bağlantılı işletme sahipleri için pratik destek."
+        },
+        {
+          "title": "Uygulama Kapasitesi",
+          "desc": "Genel bilginin ötesine geçen koordinasyon."
+        },
+        {
+          "title": "Uzman Ağı",
+          "desc": "Düzenlemeye tabi görüş gerektiğinde devreye giren yetkin uzmanlar."
+        },
+        {
+          "title": "Türkiye'de Gerçek Varlık",
+          "desc": "Yerel bir operasyon üssü, ekip ve devam eden iş faaliyeti."
+        }
+      ],
+      "cta": "Dynamic Works Hakkında"
+    },
+    "cta": {
+      "eyebrow": "Sonraki Adımı Atmaya Hazır mısınız?",
+      "title": "Genel Bilgiler Türkiye'yi Açıklayabilir. Durumunuz Kişiye Özel Bir Cevap Gerektirir.",
+      "body": "Hizmet Ekibimizle başlayın. Sorularınızı netleştirecek, uygun incelemeyi önerecek ve uzman analiz gerektiğinde sizi yetkin uzmanlarla buluşturacağız.",
+      "ctaPrimary": "Hizmet Ekibimizle Görüşün",
+      "ctaSecondary": "Hizmetleri ve Fiyatları Görün",
+      "meta": "İstanbul merkezli  |  İngilizce ve Almanca hizmet  |  Gizli ve koordineli süreç",
+      "imageAlt": "Alacakaranlıkta İstanbul silueti"
+    }
   },
-  "privacyPolicy": {
-    "title": "Privacy Policy",
-    "section1Title": "1. Introduction",
-    "section1Text": "Our website, https://dynamicresidency.com (hereinafter: \"the website\") uses cookies and other related technologies (for convenience all technologies are referred to as \"cookies\"). Cookies are also placed by third parties we have engaged. In the document below we inform you about the use of cookies on our website.",
-    "section2Title": "2. What are cookies?",
-    "section2Text": "A cookie is a small simple file that is sent along with pages of this website and stored by your browser on the hard drive of your computer or another device. The information stored therein may be returned to our servers or to the servers of the relevant third parties during a subsequent visit.",
-    "section3Title": "3. What are scripts?",
-    "section3Text": "A script is a piece of program code that is used to make our website function properly and interactively. This code is executed on our server or on your device.",
-    "section4Title": "4. What is a web beacon?",
-    "section4Text": "A web beacon (or a pixel tag) is a small, invisible piece of text or image on a website that is used to monitor traffic on a website. In order to do this, various data about you is stored using web beacons.",
-    "section5Title": "5. Cookies",
-    "section5Text": "5.1 Technical or functional cookies. Some cookies ensure that certain parts of the website work properly and that your user preferences remain known. By placing functional cookies, we make it easier for you to visit our website. This way, you do not need to repeatedly enter the same information when visiting our website and, for example, the items remain in your shopping cart until you have paid. We may place these cookies without your consent.",
-    "section6Title": "6. Consent",
-    "section6Text": "When you visit our website for the first time, we will show you a pop-up with an explanation about cookies. As soon as you click on \"Save preferences\", you consent to us using the categories of cookies and plug-ins you selected in the pop-up, as described in this Cookie Policy. You can disable the use of cookies via your browser, but please note that our website may no longer work properly. Functional: The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.",
-    "section7Title": "7. Your rights with respect to personal data",
-    "section7Text": "You have the following rights with respect to your personal data: You have the right to know why your personal data is needed, what will happen to it, and how long it will be retained for. Right of access: You have the right to access your personal data that is known to us. Right to rectification: you have the right to supplement, correct, have deleted or blocked your personal data whenever you wish. If you give us your consent to process your data, you have the right to revoke that consent and to have your personal data deleted. Right to transfer your data: you have the right to request all your personal data from the controller and transfer it in its entirety to another controller. Right to object: you may object to the processing of your data. We comply with this, unless there are justified grounds for processing. To exercise these rights, please contact us at the contact details at the bottom of this Policy.",
-    "section8Title": "8. Enabling/disabling and deleting cookies",
-    "section8Text": "You can use your internet browser to automatically or manually delete cookies. You can also specify that certain cookies may not be placed. Another option is to change the settings of your internet browser so that you receive a message each time a cookie is placed. For more information about these options, please refer to the instructions in the Help section of your browser. Please note that our website may not work properly if all cookies are disabled. If you do delete the cookies in your browser, they will be placed again after your consent when you visit our websites again.",
-    "section9Title": "9. Contact details",
-    "section9Text1": "For questions and/or comments about our Cookie Policy and this statement, please contact us by using the following contact details:",
-    "section9Text2": "Dynamic Residency",
-    "section9Text3": "Website: dynamicresidency.com",
-    "section9Text4": "Email: info{'@'}dynamicworks.email"
+  "about": {
+    "hero": {
+      "eyebrow": "Dynamic Residency Hakkında",
+      "title": "Bütün Yapı Etrafında Kurulmuş, Türkiye İçin Sınır Ötesi İkamet Planlaması",
+      "lead": "Dynamic Residency; Türkiye'yi değerlendiren girişimciler, yatırımcılar, uluslararası aktif profesyoneller, geri dönen Türk vatandaşları ve küresel olarak hareketli aileler için İstanbul merkezli bir sınır ötesi ikamet planlama ve uygulama koordinasyon platformudur.",
+      "body1": "Müşterilerimizin, kararlar zorlaşmadan veya maliyetli hale gelmeden önce, Türkiye'de ikametin yurt dışı geliri, şirket sahipliği, yatırımları, mülkü, aile durumunu ve uzun vadeli hedefleri nasıl etkileyebileceğini anlamalarına yardımcı oluyoruz.",
+      "body2": "Görevimiz; ilgili gerçekleri belirlemek, birbirine ait soruları bağlamak, düzenlemeye tabi tavsiye gerektiğinde yetkin uzman katkısını koordine etmek ve sonuçları net bir karar ve uygulama yoluna dönüştürmektir.",
+      "small": "İstanbul merkezli | İngilizce ve Almanca hizmet | Gizli sınır ötesi süreç",
+      "imageAlt": "İstanbul Boğaz manzarası"
+    },
+    "whatIs": {
+      "eyebrow": "Dynamic Residency Nedir?",
+      "title": "İkamet Asla Tek Başına Bir Karar Değildir",
+      "body1": "Dynamic Residency, Türkiye'de ikamet kurmanın ekonomik ve yapısal sonuçlarına odaklanan özel bir hizmet platformudur. İkameti tek başına bir oturma izni, tek bir vergi kuralı veya bir hedef ülke seçimi olarak görmüyoruz. İkamet kararının içinde işlemesi gereken bütün uluslararası durumu inceliyoruz.",
+      "body2": "Bu durum; terk edilen ülkeyi, mevcut ve gelecekteki vergi mükellefiyetini, yurt dışı ve Türkiye kaynaklı geliri, şirketleri ve yönetim faaliyetini, yatırımları, mülkü, aile bağlarını, miras konularını ve uygulanabilir bir yapıyı hayata geçirmek için gereken pratik adımları içerebilir.",
+      "body3": "Amaç, her müşteriyi Türkiye'ye taşınmaya ikna etmek değildir. Amaç, Türkiye'nin müşterinin gerçek durumu için uygun olup olmadığını belirlemek ve uygun olduğu durumlarda analizden uygulamaya giden yolu koordine etmektir."
+    },
+    "whyExists": {
+      "eyebrow": "Dynamic Residency Neden Var",
+      "title": "Bilgi ile İşe Yarayan Bir Karar Arasındaki Boşluğu Kapatmak",
+      "body1": "Uluslararası taşınma genellikle ayrı konular üzerinden anlatılır: oturma izinleri, vergi oranları, mülk, şirket kuruluşu veya yaşam tarzı. Pratikte sonuç, bu konuların birden fazla yargı alanında nasıl etkileşime girdiğine bağlıdır.",
+      "body2": "Türkiye'de cazip görünen bir karar, terk edilen ülkede istenmeyen bir sonuç yaratabilir. Yurt dışındaki bir şirket, nereden yönetildiğine bağlı olarak etkilenebilir. Yurt dışından ödenen gelir, yurt dışı kaynaklı olmayabilir. Aile bağları, seyahat düzenleri veya iş faaliyeti ikamet analizini değiştirebilir. Zamanlama, bir fırsatın geçerliliğini koruyup korumadığını belirleyebilir.",
+      "body3": "Dynamic Residency, genel bilgi ile gerçek hayatta işleyebilecek bir karar arasındaki boşluğu kapatmak için kuruldu. Önemli değişkenler hâlâ yönetilebilirken başlıyoruz — ikamet değişmeden, şirket yönetimi taşınmadan, varlıklar satılmadan, sahiplik yeniden yapılandırılmadan veya aile düzenlemeleri geri döndürülemez hale gelmeden önce."
+    },
+    "questions": {
+      "eyebrow": "Bir Araya Getirdiğimiz Sorular",
+      "title": "Tek Bir Bağlantılı Yapı",
+      "items": [
+        "Mevcut ve gelecekteki vergi mükellefiyeti, ikametgah ve fiziksel bulunma düzenleri",
+        "Temettü, faiz, kira, emekli maaşı, sermaye kazancı ve mesleki gelirin hukuki ve ekonomik kaynağı",
+        "Yurt dışı şirketler, hisse sahiplikleri, yönetim faaliyeti ve daimi işyeri riski",
+        "Mülk, yatırım portföyleri, bankacılık ilişkileri ve sınır ötesi nakit akışları",
+        "Aile ikameti, eğitim, sağlık, miras ve uzun vadeli hareketlilik",
+        "Terk edilen ülkedeki yükümlülükler, çifte vergilendirme anlaşmaları ve uygulama zamanlaması",
+        "Bir karar uygulanmadan önce gereken kanıtlar, uzman görüşleri ve pratik adımlar"
+      ],
+      "outro": "Bu sorular tek bir bağlantılı yapı olarak değerlendirilir. Amaç, bir alandaki teknik olarak doğru bir cevabın başka bir yerde pratik bir soruna yol açmasını önlemektir."
+    },
+    "exemptionTeaser": {
+      "title": "Türkiye'nin 20 Yıllık Yurt Dışı Gelir Vergisi Muafiyeti",
+      "body": "Türkiye, 2026'dan itibaren Türkiye'de vergi mükellefi olan uygun kişiler için potansiyel olarak önemli bir muafiyet getirdi. Bu kural belirli yurt dışı kaynaklı gelirler için geçerli olabilir, ancak uygunluk; ikamet geçmişine, gelirin gerçek kaynağına, başvuru sürecine ve genel sınır ötesi yapıya bağlıdır. Bu nedenle, tek başına bir vaat olarak değil, tüm ikamet kararının bir parçası olarak değerlendirilmelidir.",
+      "cta": "Türkiye'nin 20 Yıllık Yurt Dışı Gelir Vergisi Muafiyetini Anlayın"
+    },
+    "howItWorks": {
+      "eyebrow": "Dynamic Residency Nasıl Çalışır",
+      "title": "Başlangıç Konumundan Uygulamaya",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Başlangıç Konumunu Belirleme",
+          "desc": "İkamet geçmişi, gelir, şirketler, varlıklar, aile durumu, seyahat düzenleri ve hedeflere ilişkin mevcut gerçekleri düzenliyoruz."
+        },
+        {
+          "number": "02",
+          "title": "Soru Haritasını Oluşturma",
+          "desc": "Bir karar alınmadan önce çözülmesi gereken bağlantılı ticari, operasyonel, vergi, hukuki, göç ve şirketler hukuku sorularını belirliyoruz."
+        },
+        {
+          "number": "03",
+          "title": "Yetkin Katkıyı Koordine Etme",
+          "desc": "Resmi bir görüş gerektiğinde, uygun şekilde yetkin uzmanlar belirlenen soruları kendi yargı alanları ve uzmanlık alanları çerçevesinde ele alır."
+        },
+        {
+          "number": "04",
+          "title": "Karar Yolunu Oluşturma",
+          "desc": "Dynamic Residency bulguları bir araya getirir, bağımlılıkları belirler ve uygulanabilir yolu, önemli riskleri ve gerekli adım sıralamasını sunar."
+        },
+        {
+          "number": "05",
+          "title": "Uygulamayı Koordine Etme",
+          "desc": "Müşteri devam etmeyi seçtiğinde, belgelerin, zamanlamanın ve pratik uygulamanın onaylanan yapıyla uyumlu kalması için üzerinde anlaşılan iş akışlarını koordine ediyoruz."
+        }
+      ],
+      "note": "Süreç boyunca bir karar noktası uygulanır. Yapı uygulanabilir değilse, çalışma net bir açıklamayla sona erer. Uygulanabilirse, uygulama yalnızca yol, sorumluluklar ve sınırlar anlaşıldıktan sonra başlar."
+    },
+    "different": {
+      "eyebrow": "Yaklaşımımızı Farklı Kılan Nedir",
+      "title": "Taahhütten Önce Netlik",
+      "cards": [
+        {
+          "title": "Önce Bütün Yapı Gelir",
+          "desc": "Satılacak bir ürünle başlamıyoruz. Müşterinin konumu ve alınması gereken kararla başlıyoruz. İkamet, gelir, şirketler, varlıklar ve aile durumu, birbirinin sonucunu değiştirebileceği için birlikte incelenir."
+        },
+        {
+          "title": "Uygulama Analizin Bir Parçasıdır",
+          "desc": "Bir yapı yalnızca belgelendirilebildiğinde, yönetilebildiğinde ve sürdürülebildiğinde faydalıdır. Bankacılık, bordro, şirket yönetimi, ikamet prosedürleri, yerel operasyonlar ve uzman koordinasyonu bir sunum veya raporun dışında da işlemelidir."
+        },
+        {
+          "title": "Uzman Rolleri Net Kalır",
+          "desc": "Dynamic Residency ticari analize, sınır ötesi koordinasyona ve uygulama yol haritasına liderlik eder. Resmi vergi, hukuk, göç ve şirketler hukuku görüşleri, uygun şekilde yetkin uzmanlar tarafından sağlanır veya incelenir. Müşteriler mevcut danışmanlarını da tutabilir; biz Türkiye tarafındaki soruları tanımlar ve birleşik çalışmayı koordine ederiz."
+        },
+        {
+          "title": "Karar Bağımsızdır",
+          "desc": "Türkiye varsayılan olarak önerilmez. Olumsuz bir sonuç doğru sonuç olabilir. Amacımız, müşteri sermaye taahhüt etmeden, ikametini değiştirmeden veya mevcut uluslararası konumunu yeniden yapılandırmadan önce netlik yaratmaktır."
+        }
+      ]
+    },
+    "realOperations": {
+      "eyebrow": "Türkiye'deki Gerçek Faaliyetler Üzerine İnşa Edildi",
+      "title": "Mesafe Değil, Pratik Deneyim",
+      "body1": "Dynamic Residency, Dynamic Works Türkiye bünyesinde geliştirilmiş özel bir projedir. Operasyonel bakış açısı; Türkiye'de şirket kurma ve yönetme, yerel ekipler istihdam etme, uluslararası girişimcilere destek olma ve pratik iş altyapısı geliştirme deneyiminden gelir.",
+      "body2": "Bu operasyonel geçmiş önemlidir çünkü uluslararası bağlantılı müşteriler yalnızca Türkiye hakkında bilgiye ihtiyaç duymaz. Önerilen bir yapının insanlarla, şirketlerle, belgelerle, bankalarla, danışmanlarla, kurumlarla ve günlük yönetimle nasıl işleyeceğini anlamaları gerekir.",
+      "body3": "Dynamic Residency, yerel operasyon deneyimini sınır ötesi bir uzman ağıyla birleştirir. Sorunun düzenlemeye tabi uzmanlık gerektirdiği durumlarda uzman katkısı devreye girerken, genel karar müşterinin bütün yapısı etrafında koordineli kalır."
+    },
+    "founderSection": {
+      "eyebrow": "Kurucu ve Stratejik Yön",
+      "title": "Stephan Westermayer Tarafından Geliştirildi",
+      "body1": "Dynamic Residency, Dynamic Residency'nin Kurucusu ve Dynamic Works ile Blue Palm Group'un Kurucusu ve İcra Kurulu Başkanı olan Stephan Westermayer tarafından geliştirildi. Platform, onun Türkiye'de yaşama ve faaliyet gösterme, şirket kurma, yerel ekiplerle çalışma ve uluslararası yapıları koordine etme konusundaki doğrudan deneyiminden doğdu.",
+      "body2": "Stephan, Dynamic Residency'nin stratejik yönüne liderlik eder ve şirket sahipliği, uluslararası varlıklar veya birden fazla bağlantılı yargı alanı içeren seçilmiş karmaşık vakalarla kişisel olarak ilgilenir. Standart danışmanlıklar ve uzman çalışmaları, uzman ağının ilgili üyeleri tarafından yürütülür.",
+      "body3": "Platform bu nedenle Türkiye'deki pratik deneyim üzerine kurulmuştur, ancak Türkiye'nin ötesine geçen kararlar için tasarlanmıştır. İlgili soru yalnızca Türkiye'nin neye izin verdiği değildir. Soru, bütün uluslararası yapının taşınmadan önce, sırasında ve sonrasında işleyip işlemediğidir."
+    },
+    "whoHelps": {
+      "eyebrow": "Dynamic Residency Kimlere Yardımcı Olur",
+      "title": "Uluslararası Bağlantılı Kararlar İçin Tasarlandı",
+      "cards": [
+        {
+          "title": "Şirket Sahipleri ve Kurucular",
+          "desc": "Yurt dışı şirketler, yönetim faaliyeti, bordro, temettüler, sahiplik veya operasyonlar için önlenebilir sorunlar yaratmadan Türkiye'de ikamet kurmak isteyen girişimciler."
+        },
+        {
+          "title": "Uluslararası Yatırımcılar",
+          "desc": "Birden fazla ülkede bulunan varlık ve kurumlardan temettü, faiz, kira geliri, emekli maaşı veya sermaye kazancı elde eden kişiler."
+        },
+        {
+          "title": "Uluslararası Hareketli Aileler",
+          "desc": "İkamet kararı eğitim, sağlık, mülk, miras, seyahat ve uzun vadeli finansal planlamayla uyumlu olması gereken aileler."
+        },
+        {
+          "title": "Geri Dönen Türk Vatandaşları",
+          "desc": "Yurt dışında bir süre geçirdikten sonra dönen ve ikamet geçmişi, gelir, varlıklar ve mevcut Türk vergi hükümlerine olası uygunluk konusunda yapılandırılmış bir inceleme gerektiren Türk vatandaşları."
+        },
+        {
+          "title": "Uluslararası Profesyoneller ve Emekliler",
+          "desc": "İşi, emekli maaşı, yatırımları veya seyahat düzenleri uluslararası kalan ve standart bir yurt içi taşınma süreciyle anlaşılamayacak kişiler."
+        },
+        {
+          "title": "Uzman Danışmanlar",
+          "desc": "Mevcut uluslararası yapıya sahip bir müşteri için koordineli bir Türkiye tarafı iş akışı gerektiren vergi danışmanları, avukatlar, mütevelli heyetleri ve family office uzmanları."
+        }
+      ]
+    },
+    "whatNot": {
+      "eyebrow": "Dynamic Residency Ne Değildir",
+      "title": "Net Mesleki Sınırlar",
+      "items": [
+        "Kitlesel bir göç veya oturma izni acentesi değildir",
+        "Bir hukuk firması, vergi danışmanlığı firması veya düzenlemeye tabi mesleki tavsiyenin yerine geçen bir kuruluş değildir",
+        "Bir emlak pazaryeri, vatandaşlık aracısı veya genel taşınma danışmanlık hizmeti değildir",
+        "Her müşterinin bir vergi muafiyetine hak kazanacağına dair bir vaat değildir",
+        "Uygunluktan bağımsız olarak Türkiye'yi öneren bir platform değildir"
+      ],
+      "outro": "Net mesleki sınırlar hizmetin bir parçasıdır. Dynamic Residency, resmi görüşlerin uygun şekilde yetkin uzmanlardan alınmasını sağlarken karar ve uygulama sürecini koordine eder."
+    },
+    "principles": {
+      "eyebrow": "İlkelerimiz",
+      "title": "Çalışmamıza Neler Rehberlik Eder",
+      "items": [
+        {
+          "number": "01",
+          "title": "Deneyime Dayalı",
+          "desc": "Öneriler yalnızca teoriye veya tanıtım iddialarına değil, pratik operasyonel gerçekliğe dayanmalıdır."
+        },
+        {
+          "number": "02",
+          "title": "Önce Uygulama",
+          "desc": "Önerilen bir yapı, karar alındıktan sonra belgelendirilebilir, yönetilebilir ve sürdürülebilir olmalıdır."
+        },
+        {
+          "number": "03",
+          "title": "Büyümeden Önce Kalite",
+          "desc": "Karmaşık kararlar disiplinli bir kapsam, uygun uzmanlık ve yeterli zaman gerektirir. Amaç hacim değildir."
+        },
+        {
+          "number": "04",
+          "title": "Şeffaflık",
+          "desc": "Roller, sınırlar, ücretler, bağımlılıklar ve çözülmemiş sorular, çalışma başlamadan önce net olmalıdır."
+        },
+        {
+          "number": "05",
+          "title": "Tasarım Gereği Uluslararası",
+          "desc": "Türkiye; ilgili kalan yargı alanları, şirketler, varlıklar ve aile bağları dahil olmak üzere bütün sınır ötesi bağlam içinde değerlendirilir."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Sık Sorulan Sorular",
+      "title": "Dynamic Residency Hakkında",
+      "items": [
+        {
+          "q": "Dynamic Residency ne yapar?",
+          "a": "Dynamic Residency, Türkiye'yi değerlendiren uluslararası bağlantılı kişiler için sınır ötesi ikamet planlaması, yapısal analiz ve uygulama koordinasyonu sağlar. İkamet, gelir, şirket, yatırım, aile ve pratik uygulama sorularını tek bir karar sürecinde bir araya getirir."
+        },
+        {
+          "q": "Dynamic Residency bir hukuk firması veya vergi danışmanlığı firması mıdır?",
+          "a": "Hayır. Dynamic Residency ticari analize, soru tanımlamaya, koordinasyona ve uygulama planlamasına liderlik eder. Resmi vergi, hukuk, göç veya şirketler hukuku görüşleri, uygun şekilde yetkin uzmanlar tarafından sağlanır veya incelenir."
+        },
+        {
+          "q": "Dynamic Residency nerede bulunuyor?",
+          "a": "Dynamic Residency, Türkiye'nin İstanbul şehrinde bulunmaktadır. Hizmet, sınır ötesi bir uzman ağı aracılığıyla İngilizce ve Almanca olarak sunulur."
+        },
+        {
+          "q": "Hizmet kimler için tasarlandı?",
+          "a": "Hizmet; kararları ikamet, gelir, şirket, varlık veya aile konularıyla bağlantılı olan girişimciler, yatırımcılar, uluslararası hareketli aileler, geri dönen Türk vatandaşları, uluslararası profesyoneller, emekliler ve danışmanlar için tasarlanmıştır."
+        },
+        {
+          "q": "Dynamic Residency her müşteriye Türkiye'yi mi önerir?",
+          "a": "Hayır. Amaç, Türkiye'nin müşterinin bütün uluslararası konumu için işleyip işlemediğini belirlemektir. Yapının uygulanabilir olmadığı durumlarda doğru sonuç, ilerlememek olabilir."
+        },
+        {
+          "q": "Süreç nasıl başlar?",
+          "a": "Süreç, mevcut gerçeklerin ve hedeflerin yapılandırılmış bir incelemesiyle başlar. Dynamic Residency, bir sonraki adımı önermeden önce ilgili kapsamı, bilgi boşluklarını, bağımlılıkları ve uzman katkısı gerektiren soruları belirler."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "İkametinizi Değiştirmeden Önce",
+      "title": "Yapının İşleyip İşlemediğini Belirleyin",
+      "body": "Genel bilgiler Türkiye'yi açıklayabilir. Durumunuz; ikamet geçmişinize, gelirinize, şirketlerinize, yatırımlarınıza ve aile durumunuza dayalı kişiye özel bir cevap gerektirir.",
+      "cta": "Dynamic Residency ile Görüşün"
+    }
   },
-  "termsAndConditions": {
-    "title": "Terms and Conditions",
-    "lastUpdate": "The Terms & Conditions were last updated on March 1, 2024",
-    "section1Title": "1. Introduction",
-    "section1Text": "These Terms and conditions apply to this website and to the transactions related to our products and services. You may be bound by additional contracts related to your relationship with us or any products or services that you receive from us. If any provisions of the additional contracts conflict with any provisions of these Terms, the provisions of these additional contracts will control and prevail.",
-    "section2Title": "2. Binding",
-    "section2Text": "By registering with, accessing, or otherwise using this website, you hereby agree to be bound by these Terms and conditions set forth below. The mere use of this website implies the knowledge and acceptance of these Terms and conditions. In some particular cases, we can also ask you to explicitly agree.",
-    "section3Title": "3. Intellectual property",
-    "section3Text1": "We or our licensors own and control all of the copyright and other intellectual property rights in the website and the data, information, and other resources displayed by or accessible within the website.",
-    "section3Subtitle": "3.1 All the rights are reserved",
-    "section3Text2": "Unless specific content dictates otherwise, you are not granted a license or any other right under Copyright, Trademark, Patent, or other Intellectual Property Rights. This means that you will not use, copy, reproduce, perform, display, distribute, embed into any electronic medium, alter, reverse engineer, decompile, transfer, download, transmit, monetize, sell, market, or commercialize any resources on this website in any form, without our prior written permission, except and only insofar as otherwise stipulated in regulations of mandatory law (such as the right to quote).",
-    "section4Title": "4. Third-party property",
-    "section4Text1": "Our website may include hyperlinks or other references to other party's websites. We do not monitor or review the content of other party's websites which are linked to from this website. Products or services offered by other websites shall be subject to the applicable Terms and Conditions of those third parties. Opinions expressed or material appearing on those websites are not necessarily shared or endorsed by us.",
-    "section4Text2": "We will not be responsible for any privacy practices or content of these sites. You bear all risks associated with the use of these websites and any related third-party services. We will not accept any responsibility for any loss or damage in whatever manner, however caused, resulting from your disclosure to third parties of personal information.",
-    "section5Title": "5. Responsible use",
-    "section5Text1": "By visiting our website, you agree to use it only for the purposes intended and as permitted by these Terms, any additional contracts with us, and applicable laws, regulations, and generally accepted online practices and industry guidelines. You must not use our website or services to use, publish or distribute any material which consists of (or is linked to) malicious computer software; use data collected from our website for any direct marketing activity, or conduct any systematic or automated data collection activities on or in relation to our website.",
-    "section5Text2": "Engaging in any activity that causes, or may cause, damage to the website or that interferes with the performance, availability, or accessibility of the website is strictly prohibited.",
-    "section6Title": "6. Registration",
-    "section6Text1": "You may register for an account with our website. During this process, you may be required to choose a password. You are responsible for maintaining the confidentiality of passwords and account information and agree not to share your passwords, account information, or secured access to our website or services with any other person. You must not allow any other person to use your account to access the website because you are responsible for all activities that occur through the use of your passwords or accounts. You must notify us immediately if you become aware of any disclosure of your password.",
-    "section6Text2": "After account termination, you will not attempt to register a new account without our permission.",
-    "section7Title": "7. Idea submission",
-    "section7Text": "Do not submit any ideas, inventions, works of authorship, or other information that can be considered your own intellectual property that you would like to present to us unless we have first signed an agreement regarding the intellectual property or a non-disclosure agreement. If you disclose it to us absent such written agreement, you grant to us a worldwide, irrevocable, non-exclusive, royalty-free license to use, reproduce, store, adapt, publish, translate and distribute your content in any existing or future media.",
-    "section8Title": "8. Termination of use",
-    "section8Text": "We may, in our sole discretion, at any time modify or discontinue access to, temporarily or permanently, the website or any Service thereon. You agree that we will not be liable to you or any third party for any such modification, suspension or discontinuance of your access to, or use of, the website or any content that you may have shared on the website. You will not be entitled to any compensation or other payment, even if certain features, settings, and/or any Content you have contributed or have come to rely on, are permanently lost. You must not circumvent or bypass, or attempt to circumvent or bypass, any access restriction measures on our website.",
-    "section9Title": "9. Warranties and liability",
-    "section9Text1": "Nothing in this section will limit or exclude any warranty implied by law that it would be unlawful to limit or to exclude. This website and all content on the website are provided on an \"as is\" and \"as available\" basis and may include inaccuracies or typographical errors. We expressly disclaim all warranties of any kind, whether express or implied, as to the availability, accuracy, or completeness of the Content. We make no warranty that:",
-    "section9List1": "this website or our content will meet your requirements;",
-    "section9List2": "this website will be available on an uninterrupted, timely, secure, or error-free basis.",
-    "section9Text2": "Nothing on this website constitutes or is meant to constitute, legal, financial or medical advice of any kind. If you require advice you should consult an appropriate professional.",
-    "section9Text3": "The following provisions of this section will apply to the maximum extent permitted by applicable law and will not limit or exclude our liability in respect of any matter which it would be unlawful or illegal for us to limit or to exclude our liability. In no event will we be liable for any direct or indirect damages (including any damages for loss of profits or revenue, loss or corruption of data, software or database, or loss of or harm to property or data) incurred by you or any third party, arising from your access to, or use of, our website.",
-    "section9Text4": "Except to the extent any additional contract expressly states otherwise, our maximum liability to you for all damages arising out of or related to the website or any products and services marketed or sold through the website, regardless of the form of legal action that imposes liability (whether in contract, equity, negligence, intended conduct, tort or otherwise) will be limited to the total price that you paid to us to purchase such products or services or use the website. Such limit will apply in the aggregate to all of your claims, actions and causes of action of every kind and nature.",
-    "section10Title": "10. Privacy",
-    "section10Text": "To access our website and/or services, you may be required to provide certain information about yourself as part of the registration process. You agree that any information you provide will always be accurate, correct, and up to date.",
-    "section11Title": "11. Accessibility",
-    "section11Text": "We are committed to making the content we provide accessible to individuals with disabilities. If you have a disability and are unable to access any portion of our website due to your disability, we ask you to give us a notice including a detailed description of the issue you encountered. If the issue is readily identifiable and resolvable in accordance with industry-standard information technology tools and techniques we will promptly resolve it.",
-    "section12Title": "12. Export restrictions / Legal compliance",
-    "section12Text": "Access to the website from territories or countries where the Content or purchase of the products or Services sold on the website is illegal is prohibited. You may not use this website in violation of export laws and regulations of the United States.",
-    "section13Title": "13. Assignment",
-    "section13Text": "You may not assign, transfer or sub-contract any of your rights and/or obligations under these Terms and conditions, in whole or in part, to any third party without our prior written consent. Any purported assignment in violation of this Section will be null and void.",
-    "section14Title": "14. Breaches of these Terms and conditions",
-    "section14Text": "Without prejudice to our other rights under these Terms and Conditions, if you breach these Terms and Conditions in any way, we may take such action as we deem appropriate to deal with the breach, including temporarily or permanently suspending your access to the website, contacting your internet service provider to request that they block your access to the website, and/or commence legal action against you.",
-    "section15Title": "15. Indemnification",
-    "section15Text": "You agree to indemnify, defend and hold us harmless, from and against any and all claims, liabilities, damages, losses and expenses, relating to your violation of these Terms and conditions, and applicable laws, including intellectual property rights and privacy rights. You will promptly reimburse us for our damages, losses, costs and expenses relating to or arising out of such claims.",
-    "section16Title": "16. Waiver",
-    "section16Text": "Failure to enforce any of the provisions set out in these Terms and Conditions and any Agreement, or failure to exercise any option to terminate, shall not be construed as waiver of such provisions and shall not affect the validity of these Terms and Conditions or of any Agreement or any part thereof, or the right thereafter to enforce each and every provision.",
-    "section17Title": "17. Language",
-    "section17Text": "These Terms and Conditions will be interpreted and construed exclusively in English. All notices and correspondence will be written exclusively in that language.",
-    "section18Title": "18. Entire agreement",
-    "section18Text": "These Terms and Conditions, together with our privacy statement, constitute the entire agreement between you and Dynamic Works in relation to your use of this website.",
-    "section19Title": "19. Updating of these Terms and conditions",
-    "section19Text": "We may update these Terms and Conditions from time to time. It is your obligation to periodically check these Terms and Conditions for changes or updates. The date provided at the beginning of these Terms and Conditions is the latest revision date. Changes to these Terms and Conditions will become effective upon such changes being posted to this website. Your continued use of this website following the posting of changes or updates will be considered notice of your acceptance to abide by and be bound by these Terms and Conditions.",
-    "section20Title": "20. Choice of Law and Jurisdiction",
-    "section20Text": "These Terms and Conditions shall be governed by the laws of the United States. Any disputes relating to these Terms and Conditions shall be subject to the jurisdiction of the courts of the United States. If any part or provision of these Terms and Conditions is found by a court or other authority to be invalid and/or unenforceable under applicable law, such part or provision will be modified, deleted and/or enforced to the maximum extent permissible so as to give effect to the intent of these Terms and Conditions. The other provisions will not be affected.",
-    "section21Title": "21. Contact information",
-    "section21Text1": "This website is owned and operated by Dynamic Works.",
-    "section21Text2": "You may contact us regarding these Terms and Conditions by writing or emailing us at: info{'@'}dynamicworks.email"
-  },
-  "closing": {
-    "title": "Harekete geçmeden önce yapınızı kontrol edin",
-    "p1": "Dynamic Residency, Avrupa'nın her yerinden girişimcilere ve yatırımcılara, daha sonra geri alınamayacak kararlar verilmeden önce planlarının gerçekten işe yarayıp yaramadığını anlamalarında yardımcı olur.",
-    "p2": "Sağlam kararlar, Avrupa ve Türk vergi hukukunun bireysel danışmanlıkla birlikte ele alınmasından doğar.",
-    "highlight": "Zorluk Türkiye değil. Zorluk yapıdır.",
-    "cta1": "Değerlendirmeyi başlat",
-    "cta2": "Ücretsiz kayıt ol"
+  "exemption": {
+    "hero": {
+      "eyebrow": "Dynamic Residency | 20 Yıllık Muafiyet",
+      "title": "Türkiye'nin 20 Yıllık Yurt Dışı Gelir Vergisi Muafiyetini Anlayın",
+      "lead": "Girişimciler, yatırımcılar ve uluslararası hareketli aileler için",
+      "small": "Doğrulanmış yasal dayanak: Türk Gelir Vergisi Kanunu Madde 20/D ve 333 Sıra No'lu Genel Tebliğ",
+      "cta": "Dynamic Residency Hakkında",
+      "imageAlt": "İstanbul silüetine bakan iş insanı ve çocuğu"
+    },
+    "framework": {
+      "eyebrow": "Yeni Bir Vergi Çerçevesi",
+      "title": "Uluslararası Bağlantılı Kişiler İçin",
+      "lead": "Türkiye, Türkiye'de vergi mükellefiyeti kuran uygun kişiler için önemli bir kişisel gelir vergisi muafiyeti getirdi.",
+      "body1": "Türk Gelir Vergisi Kanunu'nun 20/D maddesi uyarınca, yasal ikamet geçmişi koşullarını karşılayan kişiler, gerçekten Türkiye dışında elde edilen gelir ve kazançlar üzerinden 20 yıllık yasal bir süre boyunca Türk gelir vergisinden muaf tutulabilir.",
+      "body2": "Hüküm, 1 Ocak 2026'dan itibaren Türkiye'de ikamet eden kişiler için geçerlidir. İkamet geçmişine, vergi geçmişine ve gelirin kaynağına dayanır — vatandaşlığa değil. Mevzuat, uygun yurt dışı gelir için parasal bir üst sınır belirtmemektedir.",
+      "noteTitle": "Önemli ayrım",
+      "noteBody": "Bu, genel bir “20 yıl vergisiz” statüsü değildir. Muafiyet yalnızca kişinin, gelirin ve başvuru sürecinin yasal gereklilikleri karşılaması durumunda uygulanır.",
+      "cta": "20/D Maddesini Resmi Gazete'de Okuyun"
+    },
+    "quickFacts": {
+      "eyebrow": "Muafiyete Genel Bakış",
+      "title": "Hızlı Bilgiler",
+      "rows": [
+        {
+          "q": "Kimler uygunluk kazanabilir?",
+          "a": "Türkiye'de ikamet eden ve geçerli ikamet ile vergi geçmişi koşullarını karşılayan gerçek kişiler. Rejim, kurumlar vergisi muafiyeti sağlamaz."
+        },
+        {
+          "q": "Neler muaf tutulabilir?",
+          "a": "Türk kaynak kurallarına göre sınıflandırılmak kaydıyla, gerçekten Türkiye dışında elde edilen gelir ve kazançlar."
+        },
+        {
+          "q": "Ne kadar sürer?",
+          "a": "20 yıllık yasal bir muafiyet süresi."
+        },
+        {
+          "q": "Parasal bir üst sınır var mı?",
+          "a": "20/D maddesi, uygun yurt dışı gelir için parasal bir üst sınır belirtmemektedir."
+        },
+        {
+          "q": "Başvuru gerekli mi?",
+          "a": "Evet. Kişinin yetkili Türk vergi dairesine başvurması ve öngörülen Yurt Dışı Gelir Muafiyet Belgesini alması gerekir."
+        }
+      ]
+    },
+    "incomeStreams": {
+      "eyebrow": "Potansiyel Olarak İlgili Yurt Dışı Gelir",
+      "title": "İlgili Olabilecek Gelir Türleri",
+      "items": [
+        "Yurt dışı şirketlerden elde edilen temettüler",
+        "Türkiye dışındaki mülklerden elde edilen kira geliri",
+        "Yurt dışı faiz ve yatırım getirileri",
+        "Belirli yurt dışı sermaye kazançları",
+        "Belirli yurt dışı emekli maaşı gelirleri",
+        "Gerçekten Türkiye dışında bulunan varlık veya faaliyetlerden kaynaklanan diğer gelirler"
+      ],
+      "outro": "Her gelir türü ayrı ayrı sınıflandırılmalıdır. Yurt dışı bir ödeyici, yurt dışı bir şirket veya yurt dışı bir banka hesabı, tek başına bir geliri yurt dışı kaynaklı yapmaz."
+    },
+    "eligibility": {
+      "eyebrow": "Uygunluk",
+      "title": "Uygunluğu Belirleyen Dört Soru",
+      "items": [
+        {
+          "number": "01",
+          "title": "Türkiye'de İkamet Edecek misiniz?",
+          "desc": "20/D maddesi, Türk vergi hukukuna göre Türkiye'de ikamet eden sayılan kişiler için geçerlidir. Bir oturma izni, mülk satın alma veya Türkiye'de geçirilen gün sayısı ilgili olabilir, ancak hiçbir tek gerçek tek başına değerlendirilmemelidir. İkametgah, fiziksel bulunma, aile durumu ve geçerli çifte vergilendirme anlaşmaları nihai ikamet konumunu etkileyebilir. Kişinin, muafiyet belgesi için başvururken zaten Türkiye'de ikamet eden sayılması gerekir."
+        },
+        {
+          "number": "02",
+          "title": "Önceki Üç Takvim Yılınızdaki Geçmişiniz Nedir?",
+          "desc": "Genel kural olarak, kişinin ikamet edeceği yıldan önceki üç takvim yılı boyunca Türkiye'de ikametgahının veya diskalifiye edici bir Türk vergi mükellefiyetinin olmaması gerekir. Türk kira geliri, yatırım geliri veya sermaye kazançlarından kaynaklanan belirli önceki Türk vergi mükellefiyetleri, uygunluğu otomatik olarak engellemez. Ancak Türkiye'deki önceki istihdam, ticari veya mesleki faaliyet uygunluğu etkileyebilir ve detaylı inceleme gerektirir."
+        },
+        {
+          "number": "03",
+          "title": "Gelir Gerçekten Nerede Elde Edildi?",
+          "desc": "Ödeyicinin veya banka hesabının konumu belirleyici değildir. Gelirin gerçekten Türkiye dışında elde edilip edilmediğini belirlemek için altta yatan varlık, faaliyet, istihdam, hizmet, şirket dağıtımı veya işlem incelenmelidir."
+        },
+        {
+          "number": "04",
+          "title": "Belgeyi Zamanında Alabilecek misiniz?",
+          "desc": "Muafiyet otomatik değildir. Başvuru genellikle kişinin Türkiye'de ikamet ettiği takvim yılının sonuna kadar tamamlanmalıdır. Bir takvim yılının son iki ayında ikamet eden kişiler, takip eden yılın Şubat ayı sonuna kadar başvurabilir. Geç bir başvuru, diğer esasa ilişkin koşullar karşılansa bile muafiyet belgesinin reddedilmesine yol açabilir."
+        }
+      ]
+    },
+    "sourceClassification": {
+      "eyebrow": "Kaynak Sınıflandırması",
+      "title": "Pratik Örnekler",
+      "items": [
+        "Fiziksel olarak Türkiye dışında bulunan bir mülkten elde edilen kira, yurt dışı kaynaklı olabilir.",
+        "Türk olmayan bir şirketten elde edilen temettü, çevresel koşullara bağlı olarak yurt dışı kaynaklı olabilir.",
+        "Müşteri ve ödeme hesabı yurt dışında olsa bile, fiziksel olarak Türkiye'den sunulan mesleki hizmetler Türkiye kaynaklı kalabilir.",
+        "Maaş, yönetim ücretleri ve iş kârları, işin nerede yapıldığına ve işletmenin nereden yönetildiğine dair ek analiz gerektirebilir."
+      ]
+    },
+    "whySignificant": {
+      "eyebrow": "Muafiyet Neden Önemli Olabilir",
+      "title": "Kimler İçin İlgili Olabilir",
+      "lead": "Uygun, uluslararası bağlantılı bir kişi için muafiyet, Türkiye'de ikamet kurmanın uzun vadeli ekonomisini önemli ölçüde değiştirebilir.",
+      "cards": [
+        {
+          "title": "Uluslararası Yatırımcılar",
+          "desc": "Birden fazla yargı alanında tutulan varlıklardan temettü, portföy geliri, faiz, yurt dışı kira geliri veya kazanç elde eden kişiler."
+        },
+        {
+          "title": "Şirket Sahipleri ve Kurucular",
+          "desc": "Türkiye'ye taşındıktan sonra yurt dışı şirketlerdeki sahipliklerini koruyan girişimciler. Kişisel muafiyet temettüler veya diğer uygun yurt dışı gelirler için ilgili olabilir, ancak şirket ikametini, daimi işyerini, maaş vergilendirmesini veya terk edilen ülkedeki çıkış vergisini belirlemez."
+        },
+        {
+          "title": "Geri Dönen Türk Vatandaşları",
+          "desc": "Vatandaşlık tek başına uygunluğu engellemez. Geri dönen bir Türk vatandaşı, önceki üç takvim yılı ikamet ve vergi geçmişi koşulları karşılandığında uygunluk kazanabilir."
+        },
+        {
+          "title": "Uluslararası Hareketli Aileler",
+          "desc": "İkameti, yatırımları, mülkü, eğitimi, mirası ve uzun vadeli varlık sahipliğini birden fazla ülke genelinde koordine eden aileler."
+        },
+        {
+          "title": "Emekliler",
+          "desc": "Kaynak kurallarına ve ilgili çifte vergilendirme anlaşmasına tabi olarak, Türkiye dışından emekli maaşı, kira geliri veya yatırım geliri elde eden kişiler."
+        }
+      ]
+    },
+    "whatNot": {
+      "eyebrow": "20 Yıllık Muafiyet Neleri Kapsamaz",
+      "title": "Genel Bir Vergi Muafiyeti Değildir",
+      "items": [
+        "Türk mülkünden, Türk şirketlerinden veya Türkiye'de gerçekleştirilen faaliyetlerden kaynaklanan geliri muaf tutmaz",
+        "Yurt dışı bir müşteri, işveren veya banka hesabından alınan her ödemeyi muaf tutmaz",
+        "Şirketler için geçerli değildir ve kurumlar vergisi yükümlülüklerini kaldırmaz",
+        "KDV, bordro, damga vergisi veya sosyal güvenlik yükümlülüklerini kaldırmaz",
+        "Başka bir ülkedeki vergi mükellefiyetini veya bildirim yükümlülüklerini sona erdirmez",
+        "Terk edilen ülkedeki çıkış vergisini ortadan kaldırmaz",
+        "Yurt dışı bir şirketin Türkiye'de yönetilir veya vergiye tabi hale gelmesini engellemez",
+        "Bir çifte vergilendirme anlaşmasını geçersiz kılmaz",
+        "Geç veya desteklenmeyen bir muafiyet başvurusunu düzeltmez"
+      ],
+      "outro": "Türk muafiyeti kapsamına giren gelir üzerinden ödenen yurt dışı vergiler, Türk gelir vergisinden mahsup edilemez. Muaf gelirle bağlantılı gider ve maliyetler de Türkiye'de vergiye tabi kalan geliri azaltmak için kullanılamaz."
+    },
+    "individualVsCompany": {
+      "eyebrow": "Muafiyet Kişiye Aittir",
+      "title": "Kişisel ve Şirket Konumları Ayrı Analiz Edilmelidir",
+      "body1": "20/D maddesi kişisel bir gelir vergisi hükmüdür. Uygunluk kazanan bir hissedar, geliri elde ettiği şirket kendi yargı alanında tamamen vergiye tabi kalırken, potansiyel olarak muaf yurt dışı gelir elde edebilir.",
+      "body2": "Kişinin muafiyeti, şirketi aşağıdakilerden otomatik olarak korumaz:",
+      "items": [
+        "Türk şirket ikameti",
+        "Daimi işyeri riski",
+        "Bordro yükümlülükleri",
+        "Transfer fiyatlandırması kuralları",
+        "Stopaj vergileri",
+        "Yerel muhasebe ve raporlama gereklilikleri"
+      ],
+      "outro": "Bu nedenle girişimciler ve hissedarlar için kişisel konum ile şirket konumu ayrı ayrı analiz edilmelidir."
+    },
+    "profiles": {
+      "eyebrow": "Örnek Profiller",
+      "title": "Kural Pratikte Nasıl Uygulanabilir",
+      "cards": [
+        {
+          "title": "Yurt Dışı Yatırım Geliri",
+          "desc": "Uygun bir kişi, yurt dışı bir şirketten temettü ve Türkiye dışındaki bir mülkten kira geliri almaya devam ederken Türkiye'de ikamet eder. Bu gelir türleri, gerçekten yurt dışı kaynaklı olmaları, kişinin önceki üç takvim yılı testini geçmesi ve muafiyet belgesinin zamanında alınması halinde 20/D maddesi kapsamına girebilir."
+        },
+        {
+          "title": "Uluslararası Girişimci",
+          "desc": "Bir kurucu, yurt dışında faaliyet gösteren bir şirketi elinde tutarak Türkiye'ye taşınır. Yurt dışı temettüler muafiyet için ilgili olabilir, ancak maaş, yönetim faaliyeti, şirket ikameti, daimi işyeri ve terk edilen ülkedeki çıkış vergisi ayrı ayrı incelenmelidir."
+        },
+        {
+          "title": "Uzaktan Çalışan Profesyonel",
+          "desc": "Bir danışman, yurt dışındaki müşteriler için Türkiye'den yaşar ve hizmet sunar. Müşterilerin veya ödeme hesabının yurt dışı konumu, geliri otomatik olarak yurt dışı kaynaklı yapmaz. Fiziksel olarak Türkiye'de yapılan işle bağlantılı gelir, Türkiye'de vergiye tabi kalabilir."
+        },
+        {
+          "title": "Geri Dönen Türk Vatandaşı",
+          "desc": "Bir Türk vatandaşı, yurt dışında birkaç tam takvim yılı geçirdikten sonra döner. Yasal ikamet ve vergi geçmişi koşulları karşılanırsa kişi uygunluk kazanabilir. Vatandaşlık belirleyici test değildir."
+        }
+      ]
+    },
+    "application": {
+      "eyebrow": "Başvuru ve Kanıt",
+      "title": "Belge Sürecini Son Tarihten Önce Planlayın",
+      "body1": "Muafiyet belgesi süreci, taşınmadan önce veya taşınma sırasında planlanmalıdır — ilgili son tarih geçtikten sonra değil.",
+      "body2": "Türk vergi dairesi şunları inceleyebilir:",
+      "items": [
+        "Kişinin Türkiye'de ikamet ettiği tarih",
+        "Önceki üç takvim yılı boyunca ikamet ve ikametgah",
+        "Önceki Türk vergi kayıtları ve gelir türleri",
+        "Yurt dışı gelirin niteliği ve kaynağı",
+        "İkamet, vergi ve geliri destekleyen belgeler",
+        "Başvuruda yapılan beyanların doğruluğu"
+      ],
+      "outro": "Koşulların karşılanmadığı daha sonra tespit edilirse, ödenmemiş vergi cezalar ve faizlerle birlikte tarh edilebilir.",
+      "noteTitle": "Resmi başvuru rehberi",
+      "noteBody": "333 Sıra No'lu Genel Tebliğ, 20/D maddesi için idari başvuru ve belgelendirme çerçevesini belirler.",
+      "noteCta": "333 Sıra No'lu Genel Tebliği Resmi Gazete'de Okuyun"
+    },
+    "widerDecision": {
+      "eyebrow": "Daha Geniş Karar",
+      "title": "Türk Muafiyeti Kararın Yalnızca Bir Parçasıdır",
+      "intro": "Başarılı bir taşınma, ilgili her yargı alanında işlemelidir. İkameti değiştirmeden önce, aşağıdakiler dahil bütün yapı incelenmelidir:",
+      "items": [
+        "Mevcut ve gelecekteki vergi mükellefiyeti",
+        "Çıkış vergisi ve ayrılış bildirimi",
+        "Yurt dışı şirketler ve hissedarlıklar",
+        "Yönetim ve karar alma konumu",
+        "Yatırım ve mülk geliri",
+        "İstihdam ve mesleki faaliyet",
+        "Sosyal güvenlik riski",
+        "Aile ikameti ve miras",
+        "Geçerli çifte vergilendirme anlaşmaları",
+        "Türk muafiyet başvurusunun zamanlaması"
+      ],
+      "noteTitle": "Merkezi soru",
+      "noteBody": "Soru basitçe 20/D maddesinin var olup olmadığı değildir. Soru, gelirinize, şirketlerinize, yatırımlarınıza, aile durumunuza ve ayrıldığınız ülkeye uyup uymadığıdır."
+    },
+    "cta": {
+      "eyebrow": "20 Yıllık Muafiyet Sizin İçin İşe Yarayabilir mi?",
+      "title": "Bütün Yapıyı İnceleyin",
+      "body1": "Dynamic Residency; Türkiye ikamet konumunuzun, önceki vergi geçmişinizin, yurt dışı gelirinizin ve genel sınır ötesi yapınızın yapılandırılmış bir incelemesini sağlar.",
+      "body2": "Düzenlemeye tabi vergi veya hukuki görüş gerektiren soruları belirler, uygun uzmanları koordine eder ve sonuçları net bir karara ve uygulama yol haritasına dönüştürürüz.",
+      "cta": "Dynamic Residency ile Görüşün",
+      "small1": "Türkiye ve 20/D maddesinin genel sınır ötesi yapınıza uyup uymadığını görüşün.",
+      "small2": "İstanbul merkezli | İngilizce ve Almanca hizmet | Gizli sınır ötesi süreç"
+    },
+    "terms": {
+      "eyebrow": "Önemli Bilgi",
+      "title": "Yalnızca Genel Bilgi",
+      "body1": "Bu sayfa, Türk Gelir Vergisi Kanunu'nun 20/D maddesi ve 333 Sıra No'lu Genel Tebliğ hakkında genel bilgi sağlar. Kişiye özel vergi, hukuk veya yatırım tavsiyesi niteliği taşımaz.",
+      "body2": "Uygunluk ve gelir kaynağı sınıflandırması her davanın gerçeklerine bağlıdır. Düzenlemeye tabi vergi ve hukuki görüşler, uygun şekilde yetkin uzmanlar tarafından sağlanmalı veya incelenmelidir.",
+      "rows": [
+        {
+          "label": "Yasal dayanak",
+          "value": "Türk Gelir Vergisi Kanunu, Madde 20/D"
+        },
+        {
+          "label": "Getiren kanun",
+          "value": "7582 Sayılı Kanun"
+        },
+        {
+          "label": "İdari rehber",
+          "value": "333 Sıra No'lu Genel Tebliğ"
+        },
+        {
+          "label": "Son inceleme",
+          "value": "16 Temmuz 2026"
+        }
+      ],
+      "small": "Yalnızca genel bilgi — kişiye özel vergi veya hukuki tavsiye değildir"
+    }
   }
 }

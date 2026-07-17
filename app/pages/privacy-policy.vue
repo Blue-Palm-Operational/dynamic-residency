@@ -1,13 +1,11 @@
 <template>
-  <div class="min-h-screen bg-[#051228]">
-    <AppHeader />
+  <div class="min-h-screen bg-white">
+    <main class="max-w-3xl mx-auto px-6 py-24">
+      <h1 class="text-4xl font-bold text-[var(--navy)] mb-2" style="font-family: 'Cairo', sans-serif">Datenschutz-Charta von Dynamic Residency</h1>
+      <p class="text-[var(--red)] font-semibold text-lg mb-3">Privatsphäre ist kein Feature. Sie ist ein Grundrecht.</p>
+      <div class="w-16 h-1.5 rounded-full bg-[var(--red)] mb-10"></div>
 
-    <main class="max-w-3xl mx-auto px-6 py-32">
-      <h1 class="text-4xl font-serif font-bold text-white mb-2">Datenschutz-Charta von Dynamic Residency</h1>
-      <p class="text-brand-red font-semibold text-lg mb-3">Privatsphäre ist kein Feature. Sie ist ein Grundrecht.</p>
-      <div class="w-12 h-0.5 bg-brand-red mb-10"></div>
-
-      <div class="space-y-10 text-white/70 text-sm leading-relaxed">
+      <div class="space-y-10 text-[var(--ink)]/80 text-sm leading-relaxed">
 
         <section>
           <p class="mb-4">Wir leben in einer Zeit, in der personenbezogene Daten zu einer der wertvollsten Ressourcen der Welt geworden sind.</p>
@@ -18,7 +16,7 @@
         </section>
 
         <section>
-          <h2 class="text-white font-semibold text-base mb-4">Ihre Daten gehören Ihnen</h2>
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Ihre Daten gehören Ihnen</h2>
           <ul class="space-y-1 mb-4">
             <li>Nicht uns.</li>
             <li>Nicht unseren Partnern.</li>
@@ -32,7 +30,7 @@
         </section>
 
         <section>
-          <h2 class="text-white font-semibold text-base mb-4">Wir verkaufen keine Daten</h2>
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Wir verkaufen keine Daten</h2>
           <ul class="space-y-1 mb-4">
             <li>Heute nicht.</li>
             <li>Morgen nicht.</li>
@@ -43,7 +41,7 @@
         </section>
 
         <section>
-          <h2 class="text-white font-semibold text-base mb-4">Wir betreiben keine Überwachung</h2>
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Wir betreiben keine Überwachung</h2>
           <p class="mb-4">Wir glauben nicht, dass Menschen permanent beobachtet werden sollten. Deshalb vermeiden wir jede Form unnötiger Überwachung.</p>
           <ul class="space-y-1 mb-4">
             <li>Wir verfolgen nicht jeden Klick.</li>
@@ -56,14 +54,14 @@
         </section>
 
         <section>
-          <h2 class="text-white font-semibold text-base mb-4">Wir sammeln nur, was wir wirklich benötigen</h2>
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Wir sammeln nur, was wir wirklich benötigen</h2>
           <p class="mb-4">Jede gespeicherte Information stellt ein Risiko dar — für Sie und für uns. Deshalb lautet eine unserer wichtigsten Regeln:</p>
-          <p class="text-white italic mb-4">„Daten, die nicht gespeichert werden, können nicht gestohlen, verkauft, missbraucht oder offengelegt werden."</p>
-          <p>Bevor wir Daten erfassen, stellen wir uns die Frage: <span class="text-white/90">„Brauchen wir diese Information wirklich?"</span> Wenn die Antwort nein lautet, wird die Information nicht erhoben.</p>
+          <p class="text-[var(--navy)] italic mb-4">„Daten, die nicht gespeichert werden, können nicht gestohlen, verkauft, missbraucht oder offengelegt werden."</p>
+          <p>Bevor wir Daten erfassen, stellen wir uns die Frage: <span class="text-[var(--navy)] font-medium">„Brauchen wir diese Information wirklich?"</span> Wenn die Antwort nein lautet, wird die Information nicht erhoben.</p>
         </section>
 
         <section>
-          <h2 class="text-white font-semibold text-base mb-4">Keine versteckten Profile</h2>
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Keine versteckten Profile</h2>
           <p class="mb-4">Wir erstellen keine geheimen Dossiers über Menschen. Wir versuchen nicht, Ihre Persönlichkeit zu analysieren.</p>
           <ul class="space-y-1 mb-4">
             <li>Wir bewerten nicht Ihre politische Einstellung.</li>
@@ -78,13 +76,13 @@
         </section>
 
         <section>
-          <h2 class="text-white font-semibold text-base mb-4">Keine manipulativen Systeme</h2>
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Keine manipulativen Systeme</h2>
           <p class="mb-4">Wir entwickeln unsere Dienstleistungen nicht, um Aufmerksamkeit zu maximieren. Wir entwickeln sie nicht, um Abhängigkeiten zu erzeugen. Wir entwickeln sie nicht, um menschliche Schwächen auszunutzen.</p>
           <p>Wir nutzen keine personenbezogenen Daten, um Menschen gezielt emotional, psychologisch oder wirtschaftlich zu beeinflussen. Technologie sollte Menschen unterstützen — nicht kontrollieren.</p>
         </section>
 
         <section>
-          <h2 class="text-white font-semibold text-base mb-4">Sicherheit bedeutet Verantwortung</h2>
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Sicherheit bedeutet Verantwortung</h2>
           <p class="mb-4">Wenn Sie uns Informationen anvertrauen, übernehmen wir Verantwortung. Dazu gehören:</p>
           <ul class="space-y-1 mb-4">
             <li>moderne Verschlüsselungsverfahren,</li>
@@ -99,7 +97,7 @@
         </section>
 
         <section>
-          <h2 class="text-white font-semibold text-base mb-4">Transparenz statt Intransparenz</h2>
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Transparenz statt Intransparenz</h2>
           <p class="mb-4">Viele Unternehmen sammeln Daten im Hintergrund. Wir glauben, dass Menschen ein Recht darauf haben zu verstehen:</p>
           <ul class="space-y-1 mb-4">
             <li>welche Informationen gespeichert werden,</li>
@@ -112,13 +110,13 @@
         </section>
 
         <section>
-          <h2 class="text-white font-semibold text-base mb-4">Datenlöschung bedeutet Datenlöschung</h2>
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Datenlöschung bedeutet Datenlöschung</h2>
           <p class="mb-4">Wenn Sie die Löschung Ihrer Daten verlangen, behandeln wir diesen Wunsch mit höchster Priorität.</p>
           <p>Unser Ziel besteht darin, personenbezogene Daten vollständig aus aktiven Systemen zu entfernen, sobald keine legitime Notwendigkeit zur weiteren Speicherung besteht. Wir betrachten Löschung nicht als Hindernis, sondern als Teil verantwortungsvoller Datenverwaltung.</p>
         </section>
 
         <section>
-          <h2 class="text-white font-semibold text-base mb-4">Schutz vor Missbrauch</h2>
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Schutz vor Missbrauch</h2>
           <p class="mb-4">Wir schützen personenbezogene Daten nicht nur vor externen Angreifern. Wir schützen sie auch vor internem Missbrauch.</p>
           <ul class="space-y-1 mb-4">
             <li>Nicht jeder Mitarbeiter erhält Zugriff auf personenbezogene Daten.</li>
@@ -129,7 +127,7 @@
         </section>
 
         <section>
-          <h2 class="text-white font-semibold text-base mb-4">Schutz vor Machtmissbrauch</h2>
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Schutz vor Machtmissbrauch</h2>
           <p class="mb-4">Geschichte zeigt, dass Informationen Macht bedeuten. Deshalb betrachten wir Datensparsamkeit nicht nur als technische Entscheidung, sondern als gesellschaftliche Verantwortung.</p>
           <p class="mb-4">Je weniger Informationen gespeichert werden, desto geringer ist das Risiko von:</p>
           <ul class="space-y-1">
@@ -143,23 +141,21 @@
           </ul>
         </section>
 
-        <section class="border border-white/10 rounded-xl p-6">
-          <h2 class="text-white font-semibold text-base mb-4">Unser langfristiges Versprechen</h2>
+        <section class="border border-[var(--line)] bg-[var(--soft)] rounded-xl p-6">
+          <h2 class="text-[var(--navy)] font-bold text-base mb-4" style="font-family: 'Cairo', sans-serif">Unser langfristiges Versprechen</h2>
           <p class="mb-4">Gesetze ändern sich. Regierungen ändern sich. Technologien ändern sich. Unternehmen ändern sich. Unsere Grundhaltung soll sich nicht ändern.</p>
           <p class="mb-4">Wir wollen ein Unternehmen aufbauen, das Menschen vertrauen können, weil es ihre Privatsphäre respektiert – nicht weil es gesetzlich dazu verpflichtet wird.</p>
           <p class="mb-2">Wenn wir jemals zwischen mehr Datensammlung und mehr Privatsphäre wählen müssen, werden wir uns für mehr Privatsphäre entscheiden.</p>
           <p class="mb-4">Wenn wir jemals zwischen wirtschaftlichem Vorteil und dem Schutz unserer Nutzer wählen müssen, werden wir uns für den Schutz unserer Nutzer entscheiden.</p>
-          <p class="text-white/90">Privatsphäre ist für uns keine Compliance-Frage. Sie ist eine Frage von Respekt. Und Respekt sollte niemals verhandelbar sein.</p>
+          <p class="text-[var(--navy)] font-medium">Privatsphäre ist für uns keine Compliance-Frage. Sie ist eine Frage von Respekt. Und Respekt sollte niemals verhandelbar sein.</p>
         </section>
 
       </div>
 
       <div class="mt-12">
-        <NuxtLink :to="localePath('/')" class="text-brand-red text-sm hover:underline">← Zurück zur Startseite</NuxtLink>
+        <NuxtLink :to="localePath('/')" class="text-[var(--red)] text-sm font-semibold hover:underline">← Zurück zur Startseite</NuxtLink>
       </div>
     </main>
-
-    <AppFooter />
   </div>
 </template>
 

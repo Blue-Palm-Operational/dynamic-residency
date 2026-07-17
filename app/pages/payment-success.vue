@@ -1,18 +1,18 @@
 <template>
-  <div class="min-h-screen bg-[#051228] flex items-center justify-center px-6">
+  <div class="min-h-screen bg-white flex items-center justify-center px-6">
     <div class="max-w-md w-full text-center">
-      <div class="w-16 h-16 rounded-full bg-brand-red/15 flex items-center justify-center mx-auto mb-6">
-        <svg class="w-8 h-8 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <div class="w-16 h-16 rounded-full bg-[var(--red)]/10 flex items-center justify-center mx-auto mb-6">
+        <svg class="w-8 h-8 text-[var(--red)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
       </div>
-      <h1 class="text-3xl font-serif font-bold text-white mb-4">Zahlung erfolgreich</h1>
-      <p class="text-white/60 leading-relaxed mb-8">
+      <h1 class="text-3xl font-bold text-[var(--navy)] mb-4" style="font-family: 'Cairo', sans-serif">Zahlung erfolgreich</h1>
+      <p class="text-[var(--muted)] leading-relaxed mb-8">
         Vielen Dank für Ihre Buchung. Eine Bestätigung wurde an Ihre E-Mail-Adresse gesendet. Unser Team meldet sich innerhalb von 24 Stunden.
       </p>
       <NuxtLink
         to="/"
-        class="inline-block px-8 py-3.5 text-sm font-bold text-white bg-brand-red hover:bg-brand-redDark rounded-xl transition-colors"
+        class="inline-block px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-white bg-[var(--red)] hover:opacity-90 rounded-lg transition-opacity"
       >
         Zurück zur Startseite
       </NuxtLink>

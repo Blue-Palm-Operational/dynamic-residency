@@ -1,158 +1,712 @@
 {
   "nav": {
-    "advantage": "For whom",
-    "pricing": "Packages",
-    "services": "Services",
-    "faq": "FAQ",
-    "cta": "Check Suitability"
-  },
-  "hero": {
-    "titlePre": "",
-    "titleRed": "20 Years Tax-Free",
-    "titlePost": " on Foreign Income.",
-    "description": "Turkey's new regime exempts foreign income and capital gains of new tax residents for up to twenty years. We analyse what this means for your portfolio, business sale, holding company and crypto assets — and where Austrian exit tax rules apply.",
-    "cta": "Book Structural Analysis",
-    "ctaSecondary": ""
-  },
-  "advantage": {
-    "title": "People buy from their situation — not because of a law.",
-    "intro": "Turkey is the instrument. The real question is always: what happens to my specific wealth?",
-    "bullets": [
-      "Entrepreneurs & Holdings — GmbH shares, distributions, participation structures",
-      "Founders before exit — SaaS, agency, e-commerce: structure residency before the sale, not after",
-      "Portfolio & ETF — 500k to several million in stocks and funds, what stays, what becomes free",
-      "Crypto investors — BTC, ETH, SOL. High unrealised gains — checked, not promised",
-      "Family Offices — securities, funds, participations across multiple levels",
-      "Wealthy Austrians — own vertical, significantly less competitive in the relocation market"
-    ],
-    "cta": "Book Structural Analysis"
-  },
-  "whyNow": {
-    "title": "Why This Matters Now",
-    "p1": "Turkey's new tax regime is based on a legislative initiative announced in April 2026. As of June 2026: in parliamentary process. The final legislation and administrative practice will be decisive.",
-    "p2": "Those who have not been tax-resident in Turkey for the past three years should in future pay no Turkish tax on foreign income and capital gains for 20 years. Every structural analysis runs through multiple paths — including when relocation becomes tax-expensive."
-  },
-  "pricing": {
-    "title": "Choose Your Analysis Package",
-    "subtitle": "Choose the package that best fits your situation — from single-topic analysis to full structural review.",
-    "mostPopular": "Most Chosen",
-    "vatNote": "excl. VAT",
-    "from": "from",
-    "selectPlan": "Check Suitability",
-    "continue": "Check Suitability",
-    "packages": {
-      "basis": {
-        "tier": "Single topic focus",
-        "name": "Basis",
-        "price": "€ 890",
-        "features": [
-          "Analysis of a single topic",
-          "Assessment under the new regime",
-          "Written summary roadmap",
-          "30-minute strategy call"
-        ]
-      },
-      "unternehmer": {
-        "tier": "Multiple assets — the standard case",
-        "name": "Entrepreneur",
-        "price": "€ 2,450",
-        "features": [
-          "Portfolio, participations, shares & crypto",
-          "Calculation of 2–3 structural paths",
-          "Austrian exit timing analysed",
-          "Documented roadmap + 90-min call",
-          "Four weeks follow-up window"
-        ]
-      },
-      "familyOffice": {
-        "tier": "Complex structures, larger wealth",
-        "name": "Family Office",
-        "price": "€ 6,900",
-        "features": [
-          "Overall structure across multiple levels",
-          "Holding, participation & inheritance topics",
-          "Multiple calls & consultations",
-          "Implementation support on request"
-        ]
-      }
-    }
-  },
-  "services": {
-    "title": "Structured. Calculated. Documented.",
-    "description": "The new Turkish tax regime for entrepreneurs, founders and family offices.",
-    "items": [
-      "Entrepreneurs & Holdings",
-      "Founders before Exit",
-      "Portfolio & ETF",
-      "Crypto Investors",
-      "Family Offices",
-      "Wealthy Austrians"
-    ]
-  },
-  "faq": {
-    "title": "What you really want to know.",
-    "description": "Precise answers — the current state of affairs, without promises the law doesn't yet provide.",
-    "items": [
-      {
-        "question": "What does the new Turkish tax regime mean specifically?",
-        "answer": "Those who have not been tax-resident in Turkey for the past three years should in future pay no Turkish tax on foreign income and capital gains for 20 years — only income from Turkish sources would remain taxable. The package was announced in April 2026. As of June 2026: in parliamentary process. The final legislation and administrative practice will be decisive."
-      },
-      {
-        "question": "Does this apply to my GmbH shares or a company sale?",
-        "answer": "Capital gains from foreign sources are the core of the regime. The timing is crucial: the Austrian exit tax on capital assets is linked to the relocation itself and must be assessed separately — that is exactly what we calculate in the structural analysis before anyone assumes exemption."
-      },
-      {
-        "question": "How are dividends from my US or foreign company treated?",
-        "answer": "Foreign dividends generally fall under the favoured income. The company itself is not affected: a US Corporation continues to pay US corporate tax on its worldwide income. The regime operates at the level of the natural person — not at the company level."
-      },
-      {
-        "question": "Does the tax exemption apply to cryptocurrencies?",
-        "answer": "The announced law speaks generally of foreign income and capital gains — without an explicit crypto exception. Whether and how a crypto portfolio falls under this is a question of classification and later administrative practice, and must be checked on a case-by-case basis. We do not promise what the law does not provide."
-      },
-      {
-        "question": "Do I have to live permanently in Turkey?",
-        "answer": "Tax residency is generally linked to a stay of more than six months in the calendar year. How to credibly establish domicile and the centre of life interests is part of the analysis."
-      },
-      {
-        "question": "What remains taxable in Austria?",
-        "answer": "Domestic sources remain taxable — such as rental income from Austrian real estate or income from domestic participations. Relocation does not automatically shift everything. Which income streams are affected is clarified in the structural analysis."
-      }
-    ]
-  },
-  "register": {
-    "title": "Clarity begins with an analysis.",
-    "description": "Two minutes suitability check. Then book the package that fits your situation.",
-    "fields": {
-      "name": "FIRST NAME",
-      "surname": "LAST NAME",
-      "phone": "PHONE",
-      "email": "EMAIL",
-      "country": "COUNTRY / LOCATION"
-    },
-    "cta": "Check Suitability & Book Analysis",
-    "successTitle": "Thank you!",
-    "successText": "We have received your registration and will be in touch shortly.",
-    "calendlyLabel": "Or book a meeting directly",
-    "calendlyTitle": "Schedule a First Call"
+    "home": "Home",
+    "about": "About",
+    "exemption": "20-Year Exemption",
+    "cta": "Speak With Our Team"
   },
   "footer": {
-    "links": {
-      "advantage": "For whom",
-      "pricing": "Packages",
-      "services": "Services",
-      "faq": "FAQ",
-      "register": "Book Analysis",
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service",
-      "contact": "Contact"
+    "contact": "Contact",
+    "terms": "Terms and Services",
+    "privacy": "Privacy Policy",
+    "copyright": "© Dynamic Works Türkiye. All rights reserved."
+  },
+  "payment": {
+    "vatNote": "excl. VAT",
+    "loading": "Loading payment form…",
+    "retry": "Try again",
+    "processing": "Processing payment…",
+    "payNow": "Pay Now — {price}",
+    "secureNotice": "Secure payment via Stripe · SSL-encrypted"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Strategic Residency Planning for Türkiye",
+      "title": "Is Türkiye the Right Move for You?",
+      "lead": "Every international situation is different.",
+      "body": "Dynamic Residency is an Istanbul-based cross-border residency planning service. We help entrepreneurs, investors and internationally connected families understand how Turkish residence may affect their income, companies, investments and family plans — before irreversible decisions are made.",
+      "cta": "Speak With Our Service Team",
+      "note": "A project of Dynamic Works Türkiye",
+      "imageAlt": "Istanbul and Bosphorus business setting"
     },
-    "operatedBy": "Operated by Dynamic Works Office Istanbul",
-    "fromBluePalm": "from Blue Palm",
-    "disclaimerDate": "As of June 2026.",
-    "disclaimer": "The described Turkish tax regime is based on a legislative initiative announced in April 2026 that is currently in parliamentary process; the final legislation and administrative practice will be decisive. The content of this page serves for general information and does not replace a case-specific review.",
-    "copyright": "© 2026 Dynamic Works",
-    "tagline": "Premium Advisory Services",
-    "note": "Dynamic Residency is a product of Dynamic Works. Office in Istanbul."
+    "about": {
+      "eyebrow": "Why Dynamic Residency Exists",
+      "title": "Why Dynamic Residency Exists",
+      "lead": "Dynamic Residency helps answer one practical question: does Türkiye work for your individual situation?",
+      "body1": "Most information focuses on tax advantages, immigration or residence permits. A sound decision also depends on your current tax residence, companies, investments, income sources, family circumstances and long-term objectives.",
+      "body2": "We coordinate those connected questions to create a clear decision path.",
+      "statement1": "Not to persuade you to relocate.",
+      "statement2": "To help you decide whether relocating is right for you.",
+      "imageAlt": "Strategic direction and connected decisions"
+    },
+    "opportunity": {
+      "eyebrow": "The Opportunity",
+      "title": "Türkiye's 20-Year Foreign Income Tax Exemption",
+      "body1": "Eligible individuals who become Turkish tax residents from 2026 may qualify for an exemption on certain foreign-source income for up to 20 years.",
+      "body2": "The exemption may be relevant to individuals receiving:",
+      "list": [
+        "Foreign dividends",
+        "Interest and investment returns",
+        "Foreign rental income",
+        "Certain capital gains",
+        "Certain foreign pensions"
+      ],
+      "noticeTitle": "Important distinction:",
+      "noticeBody": "Income paid from abroad is not automatically foreign-source income. Eligibility depends on your residence history, the actual source of the income and your wider cross-border structure.",
+      "cta": "Understand the 20-Year Exemption",
+      "imageAlt": "International waterfront business district"
+    },
+    "whoWeHelp": {
+      "eyebrow": "Who We Help",
+      "title": "Who Dynamic Residency Helps",
+      "subtitle": "You may recognise your situation here.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Company Owners",
+          "desc": "You want to relocate without creating avoidable tax, management or operational problems.",
+          "icon": "company-owners"
+        },
+        {
+          "number": "02",
+          "title": "International Investors",
+          "desc": "You receive dividends, interest, rental income or capital gains from more than one country.",
+          "icon": "international-investors"
+        },
+        {
+          "number": "03",
+          "title": "International Families",
+          "desc": "Education, healthcare, residence and succession need to work together.",
+          "icon": "international-families"
+        },
+        {
+          "number": "04",
+          "title": "Returning Turkish Citizens",
+          "desc": "You need clarity on your residence history and possible eligibility.",
+          "icon": "returning-turkish-citizens"
+        },
+        {
+          "number": "05",
+          "title": "International Professionals",
+          "desc": "You travel frequently and your business does not depend on one country.",
+          "icon": "international-professionals"
+        },
+        {
+          "number": "06",
+          "title": "People Exploring Türkiye",
+          "desc": "You want a structured answer on whether Türkiye is the right long-term choice.",
+          "icon": "people-exploring-turkiye"
+        }
+      ],
+      "strip": "No assumptions. A structured answer based on your circumstances."
+    },
+    "howWeWork": {
+      "eyebrow": "How We Work",
+      "title": "From Your First Question to an Informed Decision",
+      "steps": [
+        {
+          "index": "01",
+          "label": "Starting Point",
+          "title": "Understand Your Position",
+          "desc": "We establish your current tax residence, income, companies, assets, family circumstances and objectives."
+        },
+        {
+          "index": "02",
+          "label": "Question Map",
+          "title": "Identify the Key Questions",
+          "desc": "We separate operational questions from issues requiring specialist tax, legal or structural analysis."
+        },
+        {
+          "index": "03",
+          "label": "Expert Input",
+          "title": "Clarify With Relevant Experts",
+          "desc": "Appropriately qualified professionals address the defined questions within their fields of expertise."
+        },
+        {
+          "index": "04",
+          "label": "Decision Path",
+          "title": "Coordinate the Decision",
+          "desc": "Dynamic Residency brings the results into a clear decision, sequence and implementation roadmap."
+        }
+      ],
+      "legal": "Where regulated tax or legal opinions are required, they are provided or reviewed by appropriately qualified professionals."
+    },
+    "services": {
+      "eyebrow": "Services & Pricing",
+      "title": "Transparent Services. Clear Investment.",
+      "consultationGroup": {
+        "heading": "Focused Consultations",
+        "tag": "Single Question",
+        "small": "For one clearly defined residence, income, tax or structural question.",
+        "intro": {
+          "kicker": "Service Introduction",
+          "title": "Complimentary",
+          "desc": "A first conversation to understand your goals, explain the review process and identify the right next step.",
+          "price": "Free",
+          "cta": "Start With The Service Team"
+        },
+        "expert": {
+          "kicker": "Expert Consultation",
+          "title": "45 Minutes",
+          "desc": "Focused input on one clearly defined residence, tax or structural question.",
+          "price": "€390",
+          "cta": "Book Consultation →",
+          "packageId": "expertConsultation"
+        }
+      },
+      "reviewGroup": {
+        "heading": "Structured Reviews",
+        "tag": "Connected Issues",
+        "small": "For connected questions that require a coordinated assessment.",
+        "strategic": {
+          "kicker": "Strategic Residency Review",
+          "title": "One Main Issue",
+          "desc": "A structured review of one main issue and a limited set of connected questions.",
+          "price": "€990",
+          "cta": "Explore the Review →",
+          "packageId": "strategicResidencyReview"
+        },
+        "crossBorder": {
+          "kicker": "Cross-Border Structure Review",
+          "title": "Connected Structures",
+          "desc": "For entrepreneurs, investors and families with connected residence, income, company or asset questions.",
+          "price": "€2,990",
+          "cta": "Explore the Review →",
+          "packageId": "crossBorderStructureReview"
+        }
+      },
+      "complex": {
+        "kicker": "Complex International Cases",
+        "tag": "Highest Complexity",
+        "title": "Multi-Jurisdictional Structures",
+        "desc": "For multi-jurisdictional structures, coordinated professional workstreams and complex implementation needs.",
+        "price": "From €6,990",
+        "cta": "Discuss Your Case →"
+      },
+      "note": "Custom engagements are available. Final fees depend on complexity, scope and the professionals involved."
+    },
+    "founder": {
+      "eyebrow": "Founder",
+      "title": "Meet the Founder",
+      "name": "Stephan Westermayer",
+      "roleLines": [
+        "Founder of Dynamic Residency",
+        "Founder & CEO of Dynamic Works and Blue Palm Group"
+      ],
+      "bio": "Stephan is personally involved in the strategic direction of Dynamic Residency and selected complex client cases. Standard consultations are handled by the appropriate members of the Dynamic Residency professional network.",
+      "linkedin": "LinkedIn",
+      "origin": [
+        "I could have built my companies in many places. I chose Istanbul deliberately — not to leave the world behind, but to remain connected to it.",
+        "I continue to spend time in the United States and travel internationally. Türkiye became my operational base because it combines connectivity, entrepreneurial opportunity, talent and quality of life in a way I have not experienced elsewhere.",
+        "Dynamic Residency grew out of that experience — not from studying Türkiye at a distance, but from living and building here."
+      ],
+      "imageAlt": "Stephan Westermayer, Founder of Dynamic Residency"
+    },
+    "credibility": {
+      "eyebrow": "Built on Real Operations",
+      "title": "A Project of Dynamic Works Türkiye",
+      "body1": "Dynamic Residency is a specialised project developed within Dynamic Works Türkiye.",
+      "body2": "Our experience comes from operating companies, employing local teams, supporting international entrepreneurs and building practical business infrastructure in Türkiye.",
+      "items": [
+        {
+          "title": "Local Operating Experience",
+          "desc": "Direct experience of building and operating in Türkiye."
+        },
+        {
+          "title": "Business Infrastructure",
+          "desc": "Practical support for internationally connected business owners."
+        },
+        {
+          "title": "Implementation Capability",
+          "desc": "Coordination that continues beyond general information."
+        },
+        {
+          "title": "Professional Network",
+          "desc": "Qualified specialists engaged when regulated input is required."
+        },
+        {
+          "title": "Real Substance in Türkiye",
+          "desc": "A local operational base, people and ongoing business activity."
+        }
+      ],
+      "cta": "About Dynamic Works"
+    },
+    "cta": {
+      "eyebrow": "Ready to Take the Next Step?",
+      "title": "General Information Can Explain Türkiye. Your Situation Requires an Individual Answer.",
+      "body": "Start with our Service Team. We will clarify your questions, recommend the appropriate review and connect you with qualified professionals when specialist analysis is required.",
+      "ctaPrimary": "Speak With Our Service Team",
+      "ctaSecondary": "View Services & Pricing",
+      "meta": "Based in Istanbul  |  English and German service  |  Confidential and coordinated process",
+      "imageAlt": "Istanbul skyline at dusk"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Dynamic Residency",
+      "title": "Cross-Border Residency Planning for Türkiye, Built Around the Whole Structure",
+      "lead": "Dynamic Residency is an Istanbul-based cross-border residency planning and implementation-coordination platform for entrepreneurs, investors, internationally active professionals, returning Turkish citizens and globally mobile families considering Türkiye.",
+      "body1": "We help clients understand how Turkish residence may interact with foreign income, company ownership, investments, property, family circumstances and long-term objectives — before decisions become difficult or expensive to reverse.",
+      "body2": "Our role is to establish the relevant facts, connect the questions that belong together, coordinate qualified professional input where regulated advice is required and turn the results into a clear decision and implementation path.",
+      "small": "Based in Istanbul | English and German service | Confidential cross-border process",
+      "imageAlt": "Istanbul Bosphorus seaview"
+    },
+    "whatIs": {
+      "eyebrow": "What Is Dynamic Residency?",
+      "title": "Residence Is Never an Isolated Decision",
+      "body1": "Dynamic Residency is a specialised service platform focused on the economic and structural consequences of establishing residence in Türkiye. We do not treat residence as an isolated permit, a single tax rule or a destination choice. We examine the complete international situation in which the residence decision must operate.",
+      "body2": "That situation may include the country being left, current and future tax residence, foreign-source and Turkish-source income, companies and management activity, investments, property, family links, succession considerations and the practical steps required to implement a viable structure.",
+      "body3": "The objective is not to persuade every client to move to Türkiye. The objective is to determine whether Türkiye is suitable for the client's actual circumstances and, where it is suitable, to coordinate the route from analysis to implementation."
+    },
+    "whyExists": {
+      "eyebrow": "Why Dynamic Residency Exists",
+      "title": "Close the Gap Between Information and a Decision That Works",
+      "body1": "International relocation is often explained through separate topics: residence permits, tax rates, property, company formation or lifestyle. In practice, the outcome depends on how those topics interact across more than one jurisdiction.",
+      "body2": "A decision that appears attractive in Türkiye may create an unintended result in the country being left. A foreign company may be affected by where it is managed. Income paid from abroad may not be foreign-source. Family ties, travel patterns or business activity may change the residence analysis. Timing may determine whether an opportunity remains available.",
+      "body3": "Dynamic Residency was created to close the gap between general information and a decision that can operate in real life. We begin while the important variables can still be managed — before residence changes, company management moves, assets are sold, ownership is restructured or family arrangements become difficult to reverse."
+    },
+    "questions": {
+      "eyebrow": "The Questions We Bring Together",
+      "title": "One Connected Structure",
+      "items": [
+        "Current and future tax residence, domicile and physical-presence patterns",
+        "The legal and economic source of dividends, interest, rent, pensions, capital gains and professional income",
+        "Foreign companies, shareholdings, management activity and permanent-establishment exposure",
+        "Property, investment portfolios, banking relationships and cross-border cash flows",
+        "Family residence, education, healthcare, succession and long-term mobility",
+        "Departure-country obligations, double-tax treaties and implementation timing",
+        "The evidence, professional opinions and practical steps required before a decision is executed"
+      ],
+      "outro": "These questions are considered as one connected structure. The purpose is to prevent a technically correct answer in one area from creating a practical problem somewhere else."
+    },
+    "exemptionTeaser": {
+      "title": "Türkiye's 20-Year Foreign Income Tax Exemption",
+      "body": "Türkiye has introduced a potentially significant exemption for eligible individuals who become Turkish tax residents from 2026. The rule may be relevant to certain foreign-source income, but qualification depends on residence history, the true source of the income, the application process and the wider cross-border structure. It should therefore be reviewed as part of the complete residence decision, not as a stand-alone promise.",
+      "cta": "Understand Türkiye's 20-Year Foreign Income Tax Exemption"
+    },
+    "howItWorks": {
+      "eyebrow": "How Dynamic Residency Works",
+      "title": "From Starting Position to Implementation",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Establish the Starting Position",
+          "desc": "We organise the available facts about residence history, income, companies, assets, family circumstances, travel patterns and objectives."
+        },
+        {
+          "number": "02",
+          "title": "Build the Question Map",
+          "desc": "We identify the connected commercial, operational, tax, legal, immigration and corporate questions that must be resolved before a decision can be made."
+        },
+        {
+          "number": "03",
+          "title": "Coordinate Qualified Input",
+          "desc": "Where a formal opinion is required, appropriately qualified professionals address the defined questions within their jurisdiction and field of expertise."
+        },
+        {
+          "number": "04",
+          "title": "Create the Decision Path",
+          "desc": "Dynamic Residency brings the findings together, identifies dependencies and presents the viable route, material risks and required sequence of actions."
+        },
+        {
+          "number": "05",
+          "title": "Coordinate Implementation",
+          "desc": "Where the client proceeds, we coordinate the agreed workstreams so that documentation, timing and practical execution remain aligned with the approved structure."
+        }
+      ],
+      "note": "A decision gate applies throughout the process. If the structure is not viable, the work stops with a clear explanation. If it is viable, implementation begins only after the route, responsibilities and limitations are understood."
+    },
+    "different": {
+      "eyebrow": "What Makes the Approach Different",
+      "title": "Clarity Before Commitment",
+      "cards": [
+        {
+          "title": "The Complete Structure Comes First",
+          "desc": "We do not begin with a product to sell. We begin with the client's position and the decision that must be made. Residence, income, companies, assets and family circumstances are reviewed together because they can change one another's outcome."
+        },
+        {
+          "title": "Implementation Is Part of the Analysis",
+          "desc": "A structure is useful only when it can be documented, administered and maintained. Banking, payroll, company management, residence procedures, local operations and professional coordination must function outside a presentation or memorandum."
+        },
+        {
+          "title": "Professional Roles Remain Clear",
+          "desc": "Dynamic Residency leads the commercial analysis, cross-border coordination and implementation roadmap. Formal tax, legal, immigration and corporate opinions are provided or reviewed by appropriately qualified professionals. Clients may also retain their existing advisers, while we define the Türkiye-side questions and coordinate the combined work."
+        },
+        {
+          "title": "The Decision Is Independent",
+          "desc": "Türkiye is not recommended by default. A negative conclusion can be the correct result. Our purpose is to create clarity before the client commits capital, changes residence or restructures an existing international position."
+        }
+      ]
+    },
+    "realOperations": {
+      "eyebrow": "Built on Real Operations in Türkiye",
+      "title": "Practical Experience, Not Distance",
+      "body1": "Dynamic Residency is a specialised project developed within Dynamic Works Türkiye. Its operating perspective comes from building and managing companies, employing local teams, supporting international entrepreneurs and developing practical business infrastructure in Türkiye.",
+      "body2": "This operating background matters because internationally connected clients do not only need information about Türkiye. They need to understand how a proposed structure will work with people, companies, documentation, banks, advisers, authorities and day-to-day management.",
+      "body3": "Dynamic Residency combines local operating experience with a cross-border professional network. Specialist input is introduced where the question requires regulated expertise, while the overall decision remains coordinated around the client's complete structure."
+    },
+    "founderSection": {
+      "eyebrow": "Founder and Strategic Direction",
+      "title": "Developed by Stephan Westermayer",
+      "body1": "Dynamic Residency was developed by Stephan Westermayer, Founder of Dynamic Residency and Founder and Chief Executive Officer of Dynamic Works and Blue Palm Group. The platform grew from his direct experience of living and operating in Türkiye, building companies, working with local teams and coordinating international structures.",
+      "body2": "Stephan leads the strategic direction of Dynamic Residency and is personally involved in selected complex cases involving business ownership, international assets or several connected jurisdictions. Standard consultations and specialist work are handled by the appropriate members of the professional network.",
+      "body3": "The platform is therefore built from practical experience in Türkiye, but it is designed for decisions that extend beyond Türkiye. The relevant question is not only what Türkiye allows. It is whether the complete international structure works before, during and after the move."
+    },
+    "whoHelps": {
+      "eyebrow": "Who Dynamic Residency Helps",
+      "title": "Designed for Internationally Connected Decisions",
+      "cards": [
+        {
+          "title": "Company Owners and Founders",
+          "desc": "Entrepreneurs who want to establish residence in Türkiye without creating avoidable problems for foreign companies, management activity, payroll, dividends, ownership or operations."
+        },
+        {
+          "title": "International Investors",
+          "desc": "Individuals receiving dividends, interest, rental income, pensions or capital gains from assets and institutions located in more than one country."
+        },
+        {
+          "title": "Internationally Mobile Families",
+          "desc": "Families whose residence decision must work with education, healthcare, property, succession, travel and long-term financial planning."
+        },
+        {
+          "title": "Returning Turkish Citizens",
+          "desc": "Turkish citizens returning after a period abroad who need a structured review of residence history, income, assets and possible eligibility for current Turkish tax provisions."
+        },
+        {
+          "title": "International Professionals and Retirees",
+          "desc": "Individuals whose work, pension, investments or travel patterns remain international and cannot be understood through a standard domestic relocation process."
+        },
+        {
+          "title": "Professional Advisers",
+          "desc": "Tax advisers, lawyers, fiduciaries and family-office professionals who require a coordinated Türkiye-side workstream for a client with an existing international structure."
+        }
+      ]
+    },
+    "whatNot": {
+      "eyebrow": "What Dynamic Residency Is Not",
+      "title": "Clear Professional Boundaries",
+      "items": [
+        "Not a mass-market immigration or residence-permit agency",
+        "Not a law firm, tax advisory firm or substitute for regulated professional advice",
+        "Not a real estate marketplace, citizenship broker or generic relocation concierge",
+        "Not a promise that every client qualifies for a tax exemption",
+        "Not a platform that recommends Türkiye regardless of suitability"
+      ],
+      "outro": "Clear professional boundaries are part of the service. Dynamic Residency coordinates the decision and implementation process while ensuring that formal opinions are obtained from the appropriate qualified professionals."
+    },
+    "principles": {
+      "eyebrow": "Our Principles",
+      "title": "How the Work Is Guided",
+      "items": [
+        {
+          "number": "01",
+          "title": "Built on Experience",
+          "desc": "Recommendations should be grounded in practical operating reality, not only theory or promotional claims."
+        },
+        {
+          "number": "02",
+          "title": "Implementation First",
+          "desc": "A proposed structure must be capable of being documented, administered and maintained after the decision is made."
+        },
+        {
+          "number": "03",
+          "title": "Quality Before Growth",
+          "desc": "Complex decisions require disciplined scope, appropriate expertise and sufficient time. Volume is not the objective."
+        },
+        {
+          "number": "04",
+          "title": "Transparency",
+          "desc": "Roles, limitations, fees, dependencies and unresolved questions should be clear before work proceeds."
+        },
+        {
+          "number": "05",
+          "title": "International by Design",
+          "desc": "Türkiye is considered within the complete cross-border context, including the jurisdictions, companies, assets and family links that remain relevant."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Common Questions",
+      "title": "About Dynamic Residency",
+      "items": [
+        {
+          "q": "What does Dynamic Residency do?",
+          "a": "Dynamic Residency provides cross-border residency planning, structural analysis and implementation coordination for internationally connected people considering Türkiye. It brings together residence, income, company, investment, family and practical implementation questions into one decision process."
+        },
+        {
+          "q": "Is Dynamic Residency a law firm or tax advisory firm?",
+          "a": "No. Dynamic Residency leads commercial analysis, question definition, coordination and implementation planning. Formal tax, legal, immigration or corporate opinions are provided or reviewed by appropriately qualified professionals."
+        },
+        {
+          "q": "Where is Dynamic Residency based?",
+          "a": "Dynamic Residency is based in Istanbul, Türkiye. The service is delivered in English and German through a cross-border professional network."
+        },
+        {
+          "q": "Who is the service designed for?",
+          "a": "The service is designed for entrepreneurs, investors, internationally mobile families, returning Turkish citizens, international professionals, retirees and advisers whose decisions involve connected residence, income, company, asset or family questions."
+        },
+        {
+          "q": "Does Dynamic Residency recommend Türkiye to every client?",
+          "a": "No. The purpose is to establish whether Türkiye works for the client's complete international position. Where the structure is not viable, the correct outcome may be not to proceed."
+        },
+        {
+          "q": "How does the process begin?",
+          "a": "The process begins with a structured review of the available facts and objectives. Dynamic Residency identifies the relevant scope, information gaps, dependencies and questions requiring specialist input before recommending the next step."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Before You Change Residence",
+      "title": "Establish Whether the Structure Works",
+      "body": "General information can explain Türkiye. Your situation requires an individual answer based on your residence history, income, companies, investments and family circumstances.",
+      "cta": "Speak With Dynamic Residency"
+    }
+  },
+  "exemption": {
+    "hero": {
+      "eyebrow": "Dynamic Residency | 20-Year Exemption",
+      "title": "Understand Türkiye's 20-Year Foreign Income Tax Exemption",
+      "lead": "For entrepreneurs, investors and internationally mobile families",
+      "small": "Verified legal basis: Article 20/D of the Turkish Income Tax Law and General Communiqué No. 333",
+      "cta": "About Dynamic Residency",
+      "imageAlt": "Businessman and child overlooking Istanbul skyline"
+    },
+    "framework": {
+      "eyebrow": "A New Tax Framework",
+      "title": "For Internationally Connected Individuals",
+      "lead": "Türkiye has introduced a significant personal income-tax exemption for eligible individuals who establish Turkish tax residence.",
+      "body1": "Under Article 20/D of the Turkish Income Tax Law, individuals who satisfy the statutory residence-history conditions may receive an exemption from Turkish income tax on income and gains genuinely obtained outside Türkiye for a statutory period of 20 years.",
+      "body2": "The provision applies to individuals who become resident in Türkiye from 1 January 2026 onwards. It is based on residence history, tax history and the source of the income — not on nationality. The legislation does not state a monetary ceiling for qualifying foreign income.",
+      "noteTitle": "Important distinction",
+      "noteBody": "This is not a general “20 years tax-free” status. The exemption applies only where the individual, the income and the application process satisfy the legal requirements.",
+      "cta": "Read Article 20/D in the Official Gazette"
+    },
+    "quickFacts": {
+      "eyebrow": "The Exemption at a Glance",
+      "title": "Quick Facts",
+      "rows": [
+        {
+          "q": "Who can qualify?",
+          "a": "Natural persons who become resident in Türkiye and satisfy the applicable residence and tax-history conditions. The regime does not provide a corporate tax exemption."
+        },
+        {
+          "q": "What may be exempt?",
+          "a": "Income and gains genuinely obtained outside Türkiye, subject to classification under Turkish source rules."
+        },
+        {
+          "q": "How long?",
+          "a": "A statutory exemption period of 20 years."
+        },
+        {
+          "q": "Is there a monetary ceiling?",
+          "a": "Article 20/D does not state a monetary ceiling for qualifying foreign income."
+        },
+        {
+          "q": "Is an application required?",
+          "a": "Yes. The individual must apply to the competent Turkish tax office and obtain the prescribed Foreign Income Exemption Certificate."
+        }
+      ]
+    },
+    "incomeStreams": {
+      "eyebrow": "Potentially Relevant Foreign Income",
+      "title": "Income Streams That May Be Relevant",
+      "items": [
+        "Dividends from foreign companies",
+        "Rental income from property outside Türkiye",
+        "Foreign interest and investment returns",
+        "Certain foreign capital gains",
+        "Certain foreign pension receipts",
+        "Other income arising from assets or activities genuinely located outside Türkiye"
+      ],
+      "outro": "Each income stream must be classified separately. A foreign payer, foreign company or foreign bank account does not by itself make income foreign-source."
+    },
+    "eligibility": {
+      "eyebrow": "Eligibility",
+      "title": "The Four Questions That Determine Eligibility",
+      "items": [
+        {
+          "number": "01",
+          "title": "Will You Become Resident in Türkiye?",
+          "desc": "Article 20/D applies to individuals who are considered resident in Türkiye under Turkish tax law. A residence permit, property purchase or number of days spent in Türkiye may be relevant, but no single fact should be assessed in isolation. Domicile, physical presence, family circumstances and applicable double-tax treaties may all affect the final residence position. The individual must already be considered resident in Türkiye when applying for the exemption certificate."
+        },
+        {
+          "number": "02",
+          "title": "What Is Your Previous Three-Calendar-Year History?",
+          "desc": "As a general rule, the individual must not have had either a domicile in Türkiye or a disqualifying Turkish tax liability during the three calendar years preceding the year in which the individual becomes resident. Certain previous Turkish tax liabilities arising from Turkish rental income, investment income or capital gains do not automatically prevent qualification. Previous employment, commercial or professional activity in Türkiye may, however, affect eligibility and requires detailed review."
+        },
+        {
+          "number": "03",
+          "title": "Where Was the Income Genuinely Obtained?",
+          "desc": "The location of the payer or bank account is not decisive. The underlying asset, activity, employment, service, company distribution or transaction must be examined to determine whether the income was genuinely obtained outside Türkiye."
+        },
+        {
+          "number": "04",
+          "title": "Can You Obtain the Certificate on Time?",
+          "desc": "The exemption is not automatic. The application must generally be completed by the end of the calendar year in which the individual becomes resident in Türkiye. Individuals who become resident during the final two months of a calendar year may apply until the end of February of the following year. A late application can result in the exemption certificate being refused even where the other substantive conditions are satisfied."
+        }
+      ]
+    },
+    "sourceClassification": {
+      "eyebrow": "Source Classification",
+      "title": "Practical Examples",
+      "items": [
+        "Rent from property physically located outside Türkiye may be foreign-source.",
+        "A dividend from a non-Turkish company may be foreign-source, subject to the surrounding facts.",
+        "Professional services physically performed from Türkiye may remain Turkish-source even if the client and payment account are abroad.",
+        "Salary, management fees and business profits may require additional analysis of where the work is performed and where the business is managed."
+      ]
+    },
+    "whySignificant": {
+      "eyebrow": "Why the Exemption May Be Significant",
+      "title": "Who May Find It Relevant",
+      "lead": "For an eligible internationally connected individual, the exemption may substantially change the long-term economics of establishing residence in Türkiye.",
+      "cards": [
+        {
+          "title": "International Investors",
+          "desc": "Individuals receiving dividends, portfolio income, interest, foreign rental income or gains from assets held across several jurisdictions."
+        },
+        {
+          "title": "Company Owners and Founders",
+          "desc": "Entrepreneurs retaining ownership in foreign companies after relocating to Türkiye. The personal exemption may be relevant to dividends or other qualifying foreign income, but it does not determine company residence, permanent establishment, salary taxation or departure-country exit tax."
+        },
+        {
+          "title": "Returning Turkish Citizens",
+          "desc": "Citizenship does not by itself prevent qualification. A returning Turkish citizen may be eligible where the previous three-calendar-year residence and tax-history requirements are satisfied."
+        },
+        {
+          "title": "Internationally Mobile Families",
+          "desc": "Families coordinating residence, investments, property, education, succession and long-term asset ownership across more than one country."
+        },
+        {
+          "title": "Retirees",
+          "desc": "Individuals receiving pensions, rental income or investment income from outside Türkiye, subject to the source rules and the relevant double-tax treaty."
+        }
+      ]
+    },
+    "whatNot": {
+      "eyebrow": "What the 20-Year Exemption Does Not Do",
+      "title": "Not a Blanket Tax Exemption",
+      "items": [
+        "Exempt income arising from Turkish property, Turkish companies or activities performed in Türkiye",
+        "Exempt every payment received from a foreign customer, employer or bank account",
+        "Apply to companies or remove corporate tax obligations",
+        "Remove VAT, payroll, stamp-duty or social-security obligations",
+        "End tax residence or reporting obligations in another country",
+        "Eliminate departure tax or exit tax in the country being left",
+        "Prevent a foreign company from becoming managed or taxable in Türkiye",
+        "Override a double-tax treaty",
+        "Correct a late or unsupported exemption application"
+      ],
+      "outro": "Foreign taxes paid on income falling within the Turkish exemption cannot be credited against Turkish income tax. Expenses and costs connected with exempt income also cannot be used to reduce income that remains taxable in Türkiye."
+    },
+    "individualVsCompany": {
+      "eyebrow": "The Exemption Belongs to the Individual",
+      "title": "Personal and Company Positions Must Be Analysed Separately",
+      "body1": "Article 20/D is a personal income-tax provision. A qualifying shareholder may potentially receive exempt foreign-source income while the company from which that income arises remains fully taxable in its own jurisdiction.",
+      "body2": "The individual's exemption does not automatically protect the company from:",
+      "items": [
+        "Turkish corporate residence",
+        "Permanent-establishment exposure",
+        "Payroll obligations",
+        "Transfer-pricing rules",
+        "Withholding taxes",
+        "Local accounting and reporting requirements"
+      ],
+      "outro": "For entrepreneurs and shareholders, the personal position and the company position must therefore be analysed separately."
+    },
+    "profiles": {
+      "eyebrow": "Illustrative Profiles",
+      "title": "How the Rule May Apply in Practice",
+      "cards": [
+        {
+          "title": "Foreign Investment Income",
+          "desc": "An eligible individual becomes resident in Türkiye while continuing to receive dividends from a foreign company and rental income from property outside Türkiye. These income streams may fall within Article 20/D where they are genuinely foreign-source, the individual satisfies the previous three-calendar-year test and the exemption certificate is obtained on time."
+        },
+        {
+          "title": "International Entrepreneur",
+          "desc": "A founder relocates to Türkiye while retaining a foreign operating company. Foreign dividends may be relevant to the exemption, but salary, management activity, company residence, permanent establishment and departure-country exit tax must be examined separately."
+        },
+        {
+          "title": "Remote Professional",
+          "desc": "A consultant lives and performs services from Türkiye for clients located abroad. The foreign location of the clients or payment account does not automatically make the income foreign-source. Income connected with work physically performed in Türkiye may remain taxable in Türkiye."
+        },
+        {
+          "title": "Returning Turkish Citizen",
+          "desc": "A Turkish citizen returns after several complete calendar years abroad. The person may qualify if the statutory residence and tax-history conditions are satisfied. Citizenship is not the decisive test."
+        }
+      ]
+    },
+    "application": {
+      "eyebrow": "Application and Evidence",
+      "title": "Plan the Certificate Process Before the Deadline",
+      "body1": "The exemption-certificate process should be planned before or during the relocation — not after the relevant deadline has passed.",
+      "body2": "The Turkish tax office may review:",
+      "items": [
+        "The date on which the individual became resident in Türkiye",
+        "Residence and domicile during the preceding three calendar years",
+        "Previous Turkish tax registrations and income types",
+        "The nature and source of the foreign income",
+        "Supporting residence, tax and income documentation",
+        "The accuracy of the statements made in the application"
+      ],
+      "outro": "If it is later determined that the conditions were not satisfied, unpaid tax may be assessed together with penalties and interest.",
+      "noteTitle": "Official application guidance",
+      "noteBody": "General Communiqué No. 333 sets out the administrative application and documentation framework for Article 20/D.",
+      "noteCta": "Read General Communiqué No. 333 in the Official Gazette"
+    },
+    "widerDecision": {
+      "eyebrow": "The Wider Decision",
+      "title": "The Turkish Exemption Is Only One Part of the Decision",
+      "intro": "A successful relocation must work in every relevant jurisdiction. Before changing residence, the complete structure should be reviewed, including:",
+      "items": [
+        "Current and future tax residence",
+        "Exit tax and departure reporting",
+        "Foreign companies and shareholdings",
+        "Location of management and decision-making",
+        "Investment and property income",
+        "Employment and professional activity",
+        "Social-security exposure",
+        "Family residence and succession",
+        "Applicable double-tax treaties",
+        "Timing of the Turkish exemption application"
+      ],
+      "noteTitle": "The central question",
+      "noteBody": "The question is not simply whether Article 20/D exists. The question is whether it works for your income, companies, investments, family position and country of departure."
+    },
+    "cta": {
+      "eyebrow": "Could the 20-Year Exemption Work for You?",
+      "title": "Review the Complete Structure",
+      "body1": "Dynamic Residency provides a structured review of your Turkish residence position, previous tax history, foreign income and wider cross-border structure.",
+      "body2": "We identify the questions that require regulated tax or legal input, coordinate the appropriate professionals and convert the results into a clear decision and implementation roadmap.",
+      "cta": "Speak With Dynamic Residency",
+      "small1": "Discuss whether Türkiye and Article 20/D fit your wider cross-border structure.",
+      "small2": "Based in Istanbul | English and German service | Confidential cross-border process"
+    },
+    "terms": {
+      "eyebrow": "Important Information",
+      "title": "General Information Only",
+      "body1": "This page provides general information about Article 20/D of the Turkish Income Tax Law and General Communiqué No. 333. It does not constitute individual tax, legal or investment advice.",
+      "body2": "Eligibility and income-source classification depend on the facts of each case. Regulated tax and legal opinions should be provided or reviewed by appropriately qualified professionals.",
+      "rows": [
+        {
+          "label": "Legal basis",
+          "value": "Turkish Income Tax Law, Article 20/D"
+        },
+        {
+          "label": "Introduced by",
+          "value": "Law No. 7582"
+        },
+        {
+          "label": "Administrative guidance",
+          "value": "General Communiqué No. 333"
+        },
+        {
+          "label": "Last reviewed",
+          "value": "16 July 2026"
+        }
+      ],
+      "small": "General information only — not individual tax or legal advice"
+    }
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
@@ -234,13 +788,5 @@
     "section21Title": "21. Contact information",
     "section21Text1": "This website is owned and operated by Dynamic Works.",
     "section21Text2": "You may contact us regarding these Terms and Conditions by writing or emailing us at: info{'@'}dynamicworks.email"
-  },
-  "closing": {
-    "title": "Check your structure before you act",
-    "p1": "Dynamic Residency helps entrepreneurs and investors from across Europe find out whether their plan actually works — before making decisions that can no longer be reversed later.",
-    "p2": "Sound decisions emerge from the interplay of European and Turkish tax law combined with individual advice.",
-    "highlight": "Turkey is not the challenge. The structure is.",
-    "cta1": "Start an assessment",
-    "cta2": "Register for free"
   }
 }

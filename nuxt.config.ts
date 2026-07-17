@@ -28,10 +28,11 @@ export default defineNuxtConfig({
       { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
       { code: 'tr', language: 'tr-TR', name: 'Türkçe', file: 'tr.json' },
     ],
-    defaultLocale: 'de',
+    defaultLocale: 'en',
     langDir: 'locales/',
     strategy: 'prefix_except_default',
     detectBrowserLanguage: false,
+    vueI18n: './i18n.config.ts',
   },
 
   tailwindcss: {
@@ -41,14 +42,14 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Dynamic Residency | Strukturanalyse für Unternehmer & Investoren',
+      title: 'Dynamic Residency — Strategic Residency Planning for Türkiye',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
           content:
-            'Strukturiert. Durchgerechnet. Dokumentiert. Das neue türkische Steuerregime für Unternehmer, Founder und Family Offices aus dem deutschsprachigen Raum.',
+            'Dynamic Residency is an Istanbul-based cross-border residency planning service for entrepreneurs, investors and internationally connected families considering Türkiye.',
         },
       ],
       link: [
@@ -92,7 +93,7 @@ export default defineNuxtConfig({
         },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap',
+          href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cairo:wght@700;800;900&display=swap',
         },
       ],
     },

@@ -1,9 +1,9 @@
 import Stripe from 'stripe'
 
 const packageAmounts: Record<string, number> = {
-  basis: 89000,        // € 890
-  unternehmer: 245000, // € 2.450
-  familyOffice: 690000 // € 6.900
+  expertConsultation: 39000,        // € 390
+  strategicResidencyReview: 99000,  // € 990
+  crossBorderStructureReview: 299000 // € 2,990
 }
 
 export default defineEventHandler(async (event) => {
