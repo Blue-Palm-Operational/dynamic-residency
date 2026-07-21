@@ -3,9 +3,9 @@ import { getDb, initDb } from '../utils/db'
 import { createTransporter, getAdminEmails, getFrom } from '../utils/mailer'
 
 const packageLabels: Record<string, string> = {
-  basis: 'Basis — Ein Vermögensthema im Fokus',
-  unternehmer: 'Unternehmer — Mehrere Vermögensarten',
-  familyOffice: 'Family Office — Komplexe Strukturen',
+  expertConsultation: 'Expert Consultation — 45 Minutes',
+  strategicResidencyReview: 'Strategic Residency Review — One Main Issue',
+  crossBorderStructureReview: 'Cross-Border Structure Review — Connected Structures',
 }
 
 export default defineEventHandler(async (event) => {

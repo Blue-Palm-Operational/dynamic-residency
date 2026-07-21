@@ -2,13 +2,13 @@
   "nav": {
     "home": "Startseite",
     "about": "Über uns",
-    "exemption": "20-Jahres-Befreiung",
-    "cta": "Team kontaktieren"
+    "exemption": "20-jährige Steuerbefreiung",
+    "cta": "Mit unserem Team sprechen"
   },
   "footer": {
     "contact": "Kontakt",
-    "terms": "Nutzungsbedingungen",
-    "privacy": "Datenschutzrichtlinie",
+    "terms": "Grundsätze und Leistungen",
+    "privacy": "Datenschutz-Charta",
     "copyright": "© Dynamic Works Türkiye. Alle Rechte vorbehalten."
   },
   "payment": {
@@ -23,82 +23,82 @@
     "hero": {
       "eyebrow": "Strategische Ansässigkeitsplanung für die Türkei",
       "title": "Ist die Türkei der richtige Schritt für Sie?",
-      "lead": "Jede internationale Situation ist anders.",
-      "body": "Dynamic Residency ist ein in Istanbul ansässiger Dienstleister für grenzüberschreitende Ansässigkeitsplanung. Wir helfen Unternehmern, Investoren und international vernetzten Familien zu verstehen, wie sich eine türkische Ansässigkeit auf ihr Einkommen, ihre Unternehmen, Investitionen und Familienplanung auswirken kann – bevor unumkehrbare Entscheidungen getroffen werden.",
+      "lead": "Jede internationale Ausgangslage ist anders.",
+      "body": "Dynamic Residency ist ein in Istanbul ansässiger Dienstleister für grenzüberschreitende Ansässigkeitsplanung. Wir unterstützen Unternehmer, Investoren und international vernetzte Familien dabei, zu verstehen, wie sich eine Ansässigkeit in der Türkei auf ihre Einkünfte, Unternehmen, Investitionen und Familienplanung auswirken kann – bevor unumkehrbare Entscheidungen getroffen werden.",
       "cta": "Mit unserem Serviceteam sprechen",
       "note": "Ein Projekt von Dynamic Works Türkiye",
-      "imageAlt": "Istanbul und Bosporus, geschäftliches Umfeld"
+      "imageAlt": "Istanbul und der Bosporus in einem internationalen Geschäftsumfeld"
     },
     "about": {
+      "imageAlt": "Strategische Ausrichtung und miteinander verbundene Entscheidungen",
       "eyebrow": "Warum es Dynamic Residency gibt",
       "title": "Warum es Dynamic Residency gibt",
-      "lead": "Dynamic Residency hilft, eine praktische Frage zu beantworten: Passt die Türkei zu Ihrer individuellen Situation?",
-      "body1": "Die meisten Informationen konzentrieren sich auf Steuervorteile, Einwanderung oder Aufenthaltstitel. Eine fundierte Entscheidung hängt jedoch auch von Ihrer aktuellen steuerlichen Ansässigkeit, Ihren Unternehmen, Investitionen, Einkommensquellen, familiären Umständen und langfristigen Zielen ab.",
-      "body2": "Wir koordinieren diese zusammenhängenden Fragen, um einen klaren Entscheidungsweg zu schaffen.",
-      "statement1": "Nicht, um Sie zum Umzug zu überreden.",
-      "statement2": "Sondern um Ihnen zu helfen zu entscheiden, ob ein Umzug für Sie richtig ist.",
-      "imageAlt": "Strategische Ausrichtung und verbundene Entscheidungen"
+      "lead": "Dynamic Residency hilft bei der Beantwortung einer praktischen Frage: Passt die Türkei zu Ihrer persönlichen Situation?",
+      "body1": "Die meisten Informationen konzentrieren sich auf steuerliche Vorteile, Einwanderung oder Aufenthaltserlaubnisse. Eine fundierte Entscheidung hängt jedoch auch von Ihrer derzeitigen steuerlichen Ansässigkeit, Ihren Unternehmen, Investitionen, Einkunftsquellen, familiären Umständen und langfristigen Zielen ab.",
+      "body2": "Wir führen diese miteinander verbundenen Fragen zusammen und schaffen so einen klaren Entscheidungsweg.",
+      "statement1": "Nicht, um Sie zu einem Umzug zu bewegen.",
+      "statement2": "Sondern, um Ihnen bei der Entscheidung zu helfen, ob ein Umzug für Sie richtig ist."
     },
     "opportunity": {
       "eyebrow": "Die Chance",
-      "title": "Die 20-jährige Steuerbefreiung der Türkei auf ausländische Einkünfte",
-      "body1": "Anspruchsberechtigte Personen, die ab 2026 türkische Steueransässige werden, können für bestimmte ausländische Einkünfte für bis zu 20 Jahre eine Befreiung erhalten.",
-      "body2": "Die Befreiung kann für Personen relevant sein, die Folgendes beziehen:",
+      "title": "Die 20-jährige Steuerbefreiung der Türkei für ausländische Einkünfte",
+      "body1": "Berechtigte Personen, die ab 2026 in der Türkei steuerlich ansässig werden, können für bestimmte Einkünfte aus ausländischen Quellen bis zu 20 Jahre lang eine Steuerbefreiung in Anspruch nehmen.",
+      "body2": "Die Steuerbefreiung kann für Personen relevant sein, die folgende Einkünfte beziehen:",
       "list": [
         "Ausländische Dividenden",
         "Zinsen und Kapitalerträge",
-        "Ausländische Mieteinnahmen",
+        "Mieteinkünfte aus dem Ausland",
         "Bestimmte Veräußerungsgewinne",
-        "Bestimmte ausländische Renten"
+        "Bestimmte ausländische Renten- und Pensionsbezüge"
       ],
-      "noticeTitle": "Wichtige Unterscheidung:",
-      "noticeBody": "Aus dem Ausland gezahltes Einkommen ist nicht automatisch ausländisches Einkommen. Die Anspruchsberechtigung hängt von Ihrer Ansässigkeitshistorie, der tatsächlichen Quelle des Einkommens und Ihrer gesamten grenzüberschreitenden Struktur ab.",
-      "cta": "Die 20-Jahres-Befreiung verstehen",
+      "noticeTitle": "Wichtige Abgrenzung",
+      "noticeBody": "Einkünfte, die aus dem Ausland gezahlt werden, sind nicht automatisch Einkünfte aus ausländischen Quellen. Die Anspruchsberechtigung hängt von Ihrer bisherigen Ansässigkeit, der tatsächlichen Quelle der Einkünfte und Ihrer gesamten grenzüberschreitenden Struktur ab.",
+      "cta": "Die 20-jährige Steuerbefreiung verstehen",
       "imageAlt": "Internationales Geschäftsviertel am Wasser"
     },
     "whoWeHelp": {
-      "eyebrow": "Wem wir helfen",
-      "title": "Wem Dynamic Residency hilft",
-      "subtitle": "Vielleicht erkennen Sie Ihre Situation hier wieder.",
+      "eyebrow": "Wen wir unterstützen",
+      "title": "Wen Dynamic Residency unterstützt",
+      "subtitle": "Möglicherweise erkennen Sie Ihre Situation hier wieder.",
       "items": [
         {
           "number": "01",
           "title": "Unternehmensinhaber",
-          "desc": "Sie möchten umziehen, ohne vermeidbare steuerliche, betriebliche oder organisatorische Probleme zu schaffen.",
+          "desc": "Sie möchten Ihren Lebensmittelpunkt verlagern, ohne vermeidbare steuerliche, organisatorische oder operative Probleme zu schaffen.",
           "icon": "company-owners"
         },
         {
           "number": "02",
           "title": "Internationale Investoren",
-          "desc": "Sie erhalten Dividenden, Zinsen, Mieteinnahmen oder Veräußerungsgewinne aus mehr als einem Land.",
+          "desc": "Sie beziehen Dividenden, Zinsen, Mieteinkünfte oder Veräußerungsgewinne aus mehr als einem Land.",
           "icon": "international-investors"
         },
         {
           "number": "03",
-          "title": "Internationale Familien",
-          "desc": "Bildung, Gesundheitsversorgung, Ansässigkeit und Nachfolge müssen zusammenpassen.",
+          "title": "International aufgestellte Familien",
+          "desc": "Bildung, Gesundheitsversorgung, Ansässigkeit und Nachfolge müssen aufeinander abgestimmt sein.",
           "icon": "international-families"
         },
         {
           "number": "04",
-          "title": "Rückkehrende türkische Staatsbürger",
-          "desc": "Sie benötigen Klarheit über Ihre Ansässigkeitshistorie und mögliche Anspruchsberechtigung.",
+          "title": "Rückkehrende türkische Staatsangehörige",
+          "desc": "Sie benötigen Klarheit über Ihre bisherige Ansässigkeit und eine mögliche Anspruchsberechtigung.",
           "icon": "returning-turkish-citizens"
         },
         {
           "number": "05",
-          "title": "Internationale Fachkräfte",
-          "desc": "Sie reisen häufig und Ihr Geschäft hängt nicht von einem einzelnen Land ab.",
+          "title": "International tätige Fachkräfte",
+          "desc": "Sie reisen häufig, und Ihr Geschäft ist nicht von einem einzigen Land abhängig.",
           "icon": "international-professionals"
         },
         {
           "number": "06",
-          "title": "Menschen, die die Türkei erkunden",
-          "desc": "Sie wünschen sich eine strukturierte Antwort darauf, ob die Türkei langfristig die richtige Wahl ist.",
+          "title": "Menschen, die die Türkei als Option prüfen",
+          "desc": "Sie wünschen eine strukturierte Antwort auf die Frage, ob die Türkei langfristig die richtige Wahl ist.",
           "icon": "people-exploring-turkiye"
         }
       ],
-      "strip": "Keine Annahmen. Eine strukturierte Antwort auf Grundlage Ihrer Umstände."
+      "strip": "Keine Annahmen. Eine strukturierte Antwort auf Grundlage Ihrer persönlichen Umstände."
     },
     "howWeWork": {
       "eyebrow": "So arbeiten wir",
@@ -106,49 +106,49 @@
       "steps": [
         {
           "index": "01",
-          "label": "Ausgangspunkt",
-          "title": "Ihre Position verstehen",
-          "desc": "Wir ermitteln Ihre aktuelle steuerliche Ansässigkeit, Ihr Einkommen, Ihre Unternehmen, Vermögenswerte, familiären Umstände und Ziele."
+          "label": "Ausgangslage",
+          "title": "Ihre Ausgangslage verstehen",
+          "desc": "Wir erfassen Ihre derzeitige steuerliche Ansässigkeit, Einkünfte, Unternehmen, Vermögenswerte, familiären Umstände und Ziele."
         },
         {
           "index": "02",
-          "label": "Fragenkarte",
-          "title": "Die zentralen Fragen identifizieren",
+          "label": "Fragenkatalog",
+          "title": "Die entscheidenden Fragen bestimmen",
           "desc": "Wir trennen operative Fragen von Themen, die eine spezialisierte steuerliche, rechtliche oder strukturelle Analyse erfordern."
         },
         {
           "index": "03",
-          "label": "Experteneinschätzung",
-          "title": "Mit relevanten Experten klären",
-          "desc": "Entsprechend qualifizierte Fachleute bearbeiten die definierten Fragen innerhalb ihres Fachgebiets."
+          "label": "Fachliche Einschätzung",
+          "title": "Mit den relevanten Experten klären",
+          "desc": "Entsprechend qualifizierte Fachleute bearbeiten die festgelegten Fragen innerhalb ihres jeweiligen Fachgebiets."
         },
         {
           "index": "04",
           "label": "Entscheidungsweg",
           "title": "Die Entscheidung koordinieren",
-          "desc": "Dynamic Residency bündelt die Ergebnisse zu einer klaren Entscheidung, Reihenfolge und Umsetzungsplanung."
+          "desc": "Dynamic Residency führt die Ergebnisse zu einer klaren Entscheidung, einer sinnvollen Reihenfolge und einem Umsetzungsplan zusammen."
         }
       ],
-      "legal": "Wo regulierte steuerliche oder rechtliche Stellungnahmen erforderlich sind, werden diese von entsprechend qualifizierten Fachleuten erstellt oder geprüft."
+      "legal": "Soweit regulierte steuerliche oder rechtliche Stellungnahmen erforderlich sind, werden diese von entsprechend qualifizierten Fachleuten erstellt oder geprüft."
     },
     "services": {
       "eyebrow": "Leistungen & Preise",
-      "title": "Transparente Leistungen. Klare Investition.",
+      "title": "Transparente Leistungen. Klare Kosten.",
       "consultationGroup": {
-        "heading": "Fokussierte Beratungen",
+        "heading": "Gezielte Beratungen",
         "tag": "Einzelfrage",
-        "small": "Für eine klar definierte Frage zu Ansässigkeit, Einkommen, Steuern oder Struktur.",
+        "small": "Für eine klar abgegrenzte Frage zu Ansässigkeit, Einkünften, Steuern oder Struktur.",
         "intro": {
-          "kicker": "Serviceeinführung",
-          "title": "Kostenlos",
-          "desc": "Ein erstes Gespräch, um Ihre Ziele zu verstehen, den Prüfungsprozess zu erklären und den richtigen nächsten Schritt zu identifizieren.",
+          "kicker": "Orientierungsgespräch",
+          "title": "Kostenfrei",
+          "desc": "Ein erstes Gespräch, um Ihre Ziele zu verstehen, den Prüfungsprozess zu erläutern und den passenden nächsten Schritt zu bestimmen.",
           "price": "Kostenlos",
-          "cta": "Mit dem Serviceteam beginnen"
+          "cta": "Mit dem Serviceteam starten"
         },
         "expert": {
           "kicker": "Expertenberatung",
           "title": "45 Minuten",
-          "desc": "Fokussierte Einschätzung zu einer klar definierten Frage zu Ansässigkeit, Steuern oder Struktur.",
+          "desc": "Gezielte fachliche Einschätzung zu einer klar abgegrenzten Frage rund um Ansässigkeit, Steuern oder Struktur.",
           "price": "390 €",
           "cta": "Beratung buchen →",
           "packageId": "expertConsultation"
@@ -156,20 +156,20 @@
       },
       "reviewGroup": {
         "heading": "Strukturierte Prüfungen",
-        "tag": "Verbundene Fragen",
-        "small": "Für zusammenhängende Fragen, die eine koordinierte Bewertung erfordern.",
+        "tag": "Verbundene Fragestellungen",
+        "small": "Für miteinander verbundene Fragen, die eine koordinierte Prüfung erfordern.",
         "strategic": {
           "kicker": "Strategische Ansässigkeitsprüfung",
-          "title": "Ein Hauptthema",
-          "desc": "Eine strukturierte Prüfung eines Hauptthemas und einer begrenzten Anzahl verbundener Fragen.",
+          "title": "Eine zentrale Fragestellung",
+          "desc": "Eine strukturierte Prüfung einer zentralen Fragestellung und einer begrenzten Anzahl damit verbundener Fragen.",
           "price": "990 €",
           "cta": "Prüfung ansehen →",
           "packageId": "strategicResidencyReview"
         },
         "crossBorder": {
-          "kicker": "Grenzüberschreitende Strukturprüfung",
+          "kicker": "Prüfung der grenzüberschreitenden Struktur",
           "title": "Verbundene Strukturen",
-          "desc": "Für Unternehmer, Investoren und Familien mit verbundenen Fragen zu Ansässigkeit, Einkommen, Unternehmen oder Vermögen.",
+          "desc": "Für Unternehmer, Investoren und Familien mit miteinander verbundenen Fragen zu Ansässigkeit, Einkünften, Unternehmen oder Vermögenswerten.",
           "price": "2.990 €",
           "cta": "Prüfung ansehen →",
           "packageId": "crossBorderStructureReview"
@@ -178,54 +178,54 @@
       "complex": {
         "kicker": "Komplexe internationale Fälle",
         "tag": "Höchste Komplexität",
-        "title": "Multi-jurisdiktionale Strukturen",
-        "desc": "Für multi-jurisdiktionale Strukturen, koordinierte fachliche Arbeitsströme und komplexe Umsetzungsanforderungen.",
+        "title": "Strukturen in mehreren Jurisdiktionen",
+        "desc": "Für Strukturen über mehrere Jurisdiktionen hinweg, koordinierte fachliche Arbeitsstränge und komplexe Umsetzungsanforderungen.",
         "price": "Ab 6.990 €",
         "cta": "Ihren Fall besprechen →"
       },
-      "note": "Individuelle Mandate sind möglich. Die endgültigen Kosten hängen von Komplexität, Umfang und den beteiligten Fachleuten ab."
+      "note": "Individuelle Mandate sind möglich. Die endgültigen Honorare richten sich nach Komplexität, Leistungsumfang und den beteiligten Fachleuten."
     },
     "founder": {
       "eyebrow": "Gründer",
       "title": "Lernen Sie den Gründer kennen",
+      "imageAlt": "Stephan Westermayer, Gründer von Dynamic Residency",
       "name": "Stephan Westermayer",
       "roleLines": [
         "Gründer von Dynamic Residency",
         "Gründer & CEO von Dynamic Works und Blue Palm Group"
       ],
-      "bio": "Stephan ist persönlich an der strategischen Ausrichtung von Dynamic Residency sowie an ausgewählten komplexen Kundenfällen beteiligt. Standardberatungen werden von den entsprechenden Mitgliedern des professionellen Netzwerks von Dynamic Residency betreut.",
+      "bio": "Stephan ist persönlich an der strategischen Ausrichtung von Dynamic Residency und an ausgewählten komplexen Mandaten beteiligt. Standardberatungen werden von den jeweils geeigneten Mitgliedern des Expertennetzwerks von Dynamic Residency durchgeführt.",
       "linkedin": "LinkedIn",
       "origin": [
-        "Ich hätte meine Unternehmen an vielen Orten aufbauen können. Ich habe mich bewusst für Istanbul entschieden – nicht um die Welt hinter mir zu lassen, sondern um mit ihr verbunden zu bleiben.",
-        "Ich verbringe weiterhin Zeit in den Vereinigten Staaten und reise international. Die Türkei wurde meine operative Basis, weil sie Konnektivität, unternehmerische Chancen, Talent und Lebensqualität auf eine Weise vereint, die ich anderswo nicht erlebt habe.",
-        "Dynamic Residency ist aus dieser Erfahrung entstanden – nicht aus der theoretischen Betrachtung der Türkei aus der Distanz, sondern aus dem Leben und Arbeiten hier."
-      ],
-      "imageAlt": "Stephan Westermayer, Gründer von Dynamic Residency"
+        "Ich hätte meine Unternehmen an vielen Orten aufbauen können. Ich habe mich bewusst für Istanbul entschieden – nicht, um der Welt den Rücken zu kehren, sondern um mit ihr verbunden zu bleiben.",
+        "Ich halte mich weiterhin regelmäßig in den Vereinigten Staaten auf und reise international. Die Türkei wurde zu meiner operativen Basis, weil sie internationale Anbindung, unternehmerische Chancen, Talente und Lebensqualität auf eine Weise verbindet, die ich so nirgendwo sonst erlebt habe.",
+        "Dynamic Residency ist aus dieser Erfahrung entstanden – nicht aus einer Betrachtung der Türkei aus der Distanz, sondern aus dem Leben und unternehmerischen Aufbau vor Ort."
+      ]
     },
     "credibility": {
-      "eyebrow": "Aufbauend auf realer Geschäftstätigkeit",
+      "eyebrow": "Auf realer operativer Erfahrung aufgebaut",
       "title": "Ein Projekt von Dynamic Works Türkiye",
       "body1": "Dynamic Residency ist ein spezialisiertes Projekt, das innerhalb von Dynamic Works Türkiye entwickelt wurde.",
-      "body2": "Unsere Erfahrung stammt aus dem Betrieb von Unternehmen, der Beschäftigung lokaler Teams, der Unterstützung internationaler Unternehmer und dem Aufbau praktischer Geschäftsinfrastruktur in der Türkei.",
+      "body2": "Unsere Erfahrung beruht auf dem Betrieb von Unternehmen, der Beschäftigung lokaler Teams, der Unterstützung internationaler Unternehmer und dem Aufbau praxisnaher Geschäftsinfrastruktur in der Türkei.",
       "items": [
         {
-          "title": "Lokale Betriebserfahrung",
-          "desc": "Direkte Erfahrung im Aufbau und Betrieb von Unternehmen in der Türkei."
+          "title": "Lokale operative Erfahrung",
+          "desc": "Unmittelbare Erfahrung beim Aufbau und Betrieb von Unternehmen in der Türkei."
         },
         {
           "title": "Geschäftsinfrastruktur",
-          "desc": "Praktische Unterstützung für international vernetzte Unternehmer."
+          "desc": "Praktische Unterstützung für international vernetzte Unternehmensinhaber."
         },
         {
           "title": "Umsetzungskompetenz",
           "desc": "Koordination, die über allgemeine Informationen hinausgeht."
         },
         {
-          "title": "Professionelles Netzwerk",
-          "desc": "Qualifizierte Fachleute werden bei regulierungsbedürftigen Fragen hinzugezogen."
+          "title": "Expertennetzwerk",
+          "desc": "Qualifizierte Spezialisten werden eingebunden, wenn regulierte fachliche Einschätzungen erforderlich sind."
         },
         {
-          "title": "Reale Substanz in der Türkei",
+          "title": "Tatsächliche wirtschaftliche Substanz in der Türkei",
           "desc": "Eine lokale operative Basis, Mitarbeiter und laufende Geschäftstätigkeit."
         }
       ],
@@ -234,151 +234,151 @@
     "cta": {
       "eyebrow": "Bereit für den nächsten Schritt?",
       "title": "Allgemeine Informationen können die Türkei erklären. Ihre Situation erfordert eine individuelle Antwort.",
-      "body": "Beginnen Sie mit unserem Serviceteam. Wir klären Ihre Fragen, empfehlen die passende Prüfung und verbinden Sie bei Bedarf mit qualifizierten Fachleuten.",
+      "body": "Beginnen Sie mit unserem Serviceteam. Wir klären Ihre Fragen, empfehlen die passende Prüfung und bringen Sie mit qualifizierten Fachleuten zusammen, wenn eine spezialisierte Analyse erforderlich ist.",
       "ctaPrimary": "Mit unserem Serviceteam sprechen",
       "ctaSecondary": "Leistungen & Preise ansehen",
-      "meta": "Sitz in Istanbul  |  Service auf Englisch und Deutsch  |  Vertraulicher und koordinierter Prozess",
-      "imageAlt": "Istanbuler Skyline in der Abenddämmerung"
+      "meta": "Sitz in Istanbul | Beratung auf Englisch und Deutsch | Vertraulicher und koordinierter Prozess",
+      "imageAlt": "Die Skyline von Istanbul in der Abenddämmerung"
     }
   },
   "about": {
     "hero": {
       "eyebrow": "Über Dynamic Residency",
-      "title": "Grenzüberschreitende Ansässigkeitsplanung für die Türkei, aufgebaut um die gesamte Struktur",
-      "lead": "Dynamic Residency ist eine in Istanbul ansässige Plattform für grenzüberschreitende Ansässigkeitsplanung und Umsetzungskoordination für Unternehmer, Investoren, international tätige Fachkräfte, rückkehrende türkische Staatsbürger und global mobile Familien, die die Türkei in Betracht ziehen.",
-      "body1": "Wir helfen Kunden zu verstehen, wie sich eine türkische Ansässigkeit auf ausländisches Einkommen, Unternehmensbeteiligungen, Investitionen, Immobilien, familiäre Umstände und langfristige Ziele auswirken kann – bevor Entscheidungen schwer oder teuer umkehrbar werden.",
-      "body2": "Unsere Aufgabe ist es, die relevanten Fakten zu ermitteln, zusammengehörige Fragen zu verknüpfen, qualifizierte fachliche Beratung zu koordinieren, wo regulierte Beratung erforderlich ist, und die Ergebnisse in einen klaren Entscheidungs- und Umsetzungsweg zu überführen.",
-      "small": "Sitz in Istanbul | Service auf Englisch und Deutsch | Vertraulicher grenzüberschreitender Prozess",
-      "imageAlt": "Bosporus-Blick in Istanbul"
+      "title": "Grenzüberschreitende Ansässigkeitsplanung für die Türkei – abgestimmt auf Ihre Gesamtstruktur",
+      "lead": "Dynamic Residency ist eine in Istanbul ansässige Plattform für grenzüberschreitende Ansässigkeitsplanung und Umsetzungskoordination. Sie richtet sich an Unternehmer, Investoren, international tätige Fachkräfte, rückkehrende türkische Staatsangehörige und global mobile Familien, die die Türkei in Betracht ziehen.",
+      "body1": "Wir helfen Kunden zu verstehen, wie eine Ansässigkeit in der Türkei mit ausländischen Einkünften, Unternehmensbeteiligungen, Investitionen, Immobilien, familiären Umständen und langfristigen Zielen zusammenwirken kann – bevor Entscheidungen nur noch schwer oder mit hohen Kosten rückgängig zu machen sind.",
+      "body2": "Unsere Aufgabe besteht darin, die relevanten Fakten zu ermitteln, zusammengehörige Fragen miteinander zu verknüpfen, qualifizierte fachliche Einschätzungen zu koordinieren, soweit regulierte Beratung erforderlich ist, und die Ergebnisse in einen klaren Entscheidungs- und Umsetzungsweg zu überführen.",
+      "small": "Sitz in Istanbul | Beratung auf Englisch und Deutsch | Vertraulicher grenzüberschreitender Prozess",
+      "imageAlt": "Blick auf den Bosporus in Istanbul"
     },
     "whatIs": {
       "eyebrow": "Was ist Dynamic Residency?",
-      "title": "Ansässigkeit ist nie eine isolierte Entscheidung",
-      "body1": "Dynamic Residency ist eine spezialisierte Serviceplattform, die sich auf die wirtschaftlichen und strukturellen Folgen der Begründung einer Ansässigkeit in der Türkei konzentriert. Wir betrachten Ansässigkeit nicht als isolierten Aufenthaltstitel, einzelne Steuerregel oder Zielortentscheidung. Wir untersuchen die gesamte internationale Situation, in der die Ansässigkeitsentscheidung wirken muss.",
-      "body2": "Diese Situation kann das verlassene Land, die aktuelle und zukünftige steuerliche Ansässigkeit, ausländisches und türkisches Einkommen, Unternehmen und Geschäftsführungstätigkeit, Investitionen, Immobilien, familiäre Bindungen, Nachfolgeüberlegungen und die praktischen Schritte zur Umsetzung einer tragfähigen Struktur umfassen.",
-      "body3": "Das Ziel ist nicht, jeden Kunden zum Umzug in die Türkei zu bewegen. Das Ziel ist festzustellen, ob die Türkei für die tatsächlichen Umstände des Kunden geeignet ist, und, wo dies der Fall ist, den Weg von der Analyse zur Umsetzung zu koordinieren."
+      "title": "Ansässigkeit ist niemals eine isolierte Entscheidung",
+      "body1": "Dynamic Residency ist eine spezialisierte Dienstleistungsplattform, die sich auf die wirtschaftlichen und strukturellen Folgen der Begründung einer Ansässigkeit in der Türkei konzentriert. Wir behandeln die Ansässigkeitsentscheidung weder als isolierte Frage der Aufenthaltserlaubnis noch als einzelne Steuerregel oder reine Standortentscheidung. Wir prüfen die gesamte internationale Ausgangslage, in der die Ansässigkeitsentscheidung funktionieren muss.",
+      "body2": "Dazu können das Wegzugsland, die gegenwärtige und künftige steuerliche Ansässigkeit, Einkünfte aus ausländischen und türkischen Quellen, Unternehmen und Leitungstätigkeiten, Investitionen, Immobilien, familiäre Bindungen, Nachfolgefragen sowie die praktischen Schritte gehören, die zur Umsetzung einer tragfähigen Struktur erforderlich sind.",
+      "body3": "Ziel ist nicht, jeden Kunden zu einem Umzug in die Türkei zu bewegen. Ziel ist festzustellen, ob die Türkei für die tatsächlichen Umstände des Kunden geeignet ist, und – sofern dies der Fall ist – den Weg von der Analyse bis zur Umsetzung zu koordinieren."
     },
     "whyExists": {
       "eyebrow": "Warum es Dynamic Residency gibt",
-      "title": "Die Lücke zwischen Information und einer funktionierenden Entscheidung schließen",
-      "body1": "Internationaler Umzug wird oft anhand einzelner Themen erklärt: Aufenthaltstitel, Steuersätze, Immobilien, Unternehmensgründung oder Lebensstil. In der Praxis hängt das Ergebnis davon ab, wie diese Themen über mehr als eine Jurisdiktion hinweg zusammenwirken.",
-      "body2": "Eine Entscheidung, die in der Türkei attraktiv erscheint, kann im verlassenen Land ein unbeabsichtigtes Ergebnis erzeugen. Ein ausländisches Unternehmen kann davon betroffen sein, von wo aus es geführt wird. Aus dem Ausland gezahltes Einkommen ist möglicherweise kein ausländisches Einkommen. Familienbindungen, Reisemuster oder Geschäftstätigkeit können die Ansässigkeitsanalyse verändern. Das Timing kann entscheiden, ob eine Chance bestehen bleibt.",
-      "body3": "Dynamic Residency wurde geschaffen, um die Lücke zwischen allgemeiner Information und einer im echten Leben umsetzbaren Entscheidung zu schließen. Wir beginnen, solange die wichtigen Variablen noch gestaltbar sind – bevor sich die Ansässigkeit ändert, die Unternehmensführung verlagert wird, Vermögenswerte verkauft, Eigentumsverhältnisse umstrukturiert oder familiäre Regelungen schwer umkehrbar werden."
+      "title": "Die Lücke zwischen Information und einer tragfähigen Entscheidung schließen",
+      "body1": "Internationale Wohnsitzverlagerungen werden häufig anhand einzelner Themen erklärt: Aufenthaltserlaubnisse, Steuersätze, Immobilien, Unternehmensgründung oder Lebensstil. In der Praxis hängt das Ergebnis davon ab, wie diese Themen über mehr als eine Jurisdiktion hinweg zusammenwirken.",
+      "body2": "Eine Entscheidung, die in der Türkei attraktiv erscheint, kann im Wegzugsland unbeabsichtigte Folgen auslösen. Ein ausländisches Unternehmen kann davon betroffen sein, von wo aus es geleitet wird. Aus dem Ausland gezahlte Einkünfte sind nicht zwingend Einkünfte aus ausländischen Quellen. Familiäre Bindungen, Reisemuster oder geschäftliche Aktivitäten können die Ansässigkeitsbeurteilung verändern. Der Zeitpunkt kann darüber entscheiden, ob eine Gestaltungsmöglichkeit noch verfügbar ist.",
+      "body3": "Dynamic Residency wurde geschaffen, um die Lücke zwischen allgemeinen Informationen und einer Entscheidung zu schließen, die in der Praxis funktioniert. Wir setzen an, solange sich die entscheidenden Variablen noch steuern lassen – bevor die steuerliche Ansässigkeit wechselt, die Unternehmensleitung verlagert wird, Vermögenswerte veräußert, Eigentumsstrukturen umgestaltet oder familiäre Regelungen nur noch schwer rückgängig gemacht werden können."
     },
     "questions": {
       "eyebrow": "Die Fragen, die wir zusammenführen",
-      "title": "Eine zusammenhängende Struktur",
+      "title": "Eine zusammenhängende Gesamtstruktur",
       "items": [
-        "Aktuelle und zukünftige steuerliche Ansässigkeit, Wohnsitz und Aufenthaltsmuster",
-        "Die rechtliche und wirtschaftliche Quelle von Dividenden, Zinsen, Miete, Renten, Veräußerungsgewinnen und beruflichem Einkommen",
-        "Ausländische Unternehmen, Beteiligungen, Geschäftsführungstätigkeit und Betriebsstättenrisiko",
-        "Immobilien, Investmentportfolios, Bankbeziehungen und grenzüberschreitende Zahlungsströme",
+        "Aktuelle und künftige steuerliche Ansässigkeit, Wohnsitz sowie Aufenthalts- und Anwesenheitsmuster",
+        "Rechtliche und wirtschaftliche Quelle von Dividenden, Zinsen, Mieten, Renten, Veräußerungsgewinnen und Einkünften aus beruflicher Tätigkeit",
+        "Ausländische Gesellschaften, Beteiligungen, Leitungstätigkeit und Betriebsstättenrisiken",
+        "Immobilien, Anlageportfolios, Bankbeziehungen und grenzüberschreitende Zahlungsströme",
         "Familiäre Ansässigkeit, Bildung, Gesundheitsversorgung, Nachfolge und langfristige Mobilität",
-        "Verpflichtungen im Herkunftsland, Doppelbesteuerungsabkommen und Umsetzungszeitpunkt",
-        "Die Nachweise, fachlichen Stellungnahmen und praktischen Schritte, die vor einer Entscheidung erforderlich sind"
+        "Pflichten im Wegzugsstaat, Doppelbesteuerungsabkommen und Umsetzungszeitpunkt",
+        "Nachweise, fachliche Stellungnahmen und praktische Schritte, die vor Umsetzung einer Entscheidung erforderlich sind"
       ],
-      "outro": "Diese Fragen werden als eine zusammenhängende Struktur betrachtet. Der Zweck besteht darin, zu verhindern, dass eine technisch korrekte Antwort in einem Bereich an anderer Stelle ein praktisches Problem schafft."
+      "outro": "Diese Fragen werden als eine zusammenhängende Gesamtstruktur betrachtet. So soll verhindert werden, dass eine technisch richtige Antwort in einem Bereich an anderer Stelle ein praktisches Problem erzeugt."
     },
     "exemptionTeaser": {
-      "title": "Die 20-jährige Steuerbefreiung der Türkei auf ausländische Einkünfte",
-      "body": "Die Türkei hat eine potenziell bedeutende Befreiung für anspruchsberechtigte Personen eingeführt, die ab 2026 türkische Steueransässige werden. Die Regelung kann für bestimmte ausländische Einkünfte relevant sein, doch die Anspruchsberechtigung hängt von der Ansässigkeitshistorie, der tatsächlichen Quelle des Einkommens, dem Antragsverfahren und der gesamten grenzüberschreitenden Struktur ab. Sie sollte daher als Teil der gesamten Ansässigkeitsentscheidung geprüft werden, nicht als eigenständiges Versprechen.",
-      "cta": "Die 20-jährige Steuerbefreiung der Türkei verstehen"
+      "title": "Die 20-jährige Steuerbefreiung der Türkei für ausländische Einkünfte",
+      "body": "Die Türkei hat für berechtigte Personen, die ab 2026 in der Türkei steuerlich ansässig werden, eine potenziell bedeutende Steuerbefreiung eingeführt. Die Regelung kann für bestimmte Einkünfte aus ausländischen Quellen relevant sein. Die Anspruchsberechtigung hängt jedoch von der bisherigen Ansässigkeit, der tatsächlichen Einkunftsquelle, dem Antragsverfahren und der gesamten grenzüberschreitenden Struktur ab. Sie sollte daher als Bestandteil der vollständigen Ansässigkeitsentscheidung geprüft werden – nicht als isoliertes Versprechen.",
+      "cta": "Die 20-jährige Steuerbefreiung der Türkei für ausländische Einkünfte verstehen"
     },
     "howItWorks": {
       "eyebrow": "So arbeitet Dynamic Residency",
-      "title": "Von der Ausgangsposition zur Umsetzung",
+      "title": "Von der Ausgangslage bis zur Umsetzung",
       "steps": [
         {
           "number": "01",
-          "title": "Die Ausgangsposition ermitteln",
-          "desc": "Wir strukturieren die verfügbaren Fakten zu Ansässigkeitshistorie, Einkommen, Unternehmen, Vermögenswerten, familiären Umständen, Reisemustern und Zielen."
+          "title": "Ausgangslage ermitteln",
+          "desc": "Wir strukturieren die verfügbaren Fakten zu bisheriger Ansässigkeit, Einkünften, Unternehmen, Vermögenswerten, familiären Umständen, Reisemustern und Zielen."
         },
         {
           "number": "02",
-          "title": "Die Fragenkarte erstellen",
-          "desc": "Wir identifizieren die zusammenhängenden kaufmännischen, operativen, steuerlichen, rechtlichen, einwanderungsrechtlichen und gesellschaftsrechtlichen Fragen, die vor einer Entscheidung geklärt werden müssen."
+          "title": "Fragenkatalog erstellen",
+          "desc": "Wir bestimmen die miteinander verbundenen wirtschaftlichen, operativen, steuerlichen, rechtlichen, aufenthaltsrechtlichen und gesellschaftsrechtlichen Fragen, die vor einer Entscheidung geklärt werden müssen."
         },
         {
           "number": "03",
-          "title": "Qualifizierte Einschätzungen koordinieren",
-          "desc": "Wo eine formelle Stellungnahme erforderlich ist, bearbeiten entsprechend qualifizierte Fachleute die definierten Fragen innerhalb ihrer Jurisdiktion und ihres Fachgebiets."
+          "title": "Qualifizierte Fachbeiträge koordinieren",
+          "desc": "Soweit eine formelle Stellungnahme erforderlich ist, bearbeiten entsprechend qualifizierte Fachleute die festgelegten Fragen innerhalb ihrer Jurisdiktion und ihres Fachgebiets."
         },
         {
           "number": "04",
-          "title": "Den Entscheidungsweg erstellen",
-          "desc": "Dynamic Residency bringt die Ergebnisse zusammen, identifiziert Abhängigkeiten und stellt den tragfähigen Weg, wesentliche Risiken und die erforderliche Reihenfolge der Schritte dar."
+          "title": "Entscheidungsweg entwickeln",
+          "desc": "Dynamic Residency führt die Erkenntnisse zusammen, macht Abhängigkeiten sichtbar und stellt den tragfähigen Weg, die wesentlichen Risiken und die erforderliche Reihenfolge der Maßnahmen dar."
         },
         {
           "number": "05",
-          "title": "Die Umsetzung koordinieren",
-          "desc": "Wenn der Kunde fortfährt, koordinieren wir die vereinbarten Arbeitsströme, damit Dokumentation, Timing und praktische Ausführung mit der genehmigten Struktur übereinstimmen."
+          "title": "Umsetzung koordinieren",
+          "desc": "Entscheidet sich der Kunde für die Umsetzung, koordinieren wir die vereinbarten Arbeitsstränge, damit Dokumentation, Zeitplanung und praktische Durchführung mit der genehmigten Struktur übereinstimmen."
         }
       ],
-      "note": "Während des gesamten Prozesses gilt ein Entscheidungspunkt. Ist die Struktur nicht tragfähig, endet die Arbeit mit einer klaren Erklärung. Ist sie tragfähig, beginnt die Umsetzung erst, nachdem Weg, Verantwortlichkeiten und Grenzen verstanden sind."
+      "note": "Während des gesamten Prozesses gilt ein klarer Entscheidungspunkt. Ist die Struktur nicht tragfähig, endet die Prüfung mit einer eindeutigen Begründung. Ist sie tragfähig, beginnt die Umsetzung erst, nachdem Weg, Verantwortlichkeiten und Grenzen verstanden wurden."
     },
     "different": {
-      "eyebrow": "Was den Ansatz unterscheidet",
-      "title": "Klarheit vor Verpflichtung",
+      "eyebrow": "Was unseren Ansatz unterscheidet",
+      "title": "Klarheit vor Bindung",
       "cards": [
         {
-          "title": "Die gesamte Struktur steht zuerst",
-          "desc": "Wir beginnen nicht mit einem Produkt, das verkauft werden soll. Wir beginnen mit der Position des Kunden und der zu treffenden Entscheidung. Ansässigkeit, Einkommen, Unternehmen, Vermögenswerte und familiäre Umstände werden gemeinsam betrachtet, da sie sich gegenseitig beeinflussen können."
+          "title": "Die Gesamtstruktur steht an erster Stelle",
+          "desc": "Wir beginnen nicht mit einem Produkt, das verkauft werden soll. Ausgangspunkt sind die Situation des Kunden und die zu treffende Entscheidung. Ansässigkeit, Einkünfte, Unternehmen, Vermögenswerte und familiäre Umstände werden gemeinsam betrachtet, weil sie sich gegenseitig beeinflussen können."
         },
         {
           "title": "Umsetzung ist Teil der Analyse",
-          "desc": "Eine Struktur ist nur dann nützlich, wenn sie dokumentiert, verwaltet und aufrechterhalten werden kann. Bankwesen, Gehaltsabrechnung, Unternehmensführung, Ansässigkeitsverfahren, lokaler Betrieb und fachliche Koordination müssen außerhalb einer Präsentation oder eines Memorandums funktionieren."
+          "desc": "Eine Struktur ist nur dann sinnvoll, wenn sie dokumentiert, administriert und dauerhaft aufrechterhalten werden kann. Bankbeziehungen, Lohnabrechnung, Unternehmensleitung, Ansässigkeitsverfahren, lokale Geschäftstätigkeit und die Koordination von Fachleuten müssen auch außerhalb einer Präsentation oder eines Memorandums funktionieren."
         },
         {
-          "title": "Fachliche Rollen bleiben klar",
-          "desc": "Dynamic Residency leitet die kaufmännische Analyse, die grenzüberschreitende Koordination und den Umsetzungsplan. Formelle steuerliche, rechtliche, einwanderungsrechtliche und gesellschaftsrechtliche Stellungnahmen werden von entsprechend qualifizierten Fachleuten erstellt oder geprüft. Kunden können auch ihre bestehenden Berater behalten, während wir die türkeispezifischen Fragen definieren und die gemeinsame Arbeit koordinieren."
+          "title": "Die fachlichen Rollen bleiben klar",
+          "desc": "Dynamic Residency leitet die wirtschaftliche Analyse, die grenzüberschreitende Koordination und den Umsetzungsplan. Formelle steuerliche, rechtliche, aufenthaltsrechtliche und gesellschaftsrechtliche Stellungnahmen werden von entsprechend qualifizierten Fachleuten erstellt oder geprüft. Kunden können außerdem ihre bestehenden Berater beibehalten; wir definieren die türkeibezogenen Fragen und koordinieren die gemeinsame Arbeit."
         },
         {
-          "title": "Die Entscheidung ist unabhängig",
-          "desc": "Die Türkei wird nicht standardmäßig empfohlen. Ein negatives Ergebnis kann das richtige Ergebnis sein. Unser Zweck ist es, Klarheit zu schaffen, bevor der Kunde Kapital bindet, seine Ansässigkeit ändert oder eine bestehende internationale Position umstrukturiert."
+          "title": "Die Entscheidung bleibt unabhängig",
+          "desc": "Die Türkei wird nicht automatisch empfohlen. Auch eine negative Schlussfolgerung kann das richtige Ergebnis sein. Unser Ziel ist, Klarheit zu schaffen, bevor der Kunde Kapital einsetzt, seine Ansässigkeit verlagert oder eine bestehende internationale Struktur umgestaltet."
         }
       ]
     },
     "realOperations": {
-      "eyebrow": "Aufbauend auf realer Geschäftstätigkeit in der Türkei",
-      "title": "Praktische Erfahrung, keine Distanz",
-      "body1": "Dynamic Residency ist ein spezialisiertes Projekt, das innerhalb von Dynamic Works Türkiye entwickelt wurde. Seine operative Perspektive stammt aus dem Aufbau und der Führung von Unternehmen, der Beschäftigung lokaler Teams, der Unterstützung internationaler Unternehmer und der Entwicklung praktischer Geschäftsinfrastruktur in der Türkei.",
-      "body2": "Dieser operative Hintergrund ist wichtig, weil international vernetzte Kunden nicht nur Informationen über die Türkei benötigen. Sie müssen verstehen, wie eine vorgeschlagene Struktur mit Menschen, Unternehmen, Dokumentation, Banken, Beratern, Behörden und dem Tagesgeschäft funktioniert.",
-      "body3": "Dynamic Residency verbindet lokale Betriebserfahrung mit einem grenzüberschreitenden fachlichen Netzwerk. Fachliche Expertise wird hinzugezogen, wo die Frage regulierte Kenntnisse erfordert, während die Gesamtentscheidung um die vollständige Struktur des Kunden koordiniert bleibt."
+      "eyebrow": "Auf realer operativer Erfahrung in der Türkei aufgebaut",
+      "title": "Praktische Erfahrung statt Distanz",
+      "body1": "Dynamic Residency ist ein spezialisiertes Projekt, das innerhalb von Dynamic Works Türkiye entwickelt wurde. Seine operative Perspektive beruht auf dem Aufbau und der Führung von Unternehmen, der Beschäftigung lokaler Teams, der Unterstützung internationaler Unternehmer und der Entwicklung praktischer Geschäftsinfrastruktur in der Türkei.",
+      "body2": "Dieser operative Hintergrund ist wichtig, weil international vernetzte Kunden nicht nur Informationen über die Türkei benötigen. Sie müssen verstehen, wie eine vorgeschlagene Struktur im Zusammenspiel mit Menschen, Unternehmen, Dokumentation, Banken, Beratern, Behörden und dem Tagesgeschäft funktioniert.",
+      "body3": "Dynamic Residency verbindet lokale operative Erfahrung mit einem grenzüberschreitenden Expertennetzwerk. Spezialisierte Fachbeiträge werden eingebunden, wenn eine Frage regulierte Fachkompetenz erfordert; die Gesamtentscheidung bleibt dabei auf die vollständige Struktur des Kunden ausgerichtet und koordiniert."
     },
     "founderSection": {
       "eyebrow": "Gründer und strategische Ausrichtung",
       "title": "Entwickelt von Stephan Westermayer",
-      "body1": "Dynamic Residency wurde von Stephan Westermayer entwickelt, Gründer von Dynamic Residency sowie Gründer und Chief Executive Officer von Dynamic Works und Blue Palm Group. Die Plattform entstand aus seiner unmittelbaren Erfahrung, in der Türkei zu leben und zu wirken, Unternehmen aufzubauen, mit lokalen Teams zu arbeiten und internationale Strukturen zu koordinieren.",
-      "body2": "Stephan leitet die strategische Ausrichtung von Dynamic Residency und ist persönlich an ausgewählten komplexen Fällen mit Unternehmensbeteiligungen, internationalen Vermögenswerten oder mehreren verbundenen Jurisdiktionen beteiligt. Standardberatungen und fachliche Arbeit werden von den entsprechenden Mitgliedern des professionellen Netzwerks betreut.",
-      "body3": "Die Plattform basiert somit auf praktischer Erfahrung in der Türkei, ist jedoch für Entscheidungen konzipiert, die über die Türkei hinausgehen. Die relevante Frage ist nicht nur, was die Türkei erlaubt. Sie ist, ob die gesamte internationale Struktur vor, während und nach dem Umzug funktioniert."
+      "body1": "Dynamic Residency wurde von Stephan Westermayer entwickelt, dem Gründer von Dynamic Residency sowie Gründer und CEO von Dynamic Works und Blue Palm Group. Die Plattform entstand aus seiner unmittelbaren Erfahrung mit dem Leben und unternehmerischen Wirken in der Türkei, dem Aufbau von Unternehmen, der Zusammenarbeit mit lokalen Teams und der Koordination internationaler Strukturen.",
+      "body2": "Stephan verantwortet die strategische Ausrichtung von Dynamic Residency und ist persönlich an ausgewählten komplexen Fällen beteiligt, die Unternehmensbeteiligungen, internationale Vermögenswerte oder mehrere miteinander verbundene Jurisdiktionen betreffen. Standardberatungen und spezialisierte Arbeiten werden von den jeweils geeigneten Mitgliedern des Expertennetzwerks durchgeführt.",
+      "body3": "Die Plattform ist somit aus praktischer Erfahrung in der Türkei entstanden, wurde jedoch für Entscheidungen konzipiert, die über die Türkei hinausreichen. Die entscheidende Frage lautet nicht nur, was die Türkei erlaubt. Entscheidend ist, ob die gesamte internationale Struktur vor, während und nach dem Umzug funktioniert."
     },
     "whoHelps": {
-      "eyebrow": "Wem Dynamic Residency hilft",
-      "title": "Konzipiert für international vernetzte Entscheidungen",
+      "eyebrow": "Wen Dynamic Residency unterstützt",
+      "title": "Für international vernetzte Entscheidungen konzipiert",
       "cards": [
         {
           "title": "Unternehmensinhaber und Gründer",
-          "desc": "Unternehmer, die in der Türkei ansässig werden möchten, ohne vermeidbare Probleme für ausländische Unternehmen, Geschäftsführungstätigkeit, Gehaltsabrechnung, Dividenden, Eigentum oder Betrieb zu schaffen."
+          "desc": "Unternehmer, die ihre Ansässigkeit in der Türkei begründen möchten, ohne vermeidbare Probleme für ausländische Gesellschaften, Leitungstätigkeiten, Lohnabrechnung, Dividenden, Beteiligungsverhältnisse oder den Geschäftsbetrieb zu verursachen."
         },
         {
           "title": "Internationale Investoren",
-          "desc": "Personen, die Dividenden, Zinsen, Mieteinnahmen, Renten oder Veräußerungsgewinne aus Vermögenswerten und Institutionen in mehr als einem Land erhalten."
+          "desc": "Personen, die Dividenden, Zinsen, Mieteinkünfte, Renten oder Veräußerungsgewinne aus Vermögenswerten und Institutionen in mehr als einem Land beziehen."
         },
         {
           "title": "International mobile Familien",
-          "desc": "Familien, deren Ansässigkeitsentscheidung mit Bildung, Gesundheitsversorgung, Immobilien, Nachfolge, Reisen und langfristiger Finanzplanung zusammenpassen muss."
+          "desc": "Familien, deren Ansässigkeitsentscheidung mit Bildung, Gesundheitsversorgung, Immobilien, Nachfolge, Reisen und langfristiger Finanzplanung vereinbar sein muss."
         },
         {
-          "title": "Rückkehrende türkische Staatsbürger",
-          "desc": "Türkische Staatsbürger, die nach einer Zeit im Ausland zurückkehren und eine strukturierte Prüfung ihrer Ansässigkeitshistorie, ihres Einkommens, ihrer Vermögenswerte und möglicher Anspruchsberechtigung für aktuelle türkische Steuerregelungen benötigen."
+          "title": "Rückkehrende türkische Staatsangehörige",
+          "desc": "Türkische Staatsangehörige, die nach einem Auslandsaufenthalt zurückkehren und eine strukturierte Prüfung ihrer bisherigen Ansässigkeit, Einkünfte, Vermögenswerte und einer möglichen Anspruchsberechtigung nach den geltenden türkischen Steuerregelungen benötigen."
         },
         {
-          "title": "Internationale Fachkräfte und Ruheständler",
-          "desc": "Personen, deren Arbeit, Rente, Investitionen oder Reisemuster international bleiben und die nicht durch einen Standard-Inlandsumzugsprozess erfasst werden können."
+          "title": "International tätige Fachkräfte und Ruheständler",
+          "desc": "Personen, deren Arbeit, Rentenbezüge, Investitionen oder Reisemuster international bleiben und nicht im Rahmen eines gewöhnlichen innerstaatlichen Umzugsprozesses beurteilt werden können."
         },
         {
-          "title": "Fachliche Berater",
-          "desc": "Steuerberater, Anwälte, Treuhänder und Family-Office-Fachleute, die einen koordinierten türkeispezifischen Arbeitsstrom für einen Kunden mit bestehender internationaler Struktur benötigen."
+          "title": "Professionelle Berater",
+          "desc": "Steuerberater, Rechtsanwälte, Treuhänder und Family-Office-Berater, die für einen Kunden mit bestehender internationaler Struktur einen koordinierten türkeibezogenen Arbeitsstrang benötigen."
         }
       ]
     },
@@ -386,42 +386,42 @@
       "eyebrow": "Was Dynamic Residency nicht ist",
       "title": "Klare fachliche Grenzen",
       "items": [
-        "Keine Massenagentur für Einwanderung oder Aufenthaltstitel",
-        "Keine Anwaltskanzlei, Steuerberatungsgesellschaft oder Ersatz für regulierte fachliche Beratung",
-        "Kein Immobilienmarktplatz, Staatsbürgerschaftsvermittler oder allgemeiner Umzugsservice",
-        "Kein Versprechen, dass jeder Kunde für eine Steuerbefreiung qualifiziert ist",
+        "Keine Massenagentur für Einwanderung oder Aufenthaltserlaubnisse",
+        "Keine Rechtsanwaltskanzlei, Steuerberatungsgesellschaft oder Ersatz für regulierte Fachberatung",
+        "Kein Immobilienmarktplatz, Vermittler für Staatsbürgerschaften oder allgemeiner Relocation-Dienstleister",
+        "Kein Versprechen, dass jeder Kunde Anspruch auf eine Steuerbefreiung hat",
         "Keine Plattform, die die Türkei unabhängig von der Eignung empfiehlt"
       ],
-      "outro": "Klare fachliche Grenzen sind Teil des Services. Dynamic Residency koordiniert den Entscheidungs- und Umsetzungsprozess und stellt sicher, dass formelle Stellungnahmen von den entsprechend qualifizierten Fachleuten eingeholt werden."
+      "outro": "Klare fachliche Grenzen sind Bestandteil der Leistung. Dynamic Residency koordiniert den Entscheidungs- und Umsetzungsprozess und stellt zugleich sicher, dass formelle Stellungnahmen von den jeweils geeigneten qualifizierten Fachleuten eingeholt werden."
     },
     "principles": {
-      "eyebrow": "Unsere Prinzipien",
-      "title": "Wie die Arbeit geleitet wird",
+      "eyebrow": "Unsere Grundsätze",
+      "title": "Leitlinien unserer Arbeit",
       "items": [
         {
           "number": "01",
           "title": "Auf Erfahrung aufgebaut",
-          "desc": "Empfehlungen sollten auf praktischer betrieblicher Realität beruhen, nicht nur auf Theorie oder Werbeaussagen."
+          "desc": "Empfehlungen sollten auf praktischer operativer Realität beruhen – nicht nur auf Theorie oder werblichen Aussagen."
         },
         {
           "number": "02",
           "title": "Umsetzung zuerst",
-          "desc": "Eine vorgeschlagene Struktur muss nach der Entscheidung dokumentiert, verwaltet und aufrechterhalten werden können."
+          "desc": "Eine vorgeschlagene Struktur muss nach der Entscheidung dokumentiert, administriert und dauerhaft aufrechterhalten werden können."
         },
         {
           "number": "03",
           "title": "Qualität vor Wachstum",
-          "desc": "Komplexe Entscheidungen erfordern diszipliniertem Umfang, angemessene Fachkenntnis und ausreichend Zeit. Volumen ist nicht das Ziel."
+          "desc": "Komplexe Entscheidungen erfordern einen klar abgegrenzten Leistungsumfang, geeignete Expertise und ausreichend Zeit. Volumen ist nicht das Ziel."
         },
         {
           "number": "04",
           "title": "Transparenz",
-          "desc": "Rollen, Grenzen, Kosten, Abhängigkeiten und offene Fragen sollten klar sein, bevor die Arbeit beginnt."
+          "desc": "Rollen, Grenzen, Honorare, Abhängigkeiten und ungeklärte Fragen sollten vor Beginn der Arbeit klar sein."
         },
         {
           "number": "05",
-          "title": "International von Grund auf",
-          "desc": "Die Türkei wird im gesamten grenzüberschreitenden Kontext betrachtet, einschließlich der Jurisdiktionen, Unternehmen, Vermögenswerte und familiären Bindungen, die relevant bleiben."
+          "title": "International konzipiert",
+          "desc": "Die Türkei wird im vollständigen grenzüberschreitenden Kontext betrachtet, einschließlich der weiterhin relevanten Jurisdiktionen, Unternehmen, Vermögenswerte und familiären Bindungen."
         }
       ]
     },
@@ -431,262 +431,262 @@
       "items": [
         {
           "q": "Was macht Dynamic Residency?",
-          "a": "Dynamic Residency bietet grenzüberschreitende Ansässigkeitsplanung, strukturelle Analyse und Umsetzungskoordination für international vernetzte Personen, die die Türkei in Betracht ziehen. Es bringt Fragen zu Ansässigkeit, Einkommen, Unternehmen, Investitionen, Familie und praktischer Umsetzung in einem Entscheidungsprozess zusammen."
+          "a": "Dynamic Residency bietet grenzüberschreitende Ansässigkeitsplanung, Strukturanalyse und Umsetzungskoordination für international vernetzte Personen, die die Türkei in Betracht ziehen. Fragen zu Ansässigkeit, Einkünften, Unternehmen, Investitionen, Familie und praktischer Umsetzung werden in einem gemeinsamen Entscheidungsprozess zusammengeführt."
         },
         {
-          "q": "Ist Dynamic Residency eine Anwaltskanzlei oder Steuerberatungsgesellschaft?",
-          "a": "Nein. Dynamic Residency leitet die kaufmännische Analyse, Fragendefinition, Koordination und Umsetzungsplanung. Formelle steuerliche, rechtliche, einwanderungsrechtliche oder gesellschaftsrechtliche Stellungnahmen werden von entsprechend qualifizierten Fachleuten erstellt oder geprüft."
+          "q": "Ist Dynamic Residency eine Rechtsanwaltskanzlei oder Steuerberatungsgesellschaft?",
+          "a": "Nein. Dynamic Residency leitet die wirtschaftliche Analyse, die Definition der Fragestellungen, die Koordination und die Umsetzungsplanung. Formelle steuerliche, rechtliche, aufenthaltsrechtliche oder gesellschaftsrechtliche Stellungnahmen werden von entsprechend qualifizierten Fachleuten erstellt oder geprüft."
         },
         {
           "q": "Wo hat Dynamic Residency seinen Sitz?",
-          "a": "Dynamic Residency hat seinen Sitz in Istanbul, Türkei. Der Service wird über ein grenzüberschreitendes fachliches Netzwerk auf Englisch und Deutsch erbracht."
+          "a": "Dynamic Residency hat seinen Sitz in Istanbul, Türkei. Die Leistungen werden auf Englisch und Deutsch über ein grenzüberschreitendes Expertennetzwerk erbracht."
         },
         {
-          "q": "Für wen ist der Service konzipiert?",
-          "a": "Der Service ist konzipiert für Unternehmer, Investoren, international mobile Familien, rückkehrende türkische Staatsbürger, internationale Fachkräfte, Ruheständler und Berater, deren Entscheidungen verbundene Fragen zu Ansässigkeit, Einkommen, Unternehmen, Vermögen oder Familie betreffen."
+          "q": "Für wen ist die Leistung konzipiert?",
+          "a": "Die Leistung richtet sich an Unternehmer, Investoren, international mobile Familien, rückkehrende türkische Staatsangehörige, international tätige Fachkräfte, Ruheständler und Berater, deren Entscheidungen miteinander verbundene Fragen zu Ansässigkeit, Einkünften, Unternehmen, Vermögenswerten oder Familie umfassen."
         },
         {
-          "q": "Empfiehlt Dynamic Residency die Türkei jedem Kunden?",
-          "a": "Nein. Der Zweck besteht darin festzustellen, ob die Türkei für die gesamte internationale Position des Kunden funktioniert. Wo die Struktur nicht tragfähig ist, kann das richtige Ergebnis sein, nicht fortzufahren."
+          "q": "Empfiehlt Dynamic Residency jedem Kunden die Türkei?",
+          "a": "Nein. Ziel ist festzustellen, ob die Türkei zur gesamten internationalen Ausgangslage des Kunden passt. Ist die Struktur nicht tragfähig, kann die richtige Entscheidung darin bestehen, nicht fortzufahren."
         },
         {
           "q": "Wie beginnt der Prozess?",
-          "a": "Der Prozess beginnt mit einer strukturierten Prüfung der verfügbaren Fakten und Ziele. Dynamic Residency identifiziert den relevanten Umfang, Informationslücken, Abhängigkeiten und Fragen, die fachliche Einschätzungen erfordern, bevor der nächste Schritt empfohlen wird."
+          "a": "Der Prozess beginnt mit einer strukturierten Prüfung der verfügbaren Fakten und Ziele. Dynamic Residency bestimmt den relevanten Leistungsumfang, Informationslücken, Abhängigkeiten und Fragen, die fachliche Einschätzungen erfordern, bevor der nächste Schritt empfohlen wird."
         }
       ]
     },
     "cta": {
-      "eyebrow": "Bevor Sie Ihre Ansässigkeit ändern",
-      "title": "Feststellen, ob die Struktur funktioniert",
-      "body": "Allgemeine Informationen können die Türkei erklären. Ihre Situation erfordert eine individuelle Antwort basierend auf Ihrer Ansässigkeitshistorie, Ihrem Einkommen, Ihren Unternehmen, Investitionen und familiären Umständen.",
+      "eyebrow": "Bevor Sie Ihre Ansässigkeit verlagern",
+      "title": "Prüfen Sie, ob die Struktur funktioniert",
+      "body": "Allgemeine Informationen können die Türkei erklären. Ihre Situation erfordert eine individuelle Antwort auf Grundlage Ihrer bisherigen Ansässigkeit, Einkünfte, Unternehmen, Investitionen und familiären Umstände.",
       "cta": "Mit Dynamic Residency sprechen"
     }
   },
   "exemption": {
     "hero": {
-      "eyebrow": "Dynamic Residency | 20-Jahres-Befreiung",
-      "title": "Die 20-jährige Steuerbefreiung der Türkei auf ausländische Einkünfte verstehen",
+      "eyebrow": "Dynamic Residency | 20-jährige Steuerbefreiung",
+      "title": "Die 20-jährige Steuerbefreiung der Türkei für ausländische Einkünfte verstehen",
       "lead": "Für Unternehmer, Investoren und international mobile Familien",
-      "small": "Verifizierte Rechtsgrundlage: Artikel 20/D des türkischen Einkommensteuergesetzes und Allgemeines Kommuniqué Nr. 333",
+      "small": "Verifizierte Rechtsgrundlage: Artikel 20/D des türkischen Einkommensteuergesetzes und das Allgemeine Kommuniqué Nr. 333",
       "cta": "Über Dynamic Residency",
-      "imageAlt": "Geschäftsmann und Kind mit Blick auf die Skyline von Istanbul"
+      "imageAlt": "Ein Unternehmer und sein Kind mit Blick auf die Skyline von Istanbul"
     },
     "framework": {
-      "eyebrow": "Ein neuer Steuerrahmen",
+      "eyebrow": "Ein neuer steuerlicher Rahmen",
       "title": "Für international vernetzte Personen",
-      "lead": "Die Türkei hat eine bedeutende persönliche Einkommensteuerbefreiung für anspruchsberechtigte Personen eingeführt, die eine türkische steuerliche Ansässigkeit begründen.",
-      "body1": "Gemäß Artikel 20/D des türkischen Einkommensteuergesetzes können Personen, die die gesetzlichen Voraussetzungen zur Ansässigkeitshistorie erfüllen, für einen gesetzlichen Zeitraum von 20 Jahren eine Befreiung von der türkischen Einkommensteuer auf Einkommen und Gewinne erhalten, die tatsächlich außerhalb der Türkei erzielt wurden.",
-      "body2": "Die Regelung gilt für Personen, die ab dem 1. Januar 2026 in der Türkei ansässig werden. Sie basiert auf Ansässigkeitshistorie, Steuerhistorie und der Quelle des Einkommens – nicht auf der Staatsangehörigkeit. Das Gesetz nennt keine betragsmäßige Obergrenze für qualifizierendes ausländisches Einkommen.",
-      "noteTitle": "Wichtige Unterscheidung",
-      "noteBody": "Dies ist kein allgemeiner „20 Jahre steuerfrei“-Status. Die Befreiung gilt nur, wenn die Person, das Einkommen und das Antragsverfahren die gesetzlichen Anforderungen erfüllen.",
-      "cta": "Artikel 20/D im offiziellen Amtsblatt lesen"
+      "lead": "Die Türkei hat eine bedeutende Einkommensteuerbefreiung für berechtigte natürliche Personen eingeführt, die in der Türkei steuerlich ansässig werden.",
+      "body1": "Nach Artikel 20/D des türkischen Einkommensteuergesetzes können natürliche Personen, die die gesetzlichen Voraussetzungen hinsichtlich ihrer bisherigen Ansässigkeit erfüllen, für einen gesetzlich festgelegten Zeitraum von 20 Jahren eine Befreiung von der türkischen Einkommensteuer auf Einkünfte und Gewinne erhalten, die tatsächlich außerhalb der Türkei erzielt werden.",
+      "body2": "Die Regelung gilt für Personen, die ab dem 1. Januar 2026 in der Türkei ansässig werden. Maßgeblich sind die bisherige Ansässigkeit, die steuerliche Vorgeschichte und die Quelle der Einkünfte – nicht die Staatsangehörigkeit. Das Gesetz sieht für begünstigte ausländische Einkünfte keine betragsmäßige Obergrenze vor.",
+      "noteTitle": "Wichtige Abgrenzung",
+      "noteBody": "Dies ist kein allgemeiner Status „20 Jahre steuerfrei“. Die Befreiung gilt nur, wenn die Person, die Einkünfte und das Antragsverfahren die gesetzlichen Voraussetzungen erfüllen.",
+      "cta": "Artikel 20/D im türkischen Amtsblatt lesen"
     },
     "quickFacts": {
-      "eyebrow": "Die Befreiung im Überblick",
-      "title": "Kurzübersicht",
+      "eyebrow": "Die Steuerbefreiung auf einen Blick",
+      "title": "Die wichtigsten Fakten",
       "rows": [
         {
-          "q": "Wer kann qualifizieren?",
-          "a": "Natürliche Personen, die in der Türkei ansässig werden und die geltenden Voraussetzungen zu Ansässigkeit und Steuerhistorie erfüllen. Die Regelung sieht keine Befreiung von der Körperschaftsteuer vor."
+          "q": "Wer kann anspruchsberechtigt sein?",
+          "a": "Natürliche Personen, die in der Türkei ansässig werden und die geltenden Voraussetzungen hinsichtlich Ansässigkeit und steuerlicher Vorgeschichte erfüllen. Die Regelung sieht keine Körperschaftsteuerbefreiung vor."
         },
         {
-          "q": "Was kann befreit sein?",
-          "a": "Einkommen und Gewinne, die tatsächlich außerhalb der Türkei erzielt wurden, vorbehaltlich der Einordnung nach türkischen Quellenregeln."
+          "q": "Welche Einkünfte können steuerbefreit sein?",
+          "a": "Einkünfte und Gewinne, die tatsächlich außerhalb der Türkei erzielt werden, vorbehaltlich ihrer Einordnung nach den türkischen Quellenregeln."
         },
         {
-          "q": "Wie lange?",
-          "a": "Ein gesetzlicher Befreiungszeitraum von 20 Jahren."
+          "q": "Für welchen Zeitraum?",
+          "a": "Ein gesetzlich festgelegter Befreiungszeitraum von 20 Jahren."
         },
         {
           "q": "Gibt es eine betragsmäßige Obergrenze?",
-          "a": "Artikel 20/D nennt keine betragsmäßige Obergrenze für qualifizierendes ausländisches Einkommen."
+          "a": "Artikel 20/D sieht für begünstigte ausländische Einkünfte keine betragsmäßige Obergrenze vor."
         },
         {
           "q": "Ist ein Antrag erforderlich?",
-          "a": "Ja. Die Person muss beim zuständigen türkischen Finanzamt einen Antrag stellen und die vorgeschriebene Bescheinigung über die Befreiung ausländischer Einkünfte erhalten."
+          "a": "Ja. Die betreffende Person muss bei dem zuständigen türkischen Finanzamt einen Antrag stellen und die vorgeschriebene Bescheinigung zur Steuerbefreiung für ausländische Einkünfte erhalten."
         }
       ]
     },
     "incomeStreams": {
-      "eyebrow": "Potenziell relevantes ausländisches Einkommen",
-      "title": "Einkommensarten, die relevant sein können",
+      "eyebrow": "Potenziell relevante ausländische Einkünfte",
+      "title": "Einkunftsarten, die relevant sein können",
       "items": [
-        "Dividenden von ausländischen Unternehmen",
-        "Mieteinnahmen aus Immobilien außerhalb der Türkei",
+        "Dividenden aus ausländischen Gesellschaften",
+        "Mieteinkünfte aus Immobilien außerhalb der Türkei",
         "Ausländische Zinsen und Kapitalerträge",
         "Bestimmte ausländische Veräußerungsgewinne",
-        "Bestimmte ausländische Rentenbezüge",
-        "Sonstiges Einkommen aus Vermögenswerten oder Tätigkeiten, die tatsächlich außerhalb der Türkei liegen"
+        "Bestimmte ausländische Renten- und Pensionsbezüge",
+        "Sonstige Einkünfte aus Vermögenswerten, die tatsächlich außerhalb der Türkei belegen sind, oder aus Tätigkeiten, die tatsächlich außerhalb der Türkei ausgeübt werden"
       ],
-      "outro": "Jede Einkommensart muss separat eingeordnet werden. Ein ausländischer Zahler, ein ausländisches Unternehmen oder ein ausländisches Bankkonto machen ein Einkommen für sich genommen nicht zu ausländischem Einkommen."
+      "outro": "Jede Einkunftsart muss gesondert eingeordnet werden. Ein ausländischer Zahlender, eine ausländische Gesellschaft oder ein ausländisches Bankkonto macht Einkünfte für sich allein nicht zu Einkünften aus ausländischen Quellen."
     },
     "eligibility": {
-      "eyebrow": "Anspruchsberechtigung",
-      "title": "Die vier Fragen, die die Anspruchsberechtigung bestimmen",
+      "eyebrow": "Anspruchsvoraussetzungen",
+      "title": "Die vier Fragen, die über die Anspruchsberechtigung entscheiden",
       "items": [
         {
           "number": "01",
           "title": "Werden Sie in der Türkei ansässig?",
-          "desc": "Artikel 20/D gilt für Personen, die nach türkischem Steuerrecht als in der Türkei ansässig gelten. Ein Aufenthaltstitel, ein Immobilienkauf oder die Anzahl der in der Türkei verbrachten Tage können relevant sein, aber keine einzelne Tatsache sollte isoliert bewertet werden. Wohnsitz, physische Anwesenheit, familiäre Umstände und geltende Doppelbesteuerungsabkommen können die endgültige Ansässigkeitsposition beeinflussen. Die Person muss bei Antragstellung für die Befreiungsbescheinigung bereits als in der Türkei ansässig gelten."
+          "desc": "Artikel 20/D gilt für natürliche Personen, die nach türkischem Steuerrecht als in der Türkei ansässig gelten. Eine Aufenthaltserlaubnis, der Erwerb einer Immobilie oder die Anzahl der in der Türkei verbrachten Tage können relevant sein; kein einzelner Umstand sollte jedoch isoliert beurteilt werden. Wohnsitz, tatsächliche Anwesenheit, familiäre Umstände und anwendbare Doppelbesteuerungsabkommen können die endgültige Beurteilung der Ansässigkeit beeinflussen. Zum Zeitpunkt des Antrags auf die Befreiungsbescheinigung muss die Person bereits als in der Türkei ansässig gelten."
         },
         {
           "number": "02",
-          "title": "Wie sieht Ihre Historie der vorangegangenen drei Kalenderjahre aus?",
-          "desc": "Als allgemeine Regel darf die Person in den drei Kalenderjahren vor dem Jahr, in dem sie ansässig wird, weder einen Wohnsitz in der Türkei noch eine disqualifizierende türkische Steuerpflicht gehabt haben. Bestimmte frühere türkische Steuerpflichten aus türkischen Mieteinnahmen, Kapitalerträgen oder Veräußerungsgewinnen verhindern die Qualifikation nicht automatisch. Frühere Beschäftigung, gewerbliche oder berufliche Tätigkeit in der Türkei kann jedoch die Anspruchsberechtigung beeinflussen und erfordert eine detaillierte Prüfung."
+          "title": "Wie sieht Ihre Vorgeschichte in den vorangegangenen drei Kalenderjahren aus?",
+          "desc": "Grundsätzlich darf die Person in den drei Kalenderjahren vor dem Jahr, in dem sie in der Türkei ansässig wird, weder einen Wohnsitz in der Türkei noch eine schädliche türkische Steuerpflicht gehabt haben. Bestimmte frühere türkische Steuerpflichten aufgrund türkischer Mieteinkünfte, Kapitalerträge oder Veräußerungsgewinne schließen die Anspruchsberechtigung nicht automatisch aus. Eine frühere nichtselbständige, gewerbliche oder freiberufliche Tätigkeit in der Türkei kann die Anspruchsberechtigung jedoch beeinflussen und erfordert eine detaillierte Prüfung."
         },
         {
           "number": "03",
-          "title": "Wo wurde das Einkommen tatsächlich erzielt?",
-          "desc": "Der Standort des Zahlers oder Bankkontos ist nicht entscheidend. Der zugrunde liegende Vermögenswert, die Tätigkeit, Beschäftigung, Dienstleistung, Unternehmensausschüttung oder Transaktion muss geprüft werden, um festzustellen, ob das Einkommen tatsächlich außerhalb der Türkei erzielt wurde."
+          "title": "Wo wurden die Einkünfte tatsächlich erzielt?",
+          "desc": "Der Ort des Zahlenden oder des Bankkontos ist nicht entscheidend. Der zugrunde liegende Vermögenswert, die Tätigkeit, das Beschäftigungsverhältnis, die Dienstleistung, die Ausschüttung der Gesellschaft oder die Transaktion muss geprüft werden, um festzustellen, ob die Einkünfte tatsächlich außerhalb der Türkei erzielt wurden."
         },
         {
           "number": "04",
-          "title": "Können Sie die Bescheinigung rechtzeitig erhalten?",
-          "desc": "Die Befreiung erfolgt nicht automatisch. Der Antrag muss in der Regel bis zum Ende des Kalenderjahres gestellt werden, in dem die Person in der Türkei ansässig wird. Personen, die in den letzten zwei Monaten eines Kalenderjahres ansässig werden, können bis Ende Februar des Folgejahres beantragen. Ein verspäteter Antrag kann dazu führen, dass die Befreiungsbescheinigung abgelehnt wird, auch wenn die übrigen materiellen Voraussetzungen erfüllt sind."
+          "title": "Können Sie die Bescheinigung fristgerecht erhalten?",
+          "desc": "Die Befreiung gilt nicht automatisch. Der Antrag muss grundsätzlich bis zum Ende des Kalenderjahres abgeschlossen sein, in dem die Person in der Türkei ansässig wird. Personen, die in den letzten beiden Monaten eines Kalenderjahres ansässig werden, können den Antrag bis Ende Februar des Folgejahres stellen. Ein verspäteter Antrag kann zur Ablehnung der Befreiungsbescheinigung führen, selbst wenn die übrigen materiellen Voraussetzungen erfüllt sind."
         }
       ]
     },
     "sourceClassification": {
-      "eyebrow": "Quelleneinordnung",
-      "title": "Praktische Beispiele",
+      "eyebrow": "Einordnung der Einkunftsquelle",
+      "title": "Praxisbeispiele",
       "items": [
-        "Miete aus einer Immobilie, die sich physisch außerhalb der Türkei befindet, kann ausländisches Einkommen sein.",
-        "Eine Dividende eines nicht-türkischen Unternehmens kann ausländisches Einkommen sein, vorbehaltlich der Umstände.",
-        "Berufliche Dienstleistungen, die physisch von der Türkei aus erbracht werden, können türkisches Einkommen bleiben, auch wenn Kunde und Zahlungskonto im Ausland liegen.",
-        "Gehalt, Managementgebühren und Geschäftsgewinne können eine zusätzliche Analyse erfordern, wo die Arbeit ausgeführt und wo das Unternehmen geführt wird."
+        "Mieteinkünfte aus einer außerhalb der Türkei belegenen Immobilie können Einkünfte aus ausländischen Quellen darstellen.",
+        "Eine Dividende einer nichttürkischen Gesellschaft kann vorbehaltlich der Gesamtumstände aus ausländischer Quelle stammen.",
+        "Einkünfte aus beruflichen Dienstleistungen, die tatsächlich von der Türkei aus erbracht werden, können weiterhin als aus türkischer Quelle stammend gelten, selbst wenn sich der Kunde und das Zahlungskonto im Ausland befinden.",
+        "Arbeitslohn, Geschäftsführervergütungen und Unternehmensgewinne können eine zusätzliche Prüfung erfordern, wo die Arbeit ausgeübt und das Unternehmen geleitet wird."
       ]
     },
     "whySignificant": {
-      "eyebrow": "Warum die Befreiung bedeutend sein kann",
+      "eyebrow": "Warum die Steuerbefreiung bedeutsam sein kann",
       "title": "Für wen sie relevant sein kann",
-      "lead": "Für eine anspruchsberechtigte, international vernetzte Person kann die Befreiung die langfristige Wirtschaftlichkeit einer Ansässigkeit in der Türkei erheblich verändern.",
+      "lead": "Für eine berechtigte international vernetzte Person kann die Befreiung die langfristige wirtschaftliche Bewertung einer Ansässigkeit in der Türkei erheblich verändern.",
       "cards": [
         {
           "title": "Internationale Investoren",
-          "desc": "Personen, die Dividenden, Portfolioeinkommen, Zinsen, ausländische Mieteinnahmen oder Gewinne aus Vermögenswerten in mehreren Jurisdiktionen erhalten."
+          "desc": "Personen, die Dividenden, Portfolioerträge, Zinsen, ausländische Mieteinkünfte oder Gewinne aus Vermögenswerten beziehen, die über mehrere Jurisdiktionen verteilt sind."
         },
         {
           "title": "Unternehmensinhaber und Gründer",
-          "desc": "Unternehmer, die nach dem Umzug in die Türkei Eigentum an ausländischen Unternehmen behalten. Die persönliche Befreiung kann für Dividenden oder andere qualifizierende ausländische Einkünfte relevant sein, bestimmt jedoch nicht die Unternehmensansässigkeit, Betriebsstätte, Gehaltsbesteuerung oder Wegzugsteuer im Herkunftsland."
+          "desc": "Unternehmer, die nach ihrem Umzug in die Türkei Beteiligungen an ausländischen Gesellschaften behalten. Die persönliche Steuerbefreiung kann für Dividenden oder andere begünstigte ausländische Einkünfte relevant sein; sie entscheidet jedoch nicht über die steuerliche Ansässigkeit der Gesellschaft, Betriebsstättenrisiken, die Besteuerung von Arbeitslohn oder die Wegzugsbesteuerung im Wegzugsstaat."
         },
         {
-          "title": "Rückkehrende türkische Staatsbürger",
-          "desc": "Die Staatsangehörigkeit allein verhindert die Qualifikation nicht. Ein rückkehrender türkischer Staatsbürger kann anspruchsberechtigt sein, wenn die Voraussetzungen zu Ansässigkeit und Steuerhistorie der vorangegangenen drei Kalenderjahre erfüllt sind."
+          "title": "Rückkehrende türkische Staatsangehörige",
+          "desc": "Die Staatsangehörigkeit schließt eine Anspruchsberechtigung für sich allein nicht aus. Ein rückkehrender türkischer Staatsangehöriger kann berechtigt sein, wenn die Voraussetzungen hinsichtlich Ansässigkeit und steuerlicher Vorgeschichte in den vorangegangenen drei Kalenderjahren erfüllt sind."
         },
         {
           "title": "International mobile Familien",
-          "desc": "Familien, die Ansässigkeit, Investitionen, Immobilien, Bildung, Nachfolge und langfristiges Vermögenseigentum über mehr als ein Land hinweg koordinieren."
+          "desc": "Familien, die Ansässigkeit, Investitionen, Immobilien, Bildung, Nachfolge und langfristiges Eigentum an Vermögenswerten über mehr als ein Land hinweg koordinieren."
         },
         {
           "title": "Ruheständler",
-          "desc": "Personen, die Renten, Mieteinnahmen oder Kapitalerträge aus dem Ausland beziehen, vorbehaltlich der Quellenregeln und des jeweiligen Doppelbesteuerungsabkommens."
+          "desc": "Personen, die Renten- oder Pensionsbezüge, Mieteinkünfte oder Kapitalerträge aus Quellen außerhalb der Türkei erhalten, vorbehaltlich der Quellenregeln und des einschlägigen Doppelbesteuerungsabkommens."
         }
       ]
     },
     "whatNot": {
-      "eyebrow": "Was die 20-Jahres-Befreiung nicht bewirkt",
+      "eyebrow": "Was die 20-jährige Steuerbefreiung nicht bewirkt",
       "title": "Keine pauschale Steuerbefreiung",
       "items": [
-        "Sie befreit kein Einkommen aus türkischem Grundbesitz, türkischen Unternehmen oder in der Türkei ausgeübten Tätigkeiten",
-        "Sie befreit nicht jede Zahlung eines ausländischen Kunden, Arbeitgebers oder Bankkontos",
-        "Sie gilt nicht für Unternehmen und hebt keine körperschaftsteuerlichen Pflichten auf",
-        "Sie hebt keine Mehrwertsteuer-, Lohn-, Stempelsteuer- oder Sozialversicherungspflichten auf",
-        "Sie beendet keine steuerliche Ansässigkeit oder Meldepflichten in einem anderen Land",
-        "Sie beseitigt keine Wegzugsteuer im verlassenen Land",
-        "Sie verhindert nicht, dass ein ausländisches Unternehmen in der Türkei geführt oder steuerpflichtig wird",
-        "Sie setzt kein Doppelbesteuerungsabkommen außer Kraft",
-        "Sie korrigiert keinen verspäteten oder unbelegten Befreiungsantrag"
+        "Einkünfte aus türkischen Immobilien, türkischen Gesellschaften oder in der Türkei ausgeübten Tätigkeiten von der Steuer befreien",
+        "Jede Zahlung, die von einem ausländischen Kunden oder Arbeitgeber beziehungsweise über ein ausländisches Bankkonto eingeht, von der Steuer befreien",
+        "Für Gesellschaften gelten oder Körperschaftsteuerpflichten beseitigen",
+        "Umsatzsteuer-, Lohnabrechnungs-, Stempelsteuer- oder Sozialversicherungspflichten beseitigen",
+        "Die steuerliche Ansässigkeit oder Erklärungspflichten in einem anderen Land beenden",
+        "Wegzugs- oder Exit-Besteuerung im Wegzugsstaat beseitigen",
+        "Verhindern, dass eine ausländische Gesellschaft in der Türkei geleitet oder steuerpflichtig wird",
+        "Ein Doppelbesteuerungsabkommen außer Kraft setzen",
+        "Einen verspäteten oder nicht ausreichend belegten Befreiungsantrag heilen"
       ],
-      "outro": "Ausländische Steuern, die auf Einkommen gezahlt wurden, das unter die türkische Befreiung fällt, können nicht auf die türkische Einkommensteuer angerechnet werden. Aufwendungen und Kosten im Zusammenhang mit befreitem Einkommen können ebenfalls nicht zur Minderung von in der Türkei steuerpflichtigem Einkommen verwendet werden."
+      "outro": "Ausländische Steuern, die auf unter die türkische Steuerbefreiung fallende Einkünfte gezahlt wurden, können nicht auf die türkische Einkommensteuer angerechnet werden. Aufwendungen und Kosten im Zusammenhang mit steuerbefreiten Einkünften dürfen ebenfalls nicht zur Minderung von Einkünften verwendet werden, die in der Türkei steuerpflichtig bleiben."
     },
     "individualVsCompany": {
-      "eyebrow": "Die Befreiung gehört der Person",
-      "title": "Persönliche und unternehmerische Position müssen getrennt analysiert werden",
-      "body1": "Artikel 20/D ist eine persönliche einkommensteuerliche Regelung. Ein anspruchsberechtigter Anteilseigner kann potenziell befreites ausländisches Einkommen erhalten, während das Unternehmen, aus dem dieses Einkommen stammt, in seiner eigenen Jurisdiktion vollständig steuerpflichtig bleibt.",
-      "body2": "Die Befreiung der Person schützt das Unternehmen nicht automatisch vor:",
+      "eyebrow": "Die Steuerbefreiung ist personenbezogen",
+      "title": "Persönliche Situation und Unternehmenssituation müssen getrennt analysiert werden",
+      "body1": "Artikel 20/D ist eine einkommensteuerliche Vorschrift für natürliche Personen. Ein berechtigter Anteilseigner kann möglicherweise steuerbefreite Einkünfte aus ausländischen Quellen beziehen, während die Gesellschaft, aus der diese Einkünfte stammen, in ihrer eigenen Jurisdiktion weiterhin voll steuerpflichtig bleibt.",
+      "body2": "Die persönliche Steuerbefreiung schützt die Gesellschaft nicht automatisch vor:",
       "items": [
-        "Türkischer Unternehmensansässigkeit",
-        "Betriebsstättenrisiko",
-        "Lohnsteuerpflichten",
-        "Verrechnungspreisregeln",
+        "Einer steuerlichen Ansässigkeit der Gesellschaft in der Türkei",
+        "Betriebsstättenrisiken",
+        "Lohnabrechnungspflichten",
+        "Verrechnungspreisvorschriften",
         "Quellensteuern",
-        "Lokalen Buchhaltungs- und Meldepflichten"
+        "Lokalen Buchführungs- und Berichtspflichten"
       ],
-      "outro": "Für Unternehmer und Anteilseigner müssen die persönliche und die unternehmerische Position daher getrennt analysiert werden."
+      "outro": "Bei Unternehmern und Anteilseignern müssen die persönliche Situation und die Unternehmenssituation daher getrennt analysiert werden."
     },
     "profiles": {
-      "eyebrow": "Beispielhafte Profile",
-      "title": "Wie die Regelung in der Praxis angewendet werden kann",
+      "eyebrow": "Beispielfälle",
+      "title": "Wie die Regelung in der Praxis wirken kann",
       "cards": [
         {
-          "title": "Ausländisches Kapitaleinkommen",
-          "desc": "Eine anspruchsberechtigte Person wird in der Türkei ansässig und erhält weiterhin Dividenden von einem ausländischen Unternehmen sowie Mieteinnahmen aus einer Immobilie außerhalb der Türkei. Diese Einkommensarten können unter Artikel 20/D fallen, sofern sie tatsächlich ausländisches Einkommen sind, die Person den Drei-Kalenderjahre-Test besteht und die Befreiungsbescheinigung rechtzeitig erlangt wird."
+          "title": "Ausländische Anlageerträge",
+          "desc": "Eine berechtigte Person wird in der Türkei ansässig und bezieht weiterhin Dividenden aus einer ausländischen Gesellschaft sowie Mieteinkünfte aus einer Immobilie außerhalb der Türkei. Diese Einkunftsströme können unter Artikel 20/D fallen, sofern sie tatsächlich aus ausländischen Quellen stammen, die Person die Voraussetzungen für die vorangegangenen drei Kalenderjahre erfüllt und die Befreiungsbescheinigung fristgerecht erhält."
         },
         {
           "title": "Internationaler Unternehmer",
-          "desc": "Ein Gründer zieht in die Türkei um und behält ein ausländisches operatives Unternehmen. Ausländische Dividenden können für die Befreiung relevant sein, aber Gehalt, Geschäftsführungstätigkeit, Unternehmensansässigkeit, Betriebsstätte und Wegzugsteuer im Herkunftsland müssen separat geprüft werden."
+          "desc": "Ein Gründer zieht in die Türkei, behält jedoch eine ausländische operative Gesellschaft. Ausländische Dividenden können für die Steuerbefreiung relevant sein; Arbeitslohn, Leitungstätigkeit, steuerliche Ansässigkeit der Gesellschaft, Betriebsstättenrisiken und Wegzugsbesteuerung im Wegzugsstaat müssen jedoch gesondert geprüft werden."
         },
         {
-          "title": "Ortsungebundene Fachkraft",
-          "desc": "Ein Berater lebt und erbringt Dienstleistungen von der Türkei aus für Kunden im Ausland. Der ausländische Standort der Kunden oder des Zahlungskontos macht das Einkommen nicht automatisch zu ausländischem Einkommen. Einkommen im Zusammenhang mit physisch in der Türkei ausgeführter Arbeit kann in der Türkei steuerpflichtig bleiben."
+          "title": "Ortsunabhängig tätige Fachkraft",
+          "desc": "Ein Berater lebt in der Türkei und erbringt von dort aus Leistungen für Kunden im Ausland. Der ausländische Sitz der Kunden oder des Zahlungskontos macht die Einkünfte nicht automatisch zu Einkünften aus ausländischen Quellen. Einkünfte im Zusammenhang mit einer physisch in der Türkei ausgeübten Tätigkeit können in der Türkei steuerpflichtig bleiben."
         },
         {
-          "title": "Rückkehrender türkischer Staatsbürger",
-          "desc": "Ein türkischer Staatsbürger kehrt nach mehreren vollständigen Kalenderjahren im Ausland zurück. Die Person kann anspruchsberechtigt sein, wenn die gesetzlichen Voraussetzungen zu Ansässigkeit und Steuerhistorie erfüllt sind. Die Staatsangehörigkeit ist nicht das entscheidende Kriterium."
+          "title": "Rückkehrender türkischer Staatsangehöriger",
+          "desc": "Ein türkischer Staatsangehöriger kehrt nach mehreren vollständigen Kalenderjahren im Ausland zurück. Die Person kann berechtigt sein, wenn die gesetzlichen Voraussetzungen hinsichtlich Ansässigkeit und steuerlicher Vorgeschichte erfüllt sind. Die Staatsangehörigkeit ist nicht das entscheidende Kriterium."
         }
       ]
     },
     "application": {
       "eyebrow": "Antrag und Nachweise",
-      "title": "Den Bescheinigungsprozess vor der Frist planen",
-      "body1": "Der Prozess zur Erlangung der Befreiungsbescheinigung sollte vor oder während des Umzugs geplant werden – nicht nachdem die relevante Frist verstrichen ist.",
+      "title": "Das Bescheinigungsverfahren vor Ablauf der Frist planen",
+      "body1": "Das Verfahren zur Beantragung der Befreiungsbescheinigung sollte vor oder während des Umzugs geplant werden – nicht erst nach Ablauf der maßgeblichen Frist.",
       "body2": "Das türkische Finanzamt kann Folgendes prüfen:",
       "items": [
-        "Das Datum, an dem die Person in der Türkei ansässig wurde",
+        "Den Zeitpunkt, zu dem die Person in der Türkei ansässig wurde",
         "Ansässigkeit und Wohnsitz während der vorangegangenen drei Kalenderjahre",
-        "Frühere türkische Steuerregistrierungen und Einkommensarten",
-        "Die Art und Quelle des ausländischen Einkommens",
-        "Unterstützende Nachweise zu Ansässigkeit, Steuern und Einkommen",
-        "Die Richtigkeit der im Antrag gemachten Angaben"
+        "Frühere türkische Steuerregistrierungen und Einkunftsarten",
+        "Art und Quelle der ausländischen Einkünfte",
+        "Belege zur Ansässigkeit, Besteuerung und zu den Einkünften",
+        "Richtigkeit der im Antrag gemachten Angaben"
       ],
-      "outro": "Wird später festgestellt, dass die Voraussetzungen nicht erfüllt waren, kann unbezahlte Steuer zusammen mit Strafen und Zinsen festgesetzt werden.",
-      "noteTitle": "Offizielle Antragsleitlinien",
-      "noteBody": "Das Allgemeine Kommuniqué Nr. 333 legt den administrativen Antrags- und Dokumentationsrahmen für Artikel 20/D fest.",
-      "noteCta": "Allgemeines Kommuniqué Nr. 333 im offiziellen Amtsblatt lesen"
+      "outro": "Wird später festgestellt, dass die Voraussetzungen nicht erfüllt waren, können nicht entrichtete Steuern zusammen mit Strafen und Zinsen festgesetzt werden.",
+      "noteTitle": "Offizielle Anwendungshinweise",
+      "noteBody": "Das Allgemeine Kommuniqué Nr. 333 legt den administrativen Anwendungs- und Dokumentationsrahmen für Artikel 20/D fest.",
+      "noteCta": "Allgemeines Kommuniqué Nr. 333 im türkischen Amtsblatt lesen"
     },
     "widerDecision": {
-      "eyebrow": "Die umfassendere Entscheidung",
-      "title": "Die türkische Befreiung ist nur ein Teil der Entscheidung",
-      "intro": "Ein erfolgreicher Umzug muss in jeder relevanten Jurisdiktion funktionieren. Vor einer Änderung der Ansässigkeit sollte die gesamte Struktur geprüft werden, einschließlich:",
+      "eyebrow": "Die Gesamtentscheidung",
+      "title": "Die türkische Steuerbefreiung ist nur ein Teil der Entscheidung",
+      "intro": "Ein erfolgreicher Umzug muss in jeder relevanten Jurisdiktion funktionieren. Vor einer Verlagerung der Ansässigkeit sollte die Gesamtstruktur geprüft werden, einschließlich:",
       "items": [
-        "Aktuelle und zukünftige steuerliche Ansässigkeit",
-        "Wegzugsteuer und Abmeldepflichten",
-        "Ausländische Unternehmen und Beteiligungen",
-        "Standort der Geschäftsführung und Entscheidungsfindung",
-        "Investitions- und Immobilieneinkommen",
-        "Beschäftigung und berufliche Tätigkeit",
-        "Sozialversicherungsrisiko",
+        "Aktuelle und künftige steuerliche Ansässigkeit",
+        "Wegzugsbesteuerung und Erklärungspflichten beim Wegzug",
+        "Ausländische Gesellschaften und Beteiligungen",
+        "Ort der Geschäftsleitung und Entscheidungsfindung",
+        "Kapital- und Immobilieneinkünfte",
+        "Nichtselbständige und berufliche Tätigkeit",
+        "Sozialversicherungsrisiken",
         "Familiäre Ansässigkeit und Nachfolge",
-        "Geltende Doppelbesteuerungsabkommen",
-        "Timing des türkischen Befreiungsantrags"
+        "Anwendbare Doppelbesteuerungsabkommen",
+        "Zeitpunkt des Antrags auf die türkische Steuerbefreiung"
       ],
       "noteTitle": "Die zentrale Frage",
-      "noteBody": "Die Frage ist nicht einfach, ob Artikel 20/D existiert. Die Frage ist, ob er für Ihr Einkommen, Ihre Unternehmen, Investitionen, familiäre Position und Ihr Herkunftsland funktioniert."
+      "noteBody": "Die Frage ist nicht nur, ob Artikel 20/D existiert. Entscheidend ist, ob die Regelung zu Ihren Einkünften, Unternehmen, Investitionen, Ihrer familiären Situation und Ihrem Wegzugsstaat passt."
     },
     "cta": {
-      "eyebrow": "Könnte die 20-Jahres-Befreiung für Sie funktionieren?",
-      "title": "Die gesamte Struktur prüfen",
-      "body1": "Dynamic Residency bietet eine strukturierte Prüfung Ihrer türkischen Ansässigkeitsposition, früheren Steuerhistorie, ausländischen Einkünfte und Ihrer gesamten grenzüberschreitenden Struktur.",
-      "body2": "Wir identifizieren die Fragen, die eine regulierte steuerliche oder rechtliche Einschätzung erfordern, koordinieren die entsprechenden Fachleute und wandeln die Ergebnisse in eine klare Entscheidung und Umsetzungsplanung um.",
+      "eyebrow": "Könnte die 20-jährige Steuerbefreiung für Sie funktionieren?",
+      "title": "Prüfen Sie die Gesamtstruktur",
+      "body1": "Dynamic Residency bietet eine strukturierte Prüfung Ihrer steuerlichen Ansässigkeit in der Türkei, Ihrer bisherigen steuerlichen Situation, Ihrer ausländischen Einkünfte und Ihrer gesamten grenzüberschreitenden Struktur.",
+      "body2": "Wir identifizieren die Fragen, die regulierte steuerliche oder rechtliche Einschätzungen erfordern, koordinieren die geeigneten Fachleute und überführen die Ergebnisse in einen klaren Entscheidungs- und Umsetzungsplan.",
       "cta": "Mit Dynamic Residency sprechen",
       "small1": "Besprechen Sie, ob die Türkei und Artikel 20/D zu Ihrer gesamten grenzüberschreitenden Struktur passen.",
-      "small2": "Sitz in Istanbul | Service auf Englisch und Deutsch | Vertraulicher grenzüberschreitender Prozess"
+      "small2": "Sitz in Istanbul | Beratung auf Englisch und Deutsch | Vertraulicher grenzüberschreitender Prozess"
     },
     "terms": {
-      "eyebrow": "Wichtige Information",
+      "eyebrow": "Wichtige Informationen",
       "title": "Nur allgemeine Informationen",
-      "body1": "Diese Seite bietet allgemeine Informationen zu Artikel 20/D des türkischen Einkommensteuergesetzes und dem Allgemeinen Kommuniqué Nr. 333. Sie stellt keine individuelle steuerliche, rechtliche oder Anlageberatung dar.",
-      "body2": "Anspruchsberechtigung und Einkommensquelleneinordnung hängen von den Fakten des Einzelfalls ab. Regulierte steuerliche und rechtliche Stellungnahmen sollten von entsprechend qualifizierten Fachleuten erstellt oder geprüft werden.",
+      "body1": "Diese Seite enthält allgemeine Informationen zu Artikel 20/D des türkischen Einkommensteuergesetzes und zum Allgemeinen Kommuniqué Nr. 333. Sie stellt keine individuelle steuerliche, rechtliche oder Anlageberatung dar.",
+      "body2": "Die Anspruchsberechtigung und die Einordnung der Einkunftsquelle hängen von den Umständen des Einzelfalls ab. Regulierte steuerliche und rechtliche Stellungnahmen sollten von entsprechend qualifizierten Fachleuten erstellt oder geprüft werden.",
       "rows": [
         {
           "label": "Rechtsgrundlage",
@@ -697,7 +697,7 @@
           "value": "Gesetz Nr. 7582"
         },
         {
-          "label": "Verwaltungsleitlinie",
+          "label": "Administrative Anwendungshinweise",
           "value": "Allgemeines Kommuniqué Nr. 333"
         },
         {
@@ -705,7 +705,7 @@
           "value": "16. Juli 2026"
         }
       ],
-      "small": "Nur allgemeine Informationen — keine individuelle steuerliche oder rechtliche Beratung"
+      "small": "Nur allgemeine Informationen – keine individuelle Steuer- oder Rechtsberatung"
     }
   }
 }

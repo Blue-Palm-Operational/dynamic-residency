@@ -9,6 +9,7 @@
         <NuxtLink :to="localePath('/about')">{{ $t('nav.about') }}</NuxtLink>
         <NuxtLink :to="localePath('/20-year-exemption')">{{ $t('nav.exemption') }}</NuxtLink>
         <NuxtLink :to="localePath('/#contact')" class="btn primary">{{ $t('nav.cta') }}</NuxtLink>
+        <LanguageSwitcher />
       </nav>
       <button aria-label="Open menu" class="menu-btn" @click="menuOpen = !menuOpen">☰</button>
     </div>
@@ -18,6 +19,9 @@
         <NuxtLink :to="localePath('/about')" @click="menuOpen = false">{{ $t('nav.about') }}</NuxtLink>
         <NuxtLink :to="localePath('/20-year-exemption')" @click="menuOpen = false">{{ $t('nav.exemption') }}</NuxtLink>
         <NuxtLink :to="localePath('/#contact')" class="btn primary" @click="menuOpen = false">{{ $t('nav.cta') }}</NuxtLink>
+        <div class="mobile-menu-lang">
+          <LanguageSwitcher />
+        </div>
       </div>
     </Transition>
   </header>
