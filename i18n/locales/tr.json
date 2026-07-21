@@ -1,3444 +1,711 @@
 {
-  "schemaVersion": "1.0.0",
-  "site": {
-    "name": "Dynamic Residency",
-    "baseUrl": "https://dynamicresidency.com",
-    "locale": "tr-TR",
-    "contentLanguage": "Türkçe",
-    "capturedAt": "2026-07-20",
-    "sourceFile": "Dynamic_Residency_Website_All_Texts_TR.docx"
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "exemption": "20 Yıllık Muafiyet",
+    "cta": "Ekibimizle Görüşün"
   },
-  "routes": [
-    {
-      "id": "home",
-      "path": "/",
-      "title": "Ana Sayfa"
-    },
-    {
-      "id": "about",
-      "path": "/about",
-      "title": "Dynamic Residency Hakkında"
-    },
-    {
-      "id": "20-year-exemption",
-      "path": "/20-year-exemption",
-      "title": "Türkiye'nin Yurt Dışı Kaynaklı Gelirlere Yönelik 20 Yıllık Vergi Muafiyeti"
-    },
-    {
-      "id": "terms-and-conditions",
-      "path": "/terms-and-conditions",
-      "title": "Hizmet Koşulları / İlkelerimiz"
-    },
-    {
-      "id": "privacy-policy",
-      "path": "/privacy-policy",
-      "title": "Gizlilik Politikası / Gizlilik Bildirgesi"
-    }
-  ],
-  "shared": {
-    "mainNavigation": [
-      {
-        "id": "dynamic-residency",
-        "label": "Dynamic Residency",
-        "href": "/",
-        "role": "brand"
-      },
-      {
-        "id": "ana-sayfa",
-        "label": "Ana Sayfa",
-        "href": "/"
-      },
-      {
-        "id": "hakkimizda",
-        "label": "Hakkımızda",
-        "href": "/about"
-      },
-      {
-        "id": "20-yillik-muafiyet",
-        "label": "20 Yıllık Muafiyet",
-        "href": "/20-year-exemption"
-      },
-      {
-        "id": "ekibimizle-gorusun",
-        "label": "Ekibimizle Görüşün",
-        "href": null,
-        "actionKey": "contact_team"
-      }
-    ],
-    "mainFooter": {
-      "links": [
-        {
-          "id": "hizmet-kosullari",
-          "label": "Hizmet Koşulları",
-          "href": "/terms-and-conditions"
-        },
-        {
-          "id": "gizlilik-politikasi",
-          "label": "Gizlilik Politikası",
-          "href": "/privacy-policy"
-        }
-      ],
-      "copyright": "© Dynamic Works Türkiye. Tüm hakları saklıdır."
-    }
+  "footer": {
+    "contact": "İletişim",
+    "terms": "Hizmet Koşulları / İlkelerimiz",
+    "privacy": "Gizlilik Politikası / Gizlilik Bildirgesi",
+    "copyright": "© Dynamic Works Türkiye. Tüm hakları saklıdır."
   },
-  "pages": [
-    {
-      "id": "home",
-      "path": "/",
-      "title": "Ana Sayfa",
-      "sourceUrl": "https://dynamicresidency.com/",
-      "capturedAt": "2026-07-20",
-      "capturedAtDisplay": "20 Temmuz 2026",
-      "navigationRef": "mainNavigation",
-      "sections": [
-        {
-          "labels": [
-            "Türkiye İçin Stratejik İkamet Planlaması"
-          ],
-          "heading": "Türkiye Sizin İçin Doğru Bir Tercih mi?",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Her uluslararası durum kendine özgüdür.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-01-turkiye-sizin-icin-dogru-bir-tercih-mi-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Dynamic Residency, İstanbul merkezli bir sınır ötesi ikamet planlama hizmetidir. Girişimcilerin, yatırımcıların ve uluslararası bağlantıları bulunan ailelerin; geri dönüşü zor kararlar almadan önce Türkiye'de ikamet etmenin gelirlerini, şirketlerini, yatırımlarını ve aile planlarını nasıl etkileyebileceğini anlamalarına yardımcı oluruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-01-turkiye-sizin-icin-dogru-bir-tercih-mi-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Hizmet Ekibimizle Görüşün",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "contact_team",
-              "href": null,
-              "id": "home-section-01-turkiye-sizin-icin-dogru-bir-tercih-mi-block-03"
-            }
-          ],
-          "id": "home-section-01-turkiye-sizin-icin-dogru-bir-tercih-mi",
-          "order": 1
-        },
-        {
-          "labels": [
-            "Dynamic Works Türkiye projesidir",
-            "Dynamic Residency Neden Var?"
-          ],
-          "heading": "Dynamic Residency Neden Var?",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Dynamic Residency, pratik bir soruya yanıt bulmanıza yardımcı olur: Türkiye, sizin özel durumunuza uygun mu?",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-02-dynamic-residency-neden-var-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Çoğu bilgi vergi avantajlarına, göçe veya ikamet izinlerine odaklanır. Oysa sağlıklı bir karar; mevcut vergi mukimliğinize, şirketlerinize, yatırımlarınıza, gelir kaynaklarınıza, aile koşullarınıza ve uzun vadeli hedeflerinize de bağlıdır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-02-dynamic-residency-neden-var-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Birbiriyle bağlantılı bu soruları koordine ederek net bir karar yolu oluştururuz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-02-dynamic-residency-neden-var-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Amacımız sizi taşınmaya ikna etmek değildir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-02-dynamic-residency-neden-var-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Amacımız, taşınmanın sizin için doğru olup olmadığına karar vermenize yardımcı olmaktır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-02-dynamic-residency-neden-var-block-05"
-            }
-          ],
-          "id": "home-section-02-dynamic-residency-neden-var",
-          "order": 2
-        },
-        {
-          "labels": [
-            "Fırsat"
-          ],
-          "heading": "Türkiye'nin Yurt Dışı Kaynaklı Gelirlere Yönelik 20 Yıllık Vergi Muafiyeti",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "2026 yılından itibaren Türkiye'de vergi mukimi olan ve gerekli koşulları sağlayan kişiler, belirli yurt dışı kaynaklı gelirler için 20 yıla kadar vergi muafiyetinden yararlanabilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-03-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Bu muafiyet, aşağıdaki gelirleri elde eden kişiler açısından önem taşıyabilir:",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-03-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi-block-02"
-            },
-            {
-              "order": 3,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Yabancı şirketlerden elde edilen temettüler",
-                "Faiz ve yatırım getirileri",
-                "Yurt dışındaki gayrimenkullerden elde edilen kira gelirleri",
-                "Belirli sermaye kazançları",
-                "Belirli yurt dışı emeklilik gelirleri"
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "home-section-03-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Önemli ayrım: Bir gelirin yurt dışından ödenmesi, onu otomatik olarak yurt dışı kaynaklı gelir hâline getirmez. Uygunluk; ikamet geçmişinize, gelirin gerçek kaynağına ve daha geniş sınır ötesi yapınıza bağlıdır.",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "notice",
-              "id": "home-section-03-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi-block-04"
-            },
-            {
-              "order": 5,
-              "text": "20 Yıllık Muafiyeti Anlayın",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "view_20_year_exemption",
-              "href": "/20-year-exemption",
-              "id": "home-section-03-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi-block-05"
-            }
-          ],
-          "id": "home-section-03-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi",
-          "order": 3
-        },
-        {
-          "labels": [
-            "Kimlere Yardımcı Oluyoruz?"
-          ],
-          "heading": "Dynamic Residency Kimlere Yardımcı Olur?",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Kendi durumunuzu aşağıdaki profillerden birinde görebilirsiniz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-01"
-            },
-            {
-              "order": 2,
-              "text": "01",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Şirket Sahipleri",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Gereksiz vergi, yönetim veya operasyon sorunları yaratmadan taşınmak istiyorsunuz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-04"
-            },
-            {
-              "order": 5,
-              "text": "02",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Uluslararası Yatırımcılar",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-06"
-            },
-            {
-              "order": 7,
-              "text": "Birden fazla ülkeden temettü, faiz, kira geliri veya sermaye kazancı elde ediyorsunuz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-07"
-            },
-            {
-              "order": 8,
-              "text": "03",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-08"
-            },
-            {
-              "order": 9,
-              "text": "Uluslararası Aileler",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-09"
-            },
-            {
-              "order": 10,
-              "text": "Eğitim, sağlık hizmetleri, ikamet ve miras planlamasının birbiriyle uyumlu olması gerekiyor.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-10"
-            },
-            {
-              "order": 11,
-              "text": "04",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-11"
-            },
-            {
-              "order": 12,
-              "text": "Türkiye'ye Dönen Türk Vatandaşları",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-12"
-            },
-            {
-              "order": 13,
-              "text": "İkamet geçmişiniz ve olası uygunluğunuz hakkında netliğe ihtiyacınız var.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-13"
-            },
-            {
-              "order": 14,
-              "text": "05",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-14"
-            },
-            {
-              "order": 15,
-              "text": "Uluslararası Çalışan Profesyoneller",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-15"
-            },
-            {
-              "order": 16,
-              "text": "Sık seyahat ediyorsunuz ve işiniz tek bir ülkeye bağlı değil.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-16"
-            },
-            {
-              "order": 17,
-              "text": "06",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-17"
-            },
-            {
-              "order": 18,
-              "text": "Türkiye Seçeneğini Değerlendirenler",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-18"
-            },
-            {
-              "order": 19,
-              "text": "Türkiye'nin uzun vadede doğru tercih olup olmadığı konusunda yapılandırılmış bir yanıt istiyorsunuz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-19"
-            },
-            {
-              "order": 20,
-              "text": "← →",
-              "sourceStyle": "Site Navigation",
-              "type": "controls",
-              "items": [
-                "←",
-                "→"
-              ],
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-20"
-            },
-            {
-              "order": 21,
-              "text": "Varsayımlara değil, koşullarınıza dayanan yapılandırılmış bir yanıta ulaşın.",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "notice",
-              "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur-block-21"
-            }
-          ],
-          "id": "home-section-04-dynamic-residency-kimlere-yardimci-olur",
-          "order": 4
-        },
-        {
-          "labels": [
-            "Nasıl Çalışıyoruz?"
-          ],
-          "heading": "İlk Sorunuzdan Bilinçli Bir Karara",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "01 Başlangıç Noktası",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Mevcut Durumunuzu Anlayın",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Mevcut vergi mukimliğinizi, gelirlerinizi, şirketlerinizi, varlıklarınızı, aile koşullarınızı ve hedeflerinizi belirleriz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-03"
-            },
-            {
-              "order": 4,
-              "text": "02 Soru Haritası",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Temel Soruları Belirleyin",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Operasyonel soruları; uzmanlık gerektiren vergi, hukuk veya yapısal analiz konularından ayırırız.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-06"
-            },
-            {
-              "order": 7,
-              "text": "03 Uzman Görüşü",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-07"
-            },
-            {
-              "order": 8,
-              "text": "İlgili Uzmanlarla Netleştirin",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-08"
-            },
-            {
-              "order": 9,
-              "text": "Gerekli niteliklere sahip profesyoneller, tanımlanan soruları kendi uzmanlık alanları kapsamında ele alır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-09"
-            },
-            {
-              "order": 10,
-              "text": "04 Karar Yolu",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-10"
-            },
-            {
-              "order": 11,
-              "text": "Kararı Koordine Edin",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-11"
-            },
-            {
-              "order": 12,
-              "text": "Dynamic Residency, elde edilen sonuçları net bir karara, doğru bir iş sırasına ve uygulama yol haritasına dönüştürür.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-12"
-            },
-            {
-              "order": 13,
-              "text": "Mevzuata tabi vergi veya hukuk görüşlerinin gerekli olduğu durumlarda bu görüşler, uygun yetkinliğe sahip profesyoneller tarafından sunulur veya incelenir.",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "notice",
-              "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara-block-13"
-            }
-          ],
-          "id": "home-section-05-ilk-sorunuzdan-bilincli-bir-karara",
-          "order": 5
-        },
-        {
-          "labels": [
-            "Hizmetler ve Fiyatlandırma"
-          ],
-          "heading": "Şeffaf Hizmetler. Net Maliyetler.",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Odaklı Danışmanlıklar",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-06-seffaf-hizmetler-net-maliyetler-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Tek Bir Soru",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-06-seffaf-hizmetler-net-maliyetler-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Açıkça tanımlanmış tek bir ikamet, gelir, vergi veya yapı sorusu için.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-06-seffaf-hizmetler-net-maliyetler-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Hizmet Tanıtım Görüşmesi",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-06-seffaf-hizmetler-net-maliyetler-block-04"
-            }
-          ],
-          "id": "home-section-06-seffaf-hizmetler-net-maliyetler",
-          "order": 6
-        },
-        {
-          "labels": [
-            "Ücretsiz"
-          ],
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Hedeflerinizi anlamak, inceleme sürecini açıklamak ve doğru sonraki adımı belirlemek için yapılan ilk görüşme.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-07-ucretsiz-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Ücretsiz",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "free_service",
-              "href": null,
-              "id": "home-section-07-ucretsiz-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Hizmet Ekibiyle Başlayın",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "contact_team",
-              "href": null,
-              "id": "home-section-07-ucretsiz-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Uzman Danışmanlığı",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-07-ucretsiz-block-04"
-            }
-          ],
-          "id": "home-section-07-ucretsiz",
-          "order": 7
-        },
-        {
-          "labels": [
-            "45 Dakika"
-          ],
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Açıkça tanımlanmış tek bir ikamet, vergi veya yapı sorusuna yönelik odaklı uzman görüşü.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-08-45-dakika-block-01"
-            },
-            {
-              "order": 2,
-              "text": "€390",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "price",
-              "id": "home-section-08-45-dakika-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Danışmanlık Randevusu Alın →",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "book_consultation",
-              "href": null,
-              "id": "home-section-08-45-dakika-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Yapılandırılmış İncelemeler",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-08-45-dakika-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Birbiriyle Bağlantılı Konular",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-08-45-dakika-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Koordineli bir değerlendirme gerektiren bağlantılı sorular için.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-08-45-dakika-block-06"
-            },
-            {
-              "order": 7,
-              "text": "Stratejik İkamet İncelemesi",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-08-45-dakika-block-07"
-            }
-          ],
-          "id": "home-section-08-45-dakika",
-          "order": 8
-        },
-        {
-          "labels": [
-            "Tek Ana Konu"
-          ],
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Bir ana konu ile sınırlı sayıdaki bağlantılı sorunun yapılandırılmış biçimde incelenmesi.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-09-tek-ana-konu-block-01"
-            },
-            {
-              "order": 2,
-              "text": "€990",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "price",
-              "id": "home-section-09-tek-ana-konu-block-02"
-            },
-            {
-              "order": 3,
-              "text": "İncelemeyi Keşfedin →",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": null,
-              "href": null,
-              "id": "home-section-09-tek-ana-konu-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Sınır Ötesi Yapı İncelemesi",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-09-tek-ana-konu-block-04"
-            }
-          ],
-          "id": "home-section-09-tek-ana-konu",
-          "order": 9
-        },
-        {
-          "labels": [
-            "Bağlantılı Yapılar"
-          ],
-          "blocks": [
-            {
-              "order": 1,
-              "text": "İkamet, gelir, şirket veya varlıklara ilişkin bağlantılı soruları bulunan girişimciler, yatırımcılar ve aileler için.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-10-baglantili-yapilar-block-01"
-            },
-            {
-              "order": 2,
-              "text": "€2.990",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "price",
-              "id": "home-section-10-baglantili-yapilar-block-02"
-            },
-            {
-              "order": 3,
-              "text": "İncelemeyi Keşfedin →",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": null,
-              "href": null,
-              "id": "home-section-10-baglantili-yapilar-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Karmaşık Uluslararası Vakalar",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-10-baglantili-yapilar-block-04"
-            }
-          ],
-          "id": "home-section-10-baglantili-yapilar",
-          "order": 10
-        },
-        {
-          "labels": [
-            "En Yüksek Karmaşıklık Düzeyi"
-          ],
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Birden Fazla Ülkeyi Kapsayan Yapılar",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-11-en-yuksek-karmasiklik-duzeyi-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Birden fazla ülkeyi kapsayan yapılar, koordineli profesyonel çalışma akışları ve karmaşık uygulama ihtiyaçları için.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-11-en-yuksek-karmasiklik-duzeyi-block-02"
-            },
-            {
-              "order": 3,
-              "text": "€6.990'dan başlayan fiyatlarla",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "price",
-              "id": "home-section-11-en-yuksek-karmasiklik-duzeyi-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Durumunuzu Görüşün →",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "contact_team",
-              "href": null,
-              "id": "home-section-11-en-yuksek-karmasiklik-duzeyi-block-04"
-            },
-            {
-              "order": 5,
-              "text": "İhtiyaca özel çalışmalar da sunulmaktadır. Nihai ücret; karmaşıklığa, kapsamına ve sürece dahil olan profesyonellere göre belirlenir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-11-en-yuksek-karmasiklik-duzeyi-block-05"
-            }
-          ],
-          "id": "home-section-11-en-yuksek-karmasiklik-duzeyi",
-          "order": 11
-        },
-        {
-          "labels": [
-            "Kurucu"
-          ],
-          "heading": "Kurucuyla Tanışın",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Stephan Westermayer",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-12-kurucuyla-tanisin-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Dynamic Residency Kurucusu",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-12-kurucuyla-tanisin-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Dynamic Works ve Blue Palm Group Kurucusu ve CEO'su",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-12-kurucuyla-tanisin-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Stephan, Dynamic Residency'nin stratejik yönüne ve seçilmiş karmaşık müşteri vakalarına şahsen katkı sağlar. Standart danışmanlıklar, Dynamic Residency profesyonel ağı içindeki uygun uzmanlar tarafından yürütülür.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-12-kurucuyla-tanisin-block-04"
-            },
-            {
-              "order": 5,
-              "text": "LinkedIn",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "open_linkedin",
-              "href": null,
-              "id": "home-section-12-kurucuyla-tanisin-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Şirketlerimi dünyanın birçok yerinde kurabilirdim. İstanbul'u bilinçli olarak seçtim; dünyadan kopmak için değil, dünyayla bağlantımı sürdürmek için.",
-              "sourceStyle": "Quote",
-              "type": "quote",
-              "id": "home-section-12-kurucuyla-tanisin-block-06"
-            },
-            {
-              "order": 7,
-              "text": "Amerika Birleşik Devletleri'nde zaman geçirmeye ve uluslararası seyahat etmeye devam ediyorum. Türkiye; bağlantı imkânlarını, girişimcilik fırsatlarını, yetenekli insan kaynağını ve yaşam kalitesini başka hiçbir yerde deneyimlemediğim bir biçimde bir araya getirdiği için operasyonel merkezim hâline geldi.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-12-kurucuyla-tanisin-block-07"
-            },
-            {
-              "order": 8,
-              "text": "Dynamic Residency, Türkiye'yi uzaktan incelemekten değil; burada yaşamaktan ve burada iş kurmaktan doğan bu deneyimden gelişti.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-12-kurucuyla-tanisin-block-08"
-            }
-          ],
-          "id": "home-section-12-kurucuyla-tanisin",
-          "order": 12
-        },
-        {
-          "labels": [
-            "Gerçek Operasyonlara Dayalı"
-          ],
-          "heading": "Bir Dynamic Works Türkiye Projesi",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Dynamic Residency, Dynamic Works Türkiye bünyesinde geliştirilmiş uzmanlaşmış bir projedir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Deneyimimiz; Türkiye'de şirket işletmekten, yerel ekipler istihdam etmekten, uluslararası girişimcileri desteklemekten ve pratik iş altyapıları kurmaktan gelir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Yerel Operasyon Deneyimi",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Türkiye'de iş kurma ve işletme konusunda doğrudan deneyim.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-04"
-            },
-            {
-              "order": 5,
-              "text": "İş Altyapısı",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Uluslararası bağlantıları bulunan işletme sahiplerine yönelik pratik destek.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-06"
-            },
-            {
-              "order": 7,
-              "text": "Uygulama Yetkinliği",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-07"
-            },
-            {
-              "order": 8,
-              "text": "Genel bilgilendirmenin ötesinde devam eden koordinasyon.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-08"
-            },
-            {
-              "order": 9,
-              "text": "Profesyonel Uzman Ağı",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-09"
-            },
-            {
-              "order": 10,
-              "text": "Mevzuata tabi uzman görüşü gerektiğinde sürece dahil edilen yetkin profesyoneller.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-10"
-            },
-            {
-              "order": 11,
-              "text": "Türkiye'de Gerçek Operasyonel Varlık",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-11"
-            },
-            {
-              "order": 12,
-              "text": "Yerel bir operasyon merkezi, ekip ve devam eden ticari faaliyet.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-12"
-            },
-            {
-              "order": 13,
-              "text": "Dynamic Works Hakkında",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "learn_more",
-              "href": null,
-              "id": "home-section-13-bir-dynamic-works-turkiye-projesi-block-13"
-            }
-          ],
-          "id": "home-section-13-bir-dynamic-works-turkiye-projesi",
-          "order": 13
-        },
-        {
-          "labels": [
-            "Bir Sonraki Adımı Atmaya Hazır mısınız?"
-          ],
-          "heading": "Genel Bilgiler Türkiye'yi Açıklayabilir. Sizin Durumunuz Bireysel Bir Yanıt Gerektirir.",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Hizmet Ekibimizle başlayın. Sorularınızı netleştirir, uygun incelemeyi önerir ve uzman analizi gerektiğinde sizi yetkin profesyonellerle buluştururuz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "home-section-14-genel-bilgiler-turkiye-yi-aciklayabilir-sizin-durumunuz-bireysel-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Hizmet Ekibimizle Görüşün",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "contact_team",
-              "href": null,
-              "id": "home-section-14-genel-bilgiler-turkiye-yi-aciklayabilir-sizin-durumunuz-bireysel-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Hizmetleri ve Fiyatlandırmayı Görüntüleyin",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "view_services_pricing",
-              "href": null,
-              "id": "home-section-14-genel-bilgiler-turkiye-yi-aciklayabilir-sizin-durumunuz-bireysel-block-03"
-            }
-          ],
-          "id": "home-section-14-genel-bilgiler-turkiye-yi-aciklayabilir-sizin-durumunuz-bireysel",
-          "order": 14
-        },
-        {
-          "labels": [
-            "İngilizce ve Almanca hizmet"
-          ],
-          "blocks": [],
-          "id": "home-section-15-ingilizce-ve-almanca-hizmet",
-          "order": 15
-        }
-      ],
-      "footerRef": "mainFooter"
+  "payment": {
+    "vatNote": "KDV hariç",
+    "loading": "Ödeme formu yükleniyor…",
+    "retry": "Tekrar deneyin",
+    "processing": "Ödeme işleniyor…",
+    "payNow": "Şimdi öde — {price}",
+    "secureNotice": "Stripe üzerinden güvenli ödeme · SSL ile şifrelenmiştir"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Türkiye İçin Stratejik İkamet Planlaması",
+      "title": "Türkiye Sizin İçin Doğru Bir Tercih mi?",
+      "lead": "Her uluslararası durum kendine özgüdür.",
+      "body": "Dynamic Residency, İstanbul merkezli bir sınır ötesi ikamet planlama hizmetidir. Girişimcilerin, yatırımcıların ve uluslararası bağlantıları bulunan ailelerin; geri dönüşü zor kararlar almadan önce Türkiye'de ikamet etmenin gelirlerini, şirketlerini, yatırımlarını ve aile planlarını nasıl etkileyebileceğini anlamalarına yardımcı oluruz.",
+      "cta": "Hizmet Ekibimizle Görüşün",
+      "note": "Dynamic Works Türkiye projesidir",
+      "imageAlt": "Uluslararası iş ortamında İstanbul ve Boğaz manzarası"
     },
-    {
-      "id": "about",
-      "path": "/about",
-      "title": "Dynamic Residency Hakkında",
-      "sourceUrl": "https://dynamicresidency.com/about",
-      "capturedAt": "2026-07-20",
-      "capturedAtDisplay": "20 Temmuz 2026",
-      "navigationRef": "mainNavigation",
-      "sections": [
-        {
-          "labels": [
-            "Dynamic Residency Hakkında"
-          ],
-          "heading": "Bütün Yapıyı Esas Alan, Türkiye'ye Yönelik Sınır Ötesi İkamet Planlaması",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Dynamic Residency; Türkiye seçeneğini değerlendiren girişimciler, yatırımcılar, uluslararası alanda aktif profesyoneller, Türkiye'ye dönen Türk vatandaşları ve küresel hareketliliğe sahip aileler için İstanbul merkezli sınır ötesi ikamet planlaması ve uygulama koordinasyonu platformudur.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-01-butun-yapiyi-esas-alan-turkiye-ye-yonelik-sinir-otesi-ikamet-pla-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Müşterilerimizin; geri dönüşü zor veya maliyetli hâle gelmeden önce, Türkiye'de ikamet etmenin yurt dışı gelirleri, şirket sahipliği, yatırımlar, gayrimenkuller, aile koşulları ve uzun vadeli hedeflerle nasıl etkileşime girebileceğini anlamalarına yardımcı oluruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-01-butun-yapiyi-esas-alan-turkiye-ye-yonelik-sinir-otesi-ikamet-pla-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Rolümüz; ilgili olguları ortaya koymak, birbiriyle bağlantılı soruları bir araya getirmek, mevzuata tabi danışmanlık gerektiğinde yetkin profesyonellerin katkısını koordine etmek ve sonuçları net bir karar ve uygulama yoluna dönüştürmektir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-01-butun-yapiyi-esas-alan-turkiye-ye-yonelik-sinir-otesi-ikamet-pla-block-03"
-            }
-          ],
-          "id": "about-section-01-butun-yapiyi-esas-alan-turkiye-ye-yonelik-sinir-otesi-ikamet-pla",
-          "order": 1
-        },
-        {
-          "labels": [
-            "İngilizce ve Almanca hizmet",
-            "Dynamic Residency Nedir?"
-          ],
-          "heading": "İkamet Kararı Hiçbir Zaman Tek Başına Değerlendirilemez",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Dynamic Residency, Türkiye'de ikamet tesis etmenin ekonomik ve yapısal sonuçlarına odaklanan uzmanlaşmış bir hizmet platformudur. İkameti yalnızca bir izin, tek bir vergi kuralı veya bir destinasyon tercihi olarak ele almayız. İkamet kararının içinde işlemesi gereken uluslararası durumun tamamını inceleriz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-02-ikamet-karari-hicbir-zaman-tek-basina-degerlendirilemez-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Bu durum; ayrılınan ülkeyi, mevcut ve gelecekteki vergi mukimliğini, yurt dışı ve Türkiye kaynaklı gelirleri, şirketleri ve yönetim faaliyetlerini, yatırımları, gayrimenkulleri, aile bağlarını, miras planlamasını ve uygulanabilir bir yapıyı hayata geçirmek için gerekli pratik adımları kapsayabilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-02-ikamet-karari-hicbir-zaman-tek-basina-degerlendirilemez-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Amaç, her müşteriyi Türkiye'ye taşınmaya ikna etmek değildir. Amaç, Türkiye'nin müşterinin gerçek koşullarına uygun olup olmadığını belirlemek; uygun olması hâlinde ise analizden uygulamaya uzanan süreci koordine etmektir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-02-ikamet-karari-hicbir-zaman-tek-basina-degerlendirilemez-block-03"
-            }
-          ],
-          "id": "about-section-02-ikamet-karari-hicbir-zaman-tek-basina-degerlendirilemez",
-          "order": 2
-        },
-        {
-          "labels": [
-            "Dynamic Residency Neden Var?"
-          ],
-          "heading": "Bilgi ile Gerçek Hayatta İşleyen Bir Karar Arasındaki Boşluğu Kapatmak",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Uluslararası taşınma çoğu zaman ayrı başlıklar üzerinden açıklanır: ikamet izinleri, vergi oranları, gayrimenkul, şirket kuruluşu veya yaşam tarzı. Uygulamada ise sonuç, bu konuların birden fazla ülke ve hukuk sistemi içinde nasıl etkileştiğine bağlıdır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-03-bilgi-ile-gercek-hayatta-isleyen-bir-karar-arasindaki-boslugu-ka-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Türkiye'de cazip görünen bir karar, ayrılınan ülkede istenmeyen bir sonuç doğurabilir. Yabancı bir şirket, nereden yönetildiğine göre etkilenebilir. Yurt dışından ödenen gelir, yurt dışı kaynaklı olmayabilir. Aile bağları, seyahat düzeni veya ticari faaliyetler ikamet analizini değiştirebilir. Zamanlama, bir fırsatın kullanılabilir kalıp kalmayacağını belirleyebilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-03-bilgi-ile-gercek-hayatta-isleyen-bir-karar-arasindaki-boslugu-ka-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Dynamic Residency, genel bilgi ile gerçek hayatta uygulanabilir bir karar arasındaki boşluğu kapatmak için oluşturuldu. Çalışmaya, önemli değişkenler hâlâ yönetilebilirken başlarız: ikamet değişmeden, şirket yönetimi taşınmadan, varlıklar satılmadan, ortaklık yapısı yeniden düzenlenmeden veya aile düzenlemelerinin geri çevrilmesi zorlaşmadan önce.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-03-bilgi-ile-gercek-hayatta-isleyen-bir-karar-arasindaki-boslugu-ka-block-03"
-            }
-          ],
-          "id": "about-section-03-bilgi-ile-gercek-hayatta-isleyen-bir-karar-arasindaki-boslugu-ka",
-          "order": 3
-        },
-        {
-          "labels": [
-            "Bir Arada Ele Aldığımız Sorular"
-          ],
-          "heading": "Birbirine Bağlı Tek Bir Yapı",
-          "blocks": [
-            {
-              "order": 1,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Mevcut ve gelecekteki vergi mukimliği, yerleşim yeri ve fiziki bulunma düzeni",
-                "Temettü, faiz, kira, emeklilik geliri, sermaye kazancı ve mesleki gelirin hukuki ve ekonomik kaynağı",
-                "Yabancı şirketler, ortaklık payları, yönetim faaliyetleri ve daimi işyeri riski",
-                "Gayrimenkuller, yatırım portföyleri, banka ilişkileri ve sınır ötesi nakit akışları",
-                "Aile ikameti, eğitim, sağlık hizmetleri, miras planlaması ve uzun vadeli hareketlilik",
-                "Ayrılınan ülkedeki yükümlülükler, çifte vergilendirmeyi önleme anlaşmaları ve uygulama zamanlaması",
-                "Bir karar uygulanmadan önce gerekli olan kanıtlar, profesyonel görüşler ve pratik adımlar"
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "about-section-04-birbirine-bagli-tek-bir-yapi-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Bu sorular, birbiriyle bağlantılı tek bir yapı olarak değerlendirilir. Amaç, bir alanda teknik olarak doğru olan bir yanıtın başka bir yerde pratik sorun yaratmasını önlemektir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-04-birbirine-bagli-tek-bir-yapi-block-02"
-            }
-          ],
-          "id": "about-section-04-birbirine-bagli-tek-bir-yapi",
-          "order": 4
-        },
-        {
-          "labels": [
-            "Türkiye'nin Yurt Dışı Kaynaklı Gelirlere Yönelik 20 Yıllık Vergi Muafiyeti"
-          ],
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Türkiye, 2026 yılından itibaren Türkiye'de vergi mukimi olan uygun kişiler için potansiyel olarak önemli bir muafiyet getirmiştir. Düzenleme belirli yurt dışı kaynaklı gelirler açısından önem taşıyabilir; ancak uygunluk ikamet geçmişine, gelirin gerçek kaynağına, başvuru sürecine ve daha geniş sınır ötesi yapıya bağlıdır. Bu nedenle bağımsız bir vaat olarak değil, ikamet kararının bütünü içinde değerlendirilmelidir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-05-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Türkiye'nin Yurt Dışı Kaynaklı Gelirlere Yönelik 20 Yıllık Vergi Muafiyetini Anlayın",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "view_20_year_exemption",
-              "href": "/20-year-exemption",
-              "id": "about-section-05-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi-block-02"
-            }
-          ],
-          "id": "about-section-05-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi",
-          "order": 5
-        },
-        {
-          "labels": [
-            "Dynamic Residency Nasıl Çalışır?"
-          ],
-          "heading": "Başlangıç Durumundan Uygulamaya",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "01",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Başlangıç Durumunu Belirleyin",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-02"
-            },
-            {
-              "order": 3,
-              "text": "İkamet geçmişi, gelirler, şirketler, varlıklar, aile koşulları, seyahat düzeni ve hedeflere ilişkin mevcut bilgileri düzenleriz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-03"
-            },
-            {
-              "order": 4,
-              "text": "02",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Soru Haritasını Oluşturun",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Karar alınmadan önce çözülmesi gereken bağlantılı ticari, operasyonel, vergisel, hukuki, göçmenlik ve kurumsal soruları belirleriz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-06"
-            },
-            {
-              "order": 7,
-              "text": "03",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-07"
-            },
-            {
-              "order": 8,
-              "text": "Yetkin Uzman Katkısını Koordine Edin",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-08"
-            },
-            {
-              "order": 9,
-              "text": "Resmî bir görüş gerektiğinde, uygun yetkinliğe sahip profesyoneller tanımlanmış soruları kendi yetki alanları ve uzmanlıkları çerçevesinde ele alır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-09"
-            },
-            {
-              "order": 10,
-              "text": "04",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-10"
-            },
-            {
-              "order": 11,
-              "text": "Karar Yolunu Oluşturun",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-11"
-            },
-            {
-              "order": 12,
-              "text": "Dynamic Residency bulguları bir araya getirir, bağımlılıkları belirler ve uygulanabilir yolu, önemli riskleri ve gerekli işlem sırasını ortaya koyar.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-12"
-            },
-            {
-              "order": 13,
-              "text": "05",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-13"
-            },
-            {
-              "order": 14,
-              "text": "Uygulamayı Koordine Edin",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-14"
-            },
-            {
-              "order": 15,
-              "text": "Müşteri ilerlemeye karar verdiğinde, belge hazırlığı, zamanlama ve pratik uygulamanın onaylanan yapıyla uyumlu kalması için kararlaştırılan çalışma akışlarını koordine ederiz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-15"
-            },
-            {
-              "order": 16,
-              "text": "Süreç boyunca bir karar kontrol noktası uygulanır. Yapı uygulanabilir değilse çalışma, net bir açıklamayla durdurulur. Uygulanabilir ise uygulama ancak izlenecek yol, sorumluluklar ve sınırlamalar anlaşıldıktan sonra başlar.",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "notice",
-              "id": "about-section-06-baslangic-durumundan-uygulamaya-block-16"
-            }
-          ],
-          "id": "about-section-06-baslangic-durumundan-uygulamaya",
-          "order": 6
-        },
-        {
-          "labels": [
-            "Yaklaşımı Farklı Kılan Nedir?"
-          ],
-          "heading": "Taahhütten Önce Netlik",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Öncelik Bütün Yapınındır",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-07-taahhutten-once-netlik-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Satılacak bir ürünle başlamayız. Müşterinin mevcut durumuyla ve verilmesi gereken kararla başlarız. İkamet, gelirler, şirketler, varlıklar ve aile koşulları birlikte incelenir; çünkü her biri diğerinin sonucunu değiştirebilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-07-taahhutten-once-netlik-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Uygulama, Analizin Bir Parçasıdır",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-07-taahhutten-once-netlik-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Bir yapı ancak belgelenebiliyor, yönetilebiliyor ve sürdürülebiliyorsa anlamlıdır. Bankacılık, bordro, şirket yönetimi, ikamet işlemleri, yerel operasyonlar ve profesyonel koordinasyon; yalnızca bir sunumda veya raporda değil, gerçek hayatta da çalışmalıdır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-07-taahhutten-once-netlik-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Profesyonel Roller Açık Kalır",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-07-taahhutten-once-netlik-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Dynamic Residency; ticari analizi, sınır ötesi koordinasyonu ve uygulama yol haritasını yönetir. Resmî vergi, hukuk, göçmenlik ve şirketler hukuku görüşleri, uygun yetkinliğe sahip profesyoneller tarafından sunulur veya incelenir. Müşteriler mevcut danışmanlarıyla çalışmaya devam edebilir; biz ise Türkiye tarafındaki soruları tanımlar ve birleşik çalışmayı koordine ederiz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-07-taahhutten-once-netlik-block-06"
-            },
-            {
-              "order": 7,
-              "text": "Karar Bağımsızdır",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-07-taahhutten-once-netlik-block-07"
-            },
-            {
-              "order": 8,
-              "text": "Türkiye varsayılan olarak önerilmez. Olumsuz bir sonuç, doğru sonuç olabilir. Amacımız; müşteri sermaye taahhüdünde bulunmadan, ikametini değiştirmeden veya mevcut uluslararası yapısını yeniden düzenlemeden önce netlik sağlamaktır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-07-taahhutten-once-netlik-block-08"
-            }
-          ],
-          "id": "about-section-07-taahhutten-once-netlik",
-          "order": 7
-        },
-        {
-          "labels": [
-            "Türkiye'deki Gerçek Operasyonlara Dayalı"
-          ],
-          "heading": "Uzaktan Değil, Pratik Deneyimden",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Dynamic Residency, Dynamic Works Türkiye bünyesinde geliştirilmiş uzmanlaşmış bir projedir. Operasyonel bakış açısı; Türkiye'de şirketler kurup yönetmekten, yerel ekipler istihdam etmekten, uluslararası girişimcileri desteklemekten ve pratik iş altyapıları geliştirmekten gelir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-08-uzaktan-degil-pratik-deneyimden-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Bu operasyonel geçmiş önemlidir; çünkü uluslararası bağlantıları bulunan müşterilerin yalnızca Türkiye hakkında bilgiye ihtiyacı yoktur. Önerilen yapının insanlarla, şirketlerle, belgelerle, bankalarla, danışmanlarla, kamu kurumlarıyla ve günlük yönetimle nasıl işleyeceğini de anlamaları gerekir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-08-uzaktan-degil-pratik-deneyimden-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Dynamic Residency, yerel operasyon deneyimini sınır ötesi profesyonel bir ağla birleştirir. Soru mevzuata tabi uzmanlık gerektirdiğinde uzman görüşü sürece dahil edilir; genel karar ise müşterinin bütün yapısı etrafında koordine edilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-08-uzaktan-degil-pratik-deneyimden-block-03"
-            }
-          ],
-          "id": "about-section-08-uzaktan-degil-pratik-deneyimden",
-          "order": 8
-        },
-        {
-          "labels": [
-            "Kurucu ve Stratejik Yön"
-          ],
-          "heading": "Stephan Westermayer Tarafından Geliştirildi",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Dynamic Residency; Dynamic Residency'nin kurucusu, Dynamic Works ve Blue Palm Group'un kurucusu ve İcra Kurulu Başkanı Stephan Westermayer tarafından geliştirildi. Platform; onun Türkiye'de yaşama ve faaliyet gösterme, şirketler kurma, yerel ekiplerle çalışma ve uluslararası yapıları koordine etme konusundaki doğrudan deneyiminden doğdu.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-09-stephan-westermayer-tarafindan-gelistirildi-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Stephan, Dynamic Residency'nin stratejik yönünü belirler ve şirket sahipliği, uluslararası varlıklar veya birbiriyle bağlantılı birden fazla ülkeyi içeren seçilmiş karmaşık vakalara şahsen katkı sağlar. Standart danışmanlıklar ve uzmanlık çalışmaları, profesyonel ağın uygun üyeleri tarafından yürütülür.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-09-stephan-westermayer-tarafindan-gelistirildi-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Bu nedenle platform Türkiye'deki pratik deneyime dayanır; ancak Türkiye'nin ötesine uzanan kararlar için tasarlanmıştır. Önemli soru yalnızca Türkiye'nin neye izin verdiği değildir. Asıl soru, uluslararası yapının tamamının taşınma öncesinde, sırasında ve sonrasında işleyip işlemediğidir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-09-stephan-westermayer-tarafindan-gelistirildi-block-03"
-            }
-          ],
-          "id": "about-section-09-stephan-westermayer-tarafindan-gelistirildi",
-          "order": 9
-        },
-        {
-          "labels": [
-            "Dynamic Residency Kimlere Yardımcı Olur?"
-          ],
-          "heading": "Uluslararası Bağlantılı Kararlar İçin Tasarlandı",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Şirket Sahipleri ve Kurucular",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Yabancı şirketler, yönetim faaliyetleri, bordro, temettüler, ortaklık yapısı veya operasyonlar açısından önlenebilir sorunlar yaratmadan Türkiye'de ikamet tesis etmek isteyen girişimciler.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Uluslararası Yatırımcılar",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Birden fazla ülkede bulunan varlık ve kurumlardan temettü, faiz, kira geliri, emeklilik geliri veya sermaye kazancı elde eden kişiler.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Uluslararası Hareketliliğe Sahip Aileler",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-05"
-            },
-            {
-              "order": 6,
-              "text": "İkamet kararının eğitim, sağlık hizmetleri, gayrimenkul, miras planlaması, seyahat ve uzun vadeli finansal planlamayla uyumlu olması gereken aileler.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-06"
-            },
-            {
-              "order": 7,
-              "text": "Türkiye'ye Dönen Türk Vatandaşları",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-07"
-            },
-            {
-              "order": 8,
-              "text": "Yurt dışında geçirdikleri bir dönemin ardından Türkiye'ye dönen ve ikamet geçmişleri, gelirleri, varlıkları ile güncel Türk vergi düzenlemelerine olası uygunlukları hakkında yapılandırılmış bir incelemeye ihtiyaç duyan Türk vatandaşları.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-08"
-            },
-            {
-              "order": 9,
-              "text": "Uluslararası Profesyoneller ve Emekliler",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-09"
-            },
-            {
-              "order": 10,
-              "text": "Çalışmaları, emeklilik gelirleri, yatırımları veya seyahat düzenleri uluslararası niteliğini sürdüren ve standart bir yurt içi taşınma süreciyle değerlendirilemeyecek kişiler.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-10"
-            },
-            {
-              "order": 11,
-              "text": "Profesyonel Danışmanlar",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-11"
-            },
-            {
-              "order": 12,
-              "text": "Mevcut uluslararası yapıya sahip bir müşteri için Türkiye tarafında koordineli bir çalışma akışına ihtiyaç duyan vergi danışmanları, avukatlar, güvene dayalı hizmet sağlayıcılar ve aile ofisi profesyonelleri.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi-block-12"
-            }
-          ],
-          "id": "about-section-10-uluslararasi-baglantili-kararlar-icin-tasarlandi",
-          "order": 10
-        },
-        {
-          "labels": [
-            "Dynamic Residency Ne Değildir?"
-          ],
-          "heading": "Açık Profesyonel Sınırlar",
-          "blocks": [
-            {
-              "order": 1,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Kitlesel pazara yönelik bir göçmenlik veya ikamet izni ajansı değildir",
-                "Bir hukuk bürosu, vergi danışmanlığı firması veya mevzuata tabi profesyonel görüşün yerine geçen bir hizmet değildir",
-                "Bir gayrimenkul pazaryeri, vatandaşlık aracısı veya genel taşınma concierge hizmeti değildir",
-                "Her müşterinin vergi muafiyetinden yararlanacağına ilişkin bir vaat değildir",
-                "Uygunluğa bakmaksızın Türkiye'yi öneren bir platform değildir"
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "about-section-11-acik-profesyonel-sinirlar-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Açık profesyonel sınırlar, hizmetin bir parçasıdır. Dynamic Residency; resmî görüşlerin uygun yetkinliğe sahip profesyonellerden alınmasını sağlayarak karar ve uygulama sürecini koordine eder.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-11-acik-profesyonel-sinirlar-block-02"
-            }
-          ],
-          "id": "about-section-11-acik-profesyonel-sinirlar",
-          "order": 11
-        },
-        {
-          "labels": [
-            "İlkelerimiz"
-          ],
-          "heading": "Çalışmalarımıza Yön Veren İlkeler",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "01",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Deneyime Dayalı",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Öneriler yalnızca teoriye veya tanıtım vaatlerine değil, gerçek operasyon deneyimine dayanmalıdır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-03"
-            },
-            {
-              "order": 4,
-              "text": "02",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Önce Uygulama",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Önerilen bir yapı, karar alındıktan sonra belgelenebilir, yönetilebilir ve sürdürülebilir olmalıdır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-06"
-            },
-            {
-              "order": 7,
-              "text": "03",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-07"
-            },
-            {
-              "order": 8,
-              "text": "Büyümeden Önce Kalite",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-08"
-            },
-            {
-              "order": 9,
-              "text": "Karmaşık kararlar; disiplinli bir kapsam, doğru uzmanlık ve yeterli zaman gerektirir. Amaç yüksek hacim değildir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-09"
-            },
-            {
-              "order": 10,
-              "text": "04",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-10"
-            },
-            {
-              "order": 11,
-              "text": "Şeffaflık",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-11"
-            },
-            {
-              "order": 12,
-              "text": "Roller, sınırlamalar, ücretler, bağımlılıklar ve henüz yanıtlanmamış sorular, çalışma başlamadan önce açık olmalıdır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-12"
-            },
-            {
-              "order": 13,
-              "text": "05",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-13"
-            },
-            {
-              "order": 14,
-              "text": "Uluslararası Yapı İçin Tasarlandı",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-14"
-            },
-            {
-              "order": 15,
-              "text": "Türkiye; ilgili olmaya devam eden ülkeler, şirketler, varlıklar ve aile bağları dahil olmak üzere sınır ötesi bağlamın bütünü içinde değerlendirilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-12-calismalarimiza-yon-veren-ilkeler-block-15"
-            }
-          ],
-          "id": "about-section-12-calismalarimiza-yon-veren-ilkeler",
-          "order": 12
-        },
-        {
-          "labels": [
-            "Sık Sorulan Sorular"
-          ],
-          "heading": "Dynamic Residency Hakkında",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Dynamic Residency ne yapar?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-13-dynamic-residency-hakkinda-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Dynamic Residency, Türkiye seçeneğini değerlendiren uluslararası bağlantılı kişilere sınır ötesi ikamet planlaması, yapısal analiz ve uygulama koordinasyonu sunar. İkamet, gelir, şirket, yatırım, aile ve pratik uygulamaya ilişkin soruları tek bir karar sürecinde bir araya getirir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-13-dynamic-residency-hakkinda-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Dynamic Residency bir hukuk bürosu veya vergi danışmanlığı firması mıdır?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-13-dynamic-residency-hakkinda-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Hayır. Dynamic Residency; ticari analizi, soruların tanımlanmasını, koordinasyonu ve uygulama planlamasını yönetir. Resmî vergi, hukuk, göçmenlik veya şirketler hukuku görüşleri, uygun yetkinliğe sahip profesyoneller tarafından sunulur veya incelenir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-13-dynamic-residency-hakkinda-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Dynamic Residency nerede bulunmaktadır?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-13-dynamic-residency-hakkinda-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Dynamic Residency İstanbul, Türkiye merkezlidir. Hizmet, sınır ötesi profesyonel bir ağ aracılığıyla İngilizce ve Almanca sunulur.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-13-dynamic-residency-hakkinda-block-06"
-            },
-            {
-              "order": 7,
-              "text": "Hizmet kimler için tasarlanmıştır?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-13-dynamic-residency-hakkinda-block-07"
-            },
-            {
-              "order": 8,
-              "text": "Hizmet; kararları bağlantılı ikamet, gelir, şirket, varlık veya aile konularını içeren girişimciler, yatırımcılar, uluslararası hareketliliğe sahip aileler, Türkiye'ye dönen Türk vatandaşları, uluslararası profesyoneller, emekliler ve danışmanlar için tasarlanmıştır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-13-dynamic-residency-hakkinda-block-08"
-            },
-            {
-              "order": 9,
-              "text": "Dynamic Residency Türkiye'yi her müşteriye önerir mi?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-13-dynamic-residency-hakkinda-block-09"
-            },
-            {
-              "order": 10,
-              "text": "Hayır. Amaç, Türkiye'nin müşterinin uluslararası durumunun tamamına uygun olup olmadığını belirlemektir. Yapı uygulanabilir değilse doğru sonuç, sürece devam etmemek olabilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-13-dynamic-residency-hakkinda-block-10"
-            },
-            {
-              "order": 11,
-              "text": "Süreç nasıl başlar?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "about-section-13-dynamic-residency-hakkinda-block-11"
-            },
-            {
-              "order": 12,
-              "text": "Süreç, mevcut bilgiler ve hedeflerin yapılandırılmış biçimde incelenmesiyle başlar. Dynamic Residency, bir sonraki adımı önermeden önce ilgili kapsamı, bilgi eksiklerini, bağımlılıkları ve uzman görüşü gerektiren soruları belirler.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-13-dynamic-residency-hakkinda-block-12"
-            }
-          ],
-          "id": "about-section-13-dynamic-residency-hakkinda",
-          "order": 13
-        },
-        {
-          "labels": [
-            "İkametinizi Değiştirmeden Önce"
-          ],
-          "heading": "Yapının İşleyip İşlemediğini Belirleyin",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Genel bilgiler Türkiye'yi açıklayabilir. Sizin durumunuz ise ikamet geçmişinize, gelirlerinize, şirketlerinize, yatırımlarınıza ve aile koşullarınıza dayanan bireysel bir yanıt gerektirir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "about-section-14-yapinin-isleyip-islemedigini-belirleyin-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Dynamic Residency ile Görüşün",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "contact_team",
-              "href": null,
-              "id": "about-section-14-yapinin-isleyip-islemedigini-belirleyin-block-02"
-            }
-          ],
-          "id": "about-section-14-yapinin-isleyip-islemedigini-belirleyin",
-          "order": 14
-        }
-      ],
-      "footerRef": "mainFooter"
+    "about": {
+      "imageAlt": "Stratejik yön ve birbiriyle bağlantılı kararlar",
+      "eyebrow": "Dynamic Residency Neden Var?",
+      "title": "Dynamic Residency Neden Var?",
+      "lead": "Dynamic Residency, pratik bir soruya yanıt bulmanıza yardımcı olur: Türkiye, sizin özel durumunuza uygun mu?",
+      "body1": "Çoğu bilgi vergi avantajlarına, göçe veya ikamet izinlerine odaklanır. Oysa sağlıklı bir karar; mevcut vergi mukimliğinize, şirketlerinize, yatırımlarınıza, gelir kaynaklarınıza, aile koşullarınıza ve uzun vadeli hedeflerinize de bağlıdır.",
+      "body2": "Birbiriyle bağlantılı bu soruları koordine ederek net bir karar yolu oluştururuz.",
+      "statement1": "Amacımız sizi taşınmaya ikna etmek değildir.",
+      "statement2": "Amacımız, taşınmanın sizin için doğru olup olmadığına karar vermenize yardımcı olmaktır."
     },
-    {
-      "id": "20-year-exemption",
-      "path": "/20-year-exemption",
+    "opportunity": {
+      "eyebrow": "Fırsat",
       "title": "Türkiye'nin Yurt Dışı Kaynaklı Gelirlere Yönelik 20 Yıllık Vergi Muafiyeti",
-      "sourceUrl": "https://dynamicresidency.com/20-year-exemption",
-      "capturedAt": "2026-07-20",
-      "capturedAtDisplay": "20 Temmuz 2026",
-      "navigationRef": "mainNavigation",
-      "sections": [
-        {
-          "labels": [
-            "Dynamic Residency"
-          ],
-          "heading": "Türkiye'nin Yurt Dışı Kaynaklı Gelirlere Yönelik 20 Yıllık Vergi Muafiyetini Anlayın",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Girişimciler, yatırımcılar ve uluslararası hareketliliğe sahip aileler için",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-01-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Doğrulanmış hukuki dayanak: Gelir Vergisi Kanunu'nun 20/D maddesi ve 333 Seri No.lu Gelir Vergisi Genel Tebliği",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "open_official_source",
-              "href": null,
-              "id": "20-year-exemption-section-01-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Dynamic Residency Hakkında",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "learn_more",
-              "href": "/about",
-              "id": "20-year-exemption-section-01-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi-block-03"
-            }
-          ],
-          "id": "20-year-exemption-section-01-turkiye-nin-yurt-disi-kaynakli-gelirlere-yonelik-20-yillik-vergi",
-          "order": 1
-        },
-        {
-          "labels": [
-            "Yeni Bir Vergi Çerçevesi"
-          ],
-          "heading": "Uluslararası Bağlantıları Bulunan Kişiler İçin",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Türkiye, gerekli koşulları sağlayarak Türkiye'de vergi mukimliği tesis eden kişiler için önemli bir gelir vergisi muafiyeti getirmiştir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-02-uluslararasi-baglantilari-bulunan-kisiler-icin-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Gelir Vergisi Kanunu'nun 20/D maddesi uyarınca, kanunda belirtilen ikamet geçmişi koşullarını karşılayan kişiler, Türkiye dışında gerçekten elde edilen gelir ve kazançlar için kanuni olarak belirlenen 20 yıllık süre boyunca gelir vergisi muafiyetinden yararlanabilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-02-uluslararasi-baglantilari-bulunan-kisiler-icin-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Düzenleme, 1 Ocak 2026 tarihinden itibaren Türkiye'de mukim hâle gelen kişiler için geçerlidir. Vatandaşlığa değil; ikamet geçmişine, vergi geçmişine ve gelirin kaynağına dayanır. Mevzuatta, kapsam dahilindeki yurt dışı gelirleri için parasal bir üst sınır belirtilmemiştir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-02-uluslararasi-baglantilari-bulunan-kisiler-icin-block-03"
-            }
-          ],
-          "id": "20-year-exemption-section-02-uluslararasi-baglantilari-bulunan-kisiler-icin",
-          "order": 2
-        },
-        {
-          "labels": [
-            "Önemli ayrım"
-          ],
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Bu düzenleme, genel bir “20 yıl boyunca vergisiz” statüsü değildir. Muafiyet yalnızca kişi, gelir ve başvuru süreci hukuki koşulları karşıladığında uygulanır.",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "notice",
-              "id": "20-year-exemption-section-03-onemli-ayrim-block-01"
-            },
-            {
-              "order": 2,
-              "text": "20/D Maddesini Resmî Gazete'de Okuyun",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "open_official_source",
-              "href": null,
-              "id": "20-year-exemption-section-03-onemli-ayrim-block-02"
-            }
-          ],
-          "id": "20-year-exemption-section-03-onemli-ayrim",
-          "order": 3
-        },
-        {
-          "labels": [
-            "Muafiyete Genel Bakış"
-          ],
-          "heading": "Temel Bilgiler",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Kimler yararlanabilir?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-04-temel-bilgiler-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Türkiye'de mukim hâle gelen ve uygulanabilir ikamet ile vergi geçmişi koşullarını sağlayan gerçek kişiler. Düzenleme, kurumlar vergisi muafiyeti sağlamaz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-04-temel-bilgiler-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Neler muaf olabilir?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-04-temel-bilgiler-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Türk kaynak kurallarına göre sınıflandırılmak kaydıyla, Türkiye dışında gerçekten elde edilen gelir ve kazançlar.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-04-temel-bilgiler-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Ne kadar süreyle?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-04-temel-bilgiler-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Kanunda belirlenen 20 yıllık muafiyet süresi boyunca.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-04-temel-bilgiler-block-06"
-            },
-            {
-              "order": 7,
-              "text": "Parasal bir üst sınır var mı?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-04-temel-bilgiler-block-07"
-            },
-            {
-              "order": 8,
-              "text": "20/D maddesinde, uygun yurt dışı gelirleri için parasal bir üst sınır belirtilmemiştir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-04-temel-bilgiler-block-08"
-            },
-            {
-              "order": 9,
-              "text": "Başvuru gerekli mi?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-04-temel-bilgiler-block-09"
-            },
-            {
-              "order": 10,
-              "text": "Evet. Kişinin yetkili Türk vergi dairesine başvurması ve öngörülen Yurt Dışı Gelir İstisnası Belgesi'ni alması gerekir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-04-temel-bilgiler-block-10"
-            }
-          ],
-          "id": "20-year-exemption-section-04-temel-bilgiler",
-          "order": 4
-        },
-        {
-          "labels": [
-            "Potansiyel Olarak İlgili Yurt Dışı Gelirleri"
-          ],
-          "heading": "Kapsama Girebilecek Gelir Türleri",
-          "blocks": [
-            {
-              "order": 1,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Yabancı şirketlerden elde edilen temettüler",
-                "Türkiye dışındaki gayrimenkullerden elde edilen kira gelirleri",
-                "Yurt dışı faiz ve yatırım getirileri",
-                "Belirli yurt dışı sermaye kazançları",
-                "Belirli yurt dışı emeklilik gelirleri",
-                "Gerçekten Türkiye dışında bulunan varlıklardan veya yürütülen faaliyetlerden doğan diğer gelirler"
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "20-year-exemption-section-05-kapsama-girebilecek-gelir-turleri-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Her gelir türü ayrı ayrı sınıflandırılmalıdır. Ödeyen tarafın, şirketin veya banka hesabının yurt dışında olması, geliri tek başına yurt dışı kaynaklı hâle getirmez.",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "notice",
-              "id": "20-year-exemption-section-05-kapsama-girebilecek-gelir-turleri-block-02"
-            }
-          ],
-          "id": "20-year-exemption-section-05-kapsama-girebilecek-gelir-turleri",
-          "order": 5
-        },
-        {
-          "labels": [
-            "Uygunluk"
-          ],
-          "heading": "Uygunluğu Belirleyen Dört Soru",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "01",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Türkiye'de Mukim Hâle Gelecek misiniz?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-02"
-            },
-            {
-              "order": 3,
-              "text": "20/D maddesi, Türk vergi hukuku uyarınca Türkiye'de mukim sayılan kişilere uygulanır. İkamet izni, gayrimenkul satın alınması veya Türkiye'de geçirilen gün sayısı önem taşıyabilir; ancak hiçbir unsur tek başına değerlendirilmemelidir. Yerleşim yeri, fiziki bulunma, aile koşulları ve uygulanabilir çifte vergilendirmeyi önleme anlaşmaları, nihai mukimlik durumunu etkileyebilir. Kişi, muafiyet belgesi için başvururken Türkiye'de mukim kabul ediliyor olmalıdır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-03"
-            },
-            {
-              "order": 4,
-              "text": "02",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Önceki Üç Takvim Yılına Ait Geçmişiniz Nedir?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Genel kural olarak kişi, Türkiye'de mukim hâle geldiği yıldan önceki üç takvim yılı boyunca Türkiye'de yerleşim yerine veya uygunluğu ortadan kaldıran bir Türk vergi yükümlülüğüne sahip olmamalıdır. Türkiye'deki kira gelirleri, yatırım gelirleri veya sermaye kazançlarından kaynaklanan bazı geçmiş vergi yükümlülükleri, uygunluğu otomatik olarak engellemez. Ancak Türkiye'de daha önce yürütülen ücretli çalışma, ticari veya mesleki faaliyetler uygunluğu etkileyebilir ve ayrıntılı inceleme gerektirir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-06"
-            },
-            {
-              "order": 7,
-              "text": "03",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-07"
-            },
-            {
-              "order": 8,
-              "text": "Gelir Gerçekte Nerede Elde Edildi?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-08"
-            },
-            {
-              "order": 9,
-              "text": "Ödeyen tarafın veya banka hesabının bulunduğu yer belirleyici değildir. Gelirin gerçekten Türkiye dışında elde edilip edilmediğini belirlemek için dayanak varlık, faaliyet, çalışma, hizmet, şirket dağıtımı veya işlem incelenmelidir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-09"
-            },
-            {
-              "order": 10,
-              "text": "04",
-              "sourceStyle": "Process Number",
-              "type": "stepLabel",
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-10"
-            },
-            {
-              "order": 11,
-              "text": "Belgeyi Süresi İçinde Alabilir misiniz?",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-11"
-            },
-            {
-              "order": 12,
-              "text": "Muafiyet otomatik değildir. Başvuru, genel olarak kişinin Türkiye'de mukim hâle geldiği takvim yılının sonuna kadar tamamlanmalıdır. Bir takvim yılının son iki ayında mukim hâle gelen kişiler, takip eden yılın şubat ayı sonuna kadar başvurabilir. Diğer maddi koşullar yerine getirilmiş olsa bile geç başvuru, muafiyet belgesinin reddedilmesine yol açabilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru-block-12"
-            }
-          ],
-          "id": "20-year-exemption-section-06-uygunlugu-belirleyen-dort-soru",
-          "order": 6
-        },
-        {
-          "labels": [
-            "Kaynak Sınıflandırması"
-          ],
-          "heading": "Pratik Örnekler",
-          "blocks": [
-            {
-              "order": 1,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Fiziken Türkiye dışında bulunan bir gayrimenkulden elde edilen kira geliri, yurt dışı kaynaklı olabilir.",
-                "Türkiye'de kurulmamış bir şirketten alınan temettü, olayın tüm koşullarına bağlı olarak yurt dışı kaynaklı olabilir.",
-                "Hizmet Türkiye'den fiilen sunuluyorsa, müşteri ve ödeme hesabı yurt dışında olsa bile mesleki hizmet geliri Türkiye kaynaklı sayılabilir.",
-                "Ücret, yönetim ücreti ve ticari kazançlar; işin nerede yürütüldüğü ve işletmenin nereden yönetildiği konusunda ek analiz gerektirebilir."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "20-year-exemption-section-07-pratik-ornekler-block-01"
-            }
-          ],
-          "id": "20-year-exemption-section-07-pratik-ornekler",
-          "order": 7
-        },
-        {
-          "labels": [
-            "Muafiyet Neden Önemli Olabilir?"
-          ],
-          "heading": "Kimler İçin Önem Taşıyabilir?",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Gerekli koşulları sağlayan uluslararası bağlantılı bir kişi açısından muafiyet, Türkiye'de ikamet tesis etmenin uzun vadeli ekonomik sonuçlarını önemli ölçüde değiştirebilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Uluslararası Yatırımcılar",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Birden fazla ülkede tutulan varlıklardan temettü, portföy geliri, faiz, yurt dışı kira geliri veya kazanç elde eden kişiler.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Şirket Sahipleri ve Kurucular",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Türkiye'ye taşındıktan sonra yabancı şirketlerdeki ortaklığını koruyan girişimciler. Kişisel muafiyet temettüler veya diğer uygun yurt dışı gelirleri açısından önem taşıyabilir; ancak şirket mukimliğini, daimi işyerini, ücret vergilendirmesini veya ayrılınan ülkedeki çıkış vergisini belirlemez.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Türkiye'ye Dönen Türk Vatandaşları",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir-block-06"
-            },
-            {
-              "order": 7,
-              "text": "Vatandaşlık, tek başına uygunluğu engellemez. Önceki üç takvim yılına ilişkin ikamet ve vergi geçmişi koşulları karşılanıyorsa Türkiye'ye dönen bir Türk vatandaşı muafiyetten yararlanabilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir-block-07"
-            },
-            {
-              "order": 8,
-              "text": "Uluslararası Hareketliliğe Sahip Aileler",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir-block-08"
-            },
-            {
-              "order": 9,
-              "text": "İkamet, yatırımlar, gayrimenkuller, eğitim, miras planlaması ve uzun vadeli varlık sahipliğini birden fazla ülkede koordine eden aileler.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir-block-09"
-            },
-            {
-              "order": 10,
-              "text": "Emekliler",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir-block-10"
-            },
-            {
-              "order": 11,
-              "text": "Kaynak kurallarına ve ilgili çifte vergilendirmeyi önleme anlaşmasına tabi olarak, Türkiye dışından emeklilik geliri, kira geliri veya yatırım geliri elde eden kişiler.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir-block-11"
-            }
-          ],
-          "id": "20-year-exemption-section-08-kimler-icin-onem-tasiyabilir",
-          "order": 8
-        },
-        {
-          "labels": [
-            "20 Yıllık Muafiyet Neleri Sağlamaz?"
-          ],
-          "heading": "Genel ve Sınırsız Bir Vergi Muafiyeti Değildir",
-          "blocks": [
-            {
-              "order": 1,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Türkiye'deki gayrimenkullerden, Türk şirketlerinden veya Türkiye'de yürütülen faaliyetlerden doğan gelirleri vergiden muaf tutmaz",
-                "Yabancı bir müşteriden, işverenden veya banka hesabından alınan her ödemeyi vergiden muaf tutmaz",
-                "Şirketlere uygulanmaz veya kurumlar vergisi yükümlülüklerini ortadan kaldırmaz",
-                "KDV, bordro, damga vergisi veya sosyal güvenlik yükümlülüklerini ortadan kaldırmaz",
-                "Başka bir ülkedeki vergi mukimliğini veya bildirim yükümlülüklerini sona erdirmez",
-                "Ayrılınan ülkedeki ayrılış vergisini veya çıkış vergisini ortadan kaldırmaz",
-                "Yabancı bir şirketin Türkiye'den yönetilir veya Türkiye'de vergilendirilebilir hâle gelmesini önlemez",
-                "Çifte vergilendirmeyi önleme anlaşmalarının hükümlerini geçersiz kılmaz",
-                "Geç yapılmış veya yeterli dayanağı bulunmayan bir muafiyet başvurusunu düzeltmez"
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "20-year-exemption-section-09-genel-ve-sinirsiz-bir-vergi-muafiyeti-degildir-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Türkiye'deki muafiyet kapsamına giren gelirler için yurt dışında ödenen vergiler, Türkiye'de hesaplanan gelir vergisinden mahsup edilemez. Muaf gelirle bağlantılı gider ve maliyetler de Türkiye'de vergilendirilmeye devam eden gelirleri azaltmak için kullanılamaz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-09-genel-ve-sinirsiz-bir-vergi-muafiyeti-degildir-block-02"
-            }
-          ],
-          "id": "20-year-exemption-section-09-genel-ve-sinirsiz-bir-vergi-muafiyeti-degildir",
-          "order": 9
-        },
-        {
-          "labels": [
-            "Muafiyet Kişiye Aittir"
-          ],
-          "heading": "Kişisel Durum ile Şirketin Durumu Ayrı Ayrı Analiz Edilmelidir",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "20/D maddesi, gerçek kişilere yönelik bir gelir vergisi düzenlemesidir. Koşulları sağlayan bir ortak, potansiyel olarak yurt dışı kaynaklı gelirini vergiden muaf şekilde elde ederken, gelirin kaynaklandığı şirket kendi ülkesinde tamamen vergiye tabi olmaya devam edebilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-10-kisisel-durum-ile-sirketin-durumu-ayri-ayri-analiz-edilmelidir-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Kişinin muafiyeti, şirketi aşağıdaki risk ve yükümlülüklerden otomatik olarak korumaz:",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-10-kisisel-durum-ile-sirketin-durumu-ayri-ayri-analiz-edilmelidir-block-02"
-            },
-            {
-              "order": 3,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Türkiye'de kurumlar vergisi mukimliği",
-                "Daimi işyeri riski",
-                "Bordro yükümlülükleri",
-                "Transfer fiyatlandırması kuralları",
-                "Stopaj vergileri",
-                "Yerel muhasebe ve bildirim yükümlülükleri"
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "20-year-exemption-section-10-kisisel-durum-ile-sirketin-durumu-ayri-ayri-analiz-edilmelidir-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Bu nedenle girişimciler ve ortaklar açısından kişinin durumu ile şirketin durumu ayrı ayrı analiz edilmelidir.",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "notice",
-              "id": "20-year-exemption-section-10-kisisel-durum-ile-sirketin-durumu-ayri-ayri-analiz-edilmelidir-block-04"
-            }
-          ],
-          "id": "20-year-exemption-section-10-kisisel-durum-ile-sirketin-durumu-ayri-ayri-analiz-edilmelidir",
-          "order": 10
-        },
-        {
-          "labels": [
-            "Örnek Profiller"
-          ],
-          "heading": "Düzenleme Uygulamada Nasıl İşleyebilir?",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Yurt Dışı Yatırım Geliri",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-11-duzenleme-uygulamada-nasil-isleyebilir-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Koşulları sağlayan bir kişi Türkiye'de mukim hâle gelirken yabancı bir şirketten temettü ve Türkiye dışındaki bir gayrimenkulden kira geliri almaya devam eder. Bu gelirler gerçekten yurt dışı kaynaklıysa, kişi önceki üç takvim yılı testini karşılıyorsa ve muafiyet belgesi süresinde alınmışsa, söz konusu gelirler 20/D maddesi kapsamında değerlendirilebilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-11-duzenleme-uygulamada-nasil-isleyebilir-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Uluslararası Girişimci",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-11-duzenleme-uygulamada-nasil-isleyebilir-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Bir kurucu, yabancı bir faal şirketi elinde tutarak Türkiye'ye taşınır. Yurt dışı temettüler muafiyet açısından önem taşıyabilir; ancak ücret, yönetim faaliyeti, şirket mukimliği, daimi işyeri ve ayrılınan ülkedeki çıkış vergisi ayrı ayrı incelenmelidir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-11-duzenleme-uygulamada-nasil-isleyebilir-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Uzaktan Çalışan Profesyonel",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-11-duzenleme-uygulamada-nasil-isleyebilir-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Bir danışman Türkiye'de yaşar ve hizmetlerini Türkiye'den, yurt dışındaki müşterilere sunar. Müşterilerin veya ödeme hesabının yurt dışında bulunması, geliri otomatik olarak yurt dışı kaynaklı hâle getirmez. Türkiye'de fiziken yürütülen çalışmayla bağlantılı gelirler Türkiye'de vergilendirilmeye devam edebilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-11-duzenleme-uygulamada-nasil-isleyebilir-block-06"
-            },
-            {
-              "order": 7,
-              "text": "Türkiye'ye Dönen Türk Vatandaşı",
-              "sourceStyle": "Heading 3",
-              "type": "heading",
-              "level": 3,
-              "id": "20-year-exemption-section-11-duzenleme-uygulamada-nasil-isleyebilir-block-07"
-            },
-            {
-              "order": 8,
-              "text": "Bir Türk vatandaşı, yurt dışında geçirdiği birkaç tam takvim yılının ardından Türkiye'ye döner. Kanuni ikamet ve vergi geçmişi koşulları sağlanıyorsa muafiyetten yararlanabilir. Vatandaşlık belirleyici ölçüt değildir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-11-duzenleme-uygulamada-nasil-isleyebilir-block-08"
-            }
-          ],
-          "id": "20-year-exemption-section-11-duzenleme-uygulamada-nasil-isleyebilir",
-          "order": 11
-        },
-        {
-          "labels": [
-            "Başvuru ve Belgeler"
-          ],
-          "heading": "Belge Sürecini Son Başvuru Tarihinden Önce Planlayın",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Muafiyet belgesi süreci, ilgili son başvuru tarihi geçtikten sonra değil; taşınmadan önce veya taşınma sırasında planlanmalıdır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-12-belge-surecini-son-basvuru-tarihinden-once-planlayin-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Türk vergi dairesi aşağıdaki hususları inceleyebilir:",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-12-belge-surecini-son-basvuru-tarihinden-once-planlayin-block-02"
-            },
-            {
-              "order": 3,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Kişinin Türkiye'de mukim hâle geldiği tarih",
-                "Önceki üç takvim yılı içindeki ikamet ve yerleşim yeri",
-                "Türkiye'deki önceki vergi kayıtları ve gelir türleri",
-                "Yurt dışı gelirinin niteliği ve kaynağı",
-                "İkamet, vergi ve gelire ilişkin destekleyici belgeler",
-                "Başvuruda verilen beyanların doğruluğu"
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "20-year-exemption-section-12-belge-surecini-son-basvuru-tarihinden-once-planlayin-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Koşulların sağlanmadığı sonradan tespit edilirse ödenmemiş vergi, ceza ve faizle birlikte tarh edilebilir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-12-belge-surecini-son-basvuru-tarihinden-once-planlayin-block-04"
-            }
-          ],
-          "id": "20-year-exemption-section-12-belge-surecini-son-basvuru-tarihinden-once-planlayin",
-          "order": 12
-        },
-        {
-          "labels": [
-            "Resmî başvuru rehberi"
-          ],
-          "blocks": [
-            {
-              "order": 1,
-              "text": "333 Seri No.lu Gelir Vergisi Genel Tebliği, 20/D maddesine ilişkin idari başvuru ve belgelendirme çerçevesini belirler.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-13-resmi-basvuru-rehberi-block-01"
-            },
-            {
-              "order": 2,
-              "text": "333 Seri No.lu Gelir Vergisi Genel Tebliği'ni Resmî Gazete'de Okuyun",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "open_official_source",
-              "href": null,
-              "id": "20-year-exemption-section-13-resmi-basvuru-rehberi-block-02"
-            }
-          ],
-          "id": "20-year-exemption-section-13-resmi-basvuru-rehberi",
-          "order": 13
-        },
-        {
-          "labels": [
-            "Kararın Daha Geniş Boyutu"
-          ],
-          "heading": "Türkiye'deki Muafiyet Kararın Yalnızca Bir Parçasıdır",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Başarılı bir taşınma, ilgili tüm ülkelerde ve hukuk sistemlerinde işleyecek şekilde tasarlanmalıdır. İkamet değiştirilmeden önce yapının tamamı aşağıdaki başlıklar dahilinde incelenmelidir:",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-14-turkiye-deki-muafiyet-kararin-yalnizca-bir-parcasidir-block-01"
-            },
-            {
-              "order": 2,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Mevcut ve gelecekteki vergi mukimliği",
-                "Çıkış vergisi ve ayrılış bildirimleri",
-                "Yabancı şirketler ve ortaklık payları",
-                "Yönetim ve karar alma faaliyetlerinin yürütüldüğü yer",
-                "Yatırım ve gayrimenkul gelirleri",
-                "Ücretli çalışma ve mesleki faaliyet",
-                "Sosyal güvenlik yükümlülüğü riski",
-                "Aile ikameti ve miras planlaması",
-                "Uygulanabilir çifte vergilendirmeyi önleme anlaşmaları",
-                "Türkiye'deki muafiyet başvurusunun zamanlaması"
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "20-year-exemption-section-14-turkiye-deki-muafiyet-kararin-yalnizca-bir-parcasidir-block-02"
-            }
-          ],
-          "id": "20-year-exemption-section-14-turkiye-deki-muafiyet-kararin-yalnizca-bir-parcasidir",
-          "order": 14
-        },
-        {
-          "labels": [
-            "Temel soru"
-          ],
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Asıl soru yalnızca 20/D maddesinin var olup olmadığı değildir. Asıl soru; bu düzenlemenin gelirleriniz, şirketleriniz, yatırımlarınız, aile durumunuz ve ayrıldığınız ülke açısından işleyip işlemediğidir.",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "notice",
-              "id": "20-year-exemption-section-15-temel-soru-block-01"
-            }
-          ],
-          "id": "20-year-exemption-section-15-temel-soru",
-          "order": 15
-        },
-        {
-          "labels": [
-            "20 Yıllık Muafiyet Sizin İçin Uygun Olabilir mi?"
-          ],
-          "heading": "Yapının Tamamını İnceleyin",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Dynamic Residency; Türkiye'deki mukimlik durumunuz, önceki vergi geçmişiniz, yurt dışı gelirleriniz ve daha geniş sınır ötesi yapınız hakkında yapılandırılmış bir inceleme sunar.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-16-yapinin-tamamini-inceleyin-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Mevzuata tabi vergi veya hukuk görüşü gerektiren soruları belirler, uygun profesyonelleri koordine eder ve sonuçları net bir karar ile uygulama yol haritasına dönüştürürüz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-16-yapinin-tamamini-inceleyin-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Dynamic Residency ile Görüşün",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "contact_team",
-              "href": null,
-              "id": "20-year-exemption-section-16-yapinin-tamamini-inceleyin-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Türkiye'nin ve 20/D maddesinin daha geniş sınır ötesi yapınıza uygun olup olmadığını görüşün.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-16-yapinin-tamamini-inceleyin-block-04"
-            }
-          ],
-          "id": "20-year-exemption-section-16-yapinin-tamamini-inceleyin",
-          "order": 16
-        },
-        {
-          "labels": [
-            "İngilizce ve Almanca hizmet",
-            "Önemli Bilgilendirme"
-          ],
-          "heading": "Yalnızca Genel Bilgilendirme Amaçlıdır",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Bu sayfa, Gelir Vergisi Kanunu'nun 20/D maddesi ve 333 Seri No.lu Gelir Vergisi Genel Tebliği hakkında genel bilgi sunar. Bireysel vergi, hukuk veya yatırım danışmanlığı teşkil etmez.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-17-yalnizca-genel-bilgilendirme-amaclidir-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Uygunluk ve gelir kaynağının sınıflandırılması, her vakanın kendine özgü koşullarına bağlıdır. Mevzuata tabi vergi ve hukuk görüşleri, uygun yetkinliğe sahip profesyoneller tarafından sunulmalı veya incelenmelidir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-17-yalnizca-genel-bilgilendirme-amaclidir-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Hukuki dayanak: Gelir Vergisi Kanunu, Madde 20/D",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-17-yalnizca-genel-bilgilendirme-amaclidir-block-03"
-            },
-            {
-              "order": 4,
-              "text": "7582 sayılı Kanun ile yürürlüğe konulmuştur",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-17-yalnizca-genel-bilgilendirme-amaclidir-block-04"
-            },
-            {
-              "order": 5,
-              "text": "İdari rehber: 333 Seri No.lu Gelir Vergisi Genel Tebliği",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-17-yalnizca-genel-bilgilendirme-amaclidir-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Son inceleme tarihi: 16 Temmuz 2026",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "20-year-exemption-section-17-yalnizca-genel-bilgilendirme-amaclidir-block-06"
-            },
-            {
-              "order": 7,
-              "text": "Yalnızca genel bilgilendirme amaçlıdır — bireysel vergi veya hukuk danışmanlığı değildir",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "notice",
-              "id": "20-year-exemption-section-17-yalnizca-genel-bilgilendirme-amaclidir-block-07"
-            }
-          ],
-          "id": "20-year-exemption-section-17-yalnizca-genel-bilgilendirme-amaclidir",
-          "order": 17
-        }
+      "body1": "2026 yılından itibaren Türkiye'de vergi mukimi olan ve gerekli koşulları sağlayan kişiler, belirli yurt dışı kaynaklı gelirler için 20 yıla kadar vergi muafiyetinden yararlanabilir.",
+      "body2": "Bu muafiyet, aşağıdaki gelirleri elde eden kişiler açısından önem taşıyabilir:",
+      "list": [
+        "Yabancı şirketlerden elde edilen temettüler",
+        "Faiz ve yatırım getirileri",
+        "Yurt dışındaki gayrimenkullerden elde edilen kira gelirleri",
+        "Belirli sermaye kazançları",
+        "Belirli yurt dışı emeklilik gelirleri"
       ],
-      "footerRef": "mainFooter"
+      "noticeTitle": "Önemli ayrım",
+      "noticeBody": "Bir gelirin yurt dışından ödenmesi, onu otomatik olarak yurt dışı kaynaklı gelir hâline getirmez. Uygunluk; ikamet geçmişinize, gelirin gerçek kaynağına ve daha geniş sınır ötesi yapınıza bağlıdır.",
+      "cta": "20 Yıllık Muafiyeti Anlayın",
+      "imageAlt": "Su kıyısındaki uluslararası iş bölgesi"
     },
-    {
-      "id": "terms-and-conditions",
-      "path": "/terms-and-conditions",
-      "title": "Hizmet Koşulları / İlkelerimiz",
-      "sourceUrl": "https://dynamicresidency.com/terms-and-conditions",
-      "capturedAt": "2026-07-20",
-      "capturedAtDisplay": "20 Temmuz 2026",
-      "navigationRef": "mainNavigation",
-      "sections": [
+    "whoWeHelp": {
+      "eyebrow": "Kimlere Yardımcı Oluyoruz?",
+      "title": "Dynamic Residency Kimlere Yardımcı Olur?",
+      "subtitle": "Kendi durumunuzu aşağıdaki profillerden birinde görebilirsiniz.",
+      "items": [
         {
-          "heading": "İlkelerimiz",
-          "blocks": [],
-          "id": "terms-and-conditions-section-01-ilkelerimiz",
-          "order": 1
+          "number": "01",
+          "title": "Şirket Sahipleri",
+          "desc": "Gereksiz vergi, yönetim veya operasyon sorunları yaratmadan taşınmak istiyorsunuz.",
+          "icon": "company-owners"
         },
         {
-          "labels": [
-            "Dynamic Residency Neden Var?"
-          ],
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Dünya hiç olmadığı kadar hızlı değişiyor. Yasalar değişiyor. Piyasalar gelişiyor. Yeni fırsatlar doğuyor. Yeni riskler de ortaya çıkıyor.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-02-dynamic-residency-neden-var-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Böyle bir dünyada insanların, ailelerin ve işletmelerin tek bir seçeneğe bağımlı olmaması gerektiğine inanıyoruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-02-dynamic-residency-neden-var-block-02"
-            },
-            {
-              "order": 3,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Daha fazla seçenek, daha geniş hareket özgürlüğü sağlar.",
-                "Daha iyi hazırlık, daha yüksek güvence sağlar.",
-                "Stratejik çeşitlendirme, daha güçlü istikrar sağlar."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "terms-and-conditions-section-02-dynamic-residency-neden-var-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Bu nedenle Dynamic Residency, insanların uluslararası seçenekleri sorumlulukla değerlendirmelerine ve uzun vadeli esneklik oluşturmalarına yardımcı olur.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-02-dynamic-residency-neden-var-block-04"
-            }
-          ],
-          "id": "terms-and-conditions-section-02-dynamic-residency-neden-var",
-          "order": 2
+          "number": "02",
+          "title": "Uluslararası Yatırımcılar",
+          "desc": "Birden fazla ülkeden temettü, faiz, kira geliri veya sermaye kazancı elde ediyorsunuz.",
+          "icon": "international-investors"
         },
         {
-          "heading": "İnsan Odak Noktamızdır",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Aldığımız her karar basit bir soruyla başlar: “Bu, müşterilerimizin gelecekleri üzerinde daha fazla kontrol sahibi olmalarına yardımcı oluyor mu?”",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-03-insan-odak-noktamizdir-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Müşterilerimizi veri kayıtları, dosya numaraları veya işlemler olarak görmeyiz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-03-insan-odak-noktamizdir-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Her kararın arkasında insanlar, aileler, işletmeler, varlıklar, gelecek planları ve kişisel hedefler vardır. Bu sorumluluğu ciddiye alıyoruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-03-insan-odak-noktamizdir-block-03"
-            }
-          ],
-          "id": "terms-and-conditions-section-03-insan-odak-noktamizdir",
-          "order": 3
+          "number": "03",
+          "title": "Uluslararası Aileler",
+          "desc": "Eğitim, sağlık hizmetleri, ikamet ve miras planlamasının birbiriyle uyumlu olması gerekiyor.",
+          "icon": "international-families"
         },
         {
-          "heading": "Bağımlılık Değil, Seçenek Oluşturmak",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Herkese uyan tek bir çözüme inanmıyoruz. Her insanın yaşam koşulları farklıdır. Her işletmenin hedefleri farklıdır. Her ailenin öncelikleri farklıdır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-04-bagimlilik-degil-secenek-olusturmak-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Bu nedenle seçenekleri ortaya koymaya, riskleri anlaşılır hâle getirmeye ve bilinçli kararlar alınmasını sağlamaya odaklanıyoruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-04-bagimlilik-degil-secenek-olusturmak-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Amacımız insanlar adına karar vermek değildir. Amacımız, insanların kendileri için daha iyi kararlar alabilecek konuma gelmelerini sağlamaktır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-04-bagimlilik-degil-secenek-olusturmak-block-03"
-            }
-          ],
-          "id": "terms-and-conditions-section-04-bagimlilik-degil-secenek-olusturmak",
-          "order": 4
+          "number": "04",
+          "title": "Türkiye'ye Dönen Türk Vatandaşları",
+          "desc": "İkamet geçmişiniz ve olası uygunluğunuz hakkında netliğe ihtiyacınız var.",
+          "icon": "returning-turkish-citizens"
         },
         {
-          "heading": "Uzun Vadeli Düşünmek",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "İkamet, uluslararası yapılandırma ve küresel hareketlilik alanındaki birçok kararın etkisi yıllar, hatta onlarca yıl sürer. Bu nedenle uzun vadeli düşünürüz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-05-uzun-vadeli-dusunmek-block-01"
-            },
-            {
-              "order": 2,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Kısa vadeli avantajlar yerine sürdürülebilir çözümleri tercih ederiz.",
-                "Spekülasyon yerine istikrarı tercih ederiz.",
-                "Pazarlama vaatleri yerine gerçekliği ve özü tercih ederiz."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "terms-and-conditions-section-05-uzun-vadeli-dusunmek-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Hedefimiz, yarın da anlamlı olmaya devam edecek stratejiler geliştirmektir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-05-uzun-vadeli-dusunmek-block-03"
-            }
-          ],
-          "id": "terms-and-conditions-section-05-uzun-vadeli-dusunmek",
-          "order": 5
+          "number": "05",
+          "title": "Uluslararası Çalışan Profesyoneller",
+          "desc": "Sık seyahat ediyorsunuz ve işiniz tek bir ülkeye bağlı değil.",
+          "icon": "international-professionals"
         },
         {
-          "heading": "Şeffaflık Yoluyla Güven",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Güven büyük vaatlerle değil, dürüstlükle oluşur.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-06-seffaflik-yoluyla-guven-block-01"
-            },
-            {
-              "order": 2,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Fırsatları açıkça paylaşırız.",
-                "Riskleri açıkça paylaşırız.",
-                "Sınırlamaları açıkça paylaşırız.",
-                "Bir şeyi bilmiyorsak bunu söyleriz.",
-                "Bir çözüm uygun değilse bunu söyleriz.",
-                "Bir seçenek risk içeriyorsa bu riskleri açıklarız."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "terms-and-conditions-section-06-seffaflik-yoluyla-guven-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Uzun vadeli ilişkiler satış söylemiyle değil, şeffaflıkla kurulur.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-06-seffaflik-yoluyla-guven-block-03"
-            }
-          ],
-          "id": "terms-and-conditions-section-06-seffaflik-yoluyla-guven",
-          "order": 6
-        },
-        {
-          "heading": "Gizlilik ve Veri Koruma",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Kişisel bilgiler saygıyı hak eder. Bu nedenle müşterilerimizin verilerini en yüksek özenle işleriz. Veri korumayı yalnızca mevzuattan doğan bir yükümlülük değil, profesyonel sorumluluğun bir ifadesi olarak görürüz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-07-gizlilik-ve-veri-koruma-block-01"
-            },
-            {
-              "order": 2,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Bilgiler yalnızca sağlandıkları amaçlar doğrultusunda kullanılır.",
-                "Kişisel verileri satmayız.",
-                "Kişisel verileri pazarlamayız.",
-                "Müşterilerimize ait bilgileri hiçbir zaman ticari bir meta olarak görmeyiz."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "terms-and-conditions-section-07-gizlilik-ve-veri-koruma-block-02"
-            }
-          ],
-          "id": "terms-and-conditions-section-07-gizlilik-ve-veri-koruma",
-          "order": 7
-        },
-        {
-          "heading": "Küresel Fırsatlara Sorumlu Yaklaşım",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Uluslararası hareketlilik insanlara yeni perspektifler sunar. Ancak beraberinde sorumluluk da getirir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-08-kuresel-firsatlara-sorumlu-yaklasim-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Yalnızca hukuka uygun, şeffaf ve sorumlu çözümleri destekleriz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-08-kuresel-firsatlara-sorumlu-yaklasim-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Amacımız kuralları aşmak değildir. Amacımız, insanların mevcut hukuki çerçeveler içinde kendileri için en uygun seçenekleri belirlemelerine yardımcı olmaktır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-08-kuresel-firsatlara-sorumlu-yaklasim-block-03"
-            }
-          ],
-          "id": "terms-and-conditions-section-08-kuresel-firsatlara-sorumlu-yaklasim",
-          "order": 8
-        },
-        {
-          "heading": "Küresel Bakış Açısı",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Modern dünya, önceki nesillerin hiçbir zaman sahip olmadığı imkânlar sunuyor.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-09-kuresel-bakis-acisi-block-01"
-            },
-            {
-              "order": 2,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Uluslararası ticari faaliyetler.",
-                "Birden fazla ülkede ikamet.",
-                "Küresel yatırımlar.",
-                "Sınır ötesi iş birliği.",
-                "Konumdan bağımsız çalışma.",
-                "Uluslararası aile yapıları."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "terms-and-conditions-section-09-kuresel-bakis-acisi-block-02"
-            },
-            {
-              "order": 3,
-              "text": "İnsanların bu imkânları anlayabilmesi ve kullanabilmesi gerektiğine inanıyoruz. Bilinçli kararlar güvence sağlar. Küresel bakış açıları fırsat yaratır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-09-kuresel-bakis-acisi-block-03"
-            }
-          ],
-          "id": "terms-and-conditions-section-09-kuresel-bakis-acisi",
-          "order": 9
-        },
-        {
-          "heading": "Büyümeden Önce Kalite",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Başarımız yalnızca ciro veya büyümeyle ölçülmez. Müşterilerimizin uzun vadede daha fazla güvence, esneklik ve hareket özgürlüğü sağlayan kararlar alabilmesiyle ölçülür.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-10-buyumeden-once-kalite-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Sunduğumuz her öneri bu amaca hizmet etmelidir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-10-buyumeden-once-kalite-block-02"
-            }
-          ],
-          "id": "terms-and-conditions-section-10-buyumeden-once-kalite",
-          "order": 10
-        },
-        {
-          "heading": "Taahhüdümüz",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Her zaman aşağıdaki ilkeler doğrultusunda hareket etmeye çalışacağız:",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-11-taahhudumuz-block-01"
-            },
-            {
-              "order": 2,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "şeffaf davranmak,",
-                "sorumlulukla danışmanlık sunmak,",
-                "hassas bilgileri korumak,",
-                "uzun vadeli düşünmek,",
-                "fırsatları dürüstçe ortaya koymak,",
-                "riskleri açıkça iletmek,",
-                "ve müşterilerimizin güvenini hak etmek."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "terms-and-conditions-section-11-taahhudumuz-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Çünkü güven, bir sözleşmenin sonucu değildir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-11-taahhudumuz-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Güven, tutarlı davranışların sonucudur.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-11-taahhudumuz-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Dynamic Residency de tam olarak bu temele dayanır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "terms-and-conditions-section-11-taahhudumuz-block-05"
-            },
-            {
-              "order": 6,
-              "text": "← Ana Sayfaya Dön",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "back_home",
-              "href": "/",
-              "id": "terms-and-conditions-section-11-taahhudumuz-block-06"
-            }
-          ],
-          "id": "terms-and-conditions-section-11-taahhudumuz",
-          "order": 11
+          "number": "06",
+          "title": "Türkiye Seçeneğini Değerlendirenler",
+          "desc": "Türkiye'nin uzun vadede doğru tercih olup olmadığı konusunda yapılandırılmış bir yanıt istiyorsunuz.",
+          "icon": "people-exploring-turkiye"
         }
       ],
-      "footerRef": "mainFooter"
+      "strip": "Varsayımlara değil, koşullarınıza dayanan yapılandırılmış bir yanıta ulaşın."
     },
-    {
-      "id": "privacy-policy",
-      "path": "/privacy-policy",
-      "title": "Gizlilik Politikası / Gizlilik Bildirgesi",
-      "sourceUrl": "https://dynamicresidency.com/privacy-policy",
-      "capturedAt": "2026-07-20",
-      "capturedAtDisplay": "20 Temmuz 2026",
-      "navigationRef": "mainNavigation",
-      "sections": [
+    "howWeWork": {
+      "eyebrow": "Nasıl Çalışıyoruz?",
+      "title": "İlk Sorunuzdan Bilinçli Bir Karara",
+      "steps": [
         {
-          "heading": "Dynamic Residency Gizlilik Bildirgesi",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Mahremiyet bir özellik değildir. Temel bir haktır.",
-              "sourceStyle": "Quote",
-              "type": "quote",
-              "id": "privacy-policy-section-01-dynamic-residency-gizlilik-bildirgesi-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Kişisel verilerin dünyanın en değerli kaynaklarından biri hâline geldiği bir dönemde yaşıyoruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-01-dynamic-residency-gizlilik-bildirgesi-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Birçok şirket hizmetlerini; kişisel bilgileri toplayarak, analiz ederek, paylaşarak veya paraya dönüştürerek finanse ediyor. Bu süreçte kullanıcılar çoğu zaman davranışları analiz edilen, saklanan ve pazarlanan ürünlere dönüşüyor.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-01-dynamic-residency-gizlilik-bildirgesi-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Biz farklı bir yaklaşım benimsiyoruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-01-dynamic-residency-gizlilik-bildirgesi-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Dynamic Residency'de mahremiyeti yalnızca yasal bir yükümlülük olarak değil, temel bir insan hakkı olarak görüyoruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-01-dynamic-residency-gizlilik-bildirgesi-block-05"
-            },
-            {
-              "order": 6,
-              "text": "Amacımız mümkün olduğunca fazla veri toplamak değildir. Amacımız, kullanıcılarımız hakkında mümkün olduğunca az bilgiye sahip olarak hizmet sunmaktır.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-01-dynamic-residency-gizlilik-bildirgesi-block-06"
-            }
-          ],
-          "id": "privacy-policy-section-01-dynamic-residency-gizlilik-bildirgesi",
-          "order": 1
+          "index": "01",
+          "label": "Başlangıç Noktası",
+          "title": "Mevcut Durumunuzu Anlayın",
+          "desc": "Mevcut vergi mukimliğinizi, gelirlerinizi, şirketlerinizi, varlıklarınızı, aile koşullarınızı ve hedeflerinizi belirleriz."
         },
         {
-          "heading": "Verileriniz Size Aittir",
-          "blocks": [
-            {
-              "order": 1,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Bize değil.",
-                "İş ortaklarımıza değil.",
-                "Yatırımcılara değil.",
-                "Reklam ağlarına değil.",
-                "Veri tacirlerine değil.",
-                "Devletlere değil.",
-                "Şirketimizin gelecekteki alıcılarına değil."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "privacy-policy-section-02-verileriniz-size-aittir-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Bize emanet ettiğiniz bilgiler, size ait olmaya devam eder. Kendimizi bu verilerin sahibi değil, yalnızca geçici sorumlusu olarak görürüz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-02-verileriniz-size-aittir-block-02"
-            }
-          ],
-          "id": "privacy-policy-section-02-verileriniz-size-aittir",
-          "order": 2
+          "index": "02",
+          "label": "Soru Haritası",
+          "title": "Temel Soruları Belirleyin",
+          "desc": "Operasyonel soruları; uzmanlık gerektiren vergi, hukuk veya yapısal analiz konularından ayırırız."
         },
         {
-          "heading": "Veri Satmayız",
-          "blocks": [
-            {
-              "order": 1,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Bugün de satmayız.",
-                "Yarın da satmayız.",
-                "Gelecekte de satmayacağız."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "privacy-policy-section-03-veri-satmayiz-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Kişisel verileri satmayız. Kişisel verileri kiralamayız. Kişisel verileri hizmet karşılığında takas etmeyiz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-03-veri-satmayiz-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Kişisel bilgilerin analizine veya pazarlanmasına dayanan gizli iş modelleri yürütmeyiz. Verileriniz ticari bir meta değildir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-03-veri-satmayiz-block-03"
-            }
-          ],
-          "id": "privacy-policy-section-03-veri-satmayiz",
-          "order": 3
+          "index": "03",
+          "label": "Uzman Görüşü",
+          "title": "İlgili Uzmanlarla Netleştirin",
+          "desc": "Gerekli niteliklere sahip profesyoneller, tanımlanan soruları kendi uzmanlık alanları kapsamında ele alır."
         },
         {
-          "heading": "Gözetim Yapmayız",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "İnsanların sürekli izlenmesi gerektiğine inanmıyoruz. Bu nedenle gereksiz gözetimin her türünden kaçınırız.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-04-gozetim-yapmayiz-block-01"
-            },
-            {
-              "order": 2,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Her tıklamayı takip etmeyiz.",
-                "Her fare hareketini takip etmeyiz.",
-                "Oturumları kaydetmeyiz.",
-                "Ayrıntılı davranış profilleri oluşturmayız.",
-                "Psikolojik profil oluşturmak amacıyla hangi içeriği ne kadar süre incelediğinizi analiz etmeyiz.",
-                "Yalnızca merak ettiğimiz için veri toplamayız."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "privacy-policy-section-04-gozetim-yapmayiz-block-02"
-            }
-          ],
-          "id": "privacy-policy-section-04-gozetim-yapmayiz",
-          "order": 4
-        },
-        {
-          "heading": "Yalnızca Gerçekten İhtiyacımız Olan Verileri Toplarız",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Saklanan her bilgi, hem sizin hem de bizim için bir risk oluşturur. Bu nedenle en önemli ilkelerimizden biri şudur:",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-05-yalnizca-gercekten-ihtiyacimiz-olan-verileri-toplariz-block-01"
-            },
-            {
-              "order": 2,
-              "text": "“Kaydedilmeyen veriler çalınamaz, satılamaz, kötüye kullanılamaz veya ifşa edilemez.”",
-              "sourceStyle": "Quote",
-              "type": "quote",
-              "id": "privacy-policy-section-05-yalnizca-gercekten-ihtiyacimiz-olan-verileri-toplariz-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Veri toplamadan önce kendimize şu soruyu sorarız: “Bu bilgiye gerçekten ihtiyacımız var mı?” Yanıt hayırsa, söz konusu bilgi toplanmaz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-05-yalnizca-gercekten-ihtiyacimiz-olan-verileri-toplariz-block-03"
-            }
-          ],
-          "id": "privacy-policy-section-05-yalnizca-gercekten-ihtiyacimiz-olan-verileri-toplariz",
-          "order": 5
-        },
-        {
-          "heading": "Gizli Profiller Oluşturmayız",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "İnsanlar hakkında gizli dosyalar oluşturmayız. Kişiliğinizi analiz etmeye çalışmayız.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-06-gizli-profiller-olusturmayiz-block-01"
-            },
-            {
-              "order": 2,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Siyasi görüşlerinizi değerlendirmeyiz.",
-                "Dinî inançlarınızı değerlendirmeyiz.",
-                "Dünya görüşünüzü değerlendirmeyiz.",
-                "Sosyal ilişkilerinizi değerlendirmeyiz.",
-                "Psikolojik özelliklerinizi değerlendirmeyiz.",
-                "Karakterinizi değerlendirmeyiz.",
-                "Bir insan olarak değerinizi değerlendirmeyiz."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "privacy-policy-section-06-gizli-profiller-olusturmayiz-block-02"
-            },
-            {
-              "order": 3,
-              "text": "İnsanların veri kayıtlarından ibaret olmadığına inanıyoruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-06-gizli-profiller-olusturmayiz-block-03"
-            }
-          ],
-          "id": "privacy-policy-section-06-gizli-profiller-olusturmayiz",
-          "order": 6
-        },
-        {
-          "heading": "Manipülatif Sistemler Kullanmayız",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Hizmetlerimizi dikkati en üst düzeye çıkarmak için geliştirmeyiz. Bağımlılık yaratmak için geliştirmeyiz. İnsanların zayıflıklarından yararlanmak için geliştirmeyiz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-07-manipulatif-sistemler-kullanmayiz-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Kişisel verileri, insanları duygusal, psikolojik veya ekonomik olarak hedefli biçimde etkilemek için kullanmayız. Teknoloji insanları desteklemeli, kontrol etmemelidir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-07-manipulatif-sistemler-kullanmayiz-block-02"
-            }
-          ],
-          "id": "privacy-policy-section-07-manipulatif-sistemler-kullanmayiz",
-          "order": 7
-        },
-        {
-          "heading": "Güvenlik Sorumluluk Demektir",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Bize bilgi emanet ettiğinizde bu bilgilerin sorumluluğunu üstleniriz. Bu kapsamda aşağıdaki önlemleri uygularız:",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-08-guvenlik-sorumluluk-demektir-block-01"
-            },
-            {
-              "order": 2,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "modern şifreleme yöntemleri,",
-                "güvenli sunucu altyapıları,",
-                "sıkı erişim kontrolleri,",
-                "düzenli güvenlik incelemeleri,",
-                "güvenlikle ilgili olayların sürekli izlenmesi,",
-                "asgari erişim yetkisi ilkeleri,",
-                "dahili güvenlik politikaları."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "privacy-policy-section-08-guvenlik-sorumluluk-demektir-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Bununla birlikte hiçbir zaman mutlak güvenliği garanti edebildiğimizi iddia etmeyiz. Garanti edebileceğimiz şey, riskleri azaltmak ve güvenlik standartlarını sürekli geliştirmek için kesintisiz çaba göstermemizdir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-08-guvenlik-sorumluluk-demektir-block-03"
-            }
-          ],
-          "id": "privacy-policy-section-08-guvenlik-sorumluluk-demektir",
-          "order": 8
-        },
-        {
-          "heading": "Belirsizlik Değil, Şeffaflık",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Birçok şirket arka planda veri toplar. İnsanların aşağıdaki konuları anlama hakkı bulunduğuna inanıyoruz:",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-09-belirsizlik-degil-seffaflik-block-01"
-            },
-            {
-              "order": 2,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "hangi bilgilerin saklandığı,",
-                "neden saklandığı,",
-                "ne kadar süre saklandığı,",
-                "kimlerin erişebildiği,",
-                "ne zaman silindiği."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "privacy-policy-section-09-belirsizlik-degil-seffaflik-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Güven, gizlilik perdesiyle değil açıklıkla oluşur.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-09-belirsizlik-degil-seffaflik-block-03"
-            }
-          ],
-          "id": "privacy-policy-section-09-belirsizlik-degil-seffaflik",
-          "order": 9
-        },
-        {
-          "heading": "Verilerin Silinmesi, Gerçekten Silinmesi Demektir",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Verilerinizin silinmesini talep ettiğinizde bu talebi en yüksek öncelikle ele alırız.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-10-verilerin-silinmesi-gercekten-silinmesi-demektir-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Verilerin saklanmasını gerektiren meşru bir ihtiyaç kalmadığında, kişisel verileri aktif sistemlerden tamamen kaldırmayı hedefleriz. Veri silmeyi bir engel değil, sorumlu veri yönetiminin bir parçası olarak görürüz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-10-verilerin-silinmesi-gercekten-silinmesi-demektir-block-02"
-            }
-          ],
-          "id": "privacy-policy-section-10-verilerin-silinmesi-gercekten-silinmesi-demektir",
-          "order": 10
-        },
-        {
-          "heading": "Kötüye Kullanıma Karşı Koruma",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Kişisel verileri yalnızca dış saldırganlara karşı değil, kurum içi kötüye kullanıma karşı da koruruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-11-kotuye-kullanima-karsi-koruma-block-01"
-            },
-            {
-              "order": 2,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "Her çalışan kişisel verilere erişemez.",
-                "Erişimler gerekli olan asgari düzeyle sınırlandırılır.",
-                "Her erişimin meşru bir iş amacı bulunmalıdır."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "privacy-policy-section-11-kotuye-kullanima-karsi-koruma-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Mahremiyet bir kurumun kendi içinde başlar.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-11-kotuye-kullanima-karsi-koruma-block-03"
-            }
-          ],
-          "id": "privacy-policy-section-11-kotuye-kullanima-karsi-koruma",
-          "order": 11
-        },
-        {
-          "heading": "Yetkinin Kötüye Kullanılmasına Karşı Koruma",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Tarih, bilginin güç anlamına geldiğini göstermiştir. Bu nedenle veri minimizasyonunu yalnızca teknik bir tercih değil, toplumsal bir sorumluluk olarak görüyoruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-12-yetkinin-kotuye-kullanilmasina-karsi-koruma-block-01"
-            },
-            {
-              "order": 2,
-              "text": "Ne kadar az bilgi saklanırsa aşağıdaki riskler de o kadar azalır:",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-12-yetkinin-kotuye-kullanilmasina-karsi-koruma-block-02"
-            },
-            {
-              "order": 3,
-              "type": "list",
-              "style": "unordered",
-              "items": [
-                "gözetim,",
-                "ayrımcılık,",
-                "profilleme,",
-                "verilerin kötüye kullanılması,",
-                "kimlik hırsızlığı,",
-                "siyasi amaçlı kötüye kullanım,",
-                "ekonomik sömürü."
-              ],
-              "sourceStyle": "List Bullet",
-              "id": "privacy-policy-section-12-yetkinin-kotuye-kullanilmasina-karsi-koruma-block-03"
-            }
-          ],
-          "id": "privacy-policy-section-12-yetkinin-kotuye-kullanilmasina-karsi-koruma",
-          "order": 12
-        },
-        {
-          "heading": "Uzun Vadeli Taahhüdümüz",
-          "blocks": [
-            {
-              "order": 1,
-              "text": "Yasalar değişir. Hükûmetler değişir. Teknolojiler değişir. Şirketler değişir. Temel yaklaşımımız ise değişmemelidir.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-13-uzun-vadeli-taahhudumuz-block-01"
-            },
-            {
-              "order": 2,
-              "text": "İnsanların, yasal olarak zorunlu olduğu için değil mahremiyetlerine saygı gösterdiği için güvenebileceği bir şirket kurmak istiyoruz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-13-uzun-vadeli-taahhudumuz-block-02"
-            },
-            {
-              "order": 3,
-              "text": "Daha fazla veri toplamak ile daha fazla mahremiyet arasında seçim yapmak zorunda kalırsak, daha fazla mahremiyeti seçeceğiz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-13-uzun-vadeli-taahhudumuz-block-03"
-            },
-            {
-              "order": 4,
-              "text": "Ekonomik çıkar ile kullanıcılarımızın korunması arasında seçim yapmak zorunda kalırsak, kullanıcılarımızı korumayı seçeceğiz.",
-              "sourceStyle": "Normal",
-              "type": "paragraph",
-              "id": "privacy-policy-section-13-uzun-vadeli-taahhudumuz-block-04"
-            },
-            {
-              "order": 5,
-              "text": "Mahremiyet bizim için bir uyum yükümlülüğü değildir. Bir saygı meselesidir. Saygı ise hiçbir zaman pazarlık konusu olmamalıdır.",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "notice",
-              "id": "privacy-policy-section-13-uzun-vadeli-taahhudumuz-block-05"
-            },
-            {
-              "order": 6,
-              "text": "← Ana Sayfaya Dön",
-              "sourceStyle": "Callout",
-              "type": "callout",
-              "variant": "action",
-              "actionKey": "back_home",
-              "href": "/",
-              "id": "privacy-policy-section-13-uzun-vadeli-taahhudumuz-block-06"
-            }
-          ],
-          "id": "privacy-policy-section-13-uzun-vadeli-taahhudumuz",
-          "order": 13
+          "index": "04",
+          "label": "Karar Yolu",
+          "title": "Kararı Koordine Edin",
+          "desc": "Dynamic Residency, elde edilen sonuçları net bir karara, doğru bir iş sırasına ve uygulama yol haritasına dönüştürür."
         }
       ],
-      "footerRef": "mainFooter"
+      "legal": "Mevzuata tabi vergi veya hukuk görüşlerinin gerekli olduğu durumlarda bu görüşler, uygun yetkinliğe sahip profesyoneller tarafından sunulur veya incelenir."
+    },
+    "services": {
+      "eyebrow": "Hizmetler ve Fiyatlandırma",
+      "title": "Şeffaf Hizmetler. Net Maliyetler.",
+      "consultationGroup": {
+        "heading": "Odaklı Danışmanlıklar",
+        "tag": "Tek Bir Soru",
+        "small": "Açıkça tanımlanmış tek bir ikamet, gelir, vergi veya yapı sorusu için.",
+        "intro": {
+          "kicker": "Hizmet Tanıtım Görüşmesi",
+          "title": "Ücretsiz",
+          "desc": "Hedeflerinizi anlamak, inceleme sürecini açıklamak ve doğru sonraki adımı belirlemek için yapılan ilk görüşme.",
+          "price": "Ücretsiz",
+          "cta": "Hizmet Ekibiyle Başlayın"
+        },
+        "expert": {
+          "kicker": "Uzman Danışmanlığı",
+          "title": "45 Dakika",
+          "desc": "Açıkça tanımlanmış tek bir ikamet, vergi veya yapı sorusuna yönelik odaklı uzman görüşü.",
+          "price": "€390",
+          "cta": "Danışmanlık Randevusu Alın →",
+          "packageId": "expertConsultation"
+        }
+      },
+      "reviewGroup": {
+        "heading": "Yapılandırılmış İncelemeler",
+        "tag": "Birbiriyle Bağlantılı Konular",
+        "small": "Koordineli bir değerlendirme gerektiren bağlantılı sorular için.",
+        "strategic": {
+          "kicker": "Stratejik İkamet İncelemesi",
+          "title": "Tek Ana Konu",
+          "desc": "Bir ana konu ile sınırlı sayıdaki bağlantılı sorunun yapılandırılmış biçimde incelenmesi.",
+          "price": "€990",
+          "cta": "İncelemeyi Keşfedin →",
+          "packageId": "strategicResidencyReview"
+        },
+        "crossBorder": {
+          "kicker": "Sınır Ötesi Yapı İncelemesi",
+          "title": "Bağlantılı Yapılar",
+          "desc": "İkamet, gelir, şirket veya varlıklara ilişkin bağlantılı soruları bulunan girişimciler, yatırımcılar ve aileler için.",
+          "price": "€2.990",
+          "cta": "İncelemeyi Keşfedin →",
+          "packageId": "crossBorderStructureReview"
+        }
+      },
+      "complex": {
+        "kicker": "Karmaşık Uluslararası Vakalar",
+        "tag": "En Yüksek Karmaşıklık Düzeyi",
+        "title": "Birden Fazla Ülkeyi Kapsayan Yapılar",
+        "desc": "Birden fazla ülkeyi kapsayan yapılar, koordineli profesyonel çalışma akışları ve karmaşık uygulama ihtiyaçları için.",
+        "price": "€6.990'dan başlayan fiyatlarla",
+        "cta": "Durumunuzu Görüşün →"
+      },
+      "note": "İhtiyaca özel çalışmalar da sunulmaktadır. Nihai ücret; karmaşıklığa, kapsamına ve sürece dahil olan profesyonellere göre belirlenir."
+    },
+    "founder": {
+      "eyebrow": "Kurucu",
+      "title": "Kurucuyla Tanışın",
+      "imageAlt": "Dynamic Residency kurucusu Stephan Westermayer",
+      "name": "Stephan Westermayer",
+      "roleLines": [
+        "Dynamic Residency Kurucusu",
+        "Dynamic Works ve Blue Palm Group Kurucusu ve CEO'su"
+      ],
+      "bio": "Stephan, Dynamic Residency'nin stratejik yönüne ve seçilmiş karmaşık müşteri vakalarına şahsen katkı sağlar. Standart danışmanlıklar, Dynamic Residency profesyonel ağı içindeki uygun uzmanlar tarafından yürütülür.",
+      "linkedin": "LinkedIn",
+      "origin": [
+        "Şirketlerimi dünyanın birçok yerinde kurabilirdim. İstanbul'u bilinçli olarak seçtim; dünyadan kopmak için değil, dünyayla bağlantımı sürdürmek için.",
+        "Amerika Birleşik Devletleri'nde zaman geçirmeye ve uluslararası seyahat etmeye devam ediyorum. Türkiye; bağlantı imkânlarını, girişimcilik fırsatlarını, yetenekli insan kaynağını ve yaşam kalitesini başka hiçbir yerde deneyimlemediğim bir biçimde bir araya getirdiği için operasyonel merkezim hâline geldi.",
+        "Dynamic Residency, Türkiye'yi uzaktan incelemekten değil; burada yaşamaktan ve burada iş kurmaktan doğan bu deneyimden gelişti."
+      ]
+    },
+    "credibility": {
+      "eyebrow": "Gerçek Operasyonlara Dayalı",
+      "title": "Bir Dynamic Works Türkiye Projesi",
+      "body1": "Dynamic Residency, Dynamic Works Türkiye bünyesinde geliştirilmiş uzmanlaşmış bir projedir.",
+      "body2": "Deneyimimiz; Türkiye'de şirket işletmekten, yerel ekipler istihdam etmekten, uluslararası girişimcileri desteklemekten ve pratik iş altyapıları kurmaktan gelir.",
+      "items": [
+        {
+          "title": "Yerel Operasyon Deneyimi",
+          "desc": "Türkiye'de iş kurma ve işletme konusunda doğrudan deneyim."
+        },
+        {
+          "title": "İş Altyapısı",
+          "desc": "Uluslararası bağlantıları bulunan işletme sahiplerine yönelik pratik destek."
+        },
+        {
+          "title": "Uygulama Yetkinliği",
+          "desc": "Genel bilgilendirmenin ötesinde devam eden koordinasyon."
+        },
+        {
+          "title": "Profesyonel Uzman Ağı",
+          "desc": "Mevzuata tabi uzman görüşü gerektiğinde sürece dahil edilen yetkin profesyoneller."
+        },
+        {
+          "title": "Türkiye'de Gerçek Operasyonel Varlık",
+          "desc": "Yerel bir operasyon merkezi, ekip ve devam eden ticari faaliyet."
+        }
+      ],
+      "cta": "Dynamic Works Hakkında"
+    },
+    "cta": {
+      "eyebrow": "Bir Sonraki Adımı Atmaya Hazır mısınız?",
+      "title": "Genel Bilgiler Türkiye'yi Açıklayabilir. Sizin Durumunuz Bireysel Bir Yanıt Gerektirir.",
+      "body": "Hizmet Ekibimizle başlayın. Sorularınızı netleştirir, uygun incelemeyi önerir ve uzman analizi gerektiğinde sizi yetkin profesyonellerle buluştururuz.",
+      "ctaPrimary": "Hizmet Ekibimizle Görüşün",
+      "ctaSecondary": "Hizmetleri ve Fiyatlandırmayı Görüntüleyin",
+      "meta": "İstanbul merkezli | İngilizce ve Almanca hizmet | Gizli ve koordineli süreç",
+      "imageAlt": "Akşam saatlerinde İstanbul silüeti"
     }
-  ]
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Dynamic Residency Hakkında",
+      "title": "Bütün Yapıyı Esas Alan, Türkiye'ye Yönelik Sınır Ötesi İkamet Planlaması",
+      "lead": "Dynamic Residency; Türkiye seçeneğini değerlendiren girişimciler, yatırımcılar, uluslararası alanda aktif profesyoneller, Türkiye'ye dönen Türk vatandaşları ve küresel hareketliliğe sahip aileler için İstanbul merkezli sınır ötesi ikamet planlaması ve uygulama koordinasyonu platformudur.",
+      "body1": "Müşterilerimizin; geri dönüşü zor veya maliyetli hâle gelmeden önce, Türkiye'de ikamet etmenin yurt dışı gelirleri, şirket sahipliği, yatırımlar, gayrimenkuller, aile koşulları ve uzun vadeli hedeflerle nasıl etkileşime girebileceğini anlamalarına yardımcı oluruz.",
+      "body2": "Rolümüz; ilgili olguları ortaya koymak, birbiriyle bağlantılı soruları bir araya getirmek, mevzuata tabi danışmanlık gerektiğinde yetkin profesyonellerin katkısını koordine etmek ve sonuçları net bir karar ve uygulama yoluna dönüştürmektir.",
+      "small": "İstanbul merkezli | İngilizce ve Almanca hizmet | Gizli sınır ötesi süreç",
+      "imageAlt": "İstanbul'dan Boğaz manzarası"
+    },
+    "whatIs": {
+      "eyebrow": "Dynamic Residency Nedir?",
+      "title": "İkamet Kararı Hiçbir Zaman Tek Başına Değerlendirilemez",
+      "body1": "Dynamic Residency, Türkiye'de ikamet tesis etmenin ekonomik ve yapısal sonuçlarına odaklanan uzmanlaşmış bir hizmet platformudur. İkameti yalnızca bir izin, tek bir vergi kuralı veya bir destinasyon tercihi olarak ele almayız. İkamet kararının içinde işlemesi gereken uluslararası durumun tamamını inceleriz.",
+      "body2": "Bu durum; ayrılınan ülkeyi, mevcut ve gelecekteki vergi mukimliğini, yurt dışı ve Türkiye kaynaklı gelirleri, şirketleri ve yönetim faaliyetlerini, yatırımları, gayrimenkulleri, aile bağlarını, miras planlamasını ve uygulanabilir bir yapıyı hayata geçirmek için gerekli pratik adımları kapsayabilir.",
+      "body3": "Amaç, her müşteriyi Türkiye'ye taşınmaya ikna etmek değildir. Amaç, Türkiye'nin müşterinin gerçek koşullarına uygun olup olmadığını belirlemek; uygun olması hâlinde ise analizden uygulamaya uzanan süreci koordine etmektir."
+    },
+    "whyExists": {
+      "eyebrow": "Dynamic Residency Neden Var?",
+      "title": "Bilgi ile Gerçek Hayatta İşleyen Bir Karar Arasındaki Boşluğu Kapatmak",
+      "body1": "Uluslararası taşınma çoğu zaman ayrı başlıklar üzerinden açıklanır: ikamet izinleri, vergi oranları, gayrimenkul, şirket kuruluşu veya yaşam tarzı. Uygulamada ise sonuç, bu konuların birden fazla ülke ve hukuk sistemi içinde nasıl etkileştiğine bağlıdır.",
+      "body2": "Türkiye'de cazip görünen bir karar, ayrılınan ülkede istenmeyen bir sonuç doğurabilir. Yabancı bir şirket, nereden yönetildiğine göre etkilenebilir. Yurt dışından ödenen gelir, yurt dışı kaynaklı olmayabilir. Aile bağları, seyahat düzeni veya ticari faaliyetler ikamet analizini değiştirebilir. Zamanlama, bir fırsatın kullanılabilir kalıp kalmayacağını belirleyebilir.",
+      "body3": "Dynamic Residency, genel bilgi ile gerçek hayatta uygulanabilir bir karar arasındaki boşluğu kapatmak için oluşturuldu. Çalışmaya, önemli değişkenler hâlâ yönetilebilirken başlarız: ikamet değişmeden, şirket yönetimi taşınmadan, varlıklar satılmadan, ortaklık yapısı yeniden düzenlenmeden veya aile düzenlemelerinin geri çevrilmesi zorlaşmadan önce."
+    },
+    "questions": {
+      "eyebrow": "Bir Arada Ele Aldığımız Sorular",
+      "title": "Birbirine Bağlı Tek Bir Yapı",
+      "items": [
+        "Mevcut ve gelecekteki vergi mukimliği, yerleşim yeri ve fiziki bulunma düzeni",
+        "Temettü, faiz, kira, emeklilik geliri, sermaye kazancı ve mesleki gelirin hukuki ve ekonomik kaynağı",
+        "Yabancı şirketler, ortaklık payları, yönetim faaliyetleri ve daimi işyeri riski",
+        "Gayrimenkuller, yatırım portföyleri, banka ilişkileri ve sınır ötesi nakit akışları",
+        "Aile ikameti, eğitim, sağlık hizmetleri, miras planlaması ve uzun vadeli hareketlilik",
+        "Ayrılınan ülkedeki yükümlülükler, çifte vergilendirmeyi önleme anlaşmaları ve uygulama zamanlaması",
+        "Bir karar uygulanmadan önce gerekli olan kanıtlar, profesyonel görüşler ve pratik adımlar"
+      ],
+      "outro": "Bu sorular, birbiriyle bağlantılı tek bir yapı olarak değerlendirilir. Amaç, bir alanda teknik olarak doğru olan bir yanıtın başka bir yerde pratik sorun yaratmasını önlemektir."
+    },
+    "exemptionTeaser": {
+      "title": "Türkiye'nin Yurt Dışı Kaynaklı Gelirlere Yönelik 20 Yıllık Vergi Muafiyeti",
+      "body": "Türkiye, 2026 yılından itibaren Türkiye'de vergi mukimi olan uygun kişiler için potansiyel olarak önemli bir muafiyet getirmiştir. Düzenleme belirli yurt dışı kaynaklı gelirler açısından önem taşıyabilir; ancak uygunluk ikamet geçmişine, gelirin gerçek kaynağına, başvuru sürecine ve daha geniş sınır ötesi yapıya bağlıdır. Bu nedenle bağımsız bir vaat olarak değil, ikamet kararının bütünü içinde değerlendirilmelidir.",
+      "cta": "Türkiye'nin Yurt Dışı Kaynaklı Gelirlere Yönelik 20 Yıllık Vergi Muafiyetini Anlayın"
+    },
+    "howItWorks": {
+      "eyebrow": "Dynamic Residency Nasıl Çalışır?",
+      "title": "Başlangıç Durumundan Uygulamaya",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Başlangıç Durumunu Belirleyin",
+          "desc": "İkamet geçmişi, gelirler, şirketler, varlıklar, aile koşulları, seyahat düzeni ve hedeflere ilişkin mevcut bilgileri düzenleriz."
+        },
+        {
+          "number": "02",
+          "title": "Soru Haritasını Oluşturun",
+          "desc": "Karar alınmadan önce çözülmesi gereken bağlantılı ticari, operasyonel, vergisel, hukuki, göçmenlik ve kurumsal soruları belirleriz."
+        },
+        {
+          "number": "03",
+          "title": "Yetkin Uzman Katkısını Koordine Edin",
+          "desc": "Resmî bir görüş gerektiğinde, uygun yetkinliğe sahip profesyoneller tanımlanmış soruları kendi yetki alanları ve uzmanlıkları çerçevesinde ele alır."
+        },
+        {
+          "number": "04",
+          "title": "Karar Yolunu Oluşturun",
+          "desc": "Dynamic Residency bulguları bir araya getirir, bağımlılıkları belirler ve uygulanabilir yolu, önemli riskleri ve gerekli işlem sırasını ortaya koyar."
+        },
+        {
+          "number": "05",
+          "title": "Uygulamayı Koordine Edin",
+          "desc": "Müşteri ilerlemeye karar verdiğinde, belge hazırlığı, zamanlama ve pratik uygulamanın onaylanan yapıyla uyumlu kalması için kararlaştırılan çalışma akışlarını koordine ederiz."
+        }
+      ],
+      "note": "Süreç boyunca bir karar kontrol noktası uygulanır. Yapı uygulanabilir değilse çalışma, net bir açıklamayla durdurulur. Uygulanabilir ise uygulama ancak izlenecek yol, sorumluluklar ve sınırlamalar anlaşıldıktan sonra başlar."
+    },
+    "different": {
+      "eyebrow": "Yaklaşımı Farklı Kılan Nedir?",
+      "title": "Taahhütten Önce Netlik",
+      "cards": [
+        {
+          "title": "Öncelik Bütün Yapınındır",
+          "desc": "Satılacak bir ürünle başlamayız. Müşterinin mevcut durumuyla ve verilmesi gereken kararla başlarız. İkamet, gelirler, şirketler, varlıklar ve aile koşulları birlikte incelenir; çünkü her biri diğerinin sonucunu değiştirebilir."
+        },
+        {
+          "title": "Uygulama, Analizin Bir Parçasıdır",
+          "desc": "Bir yapı ancak belgelenebiliyor, yönetilebiliyor ve sürdürülebiliyorsa anlamlıdır. Bankacılık, bordro, şirket yönetimi, ikamet işlemleri, yerel operasyonlar ve profesyonel koordinasyon; yalnızca bir sunumda veya raporda değil, gerçek hayatta da çalışmalıdır."
+        },
+        {
+          "title": "Profesyonel Roller Açık Kalır",
+          "desc": "Dynamic Residency; ticari analizi, sınır ötesi koordinasyonu ve uygulama yol haritasını yönetir. Resmî vergi, hukuk, göçmenlik ve şirketler hukuku görüşleri, uygun yetkinliğe sahip profesyoneller tarafından sunulur veya incelenir. Müşteriler mevcut danışmanlarıyla çalışmaya devam edebilir; biz ise Türkiye tarafındaki soruları tanımlar ve birleşik çalışmayı koordine ederiz."
+        },
+        {
+          "title": "Karar Bağımsızdır",
+          "desc": "Türkiye varsayılan olarak önerilmez. Olumsuz bir sonuç, doğru sonuç olabilir. Amacımız; müşteri sermaye taahhüdünde bulunmadan, ikametini değiştirmeden veya mevcut uluslararası yapısını yeniden düzenlemeden önce netlik sağlamaktır."
+        }
+      ]
+    },
+    "realOperations": {
+      "eyebrow": "Türkiye'deki Gerçek Operasyonlara Dayalı",
+      "title": "Uzaktan Değil, Pratik Deneyimden",
+      "body1": "Dynamic Residency, Dynamic Works Türkiye bünyesinde geliştirilmiş uzmanlaşmış bir projedir. Operasyonel bakış açısı; Türkiye'de şirketler kurup yönetmekten, yerel ekipler istihdam etmekten, uluslararası girişimcileri desteklemekten ve pratik iş altyapıları geliştirmekten gelir.",
+      "body2": "Bu operasyonel geçmiş önemlidir; çünkü uluslararası bağlantıları bulunan müşterilerin yalnızca Türkiye hakkında bilgiye ihtiyacı yoktur. Önerilen yapının insanlarla, şirketlerle, belgelerle, bankalarla, danışmanlarla, kamu kurumlarıyla ve günlük yönetimle nasıl işleyeceğini de anlamaları gerekir.",
+      "body3": "Dynamic Residency, yerel operasyon deneyimini sınır ötesi profesyonel bir ağla birleştirir. Soru mevzuata tabi uzmanlık gerektirdiğinde uzman görüşü sürece dahil edilir; genel karar ise müşterinin bütün yapısı etrafında koordine edilir."
+    },
+    "founderSection": {
+      "eyebrow": "Kurucu ve Stratejik Yön",
+      "title": "Stephan Westermayer Tarafından Geliştirildi",
+      "body1": "Dynamic Residency; Dynamic Residency'nin kurucusu, Dynamic Works ve Blue Palm Group'un kurucusu ve İcra Kurulu Başkanı Stephan Westermayer tarafından geliştirildi. Platform; onun Türkiye'de yaşama ve faaliyet gösterme, şirketler kurma, yerel ekiplerle çalışma ve uluslararası yapıları koordine etme konusundaki doğrudan deneyiminden doğdu.",
+      "body2": "Stephan, Dynamic Residency'nin stratejik yönünü belirler ve şirket sahipliği, uluslararası varlıklar veya birbiriyle bağlantılı birden fazla ülkeyi içeren seçilmiş karmaşık vakalara şahsen katkı sağlar. Standart danışmanlıklar ve uzmanlık çalışmaları, profesyonel ağın uygun üyeleri tarafından yürütülür.",
+      "body3": "Bu nedenle platform Türkiye'deki pratik deneyime dayanır; ancak Türkiye'nin ötesine uzanan kararlar için tasarlanmıştır. Önemli soru yalnızca Türkiye'nin neye izin verdiği değildir. Asıl soru, uluslararası yapının tamamının taşınma öncesinde, sırasında ve sonrasında işleyip işlemediğidir."
+    },
+    "whoHelps": {
+      "eyebrow": "Dynamic Residency Kimlere Yardımcı Olur?",
+      "title": "Uluslararası Bağlantılı Kararlar İçin Tasarlandı",
+      "cards": [
+        {
+          "title": "Şirket Sahipleri ve Kurucular",
+          "desc": "Yabancı şirketler, yönetim faaliyetleri, bordro, temettüler, ortaklık yapısı veya operasyonlar açısından önlenebilir sorunlar yaratmadan Türkiye'de ikamet tesis etmek isteyen girişimciler."
+        },
+        {
+          "title": "Uluslararası Yatırımcılar",
+          "desc": "Birden fazla ülkede bulunan varlık ve kurumlardan temettü, faiz, kira geliri, emeklilik geliri veya sermaye kazancı elde eden kişiler."
+        },
+        {
+          "title": "Uluslararası Hareketliliğe Sahip Aileler",
+          "desc": "İkamet kararının eğitim, sağlık hizmetleri, gayrimenkul, miras planlaması, seyahat ve uzun vadeli finansal planlamayla uyumlu olması gereken aileler."
+        },
+        {
+          "title": "Türkiye'ye Dönen Türk Vatandaşları",
+          "desc": "Yurt dışında geçirdikleri bir dönemin ardından Türkiye'ye dönen ve ikamet geçmişleri, gelirleri, varlıkları ile güncel Türk vergi düzenlemelerine olası uygunlukları hakkında yapılandırılmış bir incelemeye ihtiyaç duyan Türk vatandaşları."
+        },
+        {
+          "title": "Uluslararası Profesyoneller ve Emekliler",
+          "desc": "Çalışmaları, emeklilik gelirleri, yatırımları veya seyahat düzenleri uluslararası niteliğini sürdüren ve standart bir yurt içi taşınma süreciyle değerlendirilemeyecek kişiler."
+        },
+        {
+          "title": "Profesyonel Danışmanlar",
+          "desc": "Mevcut uluslararası yapıya sahip bir müşteri için Türkiye tarafında koordineli bir çalışma akışına ihtiyaç duyan vergi danışmanları, avukatlar, güvene dayalı hizmet sağlayıcılar ve aile ofisi profesyonelleri."
+        }
+      ]
+    },
+    "whatNot": {
+      "eyebrow": "Dynamic Residency Ne Değildir?",
+      "title": "Açık Profesyonel Sınırlar",
+      "items": [
+        "Kitlesel pazara yönelik bir göçmenlik veya ikamet izni ajansı değildir",
+        "Bir hukuk bürosu, vergi danışmanlığı firması veya mevzuata tabi profesyonel görüşün yerine geçen bir hizmet değildir",
+        "Bir gayrimenkul pazaryeri, vatandaşlık aracısı veya genel taşınma concierge hizmeti değildir",
+        "Her müşterinin vergi muafiyetinden yararlanacağına ilişkin bir vaat değildir",
+        "Uygunluğa bakmaksızın Türkiye'yi öneren bir platform değildir"
+      ],
+      "outro": "Açık profesyonel sınırlar, hizmetin bir parçasıdır. Dynamic Residency; resmî görüşlerin uygun yetkinliğe sahip profesyonellerden alınmasını sağlayarak karar ve uygulama sürecini koordine eder."
+    },
+    "principles": {
+      "eyebrow": "İlkelerimiz",
+      "title": "Çalışmalarımıza Yön Veren İlkeler",
+      "items": [
+        {
+          "number": "01",
+          "title": "Deneyime Dayalı",
+          "desc": "Öneriler yalnızca teoriye veya tanıtım vaatlerine değil, gerçek operasyon deneyimine dayanmalıdır."
+        },
+        {
+          "number": "02",
+          "title": "Önce Uygulama",
+          "desc": "Önerilen bir yapı, karar alındıktan sonra belgelenebilir, yönetilebilir ve sürdürülebilir olmalıdır."
+        },
+        {
+          "number": "03",
+          "title": "Büyümeden Önce Kalite",
+          "desc": "Karmaşık kararlar; disiplinli bir kapsam, doğru uzmanlık ve yeterli zaman gerektirir. Amaç yüksek hacim değildir."
+        },
+        {
+          "number": "04",
+          "title": "Şeffaflık",
+          "desc": "Roller, sınırlamalar, ücretler, bağımlılıklar ve henüz yanıtlanmamış sorular, çalışma başlamadan önce açık olmalıdır."
+        },
+        {
+          "number": "05",
+          "title": "Uluslararası Yapı İçin Tasarlandı",
+          "desc": "Türkiye; ilgili olmaya devam eden ülkeler, şirketler, varlıklar ve aile bağları dahil olmak üzere sınır ötesi bağlamın bütünü içinde değerlendirilir."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Sık Sorulan Sorular",
+      "title": "Dynamic Residency Hakkında",
+      "items": [
+        {
+          "q": "Dynamic Residency ne yapar?",
+          "a": "Dynamic Residency, Türkiye seçeneğini değerlendiren uluslararası bağlantılı kişilere sınır ötesi ikamet planlaması, yapısal analiz ve uygulama koordinasyonu sunar. İkamet, gelir, şirket, yatırım, aile ve pratik uygulamaya ilişkin soruları tek bir karar sürecinde bir araya getirir."
+        },
+        {
+          "q": "Dynamic Residency bir hukuk bürosu veya vergi danışmanlığı firması mıdır?",
+          "a": "Hayır. Dynamic Residency; ticari analizi, soruların tanımlanmasını, koordinasyonu ve uygulama planlamasını yönetir. Resmî vergi, hukuk, göçmenlik veya şirketler hukuku görüşleri, uygun yetkinliğe sahip profesyoneller tarafından sunulur veya incelenir."
+        },
+        {
+          "q": "Dynamic Residency nerede bulunmaktadır?",
+          "a": "Dynamic Residency İstanbul, Türkiye merkezlidir. Hizmet, sınır ötesi profesyonel bir ağ aracılığıyla İngilizce ve Almanca sunulur."
+        },
+        {
+          "q": "Hizmet kimler için tasarlanmıştır?",
+          "a": "Hizmet; kararları bağlantılı ikamet, gelir, şirket, varlık veya aile konularını içeren girişimciler, yatırımcılar, uluslararası hareketliliğe sahip aileler, Türkiye'ye dönen Türk vatandaşları, uluslararası profesyoneller, emekliler ve danışmanlar için tasarlanmıştır."
+        },
+        {
+          "q": "Dynamic Residency Türkiye'yi her müşteriye önerir mi?",
+          "a": "Hayır. Amaç, Türkiye'nin müşterinin uluslararası durumunun tamamına uygun olup olmadığını belirlemektir. Yapı uygulanabilir değilse doğru sonuç, sürece devam etmemek olabilir."
+        },
+        {
+          "q": "Süreç nasıl başlar?",
+          "a": "Süreç, mevcut bilgiler ve hedeflerin yapılandırılmış biçimde incelenmesiyle başlar. Dynamic Residency, bir sonraki adımı önermeden önce ilgili kapsamı, bilgi eksiklerini, bağımlılıkları ve uzman görüşü gerektiren soruları belirler."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "İkametinizi Değiştirmeden Önce",
+      "title": "Yapının İşleyip İşlemediğini Belirleyin",
+      "body": "Genel bilgiler Türkiye'yi açıklayabilir. Sizin durumunuz ise ikamet geçmişinize, gelirlerinize, şirketlerinize, yatırımlarınıza ve aile koşullarınıza dayanan bireysel bir yanıt gerektirir.",
+      "cta": "Dynamic Residency ile Görüşün"
+    }
+  },
+  "exemption": {
+    "hero": {
+      "eyebrow": "Dynamic Residency | 20 Yıllık Muafiyet",
+      "title": "Türkiye'nin Yurt Dışı Kaynaklı Gelirlere Yönelik 20 Yıllık Vergi Muafiyetini Anlayın",
+      "lead": "Girişimciler, yatırımcılar ve uluslararası hareketliliğe sahip aileler için",
+      "small": "Doğrulanmış hukuki dayanak: Gelir Vergisi Kanunu'nun 20/D maddesi ve 333 Seri No.lu Gelir Vergisi Genel Tebliği",
+      "cta": "Dynamic Residency Hakkında",
+      "imageAlt": "İstanbul silüetine bakan bir girişimci ve çocuğu"
+    },
+    "framework": {
+      "eyebrow": "Yeni Bir Vergi Çerçevesi",
+      "title": "Uluslararası Bağlantıları Bulunan Kişiler İçin",
+      "lead": "Türkiye, gerekli koşulları sağlayarak Türkiye'de vergi mukimliği tesis eden kişiler için önemli bir gelir vergisi muafiyeti getirmiştir.",
+      "body1": "Gelir Vergisi Kanunu'nun 20/D maddesi uyarınca, kanunda belirtilen ikamet geçmişi koşullarını karşılayan kişiler, Türkiye dışında gerçekten elde edilen gelir ve kazançlar için kanuni olarak belirlenen 20 yıllık süre boyunca gelir vergisi muafiyetinden yararlanabilir.",
+      "body2": "Düzenleme, 1 Ocak 2026 tarihinden itibaren Türkiye'de mukim hâle gelen kişiler için geçerlidir. Vatandaşlığa değil; ikamet geçmişine, vergi geçmişine ve gelirin kaynağına dayanır. Mevzuatta, kapsam dahilindeki yurt dışı gelirleri için parasal bir üst sınır belirtilmemiştir.",
+      "noteTitle": "Önemli ayrım",
+      "noteBody": "Bu düzenleme, genel bir “20 yıl boyunca vergisiz” statüsü değildir. Muafiyet yalnızca kişi, gelir ve başvuru süreci hukuki koşulları karşıladığında uygulanır.",
+      "cta": "20/D Maddesini Resmî Gazete'de Okuyun"
+    },
+    "quickFacts": {
+      "eyebrow": "Muafiyete Genel Bakış",
+      "title": "Temel Bilgiler",
+      "rows": [
+        {
+          "q": "Kimler yararlanabilir?",
+          "a": "Türkiye'de mukim hâle gelen ve uygulanabilir ikamet ile vergi geçmişi koşullarını sağlayan gerçek kişiler. Düzenleme, kurumlar vergisi muafiyeti sağlamaz."
+        },
+        {
+          "q": "Neler muaf olabilir?",
+          "a": "Türk kaynak kurallarına göre sınıflandırılmak kaydıyla, Türkiye dışında gerçekten elde edilen gelir ve kazançlar."
+        },
+        {
+          "q": "Ne kadar süreyle?",
+          "a": "Kanunda belirlenen 20 yıllık muafiyet süresi boyunca."
+        },
+        {
+          "q": "Parasal bir üst sınır var mı?",
+          "a": "20/D maddesinde, uygun yurt dışı gelirleri için parasal bir üst sınır belirtilmemiştir."
+        },
+        {
+          "q": "Başvuru gerekli mi?",
+          "a": "Evet. Kişinin yetkili Türk vergi dairesine başvurması ve öngörülen Yurt Dışı Gelir İstisnası Belgesi'ni alması gerekir."
+        }
+      ]
+    },
+    "incomeStreams": {
+      "eyebrow": "Potansiyel Olarak İlgili Yurt Dışı Gelirleri",
+      "title": "Kapsama Girebilecek Gelir Türleri",
+      "items": [
+        "Yabancı şirketlerden elde edilen temettüler",
+        "Türkiye dışındaki gayrimenkullerden elde edilen kira gelirleri",
+        "Yurt dışı faiz ve yatırım getirileri",
+        "Belirli yurt dışı sermaye kazançları",
+        "Belirli yurt dışı emeklilik gelirleri",
+        "Gerçekten Türkiye dışında bulunan varlıklardan veya yürütülen faaliyetlerden doğan diğer gelirler"
+      ],
+      "outro": "Her gelir türü ayrı ayrı sınıflandırılmalıdır. Ödeyen tarafın, şirketin veya banka hesabının yurt dışında olması, geliri tek başına yurt dışı kaynaklı hâle getirmez."
+    },
+    "eligibility": {
+      "eyebrow": "Uygunluk",
+      "title": "Uygunluğu Belirleyen Dört Soru",
+      "items": [
+        {
+          "number": "01",
+          "title": "Türkiye'de Mukim Hâle Gelecek misiniz?",
+          "desc": "20/D maddesi, Türk vergi hukuku uyarınca Türkiye'de mukim sayılan kişilere uygulanır. İkamet izni, gayrimenkul satın alınması veya Türkiye'de geçirilen gün sayısı önem taşıyabilir; ancak hiçbir unsur tek başına değerlendirilmemelidir. Yerleşim yeri, fiziki bulunma, aile koşulları ve uygulanabilir çifte vergilendirmeyi önleme anlaşmaları, nihai mukimlik durumunu etkileyebilir. Kişi, muafiyet belgesi için başvururken Türkiye'de mukim kabul ediliyor olmalıdır."
+        },
+        {
+          "number": "02",
+          "title": "Önceki Üç Takvim Yılına Ait Geçmişiniz Nedir?",
+          "desc": "Genel kural olarak kişi, Türkiye'de mukim hâle geldiği yıldan önceki üç takvim yılı boyunca Türkiye'de yerleşim yerine veya uygunluğu ortadan kaldıran bir Türk vergi yükümlülüğüne sahip olmamalıdır. Türkiye'deki kira gelirleri, yatırım gelirleri veya sermaye kazançlarından kaynaklanan bazı geçmiş vergi yükümlülükleri, uygunluğu otomatik olarak engellemez. Ancak Türkiye'de daha önce yürütülen ücretli çalışma, ticari veya mesleki faaliyetler uygunluğu etkileyebilir ve ayrıntılı inceleme gerektirir."
+        },
+        {
+          "number": "03",
+          "title": "Gelir Gerçekte Nerede Elde Edildi?",
+          "desc": "Ödeyen tarafın veya banka hesabının bulunduğu yer belirleyici değildir. Gelirin gerçekten Türkiye dışında elde edilip edilmediğini belirlemek için dayanak varlık, faaliyet, çalışma, hizmet, şirket dağıtımı veya işlem incelenmelidir."
+        },
+        {
+          "number": "04",
+          "title": "Belgeyi Süresi İçinde Alabilir misiniz?",
+          "desc": "Muafiyet otomatik değildir. Başvuru, genel olarak kişinin Türkiye'de mukim hâle geldiği takvim yılının sonuna kadar tamamlanmalıdır. Bir takvim yılının son iki ayında mukim hâle gelen kişiler, takip eden yılın şubat ayı sonuna kadar başvurabilir. Diğer maddi koşullar yerine getirilmiş olsa bile geç başvuru, muafiyet belgesinin reddedilmesine yol açabilir."
+        }
+      ]
+    },
+    "sourceClassification": {
+      "eyebrow": "Kaynak Sınıflandırması",
+      "title": "Pratik Örnekler",
+      "items": [
+        "Fiziken Türkiye dışında bulunan bir gayrimenkulden elde edilen kira geliri, yurt dışı kaynaklı olabilir.",
+        "Türkiye'de kurulmamış bir şirketten alınan temettü, olayın tüm koşullarına bağlı olarak yurt dışı kaynaklı olabilir.",
+        "Hizmet Türkiye'den fiilen sunuluyorsa, müşteri ve ödeme hesabı yurt dışında olsa bile mesleki hizmet geliri Türkiye kaynaklı sayılabilir.",
+        "Ücret, yönetim ücreti ve ticari kazançlar; işin nerede yürütüldüğü ve işletmenin nereden yönetildiği konusunda ek analiz gerektirebilir."
+      ]
+    },
+    "whySignificant": {
+      "eyebrow": "Muafiyet Neden Önemli Olabilir?",
+      "title": "Kimler İçin Önem Taşıyabilir?",
+      "lead": "Gerekli koşulları sağlayan uluslararası bağlantılı bir kişi açısından muafiyet, Türkiye'de ikamet tesis etmenin uzun vadeli ekonomik sonuçlarını önemli ölçüde değiştirebilir.",
+      "cards": [
+        {
+          "title": "Uluslararası Yatırımcılar",
+          "desc": "Birden fazla ülkede tutulan varlıklardan temettü, portföy geliri, faiz, yurt dışı kira geliri veya kazanç elde eden kişiler."
+        },
+        {
+          "title": "Şirket Sahipleri ve Kurucular",
+          "desc": "Türkiye'ye taşındıktan sonra yabancı şirketlerdeki ortaklığını koruyan girişimciler. Kişisel muafiyet temettüler veya diğer uygun yurt dışı gelirleri açısından önem taşıyabilir; ancak şirket mukimliğini, daimi işyerini, ücret vergilendirmesini veya ayrılınan ülkedeki çıkış vergisini belirlemez."
+        },
+        {
+          "title": "Türkiye'ye Dönen Türk Vatandaşları",
+          "desc": "Vatandaşlık, tek başına uygunluğu engellemez. Önceki üç takvim yılına ilişkin ikamet ve vergi geçmişi koşulları karşılanıyorsa Türkiye'ye dönen bir Türk vatandaşı muafiyetten yararlanabilir."
+        },
+        {
+          "title": "Uluslararası Hareketliliğe Sahip Aileler",
+          "desc": "İkamet, yatırımlar, gayrimenkuller, eğitim, miras planlaması ve uzun vadeli varlık sahipliğini birden fazla ülkede koordine eden aileler."
+        },
+        {
+          "title": "Emekliler",
+          "desc": "Kaynak kurallarına ve ilgili çifte vergilendirmeyi önleme anlaşmasına tabi olarak, Türkiye dışından emeklilik geliri, kira geliri veya yatırım geliri elde eden kişiler."
+        }
+      ]
+    },
+    "whatNot": {
+      "eyebrow": "20 Yıllık Muafiyet Neleri Sağlamaz?",
+      "title": "Genel ve Sınırsız Bir Vergi Muafiyeti Değildir",
+      "items": [
+        "Türkiye'deki gayrimenkullerden, Türk şirketlerinden veya Türkiye'de yürütülen faaliyetlerden doğan gelirleri vergiden muaf tutmaz",
+        "Yabancı bir müşteriden, işverenden veya banka hesabından alınan her ödemeyi vergiden muaf tutmaz",
+        "Şirketlere uygulanmaz veya kurumlar vergisi yükümlülüklerini ortadan kaldırmaz",
+        "KDV, bordro, damga vergisi veya sosyal güvenlik yükümlülüklerini ortadan kaldırmaz",
+        "Başka bir ülkedeki vergi mukimliğini veya bildirim yükümlülüklerini sona erdirmez",
+        "Ayrılınan ülkedeki ayrılış vergisini veya çıkış vergisini ortadan kaldırmaz",
+        "Yabancı bir şirketin Türkiye'den yönetilir veya Türkiye'de vergilendirilebilir hâle gelmesini önlemez",
+        "Çifte vergilendirmeyi önleme anlaşmalarının hükümlerini geçersiz kılmaz",
+        "Geç yapılmış veya yeterli dayanağı bulunmayan bir muafiyet başvurusunu düzeltmez"
+      ],
+      "outro": "Türkiye'deki muafiyet kapsamına giren gelirler için yurt dışında ödenen vergiler, Türkiye'de hesaplanan gelir vergisinden mahsup edilemez. Muaf gelirle bağlantılı gider ve maliyetler de Türkiye'de vergilendirilmeye devam eden gelirleri azaltmak için kullanılamaz."
+    },
+    "individualVsCompany": {
+      "eyebrow": "Muafiyet Kişiye Aittir",
+      "title": "Kişisel Durum ile Şirketin Durumu Ayrı Ayrı Analiz Edilmelidir",
+      "body1": "20/D maddesi, gerçek kişilere yönelik bir gelir vergisi düzenlemesidir. Koşulları sağlayan bir ortak, potansiyel olarak yurt dışı kaynaklı gelirini vergiden muaf şekilde elde ederken, gelirin kaynaklandığı şirket kendi ülkesinde tamamen vergiye tabi olmaya devam edebilir.",
+      "body2": "Kişinin muafiyeti, şirketi aşağıdaki risk ve yükümlülüklerden otomatik olarak korumaz:",
+      "items": [
+        "Türkiye'de kurumlar vergisi mukimliği",
+        "Daimi işyeri riski",
+        "Bordro yükümlülükleri",
+        "Transfer fiyatlandırması kuralları",
+        "Stopaj vergileri",
+        "Yerel muhasebe ve bildirim yükümlülükleri"
+      ],
+      "outro": "Bu nedenle girişimciler ve ortaklar açısından kişinin durumu ile şirketin durumu ayrı ayrı analiz edilmelidir."
+    },
+    "profiles": {
+      "eyebrow": "Örnek Profiller",
+      "title": "Düzenleme Uygulamada Nasıl İşleyebilir?",
+      "cards": [
+        {
+          "title": "Yurt Dışı Yatırım Geliri",
+          "desc": "Koşulları sağlayan bir kişi Türkiye'de mukim hâle gelirken yabancı bir şirketten temettü ve Türkiye dışındaki bir gayrimenkulden kira geliri almaya devam eder. Bu gelirler gerçekten yurt dışı kaynaklıysa, kişi önceki üç takvim yılı testini karşılıyorsa ve muafiyet belgesi süresinde alınmışsa, söz konusu gelirler 20/D maddesi kapsamında değerlendirilebilir."
+        },
+        {
+          "title": "Uluslararası Girişimci",
+          "desc": "Bir kurucu, yabancı bir faal şirketi elinde tutarak Türkiye'ye taşınır. Yurt dışı temettüler muafiyet açısından önem taşıyabilir; ancak ücret, yönetim faaliyeti, şirket mukimliği, daimi işyeri ve ayrılınan ülkedeki çıkış vergisi ayrı ayrı incelenmelidir."
+        },
+        {
+          "title": "Uzaktan Çalışan Profesyonel",
+          "desc": "Bir danışman Türkiye'de yaşar ve hizmetlerini Türkiye'den, yurt dışındaki müşterilere sunar. Müşterilerin veya ödeme hesabının yurt dışında bulunması, geliri otomatik olarak yurt dışı kaynaklı hâle getirmez. Türkiye'de fiziken yürütülen çalışmayla bağlantılı gelirler Türkiye'de vergilendirilmeye devam edebilir."
+        },
+        {
+          "title": "Türkiye'ye Dönen Türk Vatandaşı",
+          "desc": "Bir Türk vatandaşı, yurt dışında geçirdiği birkaç tam takvim yılının ardından Türkiye'ye döner. Kanuni ikamet ve vergi geçmişi koşulları sağlanıyorsa muafiyetten yararlanabilir. Vatandaşlık belirleyici ölçüt değildir."
+        }
+      ]
+    },
+    "application": {
+      "eyebrow": "Başvuru ve Belgeler",
+      "title": "Belge Sürecini Son Başvuru Tarihinden Önce Planlayın",
+      "body1": "Muafiyet belgesi süreci, ilgili son başvuru tarihi geçtikten sonra değil; taşınmadan önce veya taşınma sırasında planlanmalıdır.",
+      "body2": "Türk vergi dairesi aşağıdaki hususları inceleyebilir:",
+      "items": [
+        "Kişinin Türkiye'de mukim hâle geldiği tarih",
+        "Önceki üç takvim yılı içindeki ikamet ve yerleşim yeri",
+        "Türkiye'deki önceki vergi kayıtları ve gelir türleri",
+        "Yurt dışı gelirinin niteliği ve kaynağı",
+        "İkamet, vergi ve gelire ilişkin destekleyici belgeler",
+        "Başvuruda verilen beyanların doğruluğu"
+      ],
+      "outro": "Koşulların sağlanmadığı sonradan tespit edilirse ödenmemiş vergi, ceza ve faizle birlikte tarh edilebilir.",
+      "noteTitle": "Resmî başvuru rehberi",
+      "noteBody": "333 Seri No.lu Gelir Vergisi Genel Tebliği, 20/D maddesine ilişkin idari başvuru ve belgelendirme çerçevesini belirler.",
+      "noteCta": "333 Seri No.lu Gelir Vergisi Genel Tebliği'ni Resmî Gazete'de Okuyun"
+    },
+    "widerDecision": {
+      "eyebrow": "Kararın Daha Geniş Boyutu",
+      "title": "Türkiye'deki Muafiyet Kararın Yalnızca Bir Parçasıdır",
+      "intro": "Başarılı bir taşınma, ilgili tüm ülkelerde ve hukuk sistemlerinde işleyecek şekilde tasarlanmalıdır. İkamet değiştirilmeden önce yapının tamamı aşağıdaki başlıklar dahilinde incelenmelidir:",
+      "items": [
+        "Mevcut ve gelecekteki vergi mukimliği",
+        "Çıkış vergisi ve ayrılış bildirimleri",
+        "Yabancı şirketler ve ortaklık payları",
+        "Yönetim ve karar alma faaliyetlerinin yürütüldüğü yer",
+        "Yatırım ve gayrimenkul gelirleri",
+        "Ücretli çalışma ve mesleki faaliyet",
+        "Sosyal güvenlik yükümlülüğü riski",
+        "Aile ikameti ve miras planlaması",
+        "Uygulanabilir çifte vergilendirmeyi önleme anlaşmaları",
+        "Türkiye'deki muafiyet başvurusunun zamanlaması"
+      ],
+      "noteTitle": "Temel soru",
+      "noteBody": "Asıl soru yalnızca 20/D maddesinin var olup olmadığı değildir. Asıl soru; bu düzenlemenin gelirleriniz, şirketleriniz, yatırımlarınız, aile durumunuz ve ayrıldığınız ülke açısından işleyip işlemediğidir."
+    },
+    "cta": {
+      "eyebrow": "20 Yıllık Muafiyet Sizin İçin Uygun Olabilir mi?",
+      "title": "Yapının Tamamını İnceleyin",
+      "body1": "Dynamic Residency; Türkiye'deki mukimlik durumunuz, önceki vergi geçmişiniz, yurt dışı gelirleriniz ve daha geniş sınır ötesi yapınız hakkında yapılandırılmış bir inceleme sunar.",
+      "body2": "Mevzuata tabi vergi veya hukuk görüşü gerektiren soruları belirler, uygun profesyonelleri koordine eder ve sonuçları net bir karar ile uygulama yol haritasına dönüştürürüz.",
+      "cta": "Dynamic Residency ile Görüşün",
+      "small1": "Türkiye'nin ve 20/D maddesinin daha geniş sınır ötesi yapınıza uygun olup olmadığını görüşün.",
+      "small2": "İstanbul merkezli | İngilizce ve Almanca hizmet | Gizli sınır ötesi süreç"
+    },
+    "terms": {
+      "eyebrow": "Önemli Bilgilendirme",
+      "title": "Yalnızca Genel Bilgilendirme Amaçlıdır",
+      "body1": "Bu sayfa, Gelir Vergisi Kanunu'nun 20/D maddesi ve 333 Seri No.lu Gelir Vergisi Genel Tebliği hakkında genel bilgi sunar. Bireysel vergi, hukuk veya yatırım danışmanlığı teşkil etmez.",
+      "body2": "Uygunluk ve gelir kaynağının sınıflandırılması, her vakanın kendine özgü koşullarına bağlıdır. Mevzuata tabi vergi ve hukuk görüşleri, uygun yetkinliğe sahip profesyoneller tarafından sunulmalı veya incelenmelidir.",
+      "rows": [
+        {
+          "label": "Hukuki dayanak",
+          "value": "Gelir Vergisi Kanunu, Madde 20/D"
+        },
+        {
+          "label": "Yürürlüğe koyan düzenleme",
+          "value": "7582 sayılı Kanun"
+        },
+        {
+          "label": "İdari uygulama rehberi",
+          "value": "333 Seri No.lu Gelir Vergisi Genel Tebliği"
+        },
+        {
+          "label": "Son inceleme tarihi",
+          "value": "16 Temmuz 2026"
+        }
+      ],
+      "small": "Yalnızca genel bilgilendirme amaçlıdır — bireysel vergi veya hukuk danışmanlığı değildir"
+    }
+  }
 }
